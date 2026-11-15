@@ -10,7 +10,7 @@ ai-station 整理 GitHub 上有明确用途的开源工具。每个词条提供�
 
 ## 当前状态
 
-已导入 59 个项目，提供 118 篇中英文介绍和 59 份 GitHub 快照。2026-11-15 导入评估时，35 个符合默认目录条件，其余保留为可查询候选。见[全部条目与检查报告](docs/imports/2026-11-15.md)。GitHub 自动采集、定时同步和网页搜索尚未实现。
+当前共 62 个项目，提供 124 篇中英文介绍和 62 份 GitHub 快照。2026-11-15 最新评估时，35 个符合默认目录条件，27 个保留为可查询候选。见[本次新增与复核](docs/imports/2026-11-15-additions.md)及[首批 59 项导入记录](docs/imports/2026-11-15.md)。GitHub 自动采集、定时同步和网页搜索尚未实现。
 
 ## 收录标准
 
@@ -61,7 +61,7 @@ python3 scripts/catalog.py search --all --lang en --json
 使用 `search --all` 可查看尚未正式收录的候选。`build` 生成两份 Markdown 目录和 `dist/catalog.json`。固定评估时间可复现构建结果：
 
 ```bash
-python3 scripts/catalog.py build --as-of 2026-11-15T11:03:50.120930Z
+python3 scripts/catalog.py build --as-of 2026-11-15T11:54:08.129868Z
 ```
 
 ## 新增工具

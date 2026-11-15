@@ -10,7 +10,7 @@ ai-station catalogs useful tools hosted on GitHub. Each entry has Chinese and En
 
 ## Current status
 
-The catalog now contains 59 projects, 118 language documents and 59 GitHub snapshots. At the 2026-11-15 import review, 35 qualified for the default catalog; the rest remain searchable candidates. See the [complete import report](docs/imports/2026-11-15.en.md). Automated GitHub collection, scheduled refresh and web search are not implemented.
+The catalog contains 62 projects, 124 language documents and 62 GitHub snapshots. At the latest 2026-11-15 review, 35 qualified for the default catalog and 27 remained searchable candidates. See the [additions and refresh report](docs/imports/2026-11-15-additions.en.md) and [initial 59-entry import](docs/imports/2026-11-15.en.md). Automated GitHub collection, scheduled refresh and web search are not implemented.
 
 ## Inclusion criteria
 
@@ -61,7 +61,7 @@ python3 scripts/catalog.py search --all --lang en --json
 Use `search --all` to include candidates outside the default catalog. `build` generates two Markdown indexes and `dist/catalog.json`. Supply an evaluation time for a reproducible build:
 
 ```bash
-python3 scripts/catalog.py build --as-of 2026-11-15T11:03:50.120930Z
+python3 scripts/catalog.py build --as-of 2026-11-15T11:54:08.129868Z
 ```
 
 ## Add a tool

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-15T11:54:08.129868Z",
+  "requested_count": 7,
+  "added_count": 3,
+  "refreshed_count": 4,
+  "total_entries": 62,
+  "eligible_count": 35,
+  "candidate_count": 27,
+  "entries": [
+    {
+      "id": "telemetrycleaner",
+      "repository": "Eynnzerr/TelemetryCleaner",
+      "action": "added",
+      "stars_at_review": 807,
+      "eligibility": {
+        "status": "ineligible",
+        "reasons": [
+          "below_star_threshold"
+        ]
+      }
+    },
+    {
+      "id": "easyquotation",
+      "repository": "shidenggui/easyquotation",
+      "action": "added",
+      "stars_at_review": 5478,
+      "eligibility": {
+        "status": "needs_review",
+        "reasons": [
+          "activity_evidence_expired_or_missing"
+        ]
+      }
+    },
+    {
+      "id": "tradingagents-cn",
+      "repository": "hsliuping/TradingAgents-CN",
+      "action": "added",
+      "stars_at_review": 32957,
+      "eligibility": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "id": "agent-autoloop",
+      "repository": "KKKKhazix/agent-autoloop",
+      "action": "refreshed",
+      "stars_at_review": 5427,
+      "eligibility": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "id": "magpie",
+      "repository": "yetone/magpie",
+      "action": "refreshed",
+      "stars_at_review": 36740,
+      "eligibility": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "id": "voicestudio",
+      "repository": "debpalash/VoiceStudio",
+      "action": "refreshed",
+      "stars_at_review": 110994,
+      "eligibility": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "id": "vibe-research",
+      "repository": "simonlin1212/Vibe-Research",
+      "action": "refreshed",
+      "stars_at_review": 3720,
+      "eligibility": {
+        "status": "eligible",
+        "reasons": []
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 [简体中文](README.md)
 
-Evaluated at: 2026-11-15T11:03:50.120930Z
+Evaluated at: 2026-11-15T11:54:08.129868Z
 
 This index is a build-time snapshot. Local search evaluates eligibility again.
 
