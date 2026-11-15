@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "claudeanimationbase",
+  "name": "Claude Animation Base",
+  "repository": "JohnHeibel/ClaudeAnimationBase",
+  "repo_node_id": "R_kgDOUoCYTw",
+  "category": "media",
+  "tags": [
+    "animation",
+    "illustration",
+    "p5js"
+  ],
+  "forms": [
+    "cli"
+  ],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Claude Animation Base"
+    ],
+    "en": [
+      "Claude Animation Base"
+    ]
+  },
+  "summary": {
+    "zh-CN": "以 p5.js 与 p5.brush 绘制角色，提供 Clawd 角色、核心绘画工具和时间线。",
+    "en": "A p5.js and p5.brush animation starter with drawing primitives, character scenes, timelines and MP4 rendering."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 用 Clawd 表情角色做卡通故事。\n- 找 p5.js 手绘动画起始工程。\n- 角色逐镜头表演再渲染 MP4。"
+    ],
+    "en": [
+      "Build hand-drawn animation scenes",
+      "Render procedural illustrations to video"
+    ]
+  },
+  "alternatives": [
+    "anidoodle"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "7d25ae95b305b884c08ce898e53b58d2e180ff0119e5d203d8b4ae30420f3b33",
+    "source_url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-09-24T07:40:01Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/JohnHeibel/ClaudeAnimationBase/commit/ff391da46bff3f5ca08244fd71e1b183da412647",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "修正放大镜头下的图形轮廓绘制。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Fixes shape outlines under camera zoom. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+      "accessed_at": "2026-11-15T10:48:22.225Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:06.074Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:17.234Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "050",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "635f87524330f528f41af2a281d916004b1b1f92b27619ac72a5ec55ba927330",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

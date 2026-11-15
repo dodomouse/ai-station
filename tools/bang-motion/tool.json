@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "bang-motion",
+  "name": "Bang Motion",
+  "repository": "bangtutorial/bang-motion",
+  "repo_node_id": "R_kgDOUPn_DA",
+  "category": "media",
+  "tags": [
+    "agent-skill",
+    "animation",
+    "html"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Bang Motion"
+    ],
+    "en": [
+      "Bang Motion"
+    ]
+  },
+  "summary": {
+    "zh-CN": "将开场、宣传片、产品演示、动态文字和讲解组织成可播放的单个 index.html。",
+    "en": "Creates openers, promos, product clips and typography as a single HTML animation with optional video export."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 把图片文字素材编成动态讲解网页。\n- 动画不要像幻灯片要连续镜头。\n- 网页动画导出横屏或竖屏视频。"
+    ],
+    "en": [
+      "Make looping brand animations",
+      "Create short motion explainers"
+    ]
+  },
+  "alternatives": [
+    "video-shotcraft"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "5baa6f2a531baa97eb2d3dea7778990fb244d5c6627025b5c2a5bdebd8d1bf5c",
+    "source_url": "https://github.com/bangtutorial/bang-motion/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-09-15T04:45:26Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/bangtutorial/bang-motion/commit/c1aa65e921c970d858705fcb4a53a8294d1a4131",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "在动画技能中增加镜头景别与面向元素的运镜规则。已核对直接控制助手行为的技能内容差异，并非仅修改介绍。",
+        "en": "Adds shot sizing and element-directed camera behavior to the animation skill. Reviewed executable skill instructions, rather than descriptive README changes."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/bangtutorial/bang-motion",
+      "accessed_at": "2026-11-15T10:48:22.955Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/bangtutorial/bang-motion/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:06.240Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/bangtutorial/bang-motion/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:17.527Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "049",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "123550b0a4a02ef4673b0e4f752595f5f518d6114816eec0de4fa0bc61eec972",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

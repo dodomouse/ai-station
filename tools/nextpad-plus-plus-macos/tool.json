@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "nextpad-plus-plus-macos",
+  "name": "Nextpad++ for macOS",
+  "repository": "nextpad-plus-plus/nextpad-plus-plus-macos",
+  "repo_node_id": "R_kgDORnzOWQ",
+  "category": "development",
+  "tags": [
+    "editor",
+    "desktop"
+  ],
+  "forms": [
+    "desktop"
+  ],
+  "platforms": [
+    "macos"
+  ],
+  "aliases": {
+    "zh-CN": [
+      "Nextpad++ for macOS"
+    ],
+    "en": [
+      "Nextpad++ for macOS"
+    ]
+  },
+  "summary": {
+    "zh-CN": "基于 Notepad++ 代码库的原生 macOS 编辑器。提供多标签、分屏、语法高亮、正则搜索、宏和逐步移植的插件。",
+    "en": "A macOS adaptation of the Notepad++ editing workflow, including tabs, search, highlighting, macros and plugin migration."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "在 macOS 编辑文本和代码。跨文件查找与正则替换。录制宏处理重复编辑。使用分屏比较文档。"
+    ],
+    "en": [
+      "Edit text and source files on macOS",
+      "Explore migrated Notepad++ workflows"
+    ]
+  },
+  "alternatives": [
+    "ghostty"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": null,
+    "osi_approved": false,
+    "license_sha256": "0b8768e437ce04b7c1f4a2dbd9c860b2bc6fddd7fbc13f6a48797ba7570d48f8",
+    "source_url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-12T23:10:12Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/commit/1577e974a12d7308eb80e14d1e1c66ab323485d1",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "清理重复的外观处理方法。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Removes duplicate appearance helpers. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos",
+      "accessed_at": "2026-11-15T10:48:16.187Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:01.189Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:09.774Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "019",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "930639ba072057dbb58e5ffd4736c83cfb3ebe93269db4e9a8207afb852a3b11",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [
+      "license_review_pending"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true,
+    "notes": {
+      "zh-CN": "当前项目名为 Nextpad++ for macOS，旧名称保留为别名。API 返回 NOASSERTION，许可说明仍待进一步核对。",
+      "en": "The current name is Nextpad++ for macOS; the old name remains an alias. API license detection is NOASSERTION, so review remains open."
+    }
+  }
+}

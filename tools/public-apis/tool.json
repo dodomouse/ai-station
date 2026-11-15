@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "public-apis",
+  "name": "Public APIs",
+  "repository": "public-apis/public-apis",
+  "repo_node_id": "MDEwOlJlcG9zaXRvcnk1NDM0Njc5OQ==",
+  "category": "development",
+  "tags": [
+    "resource-list",
+    "api",
+    "discovery"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Public APIs"
+    ],
+    "en": [
+      "Public APIs"
+    ]
+  },
+  "summary": {
+    "zh-CN": "按领域收集公开 API，列出认证、HTTPS 和 CORS 信息。当前也包含供智能体使用的 MCP 服务目录。",
+    "en": "A categorized directory of APIs and MCP-related services, with indicators such as authentication, HTTPS and CORS."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "为原型寻找外部数据接口。按领域查找 API。筛选认证与跨域条件。"
+    ],
+    "en": [
+      "Discover services by topic",
+      "Find service documentation"
+    ]
+  },
+  "alternatives": [
+    "chinese-independent-developer"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "07704fa08e479d81930b0ad53c7c1d634c766736d27f725044949f982c1c9447",
+    "source_url": "https://github.com/public-apis/public-apis/blob/master/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/public-apis/public-apis",
+      "accessed_at": "2026-11-15T10:48:16.339Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/public-apis/public-apis/blob/master/README.md",
+      "accessed_at": "2026-11-03T00:00:00+08:00",
+      "supports": {
+        "zh-CN": "用户原卡记录的官方说明来源；本次未逐项刷新资料目录。",
+        "en": "Official source recorded in the user’s historical card; directory contents were not individually refreshed."
+      }
+    },
+    {
+      "url": "https://github.com/public-apis/public-apis/blob/master/LICENSE",
+      "accessed_at": "2026-11-15T10:53:10.779Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "021",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "f0accb07e7bca0dd5b81a0057ae34c4f9915a6e0170bc817e744aff5b04e8bab",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "reference",
+    "pending_reasons": [
+      "reference_resource"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

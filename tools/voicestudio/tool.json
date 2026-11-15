@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "voicestudio",
+  "name": "VoiceStudio",
+  "repository": "debpalash/VoiceStudio",
+  "repo_node_id": "R_kgDOR-gPKw",
+  "category": "media",
+  "tags": [
+    "audio",
+    "speech",
+    "voice-cloning"
+  ],
+  "forms": [
+    "desktop",
+    "cli",
+    "service"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android",
+    "ios"
+  ],
+  "aliases": {
+    "zh-CN": [
+      "VoiceStudio"
+    ],
+    "en": [
+      "VoiceStudio"
+    ]
+  },
+  "summary": {
+    "zh-CN": "在本地运行语音克隆、声音设计、转录和视频配音。另提供听写、有声书、批量任务及本地 API 与 MCP 接口。",
+    "en": "Voice software for cloning, speech design, transcription and dubbing, with batch processing and agent interfaces."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "把文字转成语音或有声书。本地语音转录与听写。翻译并重新配音视频。"
+    ],
+    "en": [
+      "Prepare narrated audio",
+      "Transcribe recordings and create dubbing workflows"
+    ]
+  },
+  "alternatives": [
+    "sweety-handdraw-video"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "AGPL-3.0",
+    "osi_approved": true,
+    "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "source_url": "https://github.com/debpalash/VoiceStudio/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-15T10:37:53Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/debpalash/VoiceStudio/commit/2c1f3f7784be2893fed65ae9ebd257f885503434",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "在移动端配音导出前检查可用空间。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Checks available storage before mobile dubbing exports. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "accessed_at": "2026-11-15T10:48:13.877Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/debpalash/VoiceStudio/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:53:59.937Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/debpalash/VoiceStudio/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:08.351Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "009",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "a4e22adab93ef3b401f2b0cf1ce8e8d30cfdb5a263d07aac7994e5369dde004e",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

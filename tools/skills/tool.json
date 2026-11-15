@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "skills",
+  "name": "Skills For Real Engineers（Matt Pocock）",
+  "repository": "mattpocock/skills",
+  "repo_node_id": "R_kgDORHkddg",
+  "category": "development",
+  "tags": [
+    "agent-skill",
+    "engineering",
+    "workflow"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Skills For Real Engineers（Matt Pocock）"
+    ],
+    "en": [
+      "Skills for Real Engineers"
+    ]
+  },
+  "summary": {
+    "zh-CN": "面向编程智能体的工程技能集合。覆盖需求澄清、架构决策、测试驱动开发、重构和任务组织。",
+    "en": "Composable coding-assistant skills for requirements, architecture, implementation, review and refactoring."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "为 Claude Code 或 Codex 补充工程技能。在编码前澄清需求与记录设计决定。组织测试驱动开发及重构任务。"
+    ],
+    "en": [
+      "Guide requirements discussions",
+      "Apply repeatable engineering workflows"
+    ]
+  },
+  "alternatives": [
+    "spec-kit",
+    "best-skills"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+    "source_url": "https://github.com/mattpocock/skills/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-10-29T10:42:51Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/mattpocock/skills/commit/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "调整 implement-spec 技能的逐任务执行者分配行为。已核对直接控制助手行为的技能内容差异，并非仅修改介绍。",
+        "en": "Changes per-ticket implementer allocation in the implement-spec skill. Reviewed executable skill instructions, rather than descriptive README changes."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "accessed_at": "2026-11-15T10:48:15.523Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:01.878Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:10.260Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "017",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "9d25d4ddc30984c5426c9897730dc85fc535822ab0bdc72877c0b4ce8592ed51",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

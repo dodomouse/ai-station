@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "anidoodle",
+  "name": "代码手绘插画与动画",
+  "repository": "alexgreensh/anidoodle",
+  "repo_node_id": "R_kgDOUlXTIA",
+  "category": "media",
+  "tags": [
+    "agent-skill",
+    "animation",
+    "illustration"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "代码手绘插画与动画"
+    ],
+    "en": [
+      "Anidoodle"
+    ]
+  },
+  "summary": {
+    "zh-CN": "以代码描述笔画，提供 32 种插画风格和逐笔绘制示例。",
+    "en": "A code-based drawing and animation toolkit for stylized illustrations, characters and interactive browser output."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 用代码画手绘插画并逐笔播放。\n- 同一个角色连续几个镜头不变样。\n- 插画视频和交互网页一起做。"
+    ],
+    "en": [
+      "Make illustrated explainers",
+      "Animate a consistent visual style"
+    ]
+  },
+  "alternatives": [
+    "ian-xiaohei-illustrations",
+    "sweety-handdraw-video"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "Apache-2.0",
+    "osi_approved": true,
+    "license_sha256": "aa7ba36133bb07559b8f2f96eb4d7e2e95003432238973b31b6727517bd6c0a0",
+    "source_url": "https://github.com/alexgreensh/anidoodle/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-10-29T14:22:45Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/alexgreensh/anidoodle/commit/8cdabc03e8aafac33241ab32da1ccaff83854b0e",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "修正影片按路径导入字体时的脚手架错误。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Fixes scaffolding when a film imports a font by path. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/alexgreensh/anidoodle",
+      "accessed_at": "2026-11-15T10:48:21.510Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/alexgreensh/anidoodle/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:05.468Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/alexgreensh/anidoodle/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:17.007Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "046",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "cead52977f3d8ff3f4013412119fb19061cced22dd1fa643e50e944f86f347ae",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

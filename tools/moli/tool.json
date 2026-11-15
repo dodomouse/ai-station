@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "moli",
+  "name": "Moli：面向 AI 智能体的无头浏览器",
+  "repository": "lexmount/moli",
+  "repo_node_id": "R_kgDOT0PjyQ",
+  "category": "development",
+  "tags": [
+    "browser",
+    "automation",
+    "extraction"
+  ],
+  "forms": [
+    "cli",
+    "service"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "aliases": {
+    "zh-CN": [
+      "Moli：面向 AI 智能体的无头浏览器"
+    ],
+    "en": [
+      "Moli"
+    ]
+  },
+  "summary": {
+    "zh-CN": "Rust 编写的独立无头浏览器，支持 JavaScript 网页运行、Markdown 与语义树提取、按需布局，以及 CLI、CDP 和 WebDriver 自动化。",
+    "en": "A Rust headless browser for JavaScript execution, page extraction and browser automation, with optional layout, screenshots and PDF output."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "把网页转为 AI 可读内容。提取动态页面。为智能体提供浏览器后端。按需截图、导出 PDF 或连接 Playwright。"
+    ],
+    "en": [
+      "Extract readable page content",
+      "Automate supported browser workflows"
+    ]
+  },
+  "alternatives": [
+    "cli-anything"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "Apache-2.0",
+    "osi_approved": true,
+    "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "source_url": "https://github.com/lexmount/moli/blob/main/LICENSE-APACHE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-15T09:12:37Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/lexmount/moli/commit/080c3fc2cbbb12207512925afb3feb0db38dfcab",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "更新 SVG 解析依赖并增加极端弧线的回归用例。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Updates SVG parsing and adds regression coverage for extreme arcs. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/lexmount/moli",
+      "accessed_at": "2026-11-15T10:48:24.373Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/lexmount/moli/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:07.296Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/lexmount/moli/blob/main/LICENSE-APACHE",
+      "accessed_at": "2026-11-15T10:53:18.762Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "059",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "cd209d6f14bd5ef929c7ccd445f12f194fcface4ae5d9417b31da1b285df1d91",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true,
+    "notes": {
+      "zh-CN": "源码默认可选 Apache-2.0 或 MIT。API 单值仍保存 Apache-2.0，指纹对应 LICENSE-APACHE；第三方组件和测试素材仍按各自声明。",
+      "en": "The code offers Apache-2.0 or MIT. The API value remains Apache-2.0 and the fingerprint covers LICENSE-APACHE; component and fixture notices remain separate."
+    }
+  }
+}

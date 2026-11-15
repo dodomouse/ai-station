@@ -1,0 +1,1167 @@
+{
+  "schema_version": 1,
+  "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+  "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+  "imported_at": "2026-11-15T11:03:50.120930Z",
+  "count": 59,
+  "counts": {
+    "eligible": 35,
+    "needs_review": 6,
+    "unknown": 13,
+    "ineligible": 5
+  },
+  "activity_window_start": "2026-08-15T11:03:50.120930Z",
+  "scope": {
+    "source_untouched": true,
+    "english": "editorial digests; complete historical Chinese cards preserved",
+    "upstream_execution": "none",
+    "activity_sampling": "latest 5 default-branch commits; expanded to 30 where needed; selected commit diffs inspected",
+    "license_bytes": "UTF-8 bytes matched Git blob SHA-1 before SHA-256 calculation"
+  },
+  "entries": [
+    {
+      "source_number": "001",
+      "id": "chinese-independent-developer",
+      "repository": "1c7/chinese-independent-developer",
+      "original_card_sha256": "d1faffc5138e4a8f85da717e83b9f1a8916eaf0a8923b189fe6cdea7ca14f4f1",
+      "pending_reasons": [
+        "reference_resource",
+        "license_review_pending"
+      ],
+      "license_files": [],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "002",
+      "id": "bettafish",
+      "repository": "666ghj/BettaFish",
+      "original_card_sha256": "a18a9a6cb02277ced39875a4186740ed85c45b86073aef1702d1fc0e149f127b",
+      "pending_reasons": [
+        "license_review_pending",
+        "activity_not_confirmed"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/666ghj/BettaFish/blob/main/LICENSE",
+          "sha256": "44686cfd8b09cd489ecbd2f740e0a31d7006584b90e7446dd29661f06f0213ec"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "003",
+      "id": "ai-memory",
+      "repository": "akitaonrails/ai-memory",
+      "original_card_sha256": "19d8dd0c87ce598e5b419cf16de826de1ec91ec572846e0264feb7dd09ab1559",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/akitaonrails/ai-memory/blob/main/LICENSE",
+          "sha256": "18332c61780ce8e694d4fa330770cd4d8c85e33f47ac13a80d72d70bb032ae72"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "004",
+      "id": "huashu-design",
+      "repository": "alchaincyf/huashu-design",
+      "original_card_sha256": "058f36e38f1d8febd5513884b79b53588a98aac6076dfd4a13208e3346c97077",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/alchaincyf/huashu-design/blob/master/LICENSE",
+          "sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "005",
+      "id": "cc-connect",
+      "repository": "chenhg5/cc-connect",
+      "original_card_sha256": "d635b6a2816e489d2d11199ac5e921ff4476356c6ea340ce00236b5770856bf4",
+      "pending_reasons": [
+        "license_review_pending"
+      ],
+      "license_files": [],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "006",
+      "id": "clash-verge-rev",
+      "repository": "clash-verge-rev/clash-verge-rev",
+      "original_card_sha256": "204b98b475333e331a952a959d11f2075769f6f63a663de2b20eedb6c20b66c1",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/clash-verge-rev/clash-verge-rev/blob/dev/LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "007",
+      "id": "clash",
+      "repository": "clashbk/clash",
+      "original_card_sha256": "4c3610b4032eb00bb71896d7cc9d1d963ea6055b4b79a90ebaabb4cd55a38add",
+      "pending_reasons": [
+        "reference_resource",
+        "license_review_pending"
+      ],
+      "license_files": [],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "008",
+      "id": "opentest",
+      "repository": "cryopentest/opentest",
+      "original_card_sha256": "067e3d9ac81e1857c95c76ede3da5f07bf5bf4185d1c25e4243aa682504a3cd5",
+      "pending_reasons": [
+        "below_star_threshold",
+        "not_released",
+        "license_review_pending",
+        "last_push_before_window"
+      ],
+      "license_files": [],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "009",
+      "id": "voicestudio",
+      "repository": "debpalash/VoiceStudio",
+      "original_card_sha256": "a4e22adab93ef3b401f2b0cf1ce8e8d30cfdb5a263d07aac7994e5369dde004e",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/debpalash/VoiceStudio/blob/main/LICENSE",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+        },
+        {
+          "url": "https://github.com/debpalash/VoiceStudio/blob/main/LICENSE-NOTICE.md",
+          "sha256": "24fae3a96feff3aad9bc6a37ffed38dd1d89a6cf3424f431c5416e9c62164a9c"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "010",
+      "id": "dsh-superagent-prototype",
+      "repository": "deepseek-ai/dsh-superagent-prototype",
+      "original_card_sha256": "71f7732b199a1e09cd81829e4382981dc1e1a0886b7dcd78a2881bfe2afcbd5f",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/LICENSE",
+          "sha256": "6d66f91815b720e18cfb2b3552043a0359236aec9a1a6917787900546f6ce550"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "011",
+      "id": "genoffice",
+      "repository": "genspark-ai/genoffice",
+      "original_card_sha256": "14566ae3ff806ef229b73f0ef9d3b9eaa5ee882c35f0a8fd643d800e42c3bcbd",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/genspark-ai/genoffice/blob/main/LICENSE",
+          "sha256": "68e32334df324ef4fc79fad3a26487e5abac36055a484bb6c8d7ecf9d8350885"
+        },
+        {
+          "url": "https://github.com/genspark-ai/genoffice/blob/main/LICENSE-UNICODE.txt",
+          "sha256": "4f3a46c1907819c08f5c8689ac38ea5c594c602b1da71e4a43ebac40e7c9540a"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "012",
+      "id": "ghostty",
+      "repository": "ghostty-org/ghostty",
+      "original_card_sha256": "e65f808f5196c51f24f5f0da71a5fdeea8b87bca1ee380dc3c68185f17595fe6",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/ghostty-org/ghostty/blob/main/LICENSE",
+          "sha256": "386211873e5b7a02f663ae4d7adf96285999f91608f8f9f31fecfd0f4095e6f1"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "013",
+      "id": "spec-kit",
+      "repository": "github/spec-kit",
+      "original_card_sha256": "4bf7a846de55bafed2f5fd3a0d55ce747a4fb58f8c1d2d004c03c32b859fd77d",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/github/spec-kit/blob/main/LICENSE",
+          "sha256": "2510b446bc1f0cf9702453075d20cd88631e20e5642658edb7325d9c1eb534f7"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "014",
+      "id": "graphify",
+      "repository": "Graphify-Labs/graphify",
+      "original_card_sha256": "35c86d59e92125b61f1dfd1566d281d4f5971a4da9d8ae80af91440f478f32e7",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/Graphify-Labs/graphify/blob/v8/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "url": "https://github.com/Graphify-Labs/graphify/blob/v8/LICENSE-MIT",
+          "sha256": "36ecff6bbb97aca1be64e95f42538cf796adde5864edac583e620643c096931a"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "015",
+      "id": "ian-xiaohei-illustrations",
+      "repository": "helloianneo/ian-xiaohei-illustrations",
+      "original_card_sha256": "425637b681a7a4de405d8fb948f767832cbb48fc6a7cf01c35639c7ca50d747f",
+      "pending_reasons": [
+        "activity_not_confirmed"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/LICENSE",
+          "sha256": "b995a6b845825b06461cbc5d7ace91d05fe0fe6d061e1c17bffc31964d2684aa"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "needs_review",
+        "reasons": [
+          "bilingual_content_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "016",
+      "id": "cli-anything",
+      "repository": "HKUDS/CLI-Anything",
+      "original_card_sha256": "1b0cc5ff2c7514d7198bef40465546d7e14ad7b8377d436a6d31ecb6dae7ff92",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/HKUDS/CLI-Anything/blob/main/LICENSE",
+          "sha256": "0cff1a8ac2a381870a2c57cbe9b25f95bea0925b39b7fbf6a04ec23df7c77760"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "017",
+      "id": "skills",
+      "repository": "mattpocock/skills",
+      "original_card_sha256": "9d25d4ddc30984c5426c9897730dc85fc535822ab0bdc72877c0b4ce8592ed51",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/mattpocock/skills/blob/main/LICENSE",
+          "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "018",
+      "id": "rea",
+      "repository": "morluto/rea",
+      "original_card_sha256": "96651d6b8ffc55d17d3bfc6ed5c45ba293206ee633bd3b203311f09e304e7d76",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/morluto/rea/blob/main/LICENSE",
+          "sha256": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "019",
+      "id": "nextpad-plus-plus-macos",
+      "repository": "nextpad-plus-plus/nextpad-plus-plus-macos",
+      "original_card_sha256": "930639ba072057dbb58e5ffd4736c83cfb3ebe93269db4e9a8207afb852a3b11",
+      "pending_reasons": [
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/LICENSE",
+          "sha256": "0b8768e437ce04b7c1f4a2dbd9c860b2bc6fddd7fbc13f6a48797ba7570d48f8"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "020",
+      "id": "serena",
+      "repository": "oraios/serena",
+      "original_card_sha256": "0493757a170847b67630c4bcdab918c2e7c3f9a60fa8fef5e91e4c8f19776731",
+      "pending_reasons": [
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/oraios/serena/blob/main/LICENSE",
+          "sha256": "6239f4be78ccff409aedfbce88ac89b26f488f76aac7ab199fb6876dc7fdeb4c"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "021",
+      "id": "public-apis",
+      "repository": "public-apis/public-apis",
+      "original_card_sha256": "f0accb07e7bca0dd5b81a0057ae34c4f9915a6e0170bc817e744aff5b04e8bab",
+      "pending_reasons": [
+        "reference_resource"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/public-apis/public-apis/blob/master/LICENSE",
+          "sha256": "07704fa08e479d81930b0ad53c7c1d634c766736d27f725044949f982c1c9447"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "needs_review",
+        "reasons": [
+          "bilingual_content_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "022",
+      "id": "vibe-research",
+      "repository": "simonlin1212/Vibe-Research",
+      "original_card_sha256": "2c7fb84bbcc96406ed1e991a52020c31b344983c7dc684679db90cdcf5a5b449",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/simonlin1212/Vibe-Research/blob/main/LICENSE",
+          "sha256": "e68105939fc1699f26fef5dc6d4eea2978c4f7209bf6cd5d9c4eb86395dd7b33"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "023",
+      "id": "orca",
+      "repository": "stablyai/orca",
+      "original_card_sha256": "104af1fb90d01d6eeb3ae33e6f2df11c2955dabc854961f2bce14513df7299da",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/stablyai/orca/blob/main/LICENSE",
+          "sha256": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "024",
+      "id": "code-review-graph",
+      "repository": "tirth8205/code-review-graph",
+      "original_card_sha256": "9cfddee71853e500408506a2e05c31c32885bf77ee111513675c2504e9f51c5e",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/tirth8205/code-review-graph/blob/staging/LICENSE",
+          "sha256": "4608284d776c4ca9b88d05c7210f71ab03400520bf7334d72404eba53f56dd4e"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "025",
+      "id": "archify",
+      "repository": "tt-a1i/archify",
+      "original_card_sha256": "5d4f0c3819dc7c499e40882c761ae07ccc5346b0d57847a414461b2cbb091746",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/tt-a1i/archify/blob/main/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "url": "https://github.com/tt-a1i/archify/blob/main/LICENSE-MIT",
+          "sha256": "b799ab081703e7821ae5096d2c1abdf14bbdc75e8ea1c4045998c36ed6db9706"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "026",
+      "id": "awesome-design-md",
+      "repository": "VoltAgent/awesome-design-md",
+      "original_card_sha256": "56e01ecefae89ba8c61855ca4f365c8710c69a4e369b63122464d4960aef6726",
+      "pending_reasons": [
+        "reference_resource"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/VoltAgent/awesome-design-md/blob/main/LICENSE",
+          "sha256": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "needs_review",
+        "reasons": [
+          "bilingual_content_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "027",
+      "id": "anatomy",
+      "repository": "wheresryan22/anatomy",
+      "original_card_sha256": "b014e364e291fdf8d08ce336613caddd27c2782c3b1b5824ec59a3586a3f2af5",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/wheresryan22/anatomy/blob/main/LICENSE",
+          "sha256": "87c078ab9d90a3044f359e6b563d4e6afea7aa060897cf4f21618687b3856796"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "028",
+      "id": "ai-berkshire",
+      "repository": "xbtlin/ai-berkshire",
+      "original_card_sha256": "238f145bb8450f0e79ba036e3b8d4bea0885af6cb257f9d9e5db3555a2374b31",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/xbtlin/ai-berkshire/blob/main/LICENSE",
+          "sha256": "81b843bec8a087f4c20e5be8ad744cfe1a169dc0b4f0147cbe61e6cd3da39981"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "029",
+      "id": "cn-math-taxonomy",
+      "repository": "xiaoyang111222/cn-math-taxonomy",
+      "original_card_sha256": "c198b0cdb1c8d2432b3f996a99225ec3284d1888b1546ed3b07488ef91384726",
+      "pending_reasons": [
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/xiaoyang111222/cn-math-taxonomy/blob/main/LICENSE",
+          "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "030",
+      "id": "best-skills",
+      "repository": "xstongxue/best-skills",
+      "original_card_sha256": "1953ecddc192b9b2ea5c32e4284896e9b562df98a83cb84e8683468ab7540ff5",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/xstongxue/best-skills/blob/main/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "031",
+      "id": "magpie",
+      "repository": "yetone/magpie",
+      "original_card_sha256": "df32c218358c2198930053fae34fc430d032833abeab6707365e5cee6bb2e107",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/yetone/magpie/blob/main/LICENSE",
+          "sha256": "79d2c8444715d4bc453ec4f8a0aaf2051a4c1ee5ac08f5bd2e5848aef87c7572"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "032",
+      "id": "craft-anything",
+      "repository": "storytold/craft-anything",
+      "original_card_sha256": "c167f5bf89343cae1cfba467d0f735c0ba48f19d64ccd4997ae20d372536d1cc",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-MIT",
+          "sha256": "777b5f0c65bd9c289cb234e32857b594745d5c76d613034870aa05bd00d32622"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "033",
+      "id": "agent-autoloop",
+      "repository": "KKKKhazix/agent-autoloop",
+      "original_card_sha256": "93f52da14992c9884a8b5edd1731b089d7f8199614c7ba8c97dfb5c66cceb1d9",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/KKKKhazix/agent-autoloop/blob/main/LICENSE",
+          "sha256": "b7f53d07ea4ae2eef26a4f8b28cb7d4df95586e2aa713df408f1ffde9f5a0fea"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "034",
+      "id": "howtolivebetter",
+      "repository": "eternity4719/HowToLiveBetter",
+      "original_card_sha256": "f5e2e7b4fc09d7b03407339f6bbc1ec7462eb006fb9fb149156639fb2ec63d3f",
+      "pending_reasons": [
+        "reference_resource",
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/eternity4719/HowToLiveBetter/blob/main/LICENSE-CODE",
+          "sha256": "b5637b996d72e74dac01e8799701ff6440b5a979cd15a29ac120e7ae57963c67"
+        },
+        {
+          "url": "https://github.com/eternity4719/HowToLiveBetter/blob/main/LICENSE",
+          "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "ineligible",
+        "reasons": [
+          "license_not_approved"
+        ]
+      }
+    },
+    {
+      "source_number": "035",
+      "id": "howtolivelonger",
+      "repository": "geekan/HowToLiveLonger",
+      "original_card_sha256": "46c38a4e500aebb4cb93ad69415d64d1a58bfadf8f2a3efbbeb5a25930dbd62a",
+      "pending_reasons": [
+        "reference_resource"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/geekan/HowToLiveLonger/blob/main/LICENSE",
+          "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "needs_review",
+        "reasons": [
+          "bilingual_content_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "036",
+      "id": "howtocook",
+      "repository": "Anduin2017/HowToCook",
+      "original_card_sha256": "bc57e1d584d6825b70146f1f932744435e93de90fa05666a86f893047bd4a362",
+      "pending_reasons": [
+        "reference_resource"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/master/LICENSE",
+          "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "needs_review",
+        "reasons": [
+          "bilingual_content_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "037",
+      "id": "investing-for-beginners",
+      "repository": "xuchonglang/investing-for-beginners",
+      "original_card_sha256": "95795493fa749ce0e8f63bffad2aeb0f2c15eeaf1ef94ab1f61c36eb1f9e8985",
+      "pending_reasons": [
+        "reference_resource",
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/xuchonglang/investing-for-beginners/blob/main/LICENSE.md",
+          "sha256": "ceda8620ed1b2d9fdc0db5c7ecc73785a8b44725cce502fb506de3ae273c5991"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "038",
+      "id": "goutoujunshi",
+      "repository": "shengjidaguai-china/goutoujunshi",
+      "original_card_sha256": "759fa0740f4b205c36e9dfd57ac037e04cecfd7bbb4c438b763829f1de9069ac",
+      "pending_reasons": [
+        "activity_not_confirmed"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/shengjidaguai-china/goutoujunshi/blob/main/LICENSE.zh-CN.md",
+          "sha256": "2173ce5b029b58ee1d18b629fc5351881dfed7926263db34bb522e841bea183f"
+        },
+        {
+          "url": "https://github.com/shengjidaguai-china/goutoujunshi/blob/main/LICENSE",
+          "sha256": "f336b7d0101d93b47ec1964aaf3c4ab12dc582638be9501fc883801a51ed0367"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "needs_review",
+        "reasons": [
+          "bilingual_content_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "039",
+      "id": "howtogetalong",
+      "repository": "kkk-bot/HowToGetAlong",
+      "original_card_sha256": "f4a3068c81f01bc6d5a76c19e0e40a2a2a3af7e0857e67fd7e5963884e8ba8a0",
+      "pending_reasons": [
+        "reference_resource",
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/kkk-bot/HowToGetAlong/blob/main/LICENSE",
+          "sha256": "d4f4a7a360f7b53b9b160a482ef1bffdb5659eef4f51690a18aac9e0329e5d9f"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "040",
+      "id": "up",
+      "repository": "byoungd/up",
+      "original_card_sha256": "f37cd59cce779a12ff7d03e83c72ae0d059ab32b4310cf28c8846ff829bbac4e",
+      "pending_reasons": [
+        "reference_resource",
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/byoungd/up/blob/main/LICENSE-CODE.md",
+          "sha256": "d0a6a0fff1580e24e70fd803706f485b84a89195446188f95fe188ee2ac872cb"
+        },
+        {
+          "url": "https://github.com/byoungd/up/blob/main/LICENSE-CONTENT.md",
+          "sha256": "372179c5e4278c64a348a606c8c640fe365887c91d10534bafd435f13b49eb82"
+        },
+        {
+          "url": "https://github.com/byoungd/up/blob/main/LICENSE.md",
+          "sha256": "24db3477cdcd574468e3e79052c2fd113eb05d258e59842e2164b703b7210b6e"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "041",
+      "id": "reason-network",
+      "repository": "reason-machines/reason-network",
+      "original_card_sha256": "744b20e21650ed6da3cc8fc3f81023f099c32dbb30a8b6ddcd556a6c69d14039",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/reason-machines/reason-network/blob/main/LICENSE-APACHE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "url": "https://github.com/reason-machines/reason-network/blob/main/LICENSE-MIT",
+          "sha256": "0c0f2e36352216ffb048903b26375f2d2a2c2cca5efed60d821090e884b48198"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "042",
+      "id": "lemo-opuscar",
+      "repository": "lemomo-ai/lemo-opuscar",
+      "original_card_sha256": "1534316e2d5fea251acec109bfe9023559dce24c7b0b4834c13dad6876c5da15",
+      "pending_reasons": [
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/LICENSE",
+          "sha256": "aee72797af4389583c0f531f7fc89c87c87cb939bdba43d888926dd8aaea8d26"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "043",
+      "id": "huashu-art-motion",
+      "repository": "alchaincyf/huashu-art-motion",
+      "original_card_sha256": "f6209b9d030b5064a1cc8d48b140a139a729b39c1bd7f7c56d86468953bf9710",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/alchaincyf/huashu-art-motion/blob/main/LICENSE",
+          "sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "044",
+      "id": "mg-styles-15",
+      "repository": "Vincentwei1021/mg-styles-15",
+      "original_card_sha256": "9f15abf63c28029168b56ce75127a4abe75a5e5dc347df799087bfdb93f04231",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/main/LICENSE",
+          "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "045",
+      "id": "video-shotcraft",
+      "repository": "Vincentwei1021/video-shotcraft",
+      "original_card_sha256": "b4c5ba74ac5b0b4ab1e2dd9e3768852cddff22ca5dfb0d0d2524210f0ec4e493",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/LICENSE",
+          "sha256": "b2ce9877a55547ada9b870150664d1468ff777e67cc9888806a73927d31c5771"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "046",
+      "id": "anidoodle",
+      "repository": "alexgreensh/anidoodle",
+      "original_card_sha256": "cead52977f3d8ff3f4013412119fb19061cced22dd1fa643e50e944f86f347ae",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/alexgreensh/anidoodle/blob/main/LICENSE",
+          "sha256": "aa7ba36133bb07559b8f2f96eb4d7e2e95003432238973b31b6727517bd6c0a0"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "047",
+      "id": "animate",
+      "repository": "cth9191/animate",
+      "original_card_sha256": "c83909cb9babb206bb7b2e852aa28ac314eaba60ccb5738b7931e010222a3cb7",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/cth9191/animate/blob/main/LICENSE",
+          "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "048",
+      "id": "sweety-handdraw-video",
+      "repository": "threerocks/sweety-handdraw-video",
+      "original_card_sha256": "edd5847ac619d9c4b954f5a6360c9bedcae83b7401004a69ece37dae57895d62",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/threerocks/sweety-handdraw-video/blob/main/LICENSE",
+          "sha256": "c56704c3fd6b99de34c7e9d2e5dea8e19a18e1978f3614a3f830f1bdbb93f46c"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "049",
+      "id": "bang-motion",
+      "repository": "bangtutorial/bang-motion",
+      "original_card_sha256": "123550b0a4a02ef4673b0e4f752595f5f518d6114816eec0de4fa0bc61eec972",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/bangtutorial/bang-motion/blob/main/LICENSE",
+          "sha256": "5baa6f2a531baa97eb2d3dea7778990fb244d5c6627025b5c2a5bdebd8d1bf5c"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "050",
+      "id": "claudeanimationbase",
+      "repository": "JohnHeibel/ClaudeAnimationBase",
+      "original_card_sha256": "635f87524330f528f41af2a281d916004b1b1f92b27619ac72a5ec55ba927330",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/main/LICENSE",
+          "sha256": "7d25ae95b305b884c08ce898e53b58d2e180ff0119e5d203d8b4ae30420f3b33"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "051",
+      "id": "teardown",
+      "repository": "elvarofficial/teardown",
+      "original_card_sha256": "04363c56463b7c192f8fa0ce32426b41ce6d6d3d5d3595540fec1e1e212aff06",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/elvarofficial/teardown/blob/main/LICENSE",
+          "sha256": "489451d9c7bd0c07b21c7f094f24d290d52c757bf71fc988ec880aa673fb3820"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "052",
+      "id": "photo-to-poster-skills",
+      "repository": "GZ-L/photo-to-poster-skills",
+      "original_card_sha256": "65dddea38aa0dd0f28134233d9c75e5cfb96070276bb2a035449eddb69f89e2d",
+      "pending_reasons": [
+        "below_star_threshold",
+        "activity_not_confirmed"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/GZ-L/photo-to-poster-skills/blob/main/LICENSE",
+          "sha256": "ac8576e9a96d2ed470a9453d65a7938b88ed300c432f48826c066d4cc8392918"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "ineligible",
+        "reasons": [
+          "below_star_threshold"
+        ]
+      }
+    },
+    {
+      "source_number": "053",
+      "id": "photo-to-zine-postcard",
+      "repository": "Whiplashzeb/photo-to-zine-postcard",
+      "original_card_sha256": "52c96f54af6121519ee7ab3a6a0e7e09b5f6aa5ba1dbdf37d789885dec2b6cd9",
+      "pending_reasons": [
+        "below_star_threshold",
+        "activity_not_confirmed",
+        "last_push_before_window"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/Whiplashzeb/photo-to-zine-postcard/blob/main/LICENSE",
+          "sha256": "e8606f61d5e3b4619b94ed8aec8837b9caeb82fe13d730d49cff909c927eaf80"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "ineligible",
+        "reasons": [
+          "below_star_threshold"
+        ]
+      }
+    },
+    {
+      "source_number": "054",
+      "id": "heytea-style",
+      "repository": "Hchen1218/heytea-style",
+      "original_card_sha256": "6ae50a15392d2b06cbf5acaeebb9802871c500baee21f8b444b6f9b8ac6059e2",
+      "pending_reasons": [
+        "below_star_threshold",
+        "activity_not_confirmed",
+        "implementation_attribution_unconfirmed"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/Hchen1218/heytea-style/blob/main/LICENSE",
+          "sha256": "d83ab8f95fba890d9f50e257597155fa327197a615c6ba215821b3b089528a30"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "ineligible",
+        "reasons": [
+          "below_star_threshold"
+        ]
+      }
+    },
+    {
+      "source_number": "055",
+      "id": "photo-relic-editorial",
+      "repository": "wnby/photo-relic-editorial",
+      "original_card_sha256": "204abc2fb71d167facfb951dae2f878dd7db26c8d36ac94af364324ff93e2b4b",
+      "pending_reasons": [
+        "below_star_threshold",
+        "activity_not_confirmed",
+        "last_push_before_window"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/wnby/photo-relic-editorial/blob/main/LICENSE",
+          "sha256": "2d016be42668215309c81858dab0a5725845ba12cfc25ed71e178b49f08a7bc5"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "ineligible",
+        "reasons": [
+          "below_star_threshold"
+        ]
+      }
+    },
+    {
+      "source_number": "056",
+      "id": "gathered-scenes-zine-skill",
+      "repository": "Zeejay0/gathered-scenes-zine-skill",
+      "original_card_sha256": "22261158f7a36216aa69a3bcb40d96dbeba99845d2aa8f352600ac10a05abb1d",
+      "pending_reasons": [
+        "license_review_pending"
+      ],
+      "license_files": [
+        {
+          "url": "https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE",
+          "sha256": "2fed409745b33e60c3b68f15b12fde872c05496c4f224c0e39adc8979fe0ac3b"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "unknown",
+        "reasons": [
+          "license_needs_review"
+        ]
+      }
+    },
+    {
+      "source_number": "057",
+      "id": "ai-website-cloner-template",
+      "repository": "JCodesMore/ai-website-cloner-template",
+      "original_card_sha256": "a3df937a9a2aca07aa7361c603c0d2b6406a1e0c0e68ff3238b52605eb4198ff",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE",
+          "sha256": "cfe9368816ead6d3b0a9e0d851dcab796885c72e7b479cff1c7939debea0826d"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "058",
+      "id": "horizon",
+      "repository": "Thysrael/Horizon",
+      "original_card_sha256": "a5d09a5d37269c6aa52cdb5c632688e2910294447d1c88fb5e0add84a86202a1",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/Thysrael/Horizon/blob/main/LICENSE",
+          "sha256": "65cf34e685cb1dd4e18e44502d476240a028d42e295b48ffdc601968ca3ce033"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    },
+    {
+      "source_number": "059",
+      "id": "moli",
+      "repository": "lexmount/moli",
+      "original_card_sha256": "cd209d6f14bd5ef929c7ccd445f12f194fcface4ae5d9417b31da1b285df1d91",
+      "pending_reasons": [],
+      "license_files": [
+        {
+          "url": "https://github.com/lexmount/moli/blob/main/LICENSE-APACHE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "url": "https://github.com/lexmount/moli/blob/main/LICENSE-MIT",
+          "sha256": "b5cdae7da53284a73a5b2c76591c9d272ad236dcb6e1330d0f70f97bafa0b948"
+        },
+        {
+          "url": "https://github.com/lexmount/moli/blob/main/license-metadata.json",
+          "sha256": "ca028237546876bd4ca633f1f8d71f12629e80ee95787cba465ef7ab15f6e2ba"
+        }
+      ],
+      "eligibility_at_import": {
+        "status": "eligible",
+        "reasons": []
+      }
+    }
+  ]
+}

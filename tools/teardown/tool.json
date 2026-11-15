@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "teardown",
+  "name": "Teardown：交互式机械拆解与3D演示",
+  "repository": "elvarofficial/teardown",
+  "repo_node_id": "R_kgDOVc1e6Q",
+  "category": "media",
+  "tags": [
+    "agent-skill",
+    "3d",
+    "mechanisms"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Teardown：交互式机械拆解与3D演示"
+    ],
+    "en": [
+      "Teardown"
+    ]
+  },
+  "summary": {
+    "zh-CN": "面向 Claude Code 的 3D 机械原理演示技能。支持部件拆解、剖视、联动、自动演示与人工交互，可构建离线 HTML 并录制 MP4。",
+    "en": "A Claude Code skill for interactive 3D mechanism explanations, exploded views, sections and recorded video."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "制作发动机、起落架和连杆机构等机械教学页面、产品结构说明或原理动画。"
+    ],
+    "en": [
+      "Explain a machine's parts and motion",
+      "Build browser-based mechanism demonstrations"
+    ]
+  },
+  "alternatives": [
+    "anatomy"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "489451d9c7bd0c07b21c7f094f24d290d52c757bf71fc988ec880aa673fb3820",
+    "source_url": "https://github.com/elvarofficial/teardown/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-10-30T09:28:29Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/elvarofficial/teardown/commit/e7e668cd44f48ba79a3c575e9f55c7e194d26eef",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "新增三维机制生成、渲染与声音工具。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Introduces mechanism-generation, rendering and sound tools. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/elvarofficial/teardown",
+      "accessed_at": "2026-11-15T10:48:22.290Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/elvarofficial/teardown/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:06.110Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/elvarofficial/teardown/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:17.492Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "051",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "04363c56463b7c192f8fa0ce32426b41ce6d6d3d5d3595540fec1e1e212aff06",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

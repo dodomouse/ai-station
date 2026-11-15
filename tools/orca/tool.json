@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "orca",
+  "name": "Orca（智能体开发工作台）",
+  "repository": "stablyai/orca",
+  "repo_node_id": "R_kgDORpCz1g",
+  "category": "development",
+  "tags": [
+    "agents",
+    "workspace",
+    "desktop"
+  ],
+  "forms": [
+    "desktop"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "aliases": {
+    "zh-CN": [
+      "Orca（智能体开发工作台）"
+    ],
+    "en": [
+      "Orca"
+    ]
+  },
+  "summary": {
+    "zh-CN": "统一管理多个编程智能体的开发工作台。提供并行工作目录、终端、差异审查、手机端及 SSH 远程环境。",
+    "en": "A coding-agent workspace with multiple project views, terminals, change review, remote SSH and mobile companions."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "并行推进多个编程任务。在同一工作台审查智能体修改。用手机或 SSH 跟进远程开发任务。"
+    ],
+    "en": [
+      "Manage concurrent coding sessions",
+      "Review agent changes across projects"
+    ]
+  },
+  "alternatives": [
+    "cc-connect",
+    "reason-network"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+    "source_url": "https://github.com/stablyai/orca/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-15T10:45:45Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/stablyai/orca/commit/506d116ee3db9f4bf63e206d069b52e30e755b3c",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "把服务器配置读写移出主线程。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Moves saved-server reads and writes off the main thread. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/stablyai/orca",
+      "accessed_at": "2026-11-15T10:48:17.008Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/stablyai/orca/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:02.303Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/stablyai/orca/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:10.953Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "023",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "104af1fb90d01d6eeb3ae33e6f2df11c2955dabc854961f2bce14513df7299da",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

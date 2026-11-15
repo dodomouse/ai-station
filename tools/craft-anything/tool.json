@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "craft-anything",
+  "name": "Craft Anything",
+  "repository": "storytold/craft-anything",
+  "repo_node_id": "R_kgDOVeM_1A",
+  "category": "development",
+  "tags": [
+    "reverse-engineering",
+    "agents",
+    "mcp"
+  ],
+  "forms": [
+    "desktop",
+    "cli",
+    "web"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "aliases": {
+    "zh-CN": [
+      "Craft Anything"
+    ],
+    "en": [
+      "Craft Anything"
+    ]
+  },
+  "summary": {
+    "zh-CN": "研究网站、应用或游戏，再让编码智能体创建自己的版本。提供研究、构建、比较与修改流程，以及 CLI、MCP 和检查证据。",
+    "en": "An early application-research and rebuilding workspace that combines inspection, agent-assisted implementation and comparison."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "照着参考网站创建新项目。仅从截图研究界面。深入分析程序。比较生成结果与原目标。"
+    ],
+    "en": [
+      "Study software behavior",
+      "Explore evidence-led rebuilding workflows"
+    ]
+  },
+  "alternatives": [
+    "ai-website-cloner-template",
+    "rea"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "Apache-2.0",
+    "osi_approved": true,
+    "license_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "source_url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-15T10:46:29Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/storytold/craft-anything/commit/1097195797e2c856f62644b71366425260572c3b",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "通过 ZIP 目录识别归档成员。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Detects ZIP members using the archive directory. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/storytold/craft-anything",
+      "accessed_at": "2026-11-15T10:48:18.538Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/storytold/craft-anything/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:03.331Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+      "accessed_at": "2026-11-15T10:53:12.342Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "032",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "c167f5bf89343cae1cfba467d0f735c0ba48f19d64ccd4997ae20d372536d1cc",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

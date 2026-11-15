@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "goutoujunshi",
+  "name": "狗头军师",
+  "repository": "shengjidaguai-china/goutoujunshi",
+  "repo_node_id": "R_kgDOTeMCBg",
+  "category": "productivity",
+  "tags": [
+    "agent-skill",
+    "communication"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "狗头军师"
+    ],
+    "en": [
+      "Goutoujunshi"
+    ]
+  },
+  "summary": {
+    "zh-CN": "可分析用户叙述、聊天截图和已导出文本，给出回复草案与行动选项。",
+    "en": "An agent skill that uses user-supplied stories or conversation material to draft replies and possible next steps."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 恋爱聊天不知道怎么回复。\n- 分析关系投入是否失衡。\n- 聊天记录里哪些是事实哪些是猜测。"
+    ],
+    "en": [
+      "Draft communication options",
+      "Reflect on a conversation with an assistant"
+    ]
+  },
+  "alternatives": [
+    "howtogetalong"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "f336b7d0101d93b47ec1964aaf3c4ab12dc582638be9501fc883801a51ed0367",
+    "source_url": "https://github.com/shengjidaguai-china/goutoujunshi/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/shengjidaguai-china/goutoujunshi",
+      "accessed_at": "2026-11-15T10:48:20.136Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/shengjidaguai-china/goutoujunshi/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:04.082Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/shengjidaguai-china/goutoujunshi/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:15.441Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "038",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "759fa0740f4b205c36e9dfd57ac037e04cecfd7bbb4c438b763829f1de9069ac",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [
+      "activity_not_confirmed"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true,
+    "notes": {
+      "zh-CN": "检查最近 30 个默认分支提交，窗口内为说明与许可变动。更早的功能变更不满足当前三个月窗口。",
+      "en": "The latest 30 default-branch commits show documentation and license changes inside the window; earlier functional changes fall outside it."
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "clash",
+  "name": "Clash 客户端导航（clashbk）",
+  "repository": "clashbk/clash",
+  "repo_node_id": "R_kgDOPt2pCg",
+  "category": "productivity",
+  "tags": [
+    "resource-list",
+    "proxy"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Clash 客户端导航（clashbk）"
+    ],
+    "en": [
+      "Clash Navigation"
+    ]
+  },
+  "summary": {
+    "zh-CN": "汇总 Clash 相关客户端的项目入口、下载地址和教程。另列已停更版本的备份入口，属于导航资料库。",
+    "en": "A directory of proxy clients, download links, tutorials and historical backups."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "查找不同系统的代理客户端。查找客户端下载与教程。辨认清单中维护或停更标记。"
+    ],
+    "en": [
+      "Locate client documentation",
+      "Find links to existing projects"
+    ]
+  },
+  "alternatives": [
+    "clash-verge-rev"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": null,
+    "osi_approved": false,
+    "license_sha256": null,
+    "source_url": null,
+    "reviewed_at": null
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/clashbk/clash",
+      "accessed_at": "2026-11-15T10:48:13.798Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/clashbk/clash/blob/main/README.md",
+      "accessed_at": "2026-11-03T00:00:00+08:00",
+      "supports": {
+        "zh-CN": "用户原卡记录的官方说明来源；本次未逐项刷新资料目录。",
+        "en": "Official source recorded in the user’s historical card; directory contents were not individually refreshed."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "007",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "4c3610b4032eb00bb71896d7cc9d1d963ea6055b4b79a90ebaabb4cd55a38add",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "reference",
+    "pending_reasons": [
+      "reference_resource",
+      "license_review_pending"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

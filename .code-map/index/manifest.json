@@ -1,0 +1,13 @@
+{
+  "schema_version": "wuyong-code-map-artifact-manifest/v1",
+  "generator": "wuyong-code-map/development-diff",
+  "artifact_role": "development_knowledge",
+  "project_root": "/Users/wuyong/workspace/ai-station",
+  "artifacts": [
+    {
+      "path": "code-map.json",
+      "sha256": "94270eb80df49fc152b146ec968c99cbe59b4ea60a7becf42519eae266d8a4b3",
+      "bytes": 12325
+    }
+  ]
+}

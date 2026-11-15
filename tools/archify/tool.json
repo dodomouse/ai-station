@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "archify",
+  "name": "Archify",
+  "repository": "tt-a1i/archify",
+  "repo_node_id": "R_kgDOSDCHbQ",
+  "category": "development",
+  "tags": [
+    "architecture",
+    "diagrams",
+    "html"
+  ],
+  "forms": [
+    "cli",
+    "web"
+  ],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Archify"
+    ],
+    "en": [
+      "Archify"
+    ]
+  },
+  "summary": {
+    "zh-CN": "把想法、计划或代码仓资料生成交互式 HTML 图示。可制作架构图、流程图和带来源的解释页面。",
+    "en": "Turns ideas, plans and repository material into interactive HTML diagrams and explanatory pages with source references."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "制作代码仓架构图与流程图。生成带引用的技术解释页面。探索节点关系和路径。分享独立 HTML 或导出图片。"
+    ],
+    "en": [
+      "Explain system architecture",
+      "Create navigable flow and relationship diagrams"
+    ]
+  },
+  "alternatives": [
+    "anatomy"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "Apache-2.0",
+    "osi_approved": true,
+    "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "source_url": "https://github.com/tt-a1i/archify/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-10T01:32:12Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/tt-a1i/archify/commit/7e45f36c66de1254d5ad6ba1d878f6499ea269fd",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "修正通过管道输出时 Explainer 检查回执被截断的问题。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Flushes complete Explainer check receipts through piped stdout. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/tt-a1i/archify",
+      "accessed_at": "2026-11-15T10:48:17.071Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:02.708Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:11.721Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "025",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "5d4f0c3819dc7c499e40882c761ae07ccc5346b0d57847a414461b2cbb091746",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

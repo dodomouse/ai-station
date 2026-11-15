@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "code-review-graph",
+  "name": "code-review-graph",
+  "repository": "tirth8205/code-review-graph",
+  "repo_node_id": "R_kgDORZsJNQ",
+  "category": "development",
+  "tags": [
+    "code-analysis",
+    "knowledge-graph",
+    "mcp"
+  ],
+  "forms": [
+    "cli",
+    "service"
+  ],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "code-review-graph"
+    ],
+    "en": [
+      "Code Review Graph"
+    ]
+  },
+  "summary": {
+    "zh-CN": "用 Tree-sitter 建立并增量更新本地代码结构图。通过 MCP 和 CLI 提供依赖、变更影响及审查上下文。",
+    "en": "Builds an incremental local code graph for dependency queries, impact exploration and review context."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "为跨文件代码审查筛选上下文。查询函数与文件依赖。分析改动的潜在影响范围。"
+    ],
+    "en": [
+      "Navigate relationships around a change",
+      "Gather context for code review"
+    ]
+  },
+  "alternatives": [
+    "graphify",
+    "serena"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "4608284d776c4ca9b88d05c7210f71ab03400520bf7334d72404eba53f56dd4e",
+    "source_url": "https://github.com/tirth8205/code-review-graph/blob/staging/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-12T15:47:46Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/tirth8205/code-review-graph/commit/b891b6abca7edff503cfd3daeee0d6c0f6a5209b",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "排序歧义调用目标并修正升级检查。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Sorts ambiguous call targets and fixes upgrade checks. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "accessed_at": "2026-11-15T10:48:17.008Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/tirth8205/code-review-graph/blob/staging/README.md",
+      "accessed_at": "2026-11-15T10:54:03.126Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/tirth8205/code-review-graph/blob/staging/LICENSE",
+      "accessed_at": "2026-11-15T10:53:11.360Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "024",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "9cfddee71853e500408506a2e05c31c32885bf77ee111513675c2504e9f51c5e",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

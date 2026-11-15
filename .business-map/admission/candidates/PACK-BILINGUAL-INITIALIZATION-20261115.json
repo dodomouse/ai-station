@@ -1,0 +1,53 @@
+{
+  "candidate_pack_id": "PACK-BILINGUAL-INITIALIZATION-20261115",
+  "claims": [
+    {
+      "business_verified": false,
+      "claim_id": "C-CATALOG-AUDIENCE-LANGUAGES",
+      "claim_type": "spec",
+      "notes": "记录用户明确要求；实现由测试单独验证。",
+      "object": "中文和英文",
+      "predicate": "audience_languages",
+      "review_status": "reviewed",
+      "runtime_verified": false,
+      "source_ids": [
+        "SRC-BILINGUAL-REQUIREMENT"
+      ],
+      "subject": "开源工具字典"
+    }
+  ],
+  "conflict_candidates": [],
+  "created_at": "2026-11-15T09:29:06.852866+00:00",
+  "entity_candidates": [],
+  "knowledge_page_candidates": [],
+  "origin": "user_input",
+  "producer": "wizard-incremental-accumulation",
+  "proposed_actions": [],
+  "relationship_candidates": [],
+  "schema_version": "wuyong-business-map/knowledge-candidate-pack/v2",
+  "scope": {
+    "domain": "project",
+    "repository": "ai-station"
+  },
+  "source_digest": "sha256:8928d0bdd8fd30cc2d5602bac678565923bf90fceebeeb408ec32aadd019949e",
+  "sources": [
+    {
+      "content_digest": "sha256:2b6f3cfc12f09b8703348125beb7e54c9ad07111767dadd66c4b018d34181f69",
+      "evidence_level": "internal_claim",
+      "fetch_status": "manual_input",
+      "local_path": "codex_artifact/wizard-sessions/20261115T091652618933Z-273cab4d19f9/files/user-requirement.txt",
+      "notes": "用户产品要求摘要，不是外部官方来源或运行证据。",
+      "review_status": "reviewed",
+      "source_id": "SRC-BILINGUAL-REQUIREMENT",
+      "source_scope": "internal",
+      "source_type": "user_input",
+      "title": "双语工具字典用户要求",
+      "usage_scope": "internal_only"
+    }
+  ],
+  "target_binding": {
+    "target_kb_identity": "kb-41fb5790935446cb862dc39a4329d0cd",
+    "target_mode": "bound"
+  },
+  "verification_gap_candidates": []
+}

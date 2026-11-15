@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "sweety-handdraw-video",
+  "name": "手绘口播视频",
+  "repository": "threerocks/sweety-handdraw-video",
+  "repo_node_id": "R_kgDOVF-t_A",
+  "category": "media",
+  "tags": [
+    "agent-skill",
+    "hand-drawn",
+    "video"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "手绘口播视频"
+    ],
+    "en": [
+      "Sweety Handdraw Video"
+    ]
+  },
+  "summary": {
+    "zh-CN": "Agent 整理内容、口播和分镜，本地工具执行描线、填色、手写文字与声音对齐。",
+    "en": "A workflow for illustrated narration with local tracing, fills, handwriting and audio alignment, with newer portrait-film tooling."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 让画笔跟着文章口播边画边讲。\n- 手绘故事视频带旁白字幕。\n- 用已有配音生成绘画讲解视频。"
+    ],
+    "en": [
+      "Produce hand-drawn explainer videos",
+      "Explore photo-to-painting film workflows"
+    ]
+  },
+  "alternatives": [
+    "anidoodle"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "c56704c3fd6b99de34c7e9d2e5dea8e19a18e1978f3614a3f830f1bdbb93f46c",
+    "source_url": "https://github.com/threerocks/sweety-handdraw-video/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-11T16:29:58Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/threerocks/sweety-handdraw-video/commit/84b6eb436fe6173167529631a2fd03c30864ad3e",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "修正肖像影片的可复现生成流程。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Fixes deterministic portrait-film generation. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/threerocks/sweety-handdraw-video",
+      "accessed_at": "2026-11-15T10:48:21.724Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/threerocks/sweety-handdraw-video/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:05.683Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/threerocks/sweety-handdraw-video/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:16.829Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "048",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "edd5847ac619d9c4b954f5a6360c9bedcae83b7401004a69ece37dae57895d62",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true,
+    "notes": {
+      "zh-CN": "最新提交包含肖像影片流程修正。原中文卡保留当时范围，英文摘要补充该方向；未运行渲染。",
+      "en": "Recent commits include portrait-film workflow fixes. The original card remains historical, and the English digest mentions this addition without claiming a rendering test."
+    }
+  }
+}

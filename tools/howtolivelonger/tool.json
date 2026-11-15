@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "howtolivelonger",
+  "name": "程序员延寿指南",
+  "repository": "geekan/HowToLiveLonger",
+  "repo_node_id": "R_kgDOHL0RdA",
+  "category": "productivity",
+  "tags": [
+    "resource-list",
+    "research",
+    "health"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "程序员延寿指南"
+    ],
+    "en": [
+      "How to Live Longer"
+    ]
+  },
+  "summary": {
+    "zh-CN": "README 列出 64 篇研究摘要，覆盖食物、运动、睡眠和日常习惯。",
+    "en": "A reading collection that summarizes research on food, activity, sleep and other habits."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 饮食运动睡眠的论文去哪里找。\n- 哪个长寿指南带研究出处。\n- 让 AI 按健康研究回答并带来源。"
+    ],
+    "en": [
+      "Find research references on lifestyle topics"
+    ]
+  },
+  "alternatives": [
+    "howtolivebetter"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "Unlicense",
+    "osi_approved": true,
+    "license_sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+    "source_url": "https://github.com/geekan/HowToLiveLonger/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/geekan/HowToLiveLonger",
+      "accessed_at": "2026-11-15T10:48:19.390Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/geekan/HowToLiveLonger/blob/main/README.md",
+      "accessed_at": "2026-11-06T00:00:00+08:00",
+      "supports": {
+        "zh-CN": "用户原卡记录的官方说明来源；本次未逐项刷新资料目录。",
+        "en": "Official source recorded in the user’s historical card; directory contents were not individually refreshed."
+      }
+    },
+    {
+      "url": "https://github.com/geekan/HowToLiveLonger/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:13.571Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "035",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "46c38a4e500aebb4cb93ad69415d64d1a58bfadf8f2a3efbbeb5a25930dbd62a",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "reference",
+    "pending_reasons": [
+      "reference_resource"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

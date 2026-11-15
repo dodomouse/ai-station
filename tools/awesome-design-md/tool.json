@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "awesome-design-md",
+  "name": "Awesome DESIGN.md",
+  "repository": "VoltAgent/awesome-design-md",
+  "repo_node_id": "R_kgDOR2Chew",
+  "category": "media",
+  "tags": [
+    "resource-list",
+    "design",
+    "design-tokens"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Awesome DESIGN.md"
+    ],
+    "en": [
+      "Awesome Design MD"
+    ]
+  },
+  "summary": {
+    "zh-CN": "收集知名网站设计语言的 DESIGN.md 文档。向编码智能体提供配色、字体、设计变量和界面规则。",
+    "en": "A collection of DESIGN.md analyses describing website colors, typography, layout and interface rules."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "给 AI 生成页面提供设计参考。比较不同网站的界面风格。为项目编写 DESIGN.md 设计约束。"
+    ],
+    "en": [
+      "Find design references for agents",
+      "Compare interface conventions"
+    ]
+  },
+  "alternatives": [
+    "huashu-design"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+    "source_url": "https://github.com/VoltAgent/awesome-design-md/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "accessed_at": "2026-11-15T10:48:17.738Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md",
+      "accessed_at": "2026-11-03T00:00:00+08:00",
+      "supports": {
+        "zh-CN": "用户原卡记录的官方说明来源；本次未逐项刷新资料目录。",
+        "en": "Official source recorded in the user’s historical card; directory contents were not individually refreshed."
+      }
+    },
+    {
+      "url": "https://github.com/VoltAgent/awesome-design-md/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:11.374Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "026",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "56e01ecefae89ba8c61855ca4f365c8710c69a4e369b63122464d4960aef6726",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "reference",
+    "pending_reasons": [
+      "reference_resource"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

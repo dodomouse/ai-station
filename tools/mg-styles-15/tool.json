@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "mg-styles-15",
+  "name": "15 种动态设计风格",
+  "repository": "Vincentwei1021/mg-styles-15",
+  "repo_node_id": "R_kgDOU4ibMw",
+  "category": "media",
+  "tags": [
+    "animation",
+    "examples",
+    "audio"
+  ],
+  "forms": [
+    "cli"
+  ],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "15 种动态设计风格"
+    ],
+    "en": [
+      "MG Styles 15"
+    ]
+  },
+  "summary": {
+    "zh-CN": "15 支 10 秒动态设计示例，逐项公开风格说明、完整提示词与源码。",
+    "en": "Fifteen short motion-design examples with style prompts, source code and audio tooling."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 找 10 秒动态设计样片和源码。\n- MG 动效提示词有哪些。\n- 画面和音乐都用代码生成的参考。"
+    ],
+    "en": [
+      "Compare short-film styles",
+      "Adapt motion and sound examples"
+    ]
+  },
+  "alternatives": [
+    "lemo-opuscar"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932",
+    "source_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-09T15:47:38Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/Vincentwei1021/mg-styles-15/commit/269f6ed788cf60aaf9c276b110c548d6e7d353e1",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "刷新缓存乐器的音频采样可用性。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Refreshes sample availability for cached instruments. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/Vincentwei1021/mg-styles-15",
+      "accessed_at": "2026-11-15T10:48:21.042Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:05.094Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:16.102Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "044",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "9f15abf63c28029168b56ce75127a4abe75a5e5dc347df799087bfdb93f04231",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

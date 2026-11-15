@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "howtogetalong",
+  "name": "人情世故指南",
+  "repository": "kkk-bot/HowToGetAlong",
+  "repo_node_id": "R_kgDOU42ARg",
+  "category": "productivity",
+  "tags": [
+    "resource-list",
+    "communication",
+    "noncommercial"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "人情世故指南"
+    ],
+    "en": [
+      "How to Get Along"
+    ]
+  },
+  "summary": {
+    "zh-CN": "10 章 77 条经验建议，覆盖合作、求助、拒绝、金钱、礼节与冲突。",
+    "en": "A Chinese guide to everyday interactions, requests, refusals, money etiquette and conflict."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 刚入职不会开口求助或拒绝。\n- 朋友借钱怎么想清楚边界。\n- 人情世故的场景与示例表达。"
+    ],
+    "en": [
+      "Find examples of social situations",
+      "Read practical communication suggestions"
+    ]
+  },
+  "alternatives": [
+    "goutoujunshi"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": null,
+    "osi_approved": false,
+    "license_sha256": "d4f4a7a360f7b53b9b160a482ef1bffdb5659eef4f51690a18aac9e0329e5d9f",
+    "source_url": "https://github.com/kkk-bot/HowToGetAlong/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/kkk-bot/HowToGetAlong",
+      "accessed_at": "2026-11-15T10:48:20.349Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/kkk-bot/HowToGetAlong/blob/main/README.md",
+      "accessed_at": "2026-11-06T00:00:00+08:00",
+      "supports": {
+        "zh-CN": "用户原卡记录的官方说明来源；本次未逐项刷新资料目录。",
+        "en": "Official source recorded in the user’s historical card; directory contents were not individually refreshed."
+      }
+    },
+    {
+      "url": "https://github.com/kkk-bot/HowToGetAlong/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:14.831Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "039",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "f4a3068c81f01bc6d5a76c19e0e40a2a2a3af7e0857e67fd7e5963884e8ba8a0",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "reference",
+    "pending_reasons": [
+      "reference_resource",
+      "license_review_pending"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "investing-for-beginners",
+  "name": "投资入门指南",
+  "repository": "xuchonglang/investing-for-beginners",
+  "repo_node_id": "R_kgDOTML2jA",
+  "category": "productivity",
+  "tags": [
+    "resource-list",
+    "finance",
+    "proprietary"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "投资入门指南"
+    ],
+    "en": [
+      "Investing for Beginners"
+    ]
+  },
+  "summary": {
+    "zh-CN": "官方定位是中文投资入门资料，主题包含美股、期权和加密资产。",
+    "en": "Chinese introductory material on financial concepts, US markets, options and cryptocurrencies."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 美股和期权术语入门看哪里。\n- 查财报估值和订单类型的基础概念。\n- 投资小白的中文词条指南。"
+    ],
+    "en": [
+      "Look up introductory terminology",
+      "Locate the original learning material"
+    ]
+  },
+  "alternatives": [
+    "ai-berkshire"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": null,
+    "osi_approved": false,
+    "license_sha256": "ceda8620ed1b2d9fdc0db5c7ecc73785a8b44725cce502fb506de3ae273c5991",
+    "source_url": "https://github.com/xuchonglang/investing-for-beginners/blob/main/LICENSE.md",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/xuchonglang/investing-for-beginners",
+      "accessed_at": "2026-11-15T10:48:19.388Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/xuchonglang/investing-for-beginners/blob/main/README.md",
+      "accessed_at": "2026-11-06T00:00:00+08:00",
+      "supports": {
+        "zh-CN": "用户原卡记录的官方说明来源；本次未逐项刷新资料目录。",
+        "en": "Official source recorded in the user’s historical card; directory contents were not individually refreshed."
+      }
+    },
+    {
+      "url": "https://github.com/xuchonglang/investing-for-beginners/blob/main/LICENSE.md",
+      "accessed_at": "2026-11-15T10:53:14.202Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "037",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "95795493fa749ce0e8f63bffad2aeb0f2c15eeaf1ef94ab1f61c36eb1f9e8985",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "reference",
+    "pending_reasons": [
+      "reference_resource",
+      "license_review_pending"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

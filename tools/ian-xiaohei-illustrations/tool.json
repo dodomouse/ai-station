@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "ian-xiaohei-illustrations",
+  "name": "Ian Xiaohei Illustrations",
+  "repository": "helloianneo/ian-xiaohei-illustrations",
+  "repo_node_id": "R_kgDOSpyU9Q",
+  "category": "media",
+  "tags": [
+    "agent-skill",
+    "illustration",
+    "articles"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Ian Xiaohei Illustrations"
+    ],
+    "en": [
+      "Ian Xiaohei Illustrations"
+    ]
+  },
+  "summary": {
+    "zh-CN": "为中文正文生成白底手绘“小黑”风格的 PNG 插图。技能先提炼文章观点，再规划分镜并生成配图。",
+    "en": "A Codex-oriented skill for turning Chinese article concepts into white-background hand-drawn Xiaohei illustrations."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "为中文技术文章配图。把抽象概念画成手绘隐喻。先规划一篇文章的配图清单。"
+    ],
+    "en": [
+      "Plan explanatory article illustrations",
+      "Create raster visual summaries"
+    ]
+  },
+  "alternatives": [
+    "anidoodle"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "b995a6b845825b06461cbc5d7ace91d05fe0fe6d061e1c17bffc31964d2684aa",
+    "source_url": "https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+      "accessed_at": "2026-11-15T10:48:15.454Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:01.200Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:09.596Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "015",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "425637b681a7a4de405d8fb948f767832cbb48fc6a7cf01c35639c7ca50d747f",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [
+      "activity_not_confirmed"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true,
+    "notes": {
+      "zh-CN": "检查最近 5 个默认分支提交，窗口内可见的是 README 与联系信息更新；未据此确认有效功能维护。",
+      "en": "The latest five default-branch commits show README/contact edits in the window, not confirmed functional maintenance."
+    }
+  }
+}

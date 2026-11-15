@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "agent-autoloop",
+  "name": "Agent Autoloop",
+  "repository": "KKKKhazix/agent-autoloop",
+  "repo_node_id": "R_kgDOVhF2rg",
+  "category": "automation",
+  "tags": [
+    "agents",
+    "scheduling",
+    "events"
+  ],
+  "forms": [
+    "service"
+  ],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "aliases": {
+    "zh-CN": [
+      "Agent Autoloop"
+    ],
+    "en": [
+      "Agent Autoloop"
+    ]
+  },
+  "summary": {
+    "zh-CN": "把命令行智能体接入事件调度和后台执行。支持人工卡片、回答后继续、定时复查、日志重放及可选 PR 交付。",
+    "en": "A local event and scheduling service that dispatches tasks to installed command-line agents and records their results."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "下表按官方现成场景模板整理。使用前需要填写自己的目录、数据来源、助手和通知配置。\n\n| 想做的事情 | 它可以怎样帮忙 | 结果或后续动作 |\n| --- | --- | --- |\n| 每天自动写早报 | 定时整理本地笔记和 Git 提交。 | 生成按日期保存的本地 Markdown 早报。 |\n| 跟进 GitHub Issue | 定期查新 Issue，交给编码助手阅读并修改本地代码。 | 通知用户查看修改。官方模板默认不提交、不推送、不回复 Issue。 |\n| 排查线上告警 | 接收错误事件，让助手对照代码查原因。 | 需要重启服务时发卡片询问，收到决定后继续。 |\n| 跟进用户反馈 | 读取反馈当前状态，组织修复、核实交付结果并准备回复。 | 需要决定时通过飞书询问，回答后继续。 |\n| 定时巡检网站 | 固定脚本检查网站状态和关键内容，异常时交给助手排查。 | 持续异常不重复提醒，恢复后更新原卡片。 |\n| 整理飞书周报和业务摘要 | 按本人权限读取汇报及指定表格，生成本地摘要。 | 飞书发送简短摘要，完整稿保存在本机。 |\n| 跟进 PR 到发布 | 按标签和配置启动审查，等待持续集成（CI）检查、合并和发布。 | 配置健康接口后，继续核对线上版本。 |\n| 委托另一个助手处理网页 | 使用浏览器交接模板，把网页步骤交给已配置的助手入口。 | 网页步骤结束后，由原任务继续跟进。浏览器工具需要另外配置。 |\n\n场景模板见[官方 README](https://github.com/KKKKhazix/agent-autoloop/blob/cecec75be3ca26e6ca1d6833b50152ee9450088d/README.md#拿来即用的场景模板)。巡检模板在正常时只运行固定脚本，异常时才调用模型。"
+    ],
+    "en": [
+      "Run scheduled agent tasks",
+      "React to selected events and follow up on pending work"
+    ]
+  },
+  "alternatives": [
+    "cc-connect"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "b7f53d07ea4ae2eef26a4f8b28cb7d4df95586e2aa713df408f1ffde9f5a0fea",
+    "source_url": "https://github.com/KKKKhazix/agent-autoloop/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-15T01:15:16Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/KKKKhazix/agent-autoloop/commit/8e96e1c8faa5238f873b4ab3721c281a2d13338e",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "修正 worker 生成回执提示的字段限制。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Corrects field constraints in generated worker receipt prompts. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "accessed_at": "2026-11-15T10:48:18.663Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/KKKKhazix/agent-autoloop/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:03.901Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/KKKKhazix/agent-autoloop/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:13.895Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "033",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "93f52da14992c9884a8b5edd1731b089d7f8199614c7ba8c97dfb5c66cceb1d9",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

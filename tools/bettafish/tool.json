@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "bettafish",
+  "name": "微舆（BettaFish）",
+  "repository": "666ghj/BettaFish",
+  "repo_node_id": "R_kgDOMQfyrg",
+  "category": "ai",
+  "tags": [
+    "research",
+    "sentiment",
+    "agents"
+  ],
+  "forms": [
+    "web",
+    "cli"
+  ],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "微舆（BettaFish）"
+    ],
+    "en": [
+      "BettaFish"
+    ]
+  },
+  "summary": {
+    "zh-CN": "多智能体舆情分析系统，组合网页搜索、社媒分析和数据库查询。通过协作汇总资料，输出 HTML 等格式的分析报告。",
+    "en": "Multi-agent research software that combines web, social and database material into public-opinion reports."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "舆情与品牌声誉研究。社媒评论与情感分析。多来源资料汇总成报告。"
+    ],
+    "en": [
+      "Summarize public discussion",
+      "Generate reports from multiple sources"
+    ]
+  },
+  "alternatives": [
+    "vibe-research"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": null,
+    "osi_approved": false,
+    "license_sha256": "44686cfd8b09cd489ecbd2f740e0a31d7006584b90e7446dd29661f06f0213ec",
+    "source_url": "https://github.com/666ghj/BettaFish/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [],
+  "sources": [
+    {
+      "url": "https://github.com/666ghj/BettaFish",
+      "accessed_at": "2026-11-15T10:48:12.351Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/666ghj/BettaFish/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:53:59.305Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/666ghj/BettaFish/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:07.814Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "002",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "a18a9a6cb02277ced39875a4186740ed85c45b86073aef1702d1fc0e149f127b",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [
+      "license_review_pending",
+      "activity_not_confirmed"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true,
+    "notes": {
+      "zh-CN": "当前 README 仍有禁止商业用途的说明，与 GPL 标识并存。许可证口径未解决，暂不正式收录。",
+      "en": "The current README still restricts commercial use alongside a GPL label. License scope remains unresolved."
+    }
+  }
+}

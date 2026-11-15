@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "video-shotcraft",
+  "name": "产品宣传片制作",
+  "repository": "Vincentwei1021/video-shotcraft",
+  "repo_node_id": "R_kgDOTdLZdQ",
+  "category": "media",
+  "tags": [
+    "agent-skill",
+    "video",
+    "product-demo"
+  ],
+  "forms": [],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "产品宣传片制作"
+    ],
+    "en": [
+      "Video Shotcraft"
+    ]
+  },
+  "summary": {
+    "zh-CN": "面向产品发布和功能演示，采集真实页面素材后用 Remotion 编排影片。",
+    "en": "A product-video workflow that captures real webpages and builds editable Remotion-based timelines and export drafts."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "- 把我的产品网页做成发布宣传片。\n- 用真实软件截图做功能演示视频。\n- 成片以后还想改镜头和剪映草稿。"
+    ],
+    "en": [
+      "Create product demonstrations",
+      "Prepare promotional video drafts"
+    ]
+  },
+  "alternatives": [
+    "bang-motion"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "Apache-2.0",
+    "osi_approved": true,
+    "license_sha256": "b2ce9877a55547ada9b870150664d1468ff777e67cc9888806a73927d31c5771",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-11T14:31:14Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/commit/ca4f6e73bc4aa38573f8ee79c227d93dc4d5c8e0",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "修正 Windows 工作台对托管素材副本的跟踪。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Tracks managed public-asset copies in the Windows workbench. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "accessed_at": "2026-11-15T10:48:21.256Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:05.444Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:16.614Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "045",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "b4c5ba74ac5b0b4ab1e2dd9e3768852cddff22ca5dfb0d0d2524210f0ec4e493",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true,
+    "notes": {
+      "zh-CN": "当前 README 另列 Remotion 的许可条件及音频素材署名要求；项目 Apache-2.0 不代表全部依赖和服务免费。",
+      "en": "The README separately identifies Remotion terms and audio attribution requirements; Apache-2.0 does not make all dependencies or services free."
+    }
+  }
+}

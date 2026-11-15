@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "cc-connect",
+  "name": "cc-connect",
+  "repository": "chenhg5/cc-connect",
+  "repo_node_id": "R_kgDORa0x3w",
+  "category": "automation",
+  "tags": [
+    "chat",
+    "agents",
+    "integration"
+  ],
+  "forms": [
+    "cli",
+    "service"
+  ],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "cc-connect"
+    ],
+    "en": [
+      "cc-connect"
+    ]
+  },
+  "summary": {
+    "zh-CN": "把本机编程智能体接入聊天平台，包括飞书和钉钉。从聊天端管理会话、切换模型、安排任务及传递文件。",
+    "en": "A bridge between locally installed coding agents and chat platforms, with session controls, files and scheduled tasks."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "从手机远程使用本机编程助手。通过飞书或钉钉触发自动化任务。管理多个项目与智能体会话。"
+    ],
+    "en": [
+      "Operate a coding agent from team chat",
+      "Route messages and attachments into existing agent sessions"
+    ]
+  },
+  "alternatives": [
+    "agent-autoloop"
+  ],
+  "editorial": {
+    "status": "draft",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": null,
+    "osi_approved": false,
+    "license_sha256": null,
+    "source_url": null,
+    "reviewed_at": null
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-15T02:05:42Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/chenhg5/cc-connect/commit/0df18338c4838bff28f726fa4f28d4f7defdfa6a",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "补充飞书工具调用详情汇总。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Adds summaries of tool-call details for Feishu. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/chenhg5/cc-connect",
+      "accessed_at": "2026-11-15T10:48:13.241Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/chenhg5/cc-connect/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:53:59.233Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "005",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "d635b6a2816e489d2d11199ac5e921ff4476356c6ea340ce00236b5770856bf4",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [
+      "license_review_pending"
+    ],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true,
+    "notes": {
+      "zh-CN": "当前 README 自称 MIT，但仓库根目录未找到许可证文件，API 许可证为空。原卡的 MIT 描述保留为历史记录。",
+      "en": "The README claims MIT, but no root license file was found and the API license is empty. The original MIT claim is historical."
+    }
+  }
+}

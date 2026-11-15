@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "ai-website-cloner-template",
+  "name": "AI Website Cloner Template：网站复刻与迁移模板",
+  "repository": "JCodesMore/ai-website-cloner-template",
+  "repo_node_id": "R_kgDORmDA6Q",
+  "category": "development",
+  "tags": [
+    "agent-skill",
+    "web",
+    "frontend"
+  ],
+  "forms": [
+    "web"
+  ],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "AI Website Cloner Template：网站复刻与迁移模板"
+    ],
+    "en": [
+      "AI Website Cloner Template"
+    ]
+  },
+  "summary": {
+    "zh-CN": "用编码助手观察目标网页，再以 Next.js 重建页面、素材和交互。通过浏览器对照差异并修正。",
+    "en": "A Next.js template and agent workflow for observing existing webpages and rebuilding their layout, assets and interactions as editable code."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "迁移自有网站。重建遗失源码的网站前端。学习响应式布局与滚动动画。"
+    ],
+    "en": [
+      "Recreate an authorized reference page",
+      "Compare desktop and mobile implementations"
+    ]
+  },
+  "alternatives": [
+    "craft-anything"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "cfe9368816ead6d3b0a9e0d851dcab796885c72e7b479cff1c7939debea0826d",
+    "source_url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-10-05T07:06:22Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template/commit/bb53ca57b3f8d180bd851fee01e6342c5975aa63",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "重写网页重建技能的观察、响应式实现和对照流程。已核对直接控制助手行为的技能内容差异，并非仅修改介绍。",
+        "en": "Reworks the website skill’s observation, responsive implementation and comparison workflow. Reviewed executable skill instructions, rather than descriptive README changes."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "accessed_at": "2026-11-15T10:48:23.782Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/README.md",
+      "accessed_at": "2026-11-15T10:54:07.349Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE",
+      "accessed_at": "2026-11-15T10:53:18.683Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "057",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "a3df937a9a2aca07aa7361c603c0d2b6406a1e0c0e68ff3238b52605eb4198ff",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "agent-skill",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}

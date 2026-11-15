@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "horizon",
+  "name": "Horizon：AI 信息聚合与双语新闻简报",
+  "repository": "Thysrael/Horizon",
+  "repo_node_id": "R_kgDORUj52g",
+  "category": "productivity",
+  "tags": [
+    "news",
+    "research",
+    "automation"
+  ],
+  "forms": [
+    "cli",
+    "service"
+  ],
+  "platforms": [],
+  "aliases": {
+    "zh-CN": [
+      "Horizon：AI 信息聚合与双语新闻简报"
+    ],
+    "en": [
+      "Horizon"
+    ]
+  },
+  "summary": {
+    "zh-CN": "聚合 RSS、社区、GitHub 与新闻等信息源，按 Profile 评分、筛选和去重，生成中英双语 Markdown 日报。",
+    "en": "Collects information from RSS, communities and other configured sources, filters and scores it, and produces bilingual reading reports."
+  },
+  "use_cases": {
+    "zh-CN": [
+      "每日汇总 AI 与技术新闻。跟踪项目 Release。提炼技术长文。通过 Pages、邮件或 Webhook 分发简报。"
+    ],
+    "en": [
+      "Prepare a personal news brief",
+      "Combine recurring information sources"
+    ]
+  },
+  "alternatives": [
+    "agent-autoloop"
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewed_at": {
+      "zh-CN": "2026-11-15T11:03:50.120930Z",
+      "en": "2026-11-15T11:03:50.120930Z"
+    },
+    "verification_level": "docs"
+  },
+  "license_review": {
+    "spdx": "MIT",
+    "osi_approved": true,
+    "license_sha256": "65cf34e685cb1dd4e18e44502d476240a028d42e295b48ffdc601968ca3ce033",
+    "source_url": "https://github.com/Thysrael/Horizon/blob/main/LICENSE",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z"
+  },
+  "activity_evidence": [
+    {
+      "type": "commit",
+      "occurred_at": "2026-11-15T09:27:46Z",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "url": "https://github.com/Thysrael/Horizon/commit/12d5fbde4d9e0776a48618ea65d16fe6d1e1b606",
+      "qualifies": true,
+      "reason": {
+        "zh-CN": "跳过无效的 OpenBB 新闻记录。已核对提交中的实现文件与差异；未运行上游测试。",
+        "en": "Skips invalid OpenBB news rows. Reviewed implementation changes; upstream tests were not run."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/Thysrael/Horizon",
+      "accessed_at": "2026-11-15T10:48:23.757Z",
+      "supports": {
+        "zh-CN": "本次联网核对仓库身份、Star 与公开状态。",
+        "en": "Repository identity, Stars and visibility checked during import."
+      }
+    },
+    {
+      "url": "https://github.com/Thysrael/Horizon/blob/main/README.md",
+      "accessed_at": "2026-11-15T10:54:07.276Z",
+      "supports": {
+        "zh-CN": "官方说明；能力整理沿用原卡，导入补注另列。",
+        "en": "Official documentation; source-card descriptions are retained with separate import notes."
+      }
+    },
+    {
+      "url": "https://github.com/Thysrael/Horizon/blob/main/LICENSE",
+      "accessed_at": "2026-11-15T10:53:18.707Z",
+      "supports": {
+        "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
+        "en": "License file retrieved during import; complex scope may still require review."
+      }
+    }
+  ],
+  "import_review": {
+    "batch": "2026-11-15",
+    "source_number": "058",
+    "source_file": "001_GitHub仓库介绍汇总_2026-11-15.md",
+    "source_sha256": "d86b47077ac82d5559dd3f2fd56fd35738add0f5fa2b3efae33a72396323d1f7",
+    "original_card_sha256": "a5d09a5d37269c6aa52cdb5c632688e2910294447d1c88fb5e0add84a86202a1",
+    "reviewed_at": "2026-11-15T11:03:50.120930Z",
+    "content_kind": "tool",
+    "pending_reasons": [],
+    "english_scope": "editorial_digest",
+    "source_card_preserved": true
+  }
+}
