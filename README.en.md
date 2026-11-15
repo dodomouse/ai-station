@@ -1,103 +1,112 @@
 # ai-station
 
-**A bilingual open source tool dictionary, organized by use case and backed by sources.**
+A Chinese and English dictionary of GitHub tools, organized by purpose.
 
 [简体中文](README.md) | English
 
-ai-station catalogs useful tools hosted on GitHub. Each entry has Chinese and English descriptions covering use cases, features, limitations, getting started and alternatives. The catalog covers general-purpose tools, with AI as one category.
+The catalog contains 62 projects, with both languages in one Markdown file per project. The 2026-11-15 review classified 35 as included and 27 as candidates. Stars, activity and license information are dated records maintained by hand.
 
-[Browse in English](indexes/README.en.md) · [浏览中文目录](indexes/README.md) · [Contributing](CONTRIBUTING.en.md) · [Data format](docs/data-format.en.md)
+## Search
 
-## Current status
-
-The catalog contains 62 projects, 124 language documents and 62 GitHub snapshots. At the latest 2026-11-15 review, 35 qualified for the default catalog and 27 remained searchable candidates. See the [additions and refresh report](docs/imports/2026-11-15-additions.en.md) and [initial 59-entry import](docs/imports/2026-11-15.en.md). Automated GitHub collection, scheduled refresh and web search are not implemented.
+Use browser find (Ctrl/⌘+F) for names or purposes, or use GitHub repository search. Open a project for its description, requirements, limitations and sources. Candidates are also listed here.
 
 ## Inclusion criteria
 
-The default catalog only lists tools that meet every condition:
+- At least 1000 Stars.
+- Confirmed functional or bug-fix activity, merged pull requests or official releases within three calendar months. Documentation-only or mechanical bot updates do not qualify on their own.
+- A public repository that is neither archived nor disabled, with an open-source license and both languages reviewed.
+- GitHub snapshots no older than seven days at review time. Expired records require another review.
 
-- At least **1,000 GitHub stars**.
-- Human-reviewed evidence of meaningful maintenance within the last **3 calendar months**.
-- A public GitHub repository that is neither archived nor disabled.
-- A reviewed open source license and reviewed content in both languages.
-- A GitHub snapshot no more than **7 days** old at evaluation time.
+Projects that miss a criterion or lack evidence remain candidates with a stated reason. Stars and activity do not establish software quality.
 
-Feature changes, bug fixes, merged pull requests and stable releases can provide maintenance evidence. Documentation-only changes and mechanical bot updates do not qualify on their own. Stars and activity are filters, not proof of quality.
+## Included (35)
 
-Entries that no longer qualify remain in the repository and are available through `search --all`. Local search evaluates eligibility on each run. Markdown indexes show the build-time result and its evaluation timestamp.
+| Project | Purpose | Category | Stars |
+| --- | --- | --- | ---: |
+| [ai-memory](docs/ai-memory.md#english) | Shared project memory for coding assistants, with searchable notes, session handoffs and optional document import and summaries. | AI tools | 15919 |
+| [dsh-superagent 研究原型](docs/dsh-superagent-prototype.md#english) | Research code for an agent that monitors one GitHub repository and optionally Feishu, then works on authorized tasks. | AI tools | 23202 |
+| [Magpie](docs/magpie.md#english) | A local gateway that routes coding-agent requests across configured model providers and accounts, with optional failover and masking. | AI tools | 36740 |
+| [Agent Autoloop](docs/agent-autoloop.md#english) | A local event and scheduling service that dispatches tasks to installed command-line agents and records their results. | Automation | 5427 |
+| [Reason Network](docs/reason-network.md#english) | A background network for communication between agent sessions across teammates, devices and projects. | Automation | 1748 |
+| [AI Berkshire](docs/ai-berkshire.md#english) | Agent skills for company research, financial statements, valuation and tracking investment theses from multiple perspectives. | Data processing | 17140 |
+| [Vibe Research](docs/vibe-research.md#english) | A research workspace for watchlists, holdings, company and sector studies, reports and backtesting across supported markets. | Data processing | 3720 |
+| [AI Website Cloner Template：网站复刻与迁移模板](docs/ai-website-cloner-template.md#english) | A Next.js template and agent workflow for observing existing webpages and rebuilding their layout, assets and interactions as editable code. | Development | 39159 |
+| [Archify](docs/archify.md#english) | Turns ideas, plans and repository material into interactive HTML diagrams and explanatory pages with source references. | Development | 96538 |
+| [CLI-Anything](docs/cli-anything.md#english) | A framework for building command-line interfaces that drive real application backends, including JSON output and interactive workflows. | Development | 58741 |
+| [code-review-graph](docs/code-review-graph.md#english) | Builds an incremental local code graph for dependency queries, impact exploration and review context. | Development | 32776 |
+| [Craft Anything](docs/craft-anything.md#english) | An early application-research and rebuilding workspace that combines inspection, agent-assisted implementation and comparison. | Development | 33239 |
+| [Graphify](docs/graphify.md#english) | Builds queryable graphs from code and other materials, supporting relationship exploration and visual explanations. | Development | 148039 |
+| [Moli：面向 AI 智能体的无头浏览器](docs/moli.md#english) | A Rust headless browser for JavaScript execution, page extraction and browser automation, with optional layout, screenshots and PDF output. | Development | 23783 |
+| [Orca（智能体开发工作台）](docs/orca.md#english) | A coding-agent workspace with multiple project views, terminals, change review, remote SSH and mobile companions. | Development | 125338 |
+| [REA — Reverse Engineer Anything](docs/rea.md#english) | CLI and MCP tooling for examining binaries, JavaScript, desktop apps and websites with multiple analysis backends. | Development | 460761 |
+| [Skills For Real Engineers（Matt Pocock）](docs/skills.md#english) | Composable coding-assistant skills for requirements, architecture, implementation, review and refactoring. | Development | 324716 |
+| [Spec Kit](docs/spec-kit.md#english) | A toolkit for specification-driven development, connecting requirements, plans, tasks and implementation through agent workflows. | Development | 149841 |
+| [Anatomy](docs/anatomy.md#english) | Creates interactive isometric explanations of machines, instruments and mechanisms using browser-based graphics. | Images, audio and video | 27394 |
+| [代码手绘插画与动画](docs/anidoodle.md#english) | A code-based drawing and animation toolkit for stylized illustrations, characters and interactive browser output. | Images, audio and video | 1693 |
+| [Animate 程序化动画](docs/animate.md#english) | Builds procedural Canvas animations with music and timed narration, then renders video using browser tools and FFmpeg. | Images, audio and video | 1967 |
+| [Bang Motion](docs/bang-motion.md#english) | Creates openers, promos, product clips and typography as a single HTML animation with optional video export. | Images, audio and video | 2201 |
+| [Claude Animation Base](docs/claudeanimationbase.md#english) | A p5.js and p5.brush animation starter with drawing primitives, character scenes, timelines and MP4 rendering. | Images, audio and video | 2995 |
+| [花叔艺术动画](docs/huashu-art-motion.md#english) | An agent-oriented toolkit of art-motion styles, explanatory patterns and reusable animation clips. | Images, audio and video | 6941 |
+| [Huashu Design](docs/huashu-design.md#english) | An agent skill for producing HTML designs, app prototypes, presentations, animations and explanatory graphics. | Images, audio and video | 29538 |
+| [15 种动态设计风格](docs/mg-styles-15.md#english) | Fifteen short motion-design examples with style prompts, source code and audio tooling. | Images, audio and video | 3540 |
+| [手绘口播视频](docs/sweety-handdraw-video.md#english) | A workflow for illustrated narration with local tracing, fills, handwriting and audio alignment, with newer portrait-film tooling. | Images, audio and video | 1218 |
+| [Teardown：交互式机械拆解与3D演示](docs/teardown.md#english) | A Claude Code skill for interactive 3D mechanism explanations, exploded views, sections and recorded video. | Images, audio and video | 3534 |
+| [产品宣传片制作](docs/video-shotcraft.md#english) | A product-video workflow that captures real webpages and builds editable Remotion-based timelines and export drafts. | Images, audio and video | 19790 |
+| [VoiceStudio](docs/voicestudio.md#english) | Voice software for cloning, speech design, transcription and dubbing, with batch processing and agent interfaces. | Images, audio and video | 110994 |
+| [Clash Verge Rev](docs/clash-verge-rev.md#english) | A graphical proxy client built around Mihomo, with profile management, routing rules, system proxy and TUN controls. | Operations | 158520 |
+| [best-skills](docs/best-skills.md#english) | A collection of agent workflows for papers, patents, presentations, graphics, code and document processing. | Productivity | 3176 |
+| [GenOffice](docs/genoffice.md#english) | An office workspace with desktop, CLI and MCP interfaces for editing, converting and searching documents. | Productivity | 12376 |
+| [Horizon：AI 信息聚合与双语新闻简报](docs/horizon.md#english) | Collects information from RSS, communities and other configured sources, filters and scores it, and produces bilingual reading reports. | Productivity | 14389 |
+| [Ghostty](docs/ghostty.md#english) | A terminal emulator with a native interface, GPU rendering, tabs and split panes. | Terminal and shell | 64125 |
 
-## Categories
+## Candidates (27)
 
-| Category | Typical uses |
-| --- | --- |
-| AI tools | Local inference, coding assistance, knowledge retrieval |
-| Development | API debugging, code navigation, development environments |
-| Terminal and shell | Command-line search, terminal interfaces, shell workflows |
-| Data processing | Cleaning, conversion, querying, visualization |
-| Automation | Batch processing, task orchestration, integration |
-| Operations | Deployment, monitoring, logging, backups |
-| Productivity | Notes, knowledge management, file organization |
-| Images, audio and video | Editing, conversion, compression, recording |
+| Project | Candidate reason | Category | Stars |
+| --- | --- | --- | ---: |
+| [微舆（BettaFish）](docs/bettafish.md#english) | License requires review | AI tools | 42701 |
+| [cc-connect](docs/cc-connect.md#english) | License requires review | Automation | 16376 |
+| [easyquotation](docs/easyquotation.md#english) | Recent qualifying maintenance not established | Data processing | 5478 |
+| [TradingAgents-CN](docs/tradingagents-cn.md#english) | Proprietary application layer | Data processing | 32957 |
+| [Nextpad++ for macOS](docs/nextpad-plus-plus-macos.md#english) | License requires review | Development | 1445 |
+| [OpenTest（功能待公开）](docs/opentest.md#english) | License requires review | Development | 3 |
+| [Public APIs](docs/public-apis.md#english) | Bilingual content requires review | Development | 499152 |
+| [Serena](docs/serena.md#english) | License requires review | Development | 31391 |
+| [Awesome DESIGN.md](docs/awesome-design-md.md#english) | Bilingual content requires review | Images, audio and video | 127606 |
+| [拾景纸刊：照片与撕纸拼贴](docs/gathered-scenes-zine-skill.md#english) | License requires review | Images, audio and video | 5660 |
+| [Heytea Doodle Poster：实物照片与小人涂鸦](docs/heytea-style.md#english) | Below 1000 Stars | Images, audio and video | 350 |
+| [Ian Xiaohei Illustrations](docs/ian-xiaohei-illustrations.md#english) | Bilingual content requires review | Images, audio and video | 13217 |
+| [Lemo-Opuscar](docs/lemo-opuscar.md#english) | License requires review | Images, audio and video | 16446 |
+| [Photo Relic Editorial：照片与纸上印迹](docs/photo-relic-editorial.md#english) | Below 1000 Stars | Images, audio and video | 454 |
+| [照片转海报：厚涂微缩景观与水彩旅行卡](docs/photo-to-poster-skills.md#english) | Below 1000 Stars | Images, audio and video | 36 |
+| [Photo-to-Zine：照片明信片正反面](docs/photo-to-zine-postcard.md#english) | Below 1000 Stars | Images, audio and video | 289 |
+| [TelemetryCleaner](docs/telemetrycleaner.md#english) | Below 1000 Stars | Operations | 807 |
+| [中国独立开发者项目列表](docs/chinese-independent-developer.md#english) | License requires review | Productivity | 62115 |
+| [Clash 客户端导航（clashbk）](docs/clash.md#english) | License requires review | Productivity | 11389 |
+| [中小学·高中知识图谱（cn-math-taxonomy）](docs/cn-math-taxonomy.md#english) | License requires review | Productivity | 8095 |
+| [狗头军师](docs/goutoujunshi.md#english) | Bilingual content requires review | Productivity | 9693 |
+| [程序员做饭指南](docs/howtocook.md#english) | Bilingual content requires review | Productivity | 103951 |
+| [人情世故指南](docs/howtogetalong.md#english) | License requires review | Productivity | 2048 |
+| [高性价比人生指南](docs/howtolivebetter.md#english) | License does not meet the open-source criteria | Productivity | 75865 |
+| [程序员延寿指南](docs/howtolivelonger.md#english) | Bilingual content requires review | Productivity | 36107 |
+| [投资入门指南](docs/investing-for-beginners.md#english) | License requires review | Productivity | 4539 |
+| [人生进阶指南](docs/up.md#english) | License requires review | Productivity | 70565 |
 
-## Local usage
+## Add or update an entry
 
-Use Python 3.10 or later. No third-party packages are required. Run these commands from the repository root:
+Maintain one bilingual file at `docs/<project>.md` with the GitHub URL, purpose, features, requirements, limitations, setup and sources. Record Stars, licensing, qualifying maintenance evidence and review dates, then update the row in both README files.
 
-```bash
-python3 scripts/catalog.py validate
-python3 -m unittest discover -s tests -v
-python3 scripts/catalog.py build
-python3 scripts/catalog.py search "terminal" --lang en
-python3 scripts/catalog.py search "终端" --lang en
-```
+Label documentation-only reviews accordingly. Do not describe untested features as hands-on findings. Follow an existing entry for the format.
 
-Queries search content in both languages. `--lang` selects the summary language and the linked entry document.
-
-```bash
-python3 scripts/catalog.py search --category ai --platform linux --lang en
-python3 scripts/catalog.py search --all --lang en --json
-```
-
-Use `search --all` to include candidates outside the default catalog. `build` generates two Markdown indexes and `dist/catalog.json`. Supply an evaluation time for a reproducible build:
-
-```bash
-python3 scripts/catalog.py build --as-of 2026-11-15T11:54:08.129868Z
-```
-
-## Add a tool
-
-This command creates a draft. Replace `example-tool` and `owner/repository` with real values:
-
-```bash
-python3 scripts/catalog.py new example-tool --repository owner/repository
-```
-
-Fill in the shared metadata and both descriptions. Follow the [contribution guide](CONTRIBUTING.en.md) to add sources, license review, maintenance evidence and a repository snapshot. Drafts can pass structural validation. Default inclusion requires bilingual review and a successful eligibility evaluation.
-
-## Repository structure
+## Structure
 
 ```text
-config/                   Inclusion policy and bilingual categories
-tools/<id>/              One directory per tool
-   tool.json              Shared structured metadata
-   README.zh-CN.md         Chinese description
-   README.en.md            English description
-data/github/<id>.json    GitHub snapshot
-templates/               Entry and snapshot templates
-scripts/catalog.py       Create, validate, build and search
-indexes/                 Generated bilingual indexes
-tests/                   Behavior and boundary tests
-docs/                    Design and format references
+README.md          Chinese guide and index
+README.en.md       English guide and index
+docs/<project>.md  One bilingual document per project
+LICENSE            Repository license
+.gitignore         Local file exclusions
 ```
-
-Editors maintain the metadata and descriptions. Scripts generate the indexes. Star counts live in snapshots so translations do not maintain separate copies.
-
-## Contributing
-
-Read the [English contribution guide](CONTRIBUTING.en.md) or [中文贡献指南](CONTRIBUTING.md). Field definitions are in the [English format reference](docs/data-format.en.md) and [中文格式说明](docs/data-format.md).
-
-Contributions can add real entries, improve translations, update maintenance evidence or explain alternatives. Mark documentation-based descriptions as documentation reviews.
 
 ## License
 
-This repository uses the [Apache License 2.0](LICENSE). Listed tools retain their own licenses.
+This repository uses [Apache License 2.0](LICENSE). Listed tools keep their own licenses; consult each entry and the upstream terms.

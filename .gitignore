@@ -1,7 +1,5 @@
-__pycache__/
-*.py[cod]
-.venv/
 .DS_Store
-/dist/
 /codex_context/
 /codex_artifact/
+/.business-map/
+/.code-map/
