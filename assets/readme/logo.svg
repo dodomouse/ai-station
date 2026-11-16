@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">ai-station</title><desc id="desc">An open index connected to a single signal node, in deep blue and mint.</desc>
+<defs><linearGradient id="bg" x1="14" y1="0" x2="145" y2="160" gradientUnits="userSpaceOnUse"><stop stop-color="#112C43"/><stop offset="1" stop-color="#071522"/></linearGradient><linearGradient id="page" x1="84" y1="54" x2="120" y2="108" gradientUnits="userSpaceOnUse"><stop stop-color="#67E8CF"/><stop offset="1" stop-color="#33BDAF"/></linearGradient></defs>
+<rect x="1" y="1" width="158" height="158" rx="37" fill="url(#bg)" stroke="#26445A" stroke-width="2"/>
+<path d="M80 35V53" stroke="#67E8CF" stroke-width="4" stroke-linecap="round"/>
+<circle cx="80" cy="33" r="6" fill="#79F0D5"/>
+<path d="M41 53C53 50 65 54 75 61V115C65 108 53 105 41 108V53Z" fill="#163A52" stroke="#B9DCE6" stroke-width="4" stroke-linejoin="round"/>
+<path d="M85 61C95 54 107 50 119 53V108C107 105 95 108 85 115V61Z" fill="#16463F" stroke="url(#page)" stroke-width="4" stroke-linejoin="round"/>
+<path d="M51 68L65 73M51 82L65 87M51 96L65 101" stroke="#82AABF" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M95 73L109 68M95 87L109 82M95 101L109 96" stroke="#67E8CF" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
