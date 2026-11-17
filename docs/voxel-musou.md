@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "a2ffa96dae312e6977ac9cb2914dfbab8d920bd3989304a72d8c73eb256f178d",
-      "source_url": "https://raw.githubusercontent.com/mike007jd/voxel-musou/main/LICENSE",
+      "source_url": "https://github.com/mike007jd/voxel-musou/blob/aba5fb8f43b713e88e8ac3a3105e48f01941dc7f/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/mike007jd/voxel-musou/main/LICENSE",
+          "source_url": "https://github.com/mike007jd/voxel-musou/blob/aba5fb8f43b713e88e8ac3a3105e48f01941dc7f/LICENSE",
           "fetched_at": "2026-11-16T14:26:57.125Z",
-          "sha256": "a2ffa96dae312e6977ac9cb2914dfbab8d920bd3989304a72d8c73eb256f178d"
+          "sha256": "a2ffa96dae312e6977ac9cb2914dfbab8d920bd3989304a72d8c73eb256f178d",
+          "source_commit": "aba5fb8f43b713e88e8ac3a3105e48f01941dc7f"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "aba5fb8f43b713e88e8ac3a3105e48f01941dc7f"
     },
     "activity_evidence": [
       {
@@ -140,7 +144,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/mike007jd/voxel-musou",
         "https://raw.githubusercontent.com/mike007jd/voxel-musou/main/README.md",
         "https://github.com/mike007jd/voxel-musou/commit/3e6d5501d0c103c4869a6f6ae15bac0126f7d788",
-        "https://raw.githubusercontent.com/mike007jd/voxel-musou/main/LICENSE"
+        "https://github.com/mike007jd/voxel-musou/blob/aba5fb8f43b713e88e8ac3a3105e48f01941dc7f/LICENSE"
       ]
     }
   },

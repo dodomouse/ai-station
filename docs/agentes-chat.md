@@ -9,7 +9,7 @@ GitHub：[agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-cha
 | 分类 / Category | 自动化 / Automation |
 | 状态 / Status | 已收录 / Included |
 | Star | 1597 |
-| 许可证 / License | AGPL-3.0 |
+| 许可证 / License | AGPL-3.0-only |
 | 评估时间 / Evaluated at | 2026-11-16T14:30:19.931551Z |
 | 快照时间 / Snapshot fetched at | 2026-11-16T14:27:09.977Z |
 
@@ -55,6 +55,9 @@ The project appears in the account's [author-published article dated 2026-11-16]
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:30:19.931551Z",
@@ -88,12 +91,24 @@ The project appears in the account's [author-published article dated 2026-11-16]
       "reviewed_at": "2026-11-16T14:30:19.931551Z"
     },
     "license_review": {
-      "spdx": "AGPL-3.0",
+      "spdx": "AGPL-3.0-only",
       "osi_approved": true,
       "license_sha256": "7c107a37ec0994df50a7ecd9e4002187e99148ed6fd98ffee4f23dfc18a363e0",
-      "source_url": "https://github.com/agentes-chat/agentes-chat/blob/main/LICENSE",
+      "source_url": "https://github.com/agentes-chat/agentes-chat/blob/d7b14e904131588fe733430c7fa3ace7d4e38ec7/LICENSE",
       "reviewed_at": "2026-11-16T14:30:19.931551Z",
-      "scope_note": "Main code AGPL-3.0-only with section 7 terms in NOTICE; separate packages and third-party components retain their licenses."
+      "scope_note": "Main code AGPL-3.0-only with section 7 terms in NOTICE; separate packages and third-party components retain their licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "d7b14e904131588fe733430c7fa3ace7d4e38ec7",
+      "files": [
+        {
+          "path": "NOTICE",
+          "source_url": "https://github.com/agentes-chat/agentes-chat/blob/d7b14e904131588fe733430c7fa3ace7d4e38ec7/NOTICE",
+          "source_commit": "d7b14e904131588fe733430c7fa3ace7d4e38ec7",
+          "sha256": "d03ec4408a191c9f74f54963ab66bb4f1ab0c4e56004d5694059392b911974ea",
+          "fetched_at": "2026-11-17T03:15:49.908584+00:00"
+        }
+      ]
     },
     "activity_evidence": [
       {
@@ -152,3 +167,5 @@ The project appears in the account's [author-published article dated 2026-11-16]
   }
 }
 ```
+
+</details>

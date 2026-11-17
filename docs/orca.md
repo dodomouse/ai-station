@@ -207,8 +207,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.008Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
-      "source_url": "https://github.com/stablyai/orca/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/stablyai/orca/blob/409ce31fb483c4c24989a22c10d0bc2b32211c63/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "409ce31fb483c4c24989a22c10d0bc2b32211c63"
     },
     "activity_evidence": [
       {
@@ -241,7 +244,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.008Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/stablyai/orca/blob/main/LICENSE",
+        "url": "https://github.com/stablyai/orca/blob/409ce31fb483c4c24989a22c10d0bc2b32211c63/LICENSE",
         "accessed_at": "2026-11-15T10:53:10.953Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

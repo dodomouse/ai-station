@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
-      "source_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/LICENSE",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/5d5e2c062a4876e590f8d5a9fe59833d7b1e3684/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/LICENSE",
+          "source_url": "https://github.com/heygen-com/hyperframes/blob/5d5e2c062a4876e590f8d5a9fe59833d7b1e3684/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.482Z",
-          "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8"
+          "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+          "source_commit": "5d5e2c062a4876e590f8d5a9fe59833d7b1e3684"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5d5e2c062a4876e590f8d5a9fe59833d7b1e3684"
     },
     "activity_evidence": [
       {
@@ -194,7 +198,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/heygen-com/hyperframes",
         "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
         "https://github.com/heygen-com/hyperframes/releases/tag/v0.9.56",
-        "https://raw.githubusercontent.com/heygen-com/hyperframes/main/LICENSE"
+        "https://github.com/heygen-com/hyperframes/blob/5d5e2c062a4876e590f8d5a9fe59833d7b1e3684/LICENSE"
       ]
     }
   },

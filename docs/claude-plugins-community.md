@@ -126,8 +126,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://github.com/anthropics/claude-plugins-community/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T15:06:51.866Z"
+      "source_url": "https://github.com/anthropics/claude-plugins-community/blob/163301d1904c0a994539f5226ce0fcd65b8652bf/LICENSE",
+      "reviewed_at": "2026-11-16T15:06:51.866Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "163301d1904c0a994539f5226ce0fcd65b8652bf"
     },
     "activity_evidence": [
       {
@@ -152,7 +155,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/anthropics/claude-plugins-community/blob/main/LICENSE",
+        "url": "https://github.com/anthropics/claude-plugins-community/blob/163301d1904c0a994539f5226ce0fcd65b8652bf/LICENSE",
         "accessed_at": "2026-11-16T15:06:51.866Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

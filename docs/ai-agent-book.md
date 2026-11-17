@@ -72,6 +72,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -107,9 +110,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "2a9d82c7f37caadf72436764de67e4042942b8dea2ec9456ed5c43daf7eba074",
-      "source_url": "https://github.com/bojieli/ai-agent-book/blob/main/LICENSE",
+      "source_url": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "dbc046eb896ac4e39aa19c7774c8bf49583b89a6"
     },
     "activity_evidence": [
       {
@@ -138,7 +144,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/bojieli/ai-agent-book/blob/main/LICENSE",
+        "url": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -175,3 +181,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

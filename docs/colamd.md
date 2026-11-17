@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "b458eb0211ec5df71f8c32cfde43027bd0471337d36f1637fe229b76369fcc45",
-      "source_url": "https://raw.githubusercontent.com/marswaveai/ColaMD/main/LICENSE",
+      "source_url": "https://github.com/marswaveai/ColaMD/blob/7c22490221d826bbd4b0232be2b9278aecfc44ae/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/marswaveai/ColaMD/main/LICENSE",
+          "source_url": "https://github.com/marswaveai/ColaMD/blob/7c22490221d826bbd4b0232be2b9278aecfc44ae/LICENSE",
           "fetched_at": "2026-11-16T14:23:41.173Z",
-          "sha256": "b458eb0211ec5df71f8c32cfde43027bd0471337d36f1637fe229b76369fcc45"
+          "sha256": "b458eb0211ec5df71f8c32cfde43027bd0471337d36f1637fe229b76369fcc45",
+          "source_commit": "7c22490221d826bbd4b0232be2b9278aecfc44ae"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7c22490221d826bbd4b0232be2b9278aecfc44ae"
     },
     "activity_evidence": [
       {
@@ -123,7 +127,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/marswaveai/colamd",
         "https://raw.githubusercontent.com/marswaveai/ColaMD/main/README.md",
         "https://github.com/marswaveai/ColaMD/releases/tag/v2.7.12",
-        "https://raw.githubusercontent.com/marswaveai/ColaMD/main/LICENSE"
+        "https://github.com/marswaveai/ColaMD/blob/7c22490221d826bbd4b0232be2b9278aecfc44ae/LICENSE"
       ]
     }
   },

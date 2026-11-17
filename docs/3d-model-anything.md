@@ -73,6 +73,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -108,9 +111,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7b41d61a4569d103d9968cbb246c9e489ae14797b171d26ef47825a040c958b4",
-      "source_url": "https://github.com/wesbos/3d-model-anything/blob/main/LICENSE",
+      "source_url": "https://github.com/wesbos/3d-model-anything/blob/31b2dc9da3fb541e501f2f0936e55b32afb70ee8/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "MIT covers source code and skills; demo data and images have separate restricted terms and are excluded from this code-license finding."
+      "scope_note": "MIT covers source code and skills; demo data and images have separate restricted terms and are excluded from this code-license finding.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "31b2dc9da3fb541e501f2f0936e55b32afb70ee8"
     },
     "activity_evidence": [
       {
@@ -138,7 +144,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/wesbos/3d-model-anything/blob/main/LICENSE",
+        "url": "https://github.com/wesbos/3d-model-anything/blob/31b2dc9da3fb541e501f2f0936e55b32afb70ee8/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -175,3 +181,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "c1b6a99661affda21c759da02976e76cc6694c23ef564c0f1267cdf8d803ca19",
-      "source_url": "https://raw.githubusercontent.com/bojieli/ai-infra-book/main/LICENSE",
+      "source_url": "https://github.com/bojieli/ai-infra-book/blob/3bdcb4fcab73010eeaccf31cc10a8242a895d82e/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/bojieli/ai-infra-book/main/LICENSE",
+          "source_url": "https://github.com/bojieli/ai-infra-book/blob/3bdcb4fcab73010eeaccf31cc10a8242a895d82e/LICENSE",
           "fetched_at": "2026-11-16T14:23:27.862Z",
-          "sha256": "c1b6a99661affda21c759da02976e76cc6694c23ef564c0f1267cdf8d803ca19"
+          "sha256": "c1b6a99661affda21c759da02976e76cc6694c23ef564c0f1267cdf8d803ca19",
+          "source_commit": "3bdcb4fcab73010eeaccf31cc10a8242a895d82e"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "3bdcb4fcab73010eeaccf31cc10a8242a895d82e"
     },
     "activity_evidence": [
       {
@@ -139,7 +143,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/bojieli/ai-infra-book",
         "https://raw.githubusercontent.com/bojieli/ai-infra-book/main/README.md",
         "https://github.com/bojieli/ai-infra-book/commit/bee1aad9690ee6aa2923b797c680cc3aebb4ce0e",
-        "https://raw.githubusercontent.com/bojieli/ai-infra-book/main/LICENSE"
+        "https://github.com/bojieli/ai-infra-book/blob/3bdcb4fcab73010eeaccf31cc10a8242a895d82e/LICENSE"
       ]
     }
   },

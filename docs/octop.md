@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "5f2089cdcc57d00c6b70c0fb83368cbf3a86bb57839385fc6ac9086878d606e8",
-      "source_url": "https://raw.githubusercontent.com/TencentCloud/Octop/main/LICENSE",
+      "source_url": "https://github.com/TencentCloud/Octop/blob/bf134dbd379036ce7545c7df1a1da7e381ece9ff/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/TencentCloud/Octop/main/LICENSE",
+          "source_url": "https://github.com/TencentCloud/Octop/blob/bf134dbd379036ce7545c7df1a1da7e381ece9ff/LICENSE",
           "fetched_at": "2026-11-16T14:23:28.986Z",
-          "sha256": "5f2089cdcc57d00c6b70c0fb83368cbf3a86bb57839385fc6ac9086878d606e8"
+          "sha256": "5f2089cdcc57d00c6b70c0fb83368cbf3a86bb57839385fc6ac9086878d606e8",
+          "source_commit": "bf134dbd379036ce7545c7df1a1da7e381ece9ff"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "bf134dbd379036ce7545c7df1a1da7e381ece9ff"
     },
     "activity_evidence": [
       {
@@ -134,7 +138,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/tencentcloud/octop",
         "https://raw.githubusercontent.com/TencentCloud/Octop/main/README.md",
         "https://github.com/TencentCloud/Octop/releases/tag/v1.0.3b6",
-        "https://raw.githubusercontent.com/TencentCloud/Octop/main/LICENSE"
+        "https://github.com/TencentCloud/Octop/blob/bf134dbd379036ce7545c7df1a1da7e381ece9ff/LICENSE"
       ]
     }
   },

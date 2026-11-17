@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "a708e87c86bd01c2e161ea58961932e612ad7f2e96feb17ef601d505f7576092",
-      "source_url": "https://raw.githubusercontent.com/jev-chat/jev-chat-jarvis/main/LICENSE",
+      "source_url": "https://github.com/jev-chat/jev-chat-jarvis/blob/bd3fe42eebd04b58b2b1d4a7f5310fddfb0bb91b/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/jev-chat/jev-chat-jarvis/main/LICENSE",
+          "source_url": "https://github.com/jev-chat/jev-chat-jarvis/blob/bd3fe42eebd04b58b2b1d4a7f5310fddfb0bb91b/LICENSE",
           "fetched_at": "2026-11-16T14:23:27.933Z",
-          "sha256": "a708e87c86bd01c2e161ea58961932e612ad7f2e96feb17ef601d505f7576092"
+          "sha256": "a708e87c86bd01c2e161ea58961932e612ad7f2e96feb17ef601d505f7576092",
+          "source_commit": "bd3fe42eebd04b58b2b1d4a7f5310fddfb0bb91b"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "bd3fe42eebd04b58b2b1d4a7f5310fddfb0bb91b"
     },
     "activity_evidence": [
       {
@@ -123,7 +127,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/jev-chat/jev-chat-jarvis",
         "https://github.com/jev-chat/jev-chat-jarvis/blob/main/cn/README.md",
         "https://github.com/jev-chat/jev-chat-jarvis/releases/tag/v1.7",
-        "https://raw.githubusercontent.com/jev-chat/jev-chat-jarvis/main/LICENSE"
+        "https://github.com/jev-chat/jev-chat-jarvis/blob/bd3fe42eebd04b58b2b1d4a7f5310fddfb0bb91b/LICENSE"
       ]
     }
   },

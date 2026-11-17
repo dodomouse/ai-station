@@ -206,8 +206,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.178Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "e68105939fc1699f26fef5dc6d4eea2978c4f7209bf6cd5d9c4eb86395dd7b33",
-      "source_url": "https://github.com/simonlin1212/Vibe-Research/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/simonlin1212/Vibe-Research/blob/76bd805f9b8387035b9dbc9110d1484d782d0e3a/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "76bd805f9b8387035b9dbc9110d1484d782d0e3a"
     },
     "activity_evidence": [
       {
@@ -240,7 +243,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.178Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/simonlin1212/Vibe-Research/blob/main/LICENSE",
+        "url": "https://github.com/simonlin1212/Vibe-Research/blob/76bd805f9b8387035b9dbc9110d1484d782d0e3a/LICENSE",
         "accessed_at": "2026-11-15T10:53:10.834Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

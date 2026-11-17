@@ -74,16 +74,20 @@ Discovery uses an author-attributed public repost with corroborated repository l
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "ecf1a12d3dc51085d2f3a720dc177c7da3cd075ea3fadcc6a1b719fb44ed30e0",
-      "source_url": "https://raw.githubusercontent.com/OpenWhispr/openwhispr/main/LICENSE",
+      "source_url": "https://github.com/OpenWhispr/openwhispr/blob/2eb67aa55bc7b5a8e778fe2719cbdf7bef07cd04/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/OpenWhispr/openwhispr/main/LICENSE",
+          "source_url": "https://github.com/OpenWhispr/openwhispr/blob/2eb67aa55bc7b5a8e778fe2719cbdf7bef07cd04/LICENSE",
           "fetched_at": "2026-11-16T14:48:18.686Z",
-          "sha256": "ecf1a12d3dc51085d2f3a720dc177c7da3cd075ea3fadcc6a1b719fb44ed30e0"
+          "sha256": "ecf1a12d3dc51085d2f3a720dc177c7da3cd075ea3fadcc6a1b719fb44ed30e0",
+          "source_commit": "2eb67aa55bc7b5a8e778fe2719cbdf7bef07cd04"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "2eb67aa55bc7b5a8e778fe2719cbdf7bef07cd04"
     },
     "activity_evidence": [
       {
@@ -123,7 +127,7 @@ Discovery uses an author-attributed public repost with corroborated repository l
         "https://api.github.com/repos/OpenWhispr/openwhispr",
         "https://raw.githubusercontent.com/OpenWhispr/openwhispr/main/README.md",
         "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.11.0",
-        "https://raw.githubusercontent.com/OpenWhispr/openwhispr/main/LICENSE"
+        "https://github.com/OpenWhispr/openwhispr/blob/2eb67aa55bc7b5a8e778fe2719cbdf7bef07cd04/LICENSE"
       ]
     }
   },

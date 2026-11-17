@@ -204,8 +204,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.008Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "4608284d776c4ca9b88d05c7210f71ab03400520bf7334d72404eba53f56dd4e",
-      "source_url": "https://github.com/tirth8205/code-review-graph/blob/staging/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/tirth8205/code-review-graph/blob/bbdda4b9e4b4818a9f04d7ef96ac0e50da13f208/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "bbdda4b9e4b4818a9f04d7ef96ac0e50da13f208"
     },
     "activity_evidence": [
       {
@@ -238,7 +241,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.008Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/tirth8205/code-review-graph/blob/staging/LICENSE",
+        "url": "https://github.com/tirth8205/code-review-graph/blob/bbdda4b9e4b4818a9f04d7ef96ac0e50da13f208/LICENSE",
         "accessed_at": "2026-11-15T10:53:11.360Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

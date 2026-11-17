@@ -125,8 +125,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "AGPL-3.0-or-later",
       "osi_approved": true,
       "license_sha256": "8c7ce84427b16871e58564a15b2b43fb3dae8afe7d9f407ab8269ef157d69c2e",
-      "source_url": "https://github.com/ankitects/anki/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:47:41.615Z"
+      "source_url": "https://github.com/ankitects/anki/blob/7118a33b83977fb7e6af892833be374c285705d1/LICENSE",
+      "reviewed_at": "2026-11-16T14:47:41.615Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7118a33b83977fb7e6af892833be374c285705d1"
     },
     "activity_evidence": [
       {
@@ -151,7 +154,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/ankitects/anki/blob/main/LICENSE",
+        "url": "https://github.com/ankitects/anki/blob/7118a33b83977fb7e6af892833be374c285705d1/LICENSE",
         "accessed_at": "2026-11-16T14:47:41.615Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

@@ -35,7 +35,7 @@ GitHub：[echo-loop/Echo-Loop](https://github.com/echo-loop/Echo-Loop)
 
 通过精听、跟读、复述和复习流程练习英语听说。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v1.0.47](https://github.com/echo-loop/Echo-Loop/releases/tag/v1.0.47)，2026-11-11T08:12:42Z。已核对正式发行 v1.0.47 的发布状态与时间。
+有效维护证据：[v1.0.47](https://github.com/echo-loop/Echo-Loop/releases/tag/v1.0.47)，2026-11-11T08:12:42Z。今日分享卡片按本地日期请求，并校验服务端回显日期，避免跨时区缓存错误日期的卡片。 2026-11-17 已读取[实现提交](https://github.com/echo-loop/Echo-Loop/commit/a282afdf71dc404b6534e239fb3fe1b5e9e87829)的差异；未运行上游测试。
 
 发现线索：[公开索引](https://www.noking.tech/github-radar/)记录的[微信文章](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247536438&idx=1&sn=5b4b3820b7042c8e94b969f521764b1a)，索引日期 2026-09-03。仅核对公开索引，未直接读取该篇微信全文；功能与限制以上游资料为依据。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 An English listening and speaking app organized around intensive listening, shadowing, retelling and review. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v1.0.47](https://github.com/echo-loop/Echo-Loop/releases/tag/v1.0.47), 2026-11-11T08:12:42Z. Checked the non-draft, non-prerelease publication v1.0.47 and its date.
+Activity: [v1.0.47](https://github.com/echo-loop/Echo-Loop/releases/tag/v1.0.47), 2026-11-11T08:12:42Z. Requests daily share cards by local date and validates the echoed date to avoid caching the wrong day across time zones. On 2026-11-17, the [implementation diff](https://github.com/echo-loop/Echo-Loop/commit/a282afdf71dc404b6534e239fb3fe1b5e9e87829) was inspected; upstream tests were not run.
 
 Discovery: [an indexed WeChat article](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247536438&idx=1&sn=5b4b3820b7042c8e94b969f521764b1a). This is a secondary discovery record; the WeChat article body was not read. Features and limits come from upstream documentation.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,38 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "AGPL-3.0",
       "osi_approved": true,
       "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "source_url": "https://github.com/echo-loop/Echo-Loop/blob/main/LICENSE",
+      "source_url": "https://github.com/echo-loop/Echo-Loop/blob/49b4dea0ff2e2a8ff9c72561cc38ef3b980d9577/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "49b4dea0ff2e2a8ff9c72561cc38ef3b980d9577"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-11T08:12:42Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/echo-loop/Echo-Loop/releases/tag/v1.0.47",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v1.0.47 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v1.0.47 and its date."
+          "zh-CN": "今日分享卡片按本地日期请求，并校验服务端回显日期，避免跨时区缓存错误日期的卡片。",
+          "en": "Requests daily share cards by local date and validates the echoed date to avoid caching the wrong day across time zones."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/echo-loop/Echo-Loop/commit/a282afdf71dc404b6534e239fb3fe1b5e9e87829",
+          "sha": "a282afdf71dc404b6534e239fb3fe1b5e9e87829",
+          "occurred_at": "2026-11-10T08:39:59Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "lib/features/daily_goal_check_in/data/share_card_api.dart"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +154,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/echo-loop/Echo-Loop/blob/main/LICENSE",
+        "url": "https://github.com/echo-loop/Echo-Loop/blob/49b4dea0ff2e2a8ff9c72561cc38ef3b980d9577/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +191,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

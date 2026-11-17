@@ -72,6 +72,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -107,9 +110,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "034fb52b1d57360ecbae6cb1632a88f86fd7c3d3f5631a5f082710203dda0be7",
-      "source_url": "https://github.com/cordiverse/cordis/blob/main/LICENSE",
+      "source_url": "https://github.com/cordiverse/cordis/blob/c9fe179ce5ac484620a387a1697409cb007d4178/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "c9fe179ce5ac484620a387a1697409cb007d4178"
     },
     "activity_evidence": [
       {
@@ -138,7 +144,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/cordiverse/cordis/blob/main/LICENSE",
+        "url": "https://github.com/cordiverse/cordis/blob/c9fe179ce5ac484620a387a1697409cb007d4178/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -175,3 +181,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

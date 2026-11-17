@@ -176,8 +176,11 @@ The README separately identifies Remotion terms and audio attribution requiremen
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "b2ce9877a55547ada9b870150664d1468ff777e67cc9888806a73927d31c5771",
-      "source_url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/Vincentwei1021/video-shotcraft/blob/ab66a247b2e8f838934f24902e34ae135dde6792/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "ab66a247b2e8f838934f24902e34ae135dde6792"
     },
     "activity_evidence": [
       {
@@ -210,7 +213,7 @@ The README separately identifies Remotion terms and audio attribution requiremen
         }
       },
       {
-        "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/LICENSE",
+        "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/ab66a247b2e8f838934f24902e34ae135dde6792/LICENSE",
         "accessed_at": "2026-11-15T10:53:16.614Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

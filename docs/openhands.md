@@ -35,7 +35,7 @@ GitHub：[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)
 
 用于软件开发任务的智能体工作台，提供会话、工具执行与变更审查。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0)，2026-11-12T14:22:00Z。已核对正式发行 v1.40.0 的发布状态与时间。
+有效维护证据：[v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0)，2026-11-12T14:22:00Z。新增默认分支查询，并让仓库选择流程使用实际默认分支，避免一律假定 main。 2026-11-17 已读取[实现提交](https://github.com/OpenHands/OpenHands/commit/d58ca3dcdf95c5847f1888de6d5e0600b53b718c)的差异；未运行上游测试。
 
 发现线索：[公开索引](https://www.noking.tech/github-radar/)记录的[微信文章](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247537495&idx=1&sn=803c312533d9b69a993cfa4e89cc5ee2)，索引日期 2026-10-03。仅核对公开索引，未直接读取该篇微信全文；功能与限制以上游资料为依据。
 
@@ -63,13 +63,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 An agent workspace for software development with conversations, tool execution and change review. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0), 2026-11-12T14:22:00Z. Checked the non-draft, non-prerelease publication v1.40.0 and its date.
+Activity: [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0), 2026-11-12T14:22:00Z. Adds default-branch lookup so repository selection uses the actual default instead of assuming main. On 2026-11-17, the [implementation diff](https://github.com/OpenHands/OpenHands/commit/d58ca3dcdf95c5847f1888de6d5e0600b53b718c) was inspected; upstream tests were not run.
 
 Discovery: [an indexed WeChat article](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247537495&idx=1&sn=803c312533d9b69a993cfa4e89cc5ee2). This is a secondary discovery record; the WeChat article body was not read. Features and limits come from upstream documentation.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -106,23 +109,38 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "e1d1fa9f3a8d7bef24449d488fcd8f00f8f272cac297bb9bed161eb6175b876a",
-      "source_url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+      "source_url": "https://github.com/OpenHands/OpenHands/blob/7a6536b39b2d031dba6b0f6c0c9cbea62a49ce51/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7a6536b39b2d031dba6b0f6c0c9cbea62a49ce51"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-12T14:22:00Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v1.40.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v1.40.0 and its date."
+          "zh-CN": "新增默认分支查询，并让仓库选择流程使用实际默认分支，避免一律假定 main。",
+          "en": "Adds default-branch lookup so repository selection uses the actual default instead of assuming main."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/OpenHands/OpenHands/commit/d58ca3dcdf95c5847f1888de6d5e0600b53b718c",
+          "sha": "d58ca3dcdf95c5847f1888de6d5e0600b53b718c",
+          "occurred_at": "2026-11-12T12:29:22Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "src/hooks/query/use-repository-default-branch.ts"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -135,7 +153,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+        "url": "https://github.com/OpenHands/OpenHands/blob/7a6536b39b2d031dba6b0f6c0c9cbea62a49ce51/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -172,3 +190,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "935d8f2af0c703f9c39517ee57cc4930b19d02d533be930b63f0e82f93614b43",
-      "source_url": "https://raw.githubusercontent.com/pingdotgg/t3code/main/LICENSE",
+      "source_url": "https://github.com/pingdotgg/t3code/blob/222288b00f9ed392e1e7352ad929c9ae9ac10cef/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/pingdotgg/t3code/main/LICENSE",
+          "source_url": "https://github.com/pingdotgg/t3code/blob/222288b00f9ed392e1e7352ad929c9ae9ac10cef/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.623Z",
-          "sha256": "935d8f2af0c703f9c39517ee57cc4930b19d02d533be930b63f0e82f93614b43"
+          "sha256": "935d8f2af0c703f9c39517ee57cc4930b19d02d533be930b63f0e82f93614b43",
+          "source_commit": "222288b00f9ed392e1e7352ad929c9ae9ac10cef"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "222288b00f9ed392e1e7352ad929c9ae9ac10cef"
     },
     "activity_evidence": [
       {
@@ -136,7 +140,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/pingdotgg/t3code",
         "https://raw.githubusercontent.com/pingdotgg/t3code/main/README.md",
         "https://github.com/pingdotgg/t3code/commit/222288b00f9ed392e1e7352ad929c9ae9ac10cef",
-        "https://raw.githubusercontent.com/pingdotgg/t3code/main/LICENSE"
+        "https://github.com/pingdotgg/t3code/blob/222288b00f9ed392e1e7352ad929c9ae9ac10cef/LICENSE"
       ]
     }
   },

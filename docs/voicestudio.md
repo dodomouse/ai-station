@@ -208,8 +208,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:13.877Z. [Shared metadata](#revi
       "spdx": "AGPL-3.0",
       "osi_approved": true,
       "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "source_url": "https://github.com/debpalash/VoiceStudio/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/debpalash/VoiceStudio/blob/5eefe8b1e902a90bc9a23984aa69797ee9d476e1/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5eefe8b1e902a90bc9a23984aa69797ee9d476e1"
     },
     "activity_evidence": [
       {
@@ -242,7 +245,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:13.877Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/debpalash/VoiceStudio/blob/main/LICENSE",
+        "url": "https://github.com/debpalash/VoiceStudio/blob/5eefe8b1e902a90bc9a23984aa69797ee9d476e1/LICENSE",
         "accessed_at": "2026-11-15T10:53:08.351Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

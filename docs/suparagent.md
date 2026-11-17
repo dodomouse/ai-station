@@ -72,6 +72,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -107,9 +110,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
-      "source_url": "https://github.com/Anil-matcha/suparagent/blob/main/LICENSE",
+      "source_url": "https://github.com/Anil-matcha/suparagent/blob/5fd98bba9a022a0edb9105b8310752dbb383171f/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5fd98bba9a022a0edb9105b8310752dbb383171f"
     },
     "activity_evidence": [
       {
@@ -138,7 +144,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/Anil-matcha/suparagent/blob/main/LICENSE",
+        "url": "https://github.com/Anil-matcha/suparagent/blob/5fd98bba9a022a0edb9105b8310752dbb383171f/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -175,3 +181,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

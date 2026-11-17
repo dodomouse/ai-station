@@ -35,7 +35,7 @@ GitHub：[mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 
 通过 MCP 让智能体操作 Android 与 iOS 应用、模拟器及真实设备。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[1.0.17](https://github.com/mobile-next/mobile-mcp/releases/tag/1.0.17)，2026-11-11T14:44:51Z。已核对正式发行 1.0.17 的发布状态与时间。
+有效维护证据：[1.0.17](https://github.com/mobile-next/mobile-mcp/releases/tag/1.0.17)，2026-11-11T14:44:51Z。按截图方向调整屏幕尺寸映射，修复横屏应用仍使用竖屏尺寸生成点击提示的问题。 2026-11-17 已读取[实现提交](https://github.com/mobile-next/mobile-mcp/commit/3b51952bcd83955f3a743f731f5a9beaebecdab7)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/share/6470286.html)，平台日期 2026-09-26。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 An MCP server for agent interaction with Android and iOS apps, simulators and real devices. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [1.0.17](https://github.com/mobile-next/mobile-mcp/releases/tag/1.0.17), 2026-11-11T14:44:51Z. Checked the non-draft, non-prerelease publication 1.0.17 and its date.
+Activity: [1.0.17](https://github.com/mobile-next/mobile-mcp/releases/tag/1.0.17), 2026-11-11T14:44:51Z. Aligns reported screen dimensions with screenshot orientation so landscape apps receive correct tap-coordinate guidance. On 2026-11-17, the [implementation diff](https://github.com/mobile-next/mobile-mcp/commit/3b51952bcd83955f3a743f731f5a9beaebecdab7) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/share/6470286.html), dated 2026-09-26 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,39 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-      "source_url": "https://github.com/mobile-next/mobile-mcp/blob/main/LICENSE",
+      "source_url": "https://github.com/mobile-next/mobile-mcp/blob/ad3b42336d89717313af45176c48538bea6ec363/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "ad3b42336d89717313af45176c48538bea6ec363"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-11T14:44:51Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/mobile-next/mobile-mcp/releases/tag/1.0.17",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 1.0.17 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication 1.0.17 and its date."
+          "zh-CN": "按截图方向调整屏幕尺寸映射，修复横屏应用仍使用竖屏尺寸生成点击提示的问题。",
+          "en": "Aligns reported screen dimensions with screenshot orientation so landscape apps receive correct tap-coordinate guidance."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/mobile-next/mobile-mcp/commit/3b51952bcd83955f3a743f731f5a9beaebecdab7",
+          "sha": "3b51952bcd83955f3a743f731f5a9beaebecdab7",
+          "occurred_at": "2026-11-07T08:39:19Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "src/coordinate-mapping.ts",
+            "test/coordinate-mapping.ts"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +155,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/mobile-next/mobile-mcp/blob/main/LICENSE",
+        "url": "https://github.com/mobile-next/mobile-mcp/blob/ad3b42336d89717313af45176c48538bea6ec363/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +192,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

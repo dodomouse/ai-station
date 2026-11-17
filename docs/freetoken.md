@@ -55,6 +55,9 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:24:08.700270Z",
@@ -90,8 +93,11 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "1d28009bf66a66c90fa9c5561d9a73b7460ab611eeb3e90169d22a3b5a2a2326",
-      "source_url": "https://github.com/FlashML-org/FreeToken/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:24:08.700270Z"
+      "source_url": "https://github.com/FlashML-org/FreeToken/blob/548f97f51e434367f9fe4575d8aac45f68e92ca5/LICENSE",
+      "reviewed_at": "2026-11-16T14:24:08.700270Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "548f97f51e434367f9fe4575d8aac45f68e92ca5"
     },
     "activity_evidence": [
       {
@@ -155,3 +161,5 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
   }
 }
 ```
+
+</details>

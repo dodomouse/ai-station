@@ -176,8 +176,11 @@ Recent commits include portrait-film workflow fixes. The original card remains h
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "c56704c3fd6b99de34c7e9d2e5dea8e19a18e1978f3614a3f830f1bdbb93f46c",
-      "source_url": "https://github.com/threerocks/sweety-handdraw-video/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/threerocks/sweety-handdraw-video/blob/0d0187c93db8fab0cc772d39da6c4ab8d845646c/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "0d0187c93db8fab0cc772d39da6c4ab8d845646c"
     },
     "activity_evidence": [
       {
@@ -210,7 +213,7 @@ Recent commits include portrait-film workflow fixes. The original card remains h
         }
       },
       {
-        "url": "https://github.com/threerocks/sweety-handdraw-video/blob/main/LICENSE",
+        "url": "https://github.com/threerocks/sweety-handdraw-video/blob/0d0187c93db8fab0cc772d39da6c4ab8d845646c/LICENSE",
         "accessed_at": "2026-11-15T10:53:16.829Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

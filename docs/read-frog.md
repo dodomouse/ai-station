@@ -35,7 +35,7 @@ GitHub：[mengxi-ream/read-frog](https://github.com/mengxi-ream/read-frog)
 
 结合网页翻译、字幕翻译和词汇复习的浏览器语言学习扩展。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v1.60.0](https://github.com/mengxi-ream/read-frog/releases/tag/v1.60.0)，2026-11-16T04:02:04Z。已核对正式发行 v1.60.0 的发布状态与时间。
+有效维护证据：[v1.60.0](https://github.com/mengxi-ream/read-frog/releases/tag/v1.60.0)，2026-11-16T04:02:04Z。允许用户配置翻译请求超时，并将批次大小附加时限与用户基础超时分开计算。 2026-11-17 已读取[实现提交](https://github.com/mengxi-ream/read-frog/commit/1b0c67d8cbaac4da3db845787ccee376db4f5e78)的差异；未运行上游测试。
 
 发现线索：[公开索引](https://www.noking.tech/github-radar/)记录的[微信文章](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247536438&idx=1&sn=5b4b3820b7042c8e94b969f521764b1a)，索引日期 2026-09-03。仅核对公开索引，未直接读取该篇微信全文；功能与限制以上游资料为依据。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A browser language-learning extension combining page translation, subtitle translation and vocabulary review. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v1.60.0](https://github.com/mengxi-ream/read-frog/releases/tag/v1.60.0), 2026-11-16T04:02:04Z. Checked the non-draft, non-prerelease publication v1.60.0 and its date.
+Activity: [v1.60.0](https://github.com/mengxi-ream/read-frog/releases/tag/v1.60.0), 2026-11-16T04:02:04Z. Adds configurable translation request timeouts and calculates batch-size allowances separately from the user timeout. On 2026-11-17, the [implementation diff](https://github.com/mengxi-ream/read-frog/commit/1b0c67d8cbaac4da3db845787ccee376db4f5e78) was inspected; upstream tests were not run.
 
 Discovery: [an indexed WeChat article](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247536438&idx=1&sn=5b4b3820b7042c8e94b969f521764b1a). This is a secondary discovery record; the WeChat article body was not read. Features and limits come from upstream documentation.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,39 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "GPL-3.0",
       "osi_approved": true,
       "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-      "source_url": "https://github.com/mengxi-ream/read-frog/blob/main/LICENSE",
+      "source_url": "https://github.com/mengxi-ream/read-frog/blob/a1528fd9cb5b1bb3bb66771c76b5e2501ef44ce8/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "a1528fd9cb5b1bb3bb66771c76b5e2501ef44ce8"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-16T04:02:04Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/mengxi-ream/read-frog/releases/tag/v1.60.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v1.60.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v1.60.0 and its date."
+          "zh-CN": "允许用户配置翻译请求超时，并将批次大小附加时限与用户基础超时分开计算。",
+          "en": "Adds configurable translation request timeouts and calculates batch-size allowances separately from the user timeout."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/mengxi-ream/read-frog/commit/1b0c67d8cbaac4da3db845787ccee376db4f5e78",
+          "sha": "1b0c67d8cbaac4da3db845787ccee376db4f5e78",
+          "occurred_at": "2026-11-15T23:07:25Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "src/entrypoints/background/translation-queues.ts",
+            "src/entrypoints/background/__tests__/translation-queues.test.ts"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +155,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/mengxi-ream/read-frog/blob/main/LICENSE",
+        "url": "https://github.com/mengxi-ream/read-frog/blob/a1528fd9cb5b1bb3bb66771c76b5e2501ef44ce8/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +192,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

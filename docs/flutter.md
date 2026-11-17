@@ -72,6 +72,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -107,9 +110,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "BSD-3-Clause",
       "osi_approved": true,
       "license_sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20",
-      "source_url": "https://github.com/flutter/flutter/blob/master/LICENSE",
+      "source_url": "https://github.com/flutter/flutter/blob/d8bd864cdbca3d0d2cafdb1e6165198858ea3b2b/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "d8bd864cdbca3d0d2cafdb1e6165198858ea3b2b"
     },
     "activity_evidence": [
       {
@@ -139,7 +145,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/flutter/flutter/blob/master/LICENSE",
+        "url": "https://github.com/flutter/flutter/blob/d8bd864cdbca3d0d2cafdb1e6165198858ea3b2b/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -176,3 +182,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

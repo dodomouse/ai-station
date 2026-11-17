@@ -75,17 +75,21 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "5935f49975d7daf97857d7053b6fe45500a3b2ec31cc92a42a89a5fd98a86cea",
-      "source_url": "https://raw.githubusercontent.com/Tencent/WeKnora/main/LICENSE",
+      "source_url": "https://github.com/Tencent/WeKnora/blob/7d064bc3a259f87634840199f565ec4dd644ba1e/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/Tencent/WeKnora/main/LICENSE",
+          "source_url": "https://github.com/Tencent/WeKnora/blob/7d064bc3a259f87634840199f565ec4dd644ba1e/LICENSE",
           "fetched_at": "2026-11-16T14:23:27.918Z",
-          "sha256": "5935f49975d7daf97857d7053b6fe45500a3b2ec31cc92a42a89a5fd98a86cea"
+          "sha256": "5935f49975d7daf97857d7053b6fe45500a3b2ec31cc92a42a89a5fd98a86cea",
+          "source_commit": "7d064bc3a259f87634840199f565ec4dd644ba1e"
         }
       ],
-      "scope": "MIT original project code; bundled dependencies retain their respective licenses, including Apache-2.0 notices."
+      "scope": "MIT original project code; bundled dependencies retain their respective licenses, including Apache-2.0 notices.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7d064bc3a259f87634840199f565ec4dd644ba1e"
     },
     "activity_evidence": [
       {
@@ -135,7 +139,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/tencent/weknora",
         "https://raw.githubusercontent.com/Tencent/WeKnora/main/README.md",
         "https://github.com/Tencent/WeKnora/releases/tag/v0.9.0",
-        "https://raw.githubusercontent.com/Tencent/WeKnora/main/LICENSE"
+        "https://github.com/Tencent/WeKnora/blob/7d064bc3a259f87634840199f565ec4dd644ba1e/LICENSE"
       ]
     }
   },

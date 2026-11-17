@@ -200,8 +200,11 @@ Demo stickers have separate terms; the main MIT license does not cover them.
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96",
-      "source_url": "https://github.com/alchaincyf/huashu-design/blob/master/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "e8d1148a80d5a281d4247cffe320add3df017928"
     },
     "activity_evidence": [
       {
@@ -234,7 +237,7 @@ Demo stickers have separate terms; the main MIT license does not cover them.
         }
       },
       {
-        "url": "https://github.com/alchaincyf/huashu-design/blob/master/LICENSE",
+        "url": "https://github.com/alchaincyf/huashu-design/blob/e8d1148a80d5a281d4247cffe320add3df017928/LICENSE",
         "accessed_at": "2026-11-15T10:53:07.589Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

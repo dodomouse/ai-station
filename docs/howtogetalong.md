@@ -13,10 +13,16 @@ GitHub：[kkk-bot/HowToGetAlong](https://github.com/kkk-bot/HowToGetAlong)
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:20.349Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：许可原文与范围待复核。
+Candidate reason: License text and scope require review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：取得许可原文并核对适用范围。
+Next step: Obtain the license text and confirm its scope.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -129,7 +135,17 @@ GitHub metadata was fetched at 2026-11-15T10:48:20.349Z. [Shared metadata](#revi
     "status": "unknown",
     "reasons": [
       "license_needs_review"
-    ]
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "取得许可原文并核对适用范围。"
+      ],
+      "en": [
+        "Obtain the license text and confirm its scope."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -181,8 +197,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:20.349Z. [Shared metadata](#revi
       "spdx": null,
       "osi_approved": false,
       "license_sha256": "d4f4a7a360f7b53b9b160a482ef1bffdb5659eef4f51690a18aac9e0329e5d9f",
-      "source_url": "https://github.com/kkk-bot/HowToGetAlong/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/kkk-bot/HowToGetAlong/blob/0dc8d7e0ad260f2e1660f3f9d91a5606ba6a5eb8/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "0dc8d7e0ad260f2e1660f3f9d91a5606ba6a5eb8"
     },
     "activity_evidence": [],
     "sources": [
@@ -203,7 +222,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:20.349Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/kkk-bot/HowToGetAlong/blob/main/LICENSE",
+        "url": "https://github.com/kkk-bot/HowToGetAlong/blob/0dc8d7e0ad260f2e1660f3f9d91a5606ba6a5eb8/LICENSE",
         "accessed_at": "2026-11-15T10:53:14.831Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -224,7 +243,8 @@ GitHub metadata was fetched at 2026-11-15T10:48:20.349Z. [Shared metadata](#revi
         "license_review_pending"
       ],
       "english_scope": "editorial_digest",
-      "source_card_preserved": true
+      "source_card_preserved": true,
+      "historical": true
     }
   },
   "snapshot": {
@@ -238,7 +258,16 @@ GitHub metadata was fetched at 2026-11-15T10:48:20.349Z. [Shared metadata](#revi
     "license_spdx": "NOASSERTION",
     "license_sha256": "d4f4a7a360f7b53b9b160a482ef1bffdb5659eef4f51690a18aac9e0329e5d9f",
     "last_success_at": "2026-11-15T10:48:20.349Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

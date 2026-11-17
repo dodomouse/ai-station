@@ -130,8 +130,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MPL-2.0",
       "osi_approved": true,
       "license_sha256": "d6b1a865f1c8c697d343bd4e0ce61025f91898486a1f00d727f32e8644af77d3",
-      "source_url": "https://github.com/openbao/openbao/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:47:41.365Z"
+      "source_url": "https://github.com/openbao/openbao/blob/92de51f7a0586759215d299bc79118874ea54fb1/LICENSE",
+      "reviewed_at": "2026-11-16T14:47:41.365Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "92de51f7a0586759215d299bc79118874ea54fb1"
     },
     "activity_evidence": [
       {
@@ -156,7 +159,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/openbao/openbao/blob/main/LICENSE",
+        "url": "https://github.com/openbao/openbao/blob/92de51f7a0586759215d299bc79118874ea54fb1/LICENSE",
         "accessed_at": "2026-11-16T14:47:41.365Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

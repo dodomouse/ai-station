@@ -55,6 +55,9 @@ The project appears in the account's [author-published article dated 2026-11-16]
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:30:19.931551Z",
@@ -91,8 +94,11 @@ The project appears in the account's [author-published article dated 2026-11-16]
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://github.com/HybridRobotics/supermimic/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:30:19.931551Z"
+      "source_url": "https://github.com/HybridRobotics/supermimic/blob/5f69628350940d7eb1968184eda449b3d8d18b8d/LICENSE",
+      "reviewed_at": "2026-11-16T14:30:19.931551Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5f69628350940d7eb1968184eda449b3d8d18b8d"
     },
     "activity_evidence": [
       {
@@ -150,3 +156,5 @@ The project appears in the account's [author-published article dated 2026-11-16]
   }
 }
 ```
+
+</details>

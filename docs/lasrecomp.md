@@ -74,17 +74,21 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "31e2e8c10f4461ff75bd2f95e26125f6126ee88828bf29233f4d9f14e90630d6",
-      "source_url": "https://raw.githubusercontent.com/peiikai/LASRecomp/main/LICENSE",
+      "source_url": "https://github.com/peiikai/LASRecomp/blob/33784c2ad6ce7f802eb4b78139fb578633e60aa4/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/peiikai/LASRecomp/main/LICENSE",
+          "source_url": "https://github.com/peiikai/LASRecomp/blob/33784c2ad6ce7f802eb4b78139fb578633e60aa4/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.634Z",
-          "sha256": "31e2e8c10f4461ff75bd2f95e26125f6126ee88828bf29233f4d9f14e90630d6"
+          "sha256": "31e2e8c10f4461ff75bd2f95e26125f6126ee88828bf29233f4d9f14e90630d6",
+          "source_commit": "33784c2ad6ce7f802eb4b78139fb578633e60aa4"
         }
       ],
-      "scope": "MIT applies to original project code only; Nintendo game files and third-party materials are excluded."
+      "scope": "MIT applies to original project code only; Nintendo game files and third-party materials are excluded.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "33784c2ad6ce7f802eb4b78139fb578633e60aa4"
     },
     "activity_evidence": [
       {
@@ -124,7 +128,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/peiikai/lasrecomp",
         "https://raw.githubusercontent.com/peiikai/LASRecomp/main/README.md",
         "https://github.com/peiikai/LASRecomp/releases/tag/beta_6",
-        "https://raw.githubusercontent.com/peiikai/LASRecomp/main/LICENSE"
+        "https://github.com/peiikai/LASRecomp/blob/33784c2ad6ce7f802eb4b78139fb578633e60aa4/LICENSE"
       ]
     }
   },

@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "GPL-3.0",
       "osi_approved": true,
       "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-      "source_url": "https://raw.githubusercontent.com/saragordic/window-sweaters/main/LICENSE",
+      "source_url": "https://github.com/saragordic/window-sweaters/blob/1afd03ff2c29f8c1069cc956d977372d2630f2c3/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/saragordic/window-sweaters/main/LICENSE",
+          "source_url": "https://github.com/saragordic/window-sweaters/blob/1afd03ff2c29f8c1069cc956d977372d2630f2c3/LICENSE",
           "fetched_at": "2026-11-16T14:23:28.066Z",
-          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "source_commit": "1afd03ff2c29f8c1069cc956d977372d2630f2c3"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "1afd03ff2c29f8c1069cc956d977372d2630f2c3"
     },
     "activity_evidence": [
       {
@@ -134,7 +138,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/saragordic/window-sweaters",
         "https://raw.githubusercontent.com/saragordic/window-sweaters/main/README.md",
         "https://github.com/saragordic/window-sweaters/releases/tag/v1.5.0",
-        "https://raw.githubusercontent.com/saragordic/window-sweaters/main/LICENSE"
+        "https://github.com/saragordic/window-sweaters/blob/1afd03ff2c29f8c1069cc956d977372d2630f2c3/LICENSE"
       ]
     }
   },

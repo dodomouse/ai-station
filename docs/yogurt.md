@@ -55,6 +55,9 @@ The project appears in the account's [author-published article dated 2026-11-16]
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:30:19.931551Z",
@@ -91,8 +94,11 @@ The project appears in the account's [author-published article dated 2026-11-16]
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "5c7f0de8bbe8ee8a29540939bfdd83adf000e8c2817587d618c9637347dd34ec",
-      "source_url": "https://github.com/FrigadeHQ/yogurt/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:30:19.931551Z"
+      "source_url": "https://github.com/FrigadeHQ/yogurt/blob/dcafd6694cc4210befb0664c3222f63756d2b824/LICENSE",
+      "reviewed_at": "2026-11-16T14:30:19.931551Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "dcafd6694cc4210befb0664c3222f63756d2b824"
     },
     "activity_evidence": [
       {
@@ -146,3 +152,5 @@ The project appears in the account's [author-published article dated 2026-11-16]
   }
 }
 ```
+
+</details>

@@ -35,7 +35,7 @@ GitHub：[androoAGI/starnet](https://github.com/androoAGI/starnet)
 
 以像素空间站界面管理多个在本机工作的智能体。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v0.15.0](https://github.com/androoAGI/starnet/releases/tag/v0.15.0)，2026-11-07T08:55:50Z。已核对正式发行 v0.15.0 的发布状态与时间。
+有效维护证据：[v0.15.0](https://github.com/androoAGI/starnet/releases/tag/v0.15.0)，2026-11-07T08:55:50Z。补充压缩聊天记录中的附件引用读取，避免删除会话时遗漏这些上传文件。 2026-11-17 已读取[实现提交](https://github.com/androoAGI/starnet/commit/b53565c2987ee82a773f3ccac4ceb28a0c38b952)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/share/6470709.html)，平台日期 2026-09-28。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A desktop workspace that represents working agents as a pixel-art space station. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v0.15.0](https://github.com/androoAGI/starnet/releases/tag/v0.15.0), 2026-11-07T08:55:50Z. Checked the non-draft, non-prerelease publication v0.15.0 and its date.
+Activity: [v0.15.0](https://github.com/androoAGI/starnet/releases/tag/v0.15.0), 2026-11-07T08:55:50Z. Reads attachment references retained in packed chat records so session deletion can account for those uploads. On 2026-11-17, the [implementation diff](https://github.com/androoAGI/starnet/commit/b53565c2987ee82a773f3ccac4ceb28a0c38b952) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/share/6470709.html), dated 2026-09-28 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,38 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "576bf9e6651870a13ef8b0067ccbd85e4781999b6da32c767891997cf65d46b7",
-      "source_url": "https://github.com/androoAGI/starnet/blob/feat/harness-backend/LICENSE",
+      "source_url": "https://github.com/androoAGI/starnet/blob/e316231d70610aac7b181c4efd1a10b3fc833cdc/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "e316231d70610aac7b181c4efd1a10b3fc833cdc"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-07T08:55:50Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/androoAGI/starnet/releases/tag/v0.15.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v0.15.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v0.15.0 and its date."
+          "zh-CN": "补充压缩聊天记录中的附件引用读取，避免删除会话时遗漏这些上传文件。",
+          "en": "Reads attachment references retained in packed chat records so session deletion can account for those uploads."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/androoAGI/starnet/commit/b53565c2987ee82a773f3ccac4ceb28a0c38b952",
+          "sha": "b53565c2987ee82a773f3ccac4ceb28a0c38b952",
+          "occurred_at": "2026-11-07T03:52:24Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "frontend/app/workstreams.js"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +154,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/androoAGI/starnet/blob/feat/harness-backend/LICENSE",
+        "url": "https://github.com/androoAGI/starnet/blob/e316231d70610aac7b181c4efd1a10b3fc833cdc/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +191,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

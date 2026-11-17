@@ -35,7 +35,7 @@ GitHub：[boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)
 
 研究把控制台可执行文件重链接到桌面平台的兼容性工具。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v0.1.5](https://github.com/boykopovar/AnyPS5/releases/tag/v0.1.5)，2026-11-11T15:01:01Z。已核对正式发行 v0.1.5 的发布状态与时间。
+有效维护证据：[v0.1.5](https://github.com/boykopovar/AnyPS5/releases/tag/v0.1.5)，2026-11-11T15:01:01Z。修复标准流写入时的主机 errno 转换，并保留成功调用前的错误值。 2026-11-17 已读取[实现提交](https://github.com/boykopovar/AnyPS5/commit/0effa485f96a4fcf8fef433a09cdd862c65b7767)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/ai/6482138.html)，平台日期 2026-10-22。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -65,13 +65,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A compatibility project for relinking console executables to desktop platforms. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v0.1.5](https://github.com/boykopovar/AnyPS5/releases/tag/v0.1.5), 2026-11-11T15:01:01Z. Checked the non-draft, non-prerelease publication v0.1.5 and its date.
+Activity: [v0.1.5](https://github.com/boykopovar/AnyPS5/releases/tag/v0.1.5), 2026-11-11T15:01:01Z. Fixes host-to-guest errno translation for stream writes and preserves prior errno on successful calls. On 2026-11-17, the [implementation diff](https://github.com/boykopovar/AnyPS5/commit/0effa485f96a4fcf8fef433a09cdd862c65b7767) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/ai/6482138.html), dated 2026-10-22 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -108,23 +111,39 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "GPL-2.0",
       "osi_approved": true,
       "license_sha256": "de124e5a899ae4074ebf5c0f790494178ab66d310606b86203d67a6f3ef45168",
-      "source_url": "https://github.com/boykopovar/AnyPS5/blob/main/LICENSE",
+      "source_url": "https://github.com/boykopovar/AnyPS5/blob/5c251e6a73ef9d1b778d33fd2042977296d48a89/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5c251e6a73ef9d1b778d33fd2042977296d48a89"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-11T15:01:01Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/boykopovar/AnyPS5/releases/tag/v0.1.5",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v0.1.5 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v0.1.5 and its date."
+          "zh-CN": "修复标准流写入时的主机 errno 转换，并保留成功调用前的错误值。",
+          "en": "Fixes host-to-guest errno translation for stream writes and preserves prior errno on successful calls."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/boykopovar/AnyPS5/commit/0effa485f96a4fcf8fef433a09cdd862c65b7767",
+          "sha": "0effa485f96a4fcf8fef433a09cdd862c65b7767",
+          "occurred_at": "2026-11-11T13:19:14Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "core/libs/prx/libc/src/FileAndHeap.cpp",
+            "core/libs/prx/libc/src/StandardStreams.cpp"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -137,7 +156,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/boykopovar/AnyPS5/blob/main/LICENSE",
+        "url": "https://github.com/boykopovar/AnyPS5/blob/5c251e6a73ef9d1b778d33fd2042977296d48a89/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -174,3 +193,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

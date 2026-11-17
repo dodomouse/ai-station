@@ -73,6 +73,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -108,9 +111,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "de69b4352c9952cd5f0f4b8cb4584782a07f02c9ba82aeb5d496aa2b7fe5457d",
-      "source_url": "https://github.com/jundot/omlx/blob/main/LICENSE",
+      "source_url": "https://github.com/jundot/omlx/blob/bf28cd6c43541ececeec01ba797377c913da5f8f/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "bf28cd6c43541ececeec01ba797377c913da5f8f"
     },
     "activity_evidence": [
       {
@@ -140,7 +146,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/jundot/omlx/blob/main/LICENSE",
+        "url": "https://github.com/jundot/omlx/blob/bf28cd6c43541ececeec01ba797377c913da5f8f/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -177,3 +183,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

@@ -35,7 +35,7 @@ GitHub：[jumpserver/jumpserver](https://github.com/jumpserver/jumpserver)
 
 集中管理服务器、数据库和其他基础设施的特权访问与审计。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v3.10.24](https://github.com/jumpserver/jumpserver/releases/tag/v3.10.24)，2026-10-27T09:56:32Z。已核对正式发行 v3.10.24 的发布状态与时间。
+有效维护证据：[v3.10.24](https://github.com/jumpserver/jumpserver/releases/tag/v3.10.24)，2026-10-27T09:56:32Z。回移 IPv6 地址解析支持，并在任务日志 WebSocket 中按当前组织核对角色与日志权限。 2026-11-17 已读取[实现提交](https://github.com/jumpserver/jumpserver/commit/3f2dfe1ea22952a4cd2d2c59a2f35b414f3dd8e1)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/share/6471994.html)，平台日期 2026-09-30。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A platform for managing and auditing privileged access to servers, databases and infrastructure. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v3.10.24](https://github.com/jumpserver/jumpserver/releases/tag/v3.10.24), 2026-10-27T09:56:32Z. Checked the non-draft, non-prerelease publication v3.10.24 and its date.
+Activity: [v3.10.24](https://github.com/jumpserver/jumpserver/releases/tag/v3.10.24), 2026-10-27T09:56:32Z. Backports IPv6 resolution and checks job-log WebSocket roles and permissions in the current organization. On 2026-11-17, the [implementation diff](https://github.com/jumpserver/jumpserver/commit/3f2dfe1ea22952a4cd2d2c59a2f35b414f3dd8e1) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/share/6471994.html), dated 2026-09-30 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,39 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "GPL-3.0",
       "osi_approved": true,
       "license_sha256": "e57f1c320b8cf8798a7d2ff83a6f9e06a33a03585f6e065fea97f1d86db84052",
-      "source_url": "https://github.com/jumpserver/jumpserver/blob/dev/LICENSE",
+      "source_url": "https://github.com/jumpserver/jumpserver/blob/96a6d77a3205e906f9452ea2a12dbb3698cf1329/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "96a6d77a3205e906f9452ea2a12dbb3698cf1329"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-10-27T09:56:32Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/jumpserver/jumpserver/releases/tag/v3.10.24",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v3.10.24 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v3.10.24 and its date."
+          "zh-CN": "回移 IPv6 地址解析支持，并在任务日志 WebSocket 中按当前组织核对角色与日志权限。",
+          "en": "Backports IPv6 resolution and checks job-log WebSocket roles and permissions in the current organization."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/jumpserver/jumpserver/commit/3f2dfe1ea22952a4cd2d2c59a2f35b414f3dd8e1",
+          "sha": "3f2dfe1ea22952a4cd2d2c59a2f35b414f3dd8e1",
+          "occurred_at": "2026-10-27T02:44:19Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "apps/common/utils/ip/utils.py",
+            "apps/ops/ws.py"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +155,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/jumpserver/jumpserver/blob/dev/LICENSE",
+        "url": "https://github.com/jumpserver/jumpserver/blob/96a6d77a3205e906f9452ea2a12dbb3698cf1329/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +192,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

@@ -16,13 +16,19 @@ GitHub：[hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents
 候选原因：应用层采用专有许可。
 Candidate reason: Proprietary application layer.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。
+Next step: Retain as a reference lead; reassess if the license changes or a separately includable open component is established.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
 TradingAgents-CN 是面向 A 股的多智能体研究辅助系统。当前默认分支 `v3.0` 为社区版，提供单股研究、主题研究、自然语言筛选、学习课程和模拟交易。它通过多个模型角色组织分析与讨论。
 
-当前保留为参考候选：项目采用混合许可。部分目录为 Apache-2.0，应用层为专有的源码可见组件，不能将整个社区版视为完整开源软件。GitHub 的许可字段为 `NOASSERTION`，现有字典将资格记为 `unknown`。具体限制见下文。
+当前保留为参考候选：项目采用混合许可。部分目录为 Apache-2.0，应用层为专有的源码可见组件，不能将整个社区版视为完整开源软件。GitHub 的许可字段为 `NOASSERTION`；本词条依据已记录的专有应用层范围，将整体资格记为 `ineligible`，仅作参考线索保留。具体限制见下文。
 
 ### 适用场景
 
@@ -90,7 +96,7 @@ TradingAgents-CN 是面向 A 股的多智能体研究辅助系统。当前默认
 
 TradingAgents-CN is a multi-agent research assistant for Chinese A-shares. Its current default branch, `v3.0`, is the Community Edition, with single-stock research, topic research, natural-language screening, learning material and paper trading. Several model roles organize analysis and discussion.
 
-This entry remains a reference candidate because licensing differs by component. Some directories use Apache-2.0, while the application layer is proprietary source-available code. The complete Community Edition therefore cannot be described as wholly open-source software. GitHub reports `NOASSERTION`, which the existing catalog records as eligibility `unknown`.
+This entry remains a reference candidate because licensing differs by component. Some directories use Apache-2.0, while the application layer is proprietary source-available code. The complete Community Edition therefore cannot be described as wholly open-source software. GitHub reports `NOASSERTION`; the documented proprietary application scope makes the complete application `ineligible`, retained only as a reference lead.
 
 ### Use cases
 
@@ -165,10 +171,20 @@ Verification level: `docs`. Only documentation and selected code were inspected;
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "unknown",
+    "status": "ineligible",
     "reasons": [
-      "license_needs_review"
-    ]
+      "license_not_approved"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。"
+      ],
+      "en": [
+        "Retain as a reference lead; reassess if the license changes or a separately includable open component is established."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -234,7 +250,10 @@ Verification level: `docs`. Only documentation and selected code were inspected;
       "osi_approved": false,
       "license_sha256": "c14aadbd32d79d1cb3d8a8d720bc319f2d5020e9c56a2ddaa794e75d0f7e2164",
       "source_url": "https://github.com/hsliuping/TradingAgents-CN/blob/51060a7682cf51810b4bc3a704829438d18cd8dc/LICENSE",
-      "reviewed_at": "2026-11-15T11:54:08.129868Z"
+      "reviewed_at": "2026-11-15T11:54:08.129868Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "51060a7682cf51810b4bc3a704829438d18cd8dc"
     },
     "activity_evidence": [
       {
@@ -288,7 +307,8 @@ Verification level: `docs`. Only documentation and selected code were inspected;
       "notes": {
         "zh-CN": "v3.0 社区版为 Apache-2.0 与专有应用层混合许可，整库不满足完整开源口径。API 返回 NOASSERTION，现有资格计算为 unknown；限制来自明确许可声明，而非仅由 API 标签推断。",
         "en": "v3.0 combines Apache-2.0 components with a proprietary application layer. API NOASSERTION yields unknown under the current gate; restrictions are established by the license text, not inferred from the API label alone."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -302,7 +322,16 @@ Verification level: `docs`. Only documentation and selected code were inspected;
     "license_spdx": "NOASSERTION",
     "license_sha256": "c14aadbd32d79d1cb3d8a8d720bc319f2d5020e9c56a2ddaa794e75d0f7e2164",
     "last_success_at": "2026-11-15T11:46:22.824Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

@@ -74,17 +74,21 @@ Discovery uses an author-attributed public repost with corroborated repository l
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://raw.githubusercontent.com/google-research/timesfm/master/LICENSE",
+      "source_url": "https://github.com/google-research/timesfm/blob/918df02c9d366b2145bc5876135fa2131d3ed2a6/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/google-research/timesfm/master/LICENSE",
+          "source_url": "https://github.com/google-research/timesfm/blob/918df02c9d366b2145bc5876135fa2131d3ed2a6/LICENSE",
           "fetched_at": "2026-11-16T14:48:18.547Z",
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_commit": "918df02c9d366b2145bc5876135fa2131d3ed2a6"
         }
       ],
-      "scope": "Apache-2.0 source code and model weights through 2.5 only. TimesFM 3.0 weights are non-commercial/non-production and excluded; cloud offerings have separate terms."
+      "scope": "Apache-2.0 source code and model weights through 2.5 only. TimesFM 3.0 weights are non-commercial/non-production and excluded; cloud offerings have separate terms.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "918df02c9d366b2145bc5876135fa2131d3ed2a6"
     },
     "activity_evidence": [
       {
@@ -126,7 +130,7 @@ Discovery uses an author-attributed public repost with corroborated repository l
         "https://api.github.com/repos/google-research/timesfm",
         "https://raw.githubusercontent.com/google-research/timesfm/master/README.md",
         "https://github.com/google-research/timesfm/commit/c22c05b60a9dac9e46d629f618fdbe259fd522dd",
-        "https://raw.githubusercontent.com/google-research/timesfm/master/LICENSE"
+        "https://github.com/google-research/timesfm/blob/918df02c9d366b2145bc5876135fa2131d3ed2a6/LICENSE"
       ]
     }
   },

@@ -123,8 +123,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "AGPL-3.0",
       "osi_approved": true,
       "license_sha256": "1bd87fa6d9a5c79daf0c2af042b6725c9773bf095cc3d1bdf3656e66d1c3e5b1",
-      "source_url": "https://github.com/volcengine/OpenViking/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:47:41.664Z"
+      "source_url": "https://github.com/volcengine/OpenViking/blob/a805d900cbe389b22582c6c74905ef0a16c7668a/LICENSE",
+      "reviewed_at": "2026-11-16T14:47:41.664Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "a805d900cbe389b22582c6c74905ef0a16c7668a"
     },
     "activity_evidence": [
       {
@@ -149,7 +152,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/volcengine/OpenViking/blob/main/LICENSE",
+        "url": "https://github.com/volcengine/OpenViking/blob/a805d900cbe389b22582c6c74905ef0a16c7668a/LICENSE",
         "accessed_at": "2026-11-16T14:47:41.664Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

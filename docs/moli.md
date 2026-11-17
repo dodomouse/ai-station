@@ -209,8 +209,11 @@ The code offers Apache-2.0 or MIT. The API value remains Apache-2.0 and the fing
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-      "source_url": "https://github.com/lexmount/moli/blob/main/LICENSE-APACHE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/lexmount/moli/blob/080c3fc2cbbb12207512925afb3feb0db38dfcab/LICENSE-APACHE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "080c3fc2cbbb12207512925afb3feb0db38dfcab"
     },
     "activity_evidence": [
       {
@@ -243,7 +246,7 @@ The code offers Apache-2.0 or MIT. The API value remains Apache-2.0 and the fing
         }
       },
       {
-        "url": "https://github.com/lexmount/moli/blob/main/LICENSE-APACHE",
+        "url": "https://github.com/lexmount/moli/blob/080c3fc2cbbb12207512925afb3feb0db38dfcab/LICENSE-APACHE",
         "accessed_at": "2026-11-15T10:53:18.762Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

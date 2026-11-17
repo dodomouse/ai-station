@@ -55,6 +55,9 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:24:08.700270Z",
@@ -90,8 +93,11 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
       "spdx": "AGPL-3.0",
       "osi_approved": true,
       "license_sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
-      "source_url": "https://github.com/lightpanda-io/browser/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:24:08.700270Z"
+      "source_url": "https://github.com/lightpanda-io/browser/blob/30c4e7c0aae4f1c0cbefe50ca20f6b63d6fef3a6/LICENSE",
+      "reviewed_at": "2026-11-16T14:24:08.700270Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "30c4e7c0aae4f1c0cbefe50ca20f6b63d6fef3a6"
     },
     "activity_evidence": [
       {
@@ -155,3 +161,5 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
   }
 }
 ```
+
+</details>

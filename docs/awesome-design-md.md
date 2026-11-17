@@ -13,10 +13,16 @@ GitHub：[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-desi
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:17.738Z |
 
-候选原因：双语内容待复核。
-Candidate reason: Bilingual content requires review.
+候选原因：双语内容与维护证据待复核。
+Candidate reason: Bilingual content and activity evidence require review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：核对中英文说明并补充窗口内的实质活动证据。
+Next step: Review both language versions and add substantive activity evidence within the review window.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -149,7 +155,17 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.738Z. [Shared metadata](#revi
     "status": "needs_review",
     "reasons": [
       "bilingual_content_needs_review"
-    ]
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "核对中英文说明并补充窗口内的实质活动证据。"
+      ],
+      "en": [
+        "Review both language versions and add substantive activity evidence within the review window."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -201,8 +217,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.738Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
-      "source_url": "https://github.com/VoltAgent/awesome-design-md/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/VoltAgent/awesome-design-md/blob/fcc70284932276d085f01ef9f83edde90b1258cb/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "fcc70284932276d085f01ef9f83edde90b1258cb"
     },
     "activity_evidence": [],
     "sources": [
@@ -223,7 +242,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.738Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/VoltAgent/awesome-design-md/blob/main/LICENSE",
+        "url": "https://github.com/VoltAgent/awesome-design-md/blob/fcc70284932276d085f01ef9f83edde90b1258cb/LICENSE",
         "accessed_at": "2026-11-15T10:53:11.374Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -243,7 +262,8 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.738Z. [Shared metadata](#revi
         "reference_resource"
       ],
       "english_scope": "editorial_digest",
-      "source_card_preserved": true
+      "source_card_preserved": true,
+      "historical": true
     }
   },
   "snapshot": {
@@ -257,7 +277,16 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.738Z. [Shared metadata](#revi
     "license_spdx": "MIT",
     "license_sha256": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
     "last_success_at": "2026-11-15T10:48:17.738Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "needs_review",
+      "reasons": [
+        "bilingual_content_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

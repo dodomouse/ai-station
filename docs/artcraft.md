@@ -75,23 +75,28 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT OR Apache-2.0",
       "osi_approved": true,
       "license_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
-      "source_url": "https://raw.githubusercontent.com/storytold/artcraft/main/LICENSE-APACHE",
+      "source_url": "https://github.com/storytold/artcraft/blob/69f53c2f0358a91a5e35e5a7b3a91677320c3112/LICENSE-APACHE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE-APACHE",
-          "source_url": "https://raw.githubusercontent.com/storytold/artcraft/main/LICENSE-APACHE",
+          "source_url": "https://github.com/storytold/artcraft/blob/69f53c2f0358a91a5e35e5a7b3a91677320c3112/LICENSE-APACHE",
           "fetched_at": "2026-11-16T14:23:16.939Z",
-          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "source_commit": "69f53c2f0358a91a5e35e5a7b3a91677320c3112"
         },
         {
           "path": "LICENSE-MIT",
-          "source_url": "https://raw.githubusercontent.com/storytold/artcraft/main/LICENSE-MIT",
+          "source_url": "https://github.com/storytold/artcraft/blob/69f53c2f0358a91a5e35e5a7b3a91677320c3112/LICENSE-MIT",
           "fetched_at": "2026-11-16T14:23:17.090Z",
-          "sha256": "8ce608753585920ec5b61e8f324b0b205ca345e663a92850f4ef0b4240c3f49c"
+          "sha256": "8ce608753585920ec5b61e8f324b0b205ca345e663a92850f4ef0b4240c3f49c",
+          "source_commit": "69f53c2f0358a91a5e35e5a7b3a91677320c3112"
         }
       ],
-      "scope": "Original code is offered under MIT OR Apache-2.0; third-party assets and model services retain separate terms."
+      "scope": "Original code is offered under MIT OR Apache-2.0; third-party assets and model services retain separate terms.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "69f53c2f0358a91a5e35e5a7b3a91677320c3112"
     },
     "activity_evidence": [
       {
@@ -149,7 +154,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/storytold/artcraft",
         "https://raw.githubusercontent.com/storytold/artcraft/main/README.md",
         "https://github.com/storytold/artcraft/commit/69f53c2f0358a91a5e35e5a7b3a91677320c3112",
-        "https://raw.githubusercontent.com/storytold/artcraft/main/LICENSE-APACHE"
+        "https://github.com/storytold/artcraft/blob/69f53c2f0358a91a5e35e5a7b3a91677320c3112/LICENSE-APACHE"
       ]
     }
   },

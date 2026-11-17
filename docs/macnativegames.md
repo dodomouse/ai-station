@@ -124,8 +124,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "a035ee21f927d2247f30bedc8964c95b3a4d794f76c78cad178b68731815a79a",
-      "source_url": "https://github.com/ly05010419/MacNativeGames/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:34:39.666Z"
+      "source_url": "https://github.com/ly05010419/MacNativeGames/blob/39c122c50edcb92cb6d3b286dca3fa4927f2685e/LICENSE",
+      "reviewed_at": "2026-11-16T14:34:39.666Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "39c122c50edcb92cb6d3b286dca3fa4927f2685e"
     },
     "activity_evidence": [
       {
@@ -150,7 +153,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/ly05010419/MacNativeGames/blob/main/LICENSE",
+        "url": "https://github.com/ly05010419/MacNativeGames/blob/39c122c50edcb92cb6d3b286dca3fa4927f2685e/LICENSE",
         "accessed_at": "2026-11-16T14:34:39.666Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7b153fc3f5f1ccce2b9ac98a35301c666c025db85d6c44565e13304774d144a9",
-      "source_url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/main/LICENSE",
+      "source_url": "https://github.com/caru-ini/stack-diagram/blob/9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/main/LICENSE",
+          "source_url": "https://github.com/caru-ini/stack-diagram/blob/9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.559Z",
-          "sha256": "7b153fc3f5f1ccce2b9ac98a35301c666c025db85d6c44565e13304774d144a9"
+          "sha256": "7b153fc3f5f1ccce2b9ac98a35301c666c025db85d6c44565e13304774d144a9",
+          "source_commit": "9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3"
     },
     "activity_evidence": [
       {
@@ -134,7 +138,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/caru-ini/stack-diagram",
         "https://raw.githubusercontent.com/caru-ini/stack-diagram/main/README.md",
         "https://github.com/caru-ini/stack-diagram/releases/tag/v0.6.0",
-        "https://raw.githubusercontent.com/caru-ini/stack-diagram/main/LICENSE"
+        "https://github.com/caru-ini/stack-diagram/blob/9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3/LICENSE"
       ]
     }
   },

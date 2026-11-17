@@ -13,10 +13,16 @@ GitHub：[nextpad-plus-plus/nextpad-plus-plus-macos](https://github.com/nextpad-
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:16.187Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：许可原文与范围待复核。
+Candidate reason: License text and scope require review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：取得许可原文并核对适用范围。
+Next step: Obtain the license text and confirm its scope.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -151,7 +157,17 @@ The current name is Nextpad++ for macOS; the old name remains an alias. API lice
     "status": "unknown",
     "reasons": [
       "license_needs_review"
-    ]
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "取得许可原文并核对适用范围。"
+      ],
+      "en": [
+        "Obtain the license text and confirm its scope."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -206,8 +222,11 @@ The current name is Nextpad++ for macOS; the old name remains an alias. API lice
       "spdx": null,
       "osi_approved": false,
       "license_sha256": "0b8768e437ce04b7c1f4a2dbd9c860b2bc6fddd7fbc13f6a48797ba7570d48f8",
-      "source_url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/1577e974a12d7308eb80e14d1e1c66ab323485d1/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "1577e974a12d7308eb80e14d1e1c66ab323485d1"
     },
     "activity_evidence": [
       {
@@ -240,7 +259,7 @@ The current name is Nextpad++ for macOS; the old name remains an alias. API lice
         }
       },
       {
-        "url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/LICENSE",
+        "url": "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/1577e974a12d7308eb80e14d1e1c66ab323485d1/LICENSE",
         "accessed_at": "2026-11-15T10:53:09.774Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -264,7 +283,8 @@ The current name is Nextpad++ for macOS; the old name remains an alias. API lice
       "notes": {
         "zh-CN": "当前项目名为 Nextpad++ for macOS，旧名称保留为别名。API 返回 NOASSERTION，许可说明仍待进一步核对。",
         "en": "The current name is Nextpad++ for macOS; the old name remains an alias. API license detection is NOASSERTION, so review remains open."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -278,7 +298,16 @@ The current name is Nextpad++ for macOS; the old name remains an alias. API lice
     "license_spdx": "NOASSERTION",
     "license_sha256": "0b8768e437ce04b7c1f4a2dbd9c860b2bc6fddd7fbc13f6a48797ba7570d48f8",
     "last_success_at": "2026-11-15T10:48:16.187Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

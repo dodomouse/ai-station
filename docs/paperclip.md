@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7f8a27f0979bded50e240caa8c8c29f3088ddf87032cb83e5a9732bff91d18b4",
-      "source_url": "https://raw.githubusercontent.com/paperclipai/paperclip/master/LICENSE",
+      "source_url": "https://github.com/paperclipai/paperclip/blob/b4fa1c7fb1c9adafc6407bc46381a0ab89f4b4fd/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/paperclipai/paperclip/master/LICENSE",
+          "source_url": "https://github.com/paperclipai/paperclip/blob/b4fa1c7fb1c9adafc6407bc46381a0ab89f4b4fd/LICENSE",
           "fetched_at": "2026-11-16T14:23:28.167Z",
-          "sha256": "7f8a27f0979bded50e240caa8c8c29f3088ddf87032cb83e5a9732bff91d18b4"
+          "sha256": "7f8a27f0979bded50e240caa8c8c29f3088ddf87032cb83e5a9732bff91d18b4",
+          "source_commit": "b4fa1c7fb1c9adafc6407bc46381a0ab89f4b4fd"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b4fa1c7fb1c9adafc6407bc46381a0ab89f4b4fd"
     },
     "activity_evidence": [
       {
@@ -154,7 +158,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/paperclipai/paperclip",
         "https://raw.githubusercontent.com/paperclipai/paperclip/master/README.md",
         "https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0",
-        "https://raw.githubusercontent.com/paperclipai/paperclip/master/LICENSE"
+        "https://github.com/paperclipai/paperclip/blob/b4fa1c7fb1c9adafc6407bc46381a0ab89f4b4fd/LICENSE"
       ]
     }
   },

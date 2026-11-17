@@ -73,6 +73,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -108,9 +111,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "83d3aff30ac8f86748449ea43c29eb69e6d6baf021a9ae2df1961f5e5f58b0a5",
-      "source_url": "https://github.com/designfuchen/word-atlas/blob/main/LICENSE",
+      "source_url": "https://github.com/designfuchen/word-atlas/blob/0f1bae41fe5428f0f44781e60282525407b5ae46/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "MIT covers source code and UI. Vocabulary, illustrations and recordings are CC BY 4.0; fonts and dependencies retain their licenses."
+      "scope_note": "MIT covers source code and UI. Vocabulary, illustrations and recordings are CC BY 4.0; fonts and dependencies retain their licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "0f1bae41fe5428f0f44781e60282525407b5ae46"
     },
     "activity_evidence": [
       {
@@ -138,7 +144,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/designfuchen/word-atlas/blob/main/LICENSE",
+        "url": "https://github.com/designfuchen/word-atlas/blob/0f1bae41fe5428f0f44781e60282525407b5ae46/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -175,3 +181,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

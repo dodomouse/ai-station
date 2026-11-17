@@ -134,8 +134,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "9f8785b47596b2993a17a3fa8d747ae63126a2c5e80a9e77195a907273d71839",
-      "source_url": "https://github.com/NVIDIA/SkillSpector/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:34:39.953Z"
+      "source_url": "https://github.com/NVIDIA/SkillSpector/blob/c81615007d40e86051a302a3cf897f8a05264928/LICENSE",
+      "reviewed_at": "2026-11-16T14:34:39.953Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "c81615007d40e86051a302a3cf897f8a05264928"
     },
     "activity_evidence": [
       {
@@ -160,7 +163,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/NVIDIA/SkillSpector/blob/main/LICENSE",
+        "url": "https://github.com/NVIDIA/SkillSpector/blob/c81615007d40e86051a302a3cf897f8a05264928/LICENSE",
         "accessed_at": "2026-11-16T14:34:39.953Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

@@ -195,8 +195,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:14.655Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "6d66f91815b720e18cfb2b3552043a0359236aec9a1a6917787900546f6ce550",
-      "source_url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/8c32a9dc5d72c033816c6a8110b37f40cf94fba4/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4"
     },
     "activity_evidence": [
       {
@@ -229,7 +232,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:14.655Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/LICENSE",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/8c32a9dc5d72c033816c6a8110b37f40cf94fba4/LICENSE",
         "accessed_at": "2026-11-15T10:53:08.329Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

@@ -13,10 +13,16 @@ GitHub：[666ghj/BettaFish](https://github.com/666ghj/BettaFish)
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:12.351Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：许可原文与范围待复核。
+Candidate reason: License text and scope require review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：取得许可原文并核对适用范围。
+Next step: Obtain the license text and confirm its scope.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -152,7 +158,17 @@ The current README still restricts commercial use alongside a GPL label. License
     "status": "unknown",
     "reasons": [
       "license_needs_review"
-    ]
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "取得许可原文并核对适用范围。"
+      ],
+      "en": [
+        "Obtain the license text and confirm its scope."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -207,8 +223,11 @@ The current README still restricts commercial use alongside a GPL label. License
       "spdx": null,
       "osi_approved": false,
       "license_sha256": "44686cfd8b09cd489ecbd2f740e0a31d7006584b90e7446dd29661f06f0213ec",
-      "source_url": "https://github.com/666ghj/BettaFish/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/666ghj/BettaFish/blob/b67928ff1ce515dd7672408221fb1e9500d0972d/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b67928ff1ce515dd7672408221fb1e9500d0972d"
     },
     "activity_evidence": [],
     "sources": [
@@ -229,7 +248,7 @@ The current README still restricts commercial use alongside a GPL label. License
         }
       },
       {
-        "url": "https://github.com/666ghj/BettaFish/blob/main/LICENSE",
+        "url": "https://github.com/666ghj/BettaFish/blob/b67928ff1ce515dd7672408221fb1e9500d0972d/LICENSE",
         "accessed_at": "2026-11-15T10:53:07.814Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -254,7 +273,8 @@ The current README still restricts commercial use alongside a GPL label. License
       "notes": {
         "zh-CN": "当前 README 仍有禁止商业用途的说明，与 GPL 标识并存。许可证口径未解决，暂不正式收录。",
         "en": "The current README still restricts commercial use alongside a GPL label. License scope remains unresolved."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -268,7 +288,16 @@ The current README still restricts commercial use alongside a GPL label. License
     "license_spdx": "GPL-2.0",
     "license_sha256": "44686cfd8b09cd489ecbd2f740e0a31d7006584b90e7446dd29661f06f0213ec",
     "last_success_at": "2026-11-15T10:48:12.351Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

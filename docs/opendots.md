@@ -75,17 +75,21 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "15a0e5343aea872c0573ad72feb6044b336f162d724cc1673c608e6b37ea071b",
-      "source_url": "https://raw.githubusercontent.com/CopilotKit/OpenDots/main/LICENSE",
+      "source_url": "https://github.com/CopilotKit/OpenDots/blob/0e706ab3686fee50e9f26befc6df2aac2c2b1422/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/CopilotKit/OpenDots/main/LICENSE",
+          "source_url": "https://github.com/CopilotKit/OpenDots/blob/0e706ab3686fee50e9f26befc6df2aac2c2b1422/LICENSE",
           "fetched_at": "2026-11-16T14:23:27.845Z",
-          "sha256": "15a0e5343aea872c0573ad72feb6044b336f162d724cc1673c608e6b37ea071b"
+          "sha256": "15a0e5343aea872c0573ad72feb6044b336f162d724cc1673c608e6b37ea071b",
+          "source_commit": "0e706ab3686fee50e9f26befc6df2aac2c2b1422"
         }
       ],
-      "scope": "MIT application template only. Required CopilotKit Intelligence backend has separate hosted/evaluation/commercial terms."
+      "scope": "MIT application template only. Required CopilotKit Intelligence backend has separate hosted/evaluation/commercial terms.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "0e706ab3686fee50e9f26befc6df2aac2c2b1422"
     },
     "activity_evidence": [
       {
@@ -138,7 +142,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/copilotkit/opendots",
         "https://raw.githubusercontent.com/CopilotKit/OpenDots/main/README.md",
         "https://github.com/CopilotKit/OpenDots/commit/3e10a7b5fb546aa760111fffba492c0fec1628a7",
-        "https://raw.githubusercontent.com/CopilotKit/OpenDots/main/LICENSE"
+        "https://github.com/CopilotKit/OpenDots/blob/0e706ab3686fee50e9f26befc6df2aac2c2b1422/LICENSE"
       ]
     }
   },

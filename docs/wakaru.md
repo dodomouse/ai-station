@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-      "source_url": "https://raw.githubusercontent.com/pionxzh/wakaru/main/LICENSE",
+      "source_url": "https://github.com/pionxzh/wakaru/blob/5c3524fa7860cc21d051c709b8f8576b4bce1006/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/pionxzh/wakaru/main/LICENSE",
+          "source_url": "https://github.com/pionxzh/wakaru/blob/5c3524fa7860cc21d051c709b8f8576b4bce1006/LICENSE",
           "fetched_at": "2026-11-16T14:23:28.293Z",
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_commit": "5c3524fa7860cc21d051c709b8f8576b4bce1006"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5c3524fa7860cc21d051c709b8f8576b4bce1006"
     },
     "activity_evidence": [
       {
@@ -134,7 +138,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/pionxzh/wakaru",
         "https://raw.githubusercontent.com/pionxzh/wakaru/main/README.md",
         "https://github.com/pionxzh/wakaru/releases/tag/v1.16.0",
-        "https://raw.githubusercontent.com/pionxzh/wakaru/main/LICENSE"
+        "https://github.com/pionxzh/wakaru/blob/5c3524fa7860cc21d051c709b8f8576b4bce1006/LICENSE"
       ]
     }
   },

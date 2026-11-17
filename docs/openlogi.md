@@ -74,23 +74,28 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT OR Apache-2.0",
       "osi_approved": true,
       "license_sha256": "bf94bc462c2d978803800ee4287629a79756ceb47f1eab26a04cb65d8aa62f2e",
-      "source_url": "https://raw.githubusercontent.com/AprilNEA/OpenLogi/master/LICENSE-APACHE",
+      "source_url": "https://github.com/AprilNEA/OpenLogi/blob/9ca7ef0cbd1f4577ffdc338f8288f8c3a410f013/LICENSE-APACHE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE-APACHE",
-          "source_url": "https://raw.githubusercontent.com/AprilNEA/OpenLogi/master/LICENSE-APACHE",
+          "source_url": "https://github.com/AprilNEA/OpenLogi/blob/9ca7ef0cbd1f4577ffdc338f8288f8c3a410f013/LICENSE-APACHE",
           "fetched_at": "2026-11-16T14:23:40.992Z",
-          "sha256": "bf94bc462c2d978803800ee4287629a79756ceb47f1eab26a04cb65d8aa62f2e"
+          "sha256": "bf94bc462c2d978803800ee4287629a79756ceb47f1eab26a04cb65d8aa62f2e",
+          "source_commit": "9ca7ef0cbd1f4577ffdc338f8288f8c3a410f013"
         },
         {
           "path": "LICENSE-MIT",
-          "source_url": "https://raw.githubusercontent.com/AprilNEA/OpenLogi/master/LICENSE-MIT",
+          "source_url": "https://github.com/AprilNEA/OpenLogi/blob/9ca7ef0cbd1f4577ffdc338f8288f8c3a410f013/LICENSE-MIT",
           "fetched_at": "2026-11-16T14:23:40.671Z",
-          "sha256": "ab94bd99807f525cb149219a0fda80eac91d6003689c010405698500867dc1b0"
+          "sha256": "ab94bd99807f525cb149219a0fda80eac91d6003689c010405698500867dc1b0",
+          "source_commit": "9ca7ef0cbd1f4577ffdc338f8288f8c3a410f013"
         }
       ],
-      "scope": "Original project code offered under MIT OR Apache-2.0."
+      "scope": "Original project code offered under MIT OR Apache-2.0.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "9ca7ef0cbd1f4577ffdc338f8288f8c3a410f013"
     },
     "activity_evidence": [
       {
@@ -130,7 +135,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/aprilnea/openlogi",
         "https://raw.githubusercontent.com/AprilNEA/OpenLogi/master/README.md",
         "https://github.com/AprilNEA/OpenLogi/releases/tag/v0.9.0",
-        "https://raw.githubusercontent.com/AprilNEA/OpenLogi/master/LICENSE-APACHE"
+        "https://github.com/AprilNEA/OpenLogi/blob/9ca7ef0cbd1f4577ffdc338f8288f8c3a410f013/LICENSE-APACHE"
       ]
     }
   },

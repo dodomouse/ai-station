@@ -14,9 +14,15 @@ GitHub：[shidenggui/easyquotation](https://github.com/shidenggui/easyquotation)
 | 快照时间 / Snapshot fetched at | 2026-11-15T11:46:23.180Z |
 
 候选原因：缺少近期有效维护证据。
-Candidate reason: Recent qualifying maintenance not established.
+Candidate reason: Recent substantive activity evidence is missing.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：核对近期功能提交或发行内容；纯文档更新不单独计入。
+Next step: Check recent functional commits or release contents; documentation-only updates do not qualify on their own.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -158,7 +164,17 @@ Verification level: `docs`. No package was installed and no quotes were requeste
     "status": "needs_review",
     "reasons": [
       "activity_evidence_expired_or_missing"
-    ]
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "核对近期功能提交或发行内容；纯文档更新不单独计入。"
+      ],
+      "en": [
+        "Check recent functional commits or release contents; documentation-only updates do not qualify on their own."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -217,7 +233,10 @@ Verification level: `docs`. No package was installed and no quotes were requeste
       "osi_approved": true,
       "license_sha256": "0f9dab4072cc38aa592391e18f85628af237fc133db318f5b4dc94268bb58f17",
       "source_url": "https://github.com/shidenggui/easyquotation/blob/7778c1b9f93afb2ce2cf431de393fe690d4ec07c/LICENSE",
-      "reviewed_at": "2026-11-15T11:54:08.129868Z"
+      "reviewed_at": "2026-11-15T11:54:08.129868Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7778c1b9f93afb2ce2cf431de393fe690d4ec07c"
     },
     "activity_evidence": [
       {
@@ -279,7 +298,8 @@ Verification level: `docs`. No package was installed and no quotes were requeste
       "notes": {
         "zh-CN": "默认分支最近提交为 2026-02-28 的文档更新，未满足三个月有效维护要求。根 LICENSE 为 MIT，setup.py 的 BSD 标记与之不一致。",
         "en": "The latest default-branch commit is documentation dated 2026-02-28, outside the activity window. The root MIT license differs from the BSD label in setup.py."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -293,7 +313,16 @@ Verification level: `docs`. No package was installed and no quotes were requeste
     "license_spdx": "MIT",
     "license_sha256": "0f9dab4072cc38aa592391e18f85628af237fc133db318f5b4dc94268bb58f17",
     "last_success_at": "2026-11-15T11:46:23.180Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "needs_review",
+      "reasons": [
+        "activity_evidence_expired_or_missing"
+      ]
+    }
+  ]
 }
 ```
 

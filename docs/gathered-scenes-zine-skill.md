@@ -9,14 +9,20 @@ GitHub：[Zeejay0/gathered-scenes-zine-skill](https://github.com/Zeejay0/gathere
 | 分类 / Category | 图像与音视频 / Images, audio and video |
 | 状态 / Status | 候选 / Candidate |
 | Star | 5660 |
-| 许可证 / License | 待复核 / Review needed |
+| 许可证 / License | 个人非商业许可 / Personal non-commercial license |
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:23.685Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：个人非商业许可，不符合工具收录条件。
+Candidate reason: Personal non-commercial license; does not meet tool inclusion criteria.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。
+Next step: Retain as a reference lead; reassess if the license changes or a separately includable open component is established.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -118,10 +124,20 @@ The current custom license permits personal non-commercial use; commercial and o
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "unknown",
+    "status": "ineligible",
     "reasons": [
-      "license_needs_review"
-    ]
+      "license_not_approved"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。"
+      ],
+      "en": [
+        "Retain as a reference lead; reassess if the license changes or a separately includable open component is established."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -173,8 +189,11 @@ The current custom license permits personal non-commercial use; commercial and o
       "spdx": null,
       "osi_approved": false,
       "license_sha256": "2fed409745b33e60c3b68f15b12fde872c05496c4f224c0e39adc8979fe0ac3b",
-      "source_url": "https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/b9edb836c9dd5c5d80995e89ebcaba34b75fd58f/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b9edb836c9dd5c5d80995e89ebcaba34b75fd58f"
     },
     "activity_evidence": [
       {
@@ -207,7 +226,7 @@ The current custom license permits personal non-commercial use; commercial and o
         }
       },
       {
-        "url": "https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE",
+        "url": "https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/b9edb836c9dd5c5d80995e89ebcaba34b75fd58f/LICENSE",
         "accessed_at": "2026-11-15T10:53:18.283Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -231,7 +250,8 @@ The current custom license permits personal non-commercial use; commercial and o
       "notes": {
         "zh-CN": "当前 LICENSE 为个人非商业许可，商业和组织用途需另行许可，不能按普通开源工具收录。",
         "en": "The current custom license permits personal non-commercial use; commercial and organizational uses need separate permission."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -245,7 +265,16 @@ The current custom license permits personal non-commercial use; commercial and o
     "license_spdx": "NOASSERTION",
     "license_sha256": "2fed409745b33e60c3b68f15b12fde872c05496c4f224c0e39adc8979fe0ac3b",
     "last_success_at": "2026-11-15T10:48:23.685Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

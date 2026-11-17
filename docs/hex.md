@@ -55,6 +55,9 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:24:08.700270Z",
@@ -90,8 +93,11 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "0c267f186f600c6f4d9d229d1792861361f2c433cfb23054fece61f227006344",
-      "source_url": "https://github.com/anomalyco/hex/blob/dev/LICENSE",
-      "reviewed_at": "2026-11-16T14:24:08.700270Z"
+      "source_url": "https://github.com/anomalyco/hex/blob/749ebb76fce9c7df97cef60990ddb2f0c7839280/LICENSE",
+      "reviewed_at": "2026-11-16T14:24:08.700270Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "749ebb76fce9c7df97cef60990ddb2f0c7839280"
     },
     "activity_evidence": [
       {
@@ -155,3 +161,5 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
   }
 }
 ```
+
+</details>

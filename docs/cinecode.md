@@ -83,6 +83,9 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:21:24.299979Z",
@@ -113,9 +116,12 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "a27dda60518acb8211ccc3181914539556117cd00930d1adbae504ef63b793c9",
-      "source_url": "https://github.com/sarpstar/cinecode/blob/main/LICENSE",
+      "source_url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/LICENSE",
       "reviewed_at": "2026-11-16T14:21:24.299979Z",
-      "scope_note": "项目主许可证已读取；外部依赖与素材仍保留各自许可。"
+      "scope_note": "项目主许可证已读取；外部依赖与素材仍保留各自许可。",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "c8a3e7552699360a2b0142c9620882af2069eedb"
     },
     "activity_evidence": [
       {
@@ -143,7 +149,7 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
         "accessed_at": "2026-11-16T14:21:24.299979Z"
       },
       {
-        "url": "https://github.com/sarpstar/cinecode/blob/main/LICENSE",
+        "url": "https://github.com/sarpstar/cinecode/blob/c8a3e7552699360a2b0142c9620882af2069eedb/LICENSE",
         "accessed_at": "2026-11-16T14:21:24.299979Z"
       },
       {
@@ -182,3 +188,5 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
   }
 }
 ```
+
+</details>

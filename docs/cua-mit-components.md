@@ -75,17 +75,21 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "c0779290c1d4783169aa3dbfb55feb505e563ef8a004bbf55298ceffcfbda8d9",
-      "source_url": "https://raw.githubusercontent.com/trycua/cua/main/LICENSE.md",
+      "source_url": "https://github.com/trycua/cua/blob/72273ef7da372ddb0477151cd9e2ae3772593110/LICENSE.md",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE.md",
-          "source_url": "https://raw.githubusercontent.com/trycua/cua/main/LICENSE.md",
+          "source_url": "https://github.com/trycua/cua/blob/72273ef7da372ddb0477151cd9e2ae3772593110/LICENSE.md",
           "fetched_at": "2026-11-16T14:23:28.051Z",
-          "sha256": "c0779290c1d4783169aa3dbfb55feb505e563ef8a004bbf55298ceffcfbda8d9"
+          "sha256": "c0779290c1d4783169aa3dbfb55feb505e563ef8a004bbf55298ceffcfbda8d9",
+          "source_commit": "72273ef7da372ddb0477151cd9e2ae3772593110"
         }
       ],
-      "scope": "Only MIT SDK, CLI, Driver and Lume components. FSL Spaces and DriverBench are excluded."
+      "scope": "Only MIT SDK, CLI, Driver and Lume components. FSL Spaces and DriverBench are excluded.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "72273ef7da372ddb0477151cd9e2ae3772593110"
     },
     "activity_evidence": [
       {
@@ -138,7 +142,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/trycua/cua",
         "https://raw.githubusercontent.com/trycua/cua/main/README.md",
         "https://github.com/trycua/cua/commit/d88757e613c6a5f60508533bd3bb71fb383140cf",
-        "https://raw.githubusercontent.com/trycua/cua/main/LICENSE.md"
+        "https://github.com/trycua/cua/blob/72273ef7da372ddb0477151cd9e2ae3772593110/LICENSE.md"
       ]
     }
   },

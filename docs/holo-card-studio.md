@@ -134,8 +134,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "8fb0edc794206c5d9b5b46717803a07c21c2411b0ee73a966df2a7e71eb74069",
-      "source_url": "https://github.com/EverettFish/holo-card-studio/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:47:41.468Z"
+      "source_url": "https://github.com/EverettFish/holo-card-studio/blob/cce97187874f8aac53ab8374ed1d4decaa6c0116/LICENSE",
+      "reviewed_at": "2026-11-16T14:47:41.468Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "cce97187874f8aac53ab8374ed1d4decaa6c0116"
     },
     "activity_evidence": [
       {
@@ -160,7 +163,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/EverettFish/holo-card-studio/blob/main/LICENSE",
+        "url": "https://github.com/EverettFish/holo-card-studio/blob/cce97187874f8aac53ab8374ed1d4decaa6c0116/LICENSE",
         "accessed_at": "2026-11-16T14:47:41.468Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

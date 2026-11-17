@@ -174,8 +174,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:21.042Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932",
-      "source_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/8b8fbd4dfe7e5e6b839207c83fa17be4b9b928be/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "8b8fbd4dfe7e5e6b839207c83fa17be4b9b928be"
     },
     "activity_evidence": [
       {
@@ -208,7 +211,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:21.042Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/main/LICENSE",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/8b8fbd4dfe7e5e6b839207c83fa17be4b9b928be/LICENSE",
         "accessed_at": "2026-11-15T10:53:16.102Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

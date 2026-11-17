@@ -72,6 +72,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -107,9 +110,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "db7a953239922e6e6460885afcbd47834fcb89f069b0b8c30f338cd76b322ded",
-      "source_url": "https://github.com/ashemag/human-atlas/blob/main/LICENSE",
+      "source_url": "https://github.com/ashemag/human-atlas/blob/1c38bf35c254a891200d3cedecfd57abebe83d8d/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "MIT covers original application code. BodyParts3D geometry is CC BY 4.0 and requires its attribution."
+      "scope_note": "MIT covers original application code. BodyParts3D geometry is CC BY 4.0 and requires its attribution.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "1c38bf35c254a891200d3cedecfd57abebe83d8d"
     },
     "activity_evidence": [
       {
@@ -139,7 +145,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/ashemag/human-atlas/blob/main/LICENSE",
+        "url": "https://github.com/ashemag/human-atlas/blob/1c38bf35c254a891200d3cedecfd57abebe83d8d/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -176,3 +182,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

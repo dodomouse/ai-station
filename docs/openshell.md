@@ -126,8 +126,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "d07c0367e2861e7fe70fa1b679f879f4fa2f9138ade4457d44ecf8b2e135bb45",
-      "source_url": "https://github.com/NVIDIA/OpenShell/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:34:39.604Z"
+      "source_url": "https://github.com/NVIDIA/OpenShell/blob/bdb8be39312fc77c9dd9c3b760fd90c59354391b/LICENSE",
+      "reviewed_at": "2026-11-16T14:34:39.604Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "bdb8be39312fc77c9dd9c3b760fd90c59354391b"
     },
     "activity_evidence": [
       {
@@ -152,7 +155,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/NVIDIA/OpenShell/blob/main/LICENSE",
+        "url": "https://github.com/NVIDIA/OpenShell/blob/bdb8be39312fc77c9dd9c3b760fd90c59354391b/LICENSE",
         "accessed_at": "2026-11-16T14:34:39.604Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

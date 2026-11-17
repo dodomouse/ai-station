@@ -125,8 +125,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "LGPL-3.0",
       "osi_approved": true,
       "license_sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-      "source_url": "https://github.com/vnotex/vnote/blob/master/COPYING.LESSER",
-      "reviewed_at": "2026-11-16T14:50:00.331Z"
+      "source_url": "https://github.com/vnotex/vnote/blob/05490783c7f56c40c3118ee75d4aed85a71708d4/COPYING.LESSER",
+      "reviewed_at": "2026-11-16T14:50:00.331Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "05490783c7f56c40c3118ee75d4aed85a71708d4"
     },
     "activity_evidence": [
       {
@@ -151,7 +154,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/vnotex/vnote/blob/master/COPYING.LESSER",
+        "url": "https://github.com/vnotex/vnote/blob/05490783c7f56c40c3118ee75d4aed85a71708d4/COPYING.LESSER",
         "accessed_at": "2026-11-16T14:50:00.331Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

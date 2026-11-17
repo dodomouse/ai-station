@@ -55,6 +55,9 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:24:08.700270Z",
@@ -90,8 +93,11 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "6ecc068715c0edffc4bc21e5dca450803e0a45af145f72221da23d14e7588359",
-      "source_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:24:08.700270Z"
+      "source_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/blob/abc0de79d6ceb0b5d7aa693945849b3937afbe6a/LICENSE",
+      "reviewed_at": "2026-11-16T14:24:08.700270Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "abc0de79d6ceb0b5d7aa693945849b3937afbe6a"
     },
     "activity_evidence": [
       {
@@ -155,3 +161,5 @@ The original WeChat article is dated 2026-11-09 in the public index. Its author-
   }
 }
 ```
+
+</details>

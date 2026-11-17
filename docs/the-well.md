@@ -134,8 +134,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "BSD-3-Clause",
       "osi_approved": true,
       "license_sha256": "714e789efb1453e42fafd50d4f02e6f73d516e345a93b4c9238cf8f203f34caf",
-      "source_url": "https://github.com/PolymathicAI/the_well/blob/master/LICENSE",
-      "reviewed_at": "2026-11-16T14:32:13.801Z"
+      "source_url": "https://github.com/PolymathicAI/the_well/blob/aac88c0b5eb9cbe4b7b2797eaaa550a43706fb44/LICENSE",
+      "reviewed_at": "2026-11-16T14:32:13.801Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "aac88c0b5eb9cbe4b7b2797eaaa550a43706fb44"
     },
     "activity_evidence": [
       {
@@ -160,7 +163,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/PolymathicAI/the_well/blob/master/LICENSE",
+        "url": "https://github.com/PolymathicAI/the_well/blob/aac88c0b5eb9cbe4b7b2797eaaa550a43706fb44/LICENSE",
         "accessed_at": "2026-11-16T14:32:13.801Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

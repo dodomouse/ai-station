@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "GPL-3.0",
       "osi_approved": true,
       "license_sha256": "ad64ffba025cc70eb2f5fa51fa17ced27e0755f1015dc2a26d64d2140cea13f1",
-      "source_url": "https://raw.githubusercontent.com/Zettlr/Zettlr/develop/LICENSE",
+      "source_url": "https://github.com/Zettlr/Zettlr/blob/d99f64d5b171b72afa2b84aefff5dc1a4a959234/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/Zettlr/Zettlr/develop/LICENSE",
+          "source_url": "https://github.com/Zettlr/Zettlr/blob/d99f64d5b171b72afa2b84aefff5dc1a4a959234/LICENSE",
           "fetched_at": "2026-11-16T14:23:41.101Z",
-          "sha256": "ad64ffba025cc70eb2f5fa51fa17ced27e0755f1015dc2a26d64d2140cea13f1"
+          "sha256": "ad64ffba025cc70eb2f5fa51fa17ced27e0755f1015dc2a26d64d2140cea13f1",
+          "source_commit": "d99f64d5b171b72afa2b84aefff5dc1a4a959234"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "d99f64d5b171b72afa2b84aefff5dc1a4a959234"
     },
     "activity_evidence": [
       {
@@ -123,7 +127,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/zettlr/zettlr",
         "https://raw.githubusercontent.com/Zettlr/Zettlr/develop/README.md",
         "https://github.com/Zettlr/Zettlr/releases/tag/v4.10.0",
-        "https://raw.githubusercontent.com/Zettlr/Zettlr/develop/LICENSE"
+        "https://github.com/Zettlr/Zettlr/blob/d99f64d5b171b72afa2b84aefff5dc1a4a959234/LICENSE"
       ]
     }
   },

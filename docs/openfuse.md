@@ -123,8 +123,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7fdc5583ed6735e5659ccc4fb05c5c8c36838b23b37934b0f72d101dfe0daf2a",
-      "source_url": "https://github.com/CopilotKit/openfuse/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:50:00.542Z"
+      "source_url": "https://github.com/CopilotKit/openfuse/blob/7771e2db03a4b25d8bc8ee32f7a5c0dddafe3bfc/LICENSE",
+      "reviewed_at": "2026-11-16T14:50:00.542Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7771e2db03a4b25d8bc8ee32f7a5c0dddafe3bfc"
     },
     "activity_evidence": [
       {
@@ -149,7 +152,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/CopilotKit/openfuse/blob/main/LICENSE",
+        "url": "https://github.com/CopilotKit/openfuse/blob/7771e2db03a4b25d8bc8ee32f7a5c0dddafe3bfc/LICENSE",
         "accessed_at": "2026-11-16T14:50:00.542Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

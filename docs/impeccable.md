@@ -126,8 +126,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812",
-      "source_url": "https://github.com/pbakaus/impeccable/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:32:13.558Z"
+      "source_url": "https://github.com/pbakaus/impeccable/blob/d41d9860b0094dcb68030657da63461212835aaa/LICENSE",
+      "reviewed_at": "2026-11-16T14:32:13.558Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "d41d9860b0094dcb68030657da63461212835aaa"
     },
     "activity_evidence": [
       {
@@ -152,7 +155,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/pbakaus/impeccable/blob/main/LICENSE",
+        "url": "https://github.com/pbakaus/impeccable/blob/d41d9860b0094dcb68030657da63461212835aaa/LICENSE",
         "accessed_at": "2026-11-16T14:32:13.558Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

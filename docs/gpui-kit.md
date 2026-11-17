@@ -75,23 +75,28 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "d1b0449e5478c574ba4f686c2656df7fe77d66821a61f8b6ed3378a58ed9a811",
-      "source_url": "https://raw.githubusercontent.com/longbridge/gpui-kit/main/LICENSE-APACHE",
+      "source_url": "https://github.com/longbridge/gpui-kit/blob/70a70565b6d037e41fecfe1a65645ff29cfa368d/LICENSE-APACHE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE-APACHE",
-          "source_url": "https://raw.githubusercontent.com/longbridge/gpui-kit/main/LICENSE-APACHE",
+          "source_url": "https://github.com/longbridge/gpui-kit/blob/70a70565b6d037e41fecfe1a65645ff29cfa368d/LICENSE-APACHE",
           "fetched_at": "2026-11-16T14:23:28.211Z",
-          "sha256": "d1b0449e5478c574ba4f686c2656df7fe77d66821a61f8b6ed3378a58ed9a811"
+          "sha256": "d1b0449e5478c574ba4f686c2656df7fe77d66821a61f8b6ed3378a58ed9a811",
+          "source_commit": "70a70565b6d037e41fecfe1a65645ff29cfa368d"
         },
         {
           "path": "LICENSE-DOCS.md",
-          "source_url": "https://raw.githubusercontent.com/longbridge/gpui-kit/main/LICENSE-DOCS.md",
+          "source_url": "https://github.com/longbridge/gpui-kit/blob/f1d1f5a6f709340fd02db8a78a7bc5d018b487be/LICENSE-DOCS.md",
           "fetched_at": "2026-11-16T14:23:28.124Z",
-          "sha256": "8a9ccf144b2d5bf5aae56abdc6e723e17e1ba4de1f5d515b3b644288fd4fc16f"
+          "sha256": "8a9ccf144b2d5bf5aae56abdc6e723e17e1ba4de1f5d515b3b644288fd4fc16f",
+          "source_commit": "f1d1f5a6f709340fd02db8a78a7bc5d018b487be"
         }
       ],
-      "scope": "Apache-2.0 code. Original documentation and illustrations also offer CC-BY-4.0 where specified."
+      "scope": "Apache-2.0 code. Original documentation and illustrations also offer CC-BY-4.0 where specified.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "70a70565b6d037e41fecfe1a65645ff29cfa368d"
     },
     "activity_evidence": [
       {
@@ -141,7 +146,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/longbridge/gpui-kit",
         "https://raw.githubusercontent.com/longbridge/gpui-kit/main/README.md",
         "https://github.com/longbridge/gpui-kit/releases/tag/v0.10.0",
-        "https://raw.githubusercontent.com/longbridge/gpui-kit/main/LICENSE-APACHE"
+        "https://github.com/longbridge/gpui-kit/blob/70a70565b6d037e41fecfe1a65645ff29cfa368d/LICENSE-APACHE"
       ]
     }
   },

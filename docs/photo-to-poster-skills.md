@@ -13,10 +13,16 @@ GitHub：[GZ-L/photo-to-poster-skills](https://github.com/GZ-L/photo-to-poster-s
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:22.512Z |
 
-候选原因：Star 未满 1000。
-Candidate reason: Below 1000 Stars.
+候选原因：按新收录标准待复评。
+Candidate reason: Reassessment under current criteria is pending.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。
+Next step: Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -87,7 +93,7 @@ Photo-based prompts and workflows for painted miniature posters and watercolor t
 
 ### Requirements and limits
 
-The source card lacks a complete platform, dependency and price matrix. Offline operation and free image generation cannot be assumed. This repository is below the catalog's 1000-Star threshold at import time, so it remains a candidate.
+The source card lacks a complete platform, dependency and price matrix. Offline operation and free image generation cannot be assumed. The former 1000-Star threshold no longer applies. Reassessment of documentation, licensing and substantive activity is pending.
 
 ### Getting started
 
@@ -116,10 +122,20 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.512Z. [Shared metadata](#revi
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "ineligible",
+    "status": "needs_review",
     "reasons": [
-      "below_star_threshold"
-    ]
+      "policy_reassessment_pending"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。"
+      ],
+      "en": [
+        "Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -171,8 +187,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.512Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "ac8576e9a96d2ed470a9453d65a7938b88ed300c432f48826c066d4cc8392918",
-      "source_url": "https://github.com/GZ-L/photo-to-poster-skills/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/GZ-L/photo-to-poster-skills/blob/268ee78460ab5592167082d0501b7834f2e5b676/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "268ee78460ab5592167082d0501b7834f2e5b676"
     },
     "activity_evidence": [],
     "sources": [
@@ -193,7 +212,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.512Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/GZ-L/photo-to-poster-skills/blob/main/LICENSE",
+        "url": "https://github.com/GZ-L/photo-to-poster-skills/blob/268ee78460ab5592167082d0501b7834f2e5b676/LICENSE",
         "accessed_at": "2026-11-15T10:53:17.432Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -214,7 +233,8 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.512Z. [Shared metadata](#revi
         "activity_not_confirmed"
       ],
       "english_scope": "editorial_digest",
-      "source_card_preserved": true
+      "source_card_preserved": true,
+      "historical": true
     }
   },
   "snapshot": {
@@ -228,7 +248,16 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.512Z. [Shared metadata](#revi
     "license_spdx": "MIT",
     "license_sha256": "ac8576e9a96d2ed470a9453d65a7938b88ed300c432f48826c066d4cc8392918",
     "last_success_at": "2026-11-15T10:48:22.512Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "ineligible",
+      "reasons": [
+        "below_star_threshold"
+      ]
+    }
+  ]
 }
 ```
 

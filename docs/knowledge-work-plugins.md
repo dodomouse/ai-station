@@ -79,6 +79,9 @@ Public articles published or authorized by the author were also checked for attr
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -114,9 +117,12 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
-      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/LICENSE",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/e91a134584eb798bac7fb0379358006a2b63b965/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "e91a134584eb798bac7fb0379358006a2b63b965"
     },
     "activity_evidence": [
       {
@@ -144,7 +150,7 @@ Public articles published or authorized by the author were also checked for attr
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/LICENSE",
+        "url": "https://github.com/anthropics/knowledge-work-plugins/blob/e91a134584eb798bac7fb0379358006a2b63b965/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -191,3 +197,5 @@ Public articles published or authorized by the author were also checked for attr
   }
 }
 ```
+
+</details>

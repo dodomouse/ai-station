@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
-      "source_url": "https://raw.githubusercontent.com/NandhaKishorM/laya/main/LICENSE",
+      "source_url": "https://github.com/NandhaKishorM/laya/blob/b1d656952f0f9581ea691a70cb6f38abf3eb13a9/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/NandhaKishorM/laya/main/LICENSE",
+          "source_url": "https://github.com/NandhaKishorM/laya/blob/b1d656952f0f9581ea691a70cb6f38abf3eb13a9/LICENSE",
           "fetched_at": "2026-11-16T14:23:40.275Z",
-          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+          "source_commit": "b1d656952f0f9581ea691a70cb6f38abf3eb13a9"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b1d656952f0f9581ea691a70cb6f38abf3eb13a9"
     },
     "activity_evidence": [
       {
@@ -123,7 +127,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/nandhakishorm/laya",
         "https://raw.githubusercontent.com/NandhaKishorM/laya/main/README.md",
         "https://github.com/NandhaKishorM/laya/releases/tag/v0.4.35",
-        "https://raw.githubusercontent.com/NandhaKishorM/laya/main/LICENSE"
+        "https://github.com/NandhaKishorM/laya/blob/b1d656952f0f9581ea691a70cb6f38abf3eb13a9/LICENSE"
       ]
     }
   },

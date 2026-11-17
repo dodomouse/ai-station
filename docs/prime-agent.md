@@ -122,8 +122,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "e0d1bf8d137e6d56e98ee968402b0b7f324c5c85ea505e4fd7b6b78615bc4e7a",
-      "source_url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:47:41.714Z"
+      "source_url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/ad1613303dff0c642b9a95706678559356086107/LICENSE",
+      "reviewed_at": "2026-11-16T14:47:41.714Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "ad1613303dff0c642b9a95706678559356086107"
     },
     "activity_evidence": [
       {
@@ -148,7 +151,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/main/LICENSE",
+        "url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/ad1613303dff0c642b9a95706678559356086107/LICENSE",
         "accessed_at": "2026-11-16T14:47:41.714Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

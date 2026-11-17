@@ -219,8 +219,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:18.538Z. [Shared metadata](#revi
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
-      "source_url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/storytold/craft-anything/blob/1097195797e2c856f62644b71366425260572c3b/LICENSE-APACHE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "1097195797e2c856f62644b71366425260572c3b"
     },
     "activity_evidence": [
       {
@@ -253,7 +256,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:18.538Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+        "url": "https://github.com/storytold/craft-anything/blob/1097195797e2c856f62644b71366425260572c3b/LICENSE-APACHE",
         "accessed_at": "2026-11-15T10:53:12.342Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

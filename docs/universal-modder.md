@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "db6cfa2ad2c44f73080440c866c4a3a078749d84ba40b4dfa27d50f18a525543",
-      "source_url": "https://raw.githubusercontent.com/rehan-remade/universal-modder/main/LICENSE",
+      "source_url": "https://github.com/rehan-remade/universal-modder/blob/3c4ac6c38e411b8c543bce217eae197039516bfc/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/rehan-remade/universal-modder/main/LICENSE",
+          "source_url": "https://github.com/rehan-remade/universal-modder/blob/3c4ac6c38e411b8c543bce217eae197039516bfc/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.872Z",
-          "sha256": "db6cfa2ad2c44f73080440c866c4a3a078749d84ba40b4dfa27d50f18a525543"
+          "sha256": "db6cfa2ad2c44f73080440c866c4a3a078749d84ba40b4dfa27d50f18a525543",
+          "source_commit": "3c4ac6c38e411b8c543bce217eae197039516bfc"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "3c4ac6c38e411b8c543bce217eae197039516bfc"
     },
     "activity_evidence": [
       {
@@ -125,7 +129,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/rehan-remade/universal-modder",
         "https://raw.githubusercontent.com/rehan-remade/universal-modder/main/README.md",
         "https://github.com/rehan-remade/universal-modder/commit/0d65ff96d3d519263355366adf0899acd5cb76bf",
-        "https://raw.githubusercontent.com/rehan-remade/universal-modder/main/LICENSE"
+        "https://github.com/rehan-remade/universal-modder/blob/3c4ac6c38e411b8c543bce217eae197039516bfc/LICENSE"
       ]
     }
   },

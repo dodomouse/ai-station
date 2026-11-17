@@ -79,6 +79,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -114,9 +117,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "GPL-3.0-or-later",
       "osi_approved": true,
       "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-      "source_url": "https://github.com/OpenSmash-Ultimate/OpenSmash-Ultimate/blob/main/LICENSE",
+      "source_url": "https://github.com/OpenSmash-Ultimate/OpenSmash-Ultimate/blob/199e1ed4508a6b6349d92ba1209c0cfd5ffe0cef/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "GPL-3.0-or-later covers the project source, including merged WindowSmash and ssbu-recomp. Game code, assets, keys and firmware are excluded. External libraries and optional Epic Online Services retain their own licenses."
+      "scope_note": "GPL-3.0-or-later covers the project source, including merged WindowSmash and ssbu-recomp. Game code, assets, keys and firmware are excluded. External libraries and optional Epic Online Services retain their own licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "199e1ed4508a6b6349d92ba1209c0cfd5ffe0cef"
     },
     "activity_evidence": [
       {
@@ -144,7 +150,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/OpenSmash-Ultimate/OpenSmash-Ultimate/blob/main/LICENSE",
+        "url": "https://github.com/OpenSmash-Ultimate/OpenSmash-Ultimate/blob/199e1ed4508a6b6349d92ba1209c0cfd5ffe0cef/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -190,3 +196,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

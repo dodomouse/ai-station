@@ -13,10 +13,16 @@ GitHub：[byoungd/up](https://github.com/byoungd/up)
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:20.197Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：组件许可范围待复核。
+Candidate reason: Component license scope requires review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：明确拟收录组件与排除范围，并完成双语内容复核。
+Next step: Define the included components and exclusions, then complete bilingual review.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -130,10 +136,20 @@ Licensing separates MIT code from CC BY-NC content. This remains a reading-resou
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "unknown",
+    "status": "needs_review",
     "reasons": [
-      "license_needs_review"
-    ]
+      "component_license_review_pending"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "明确拟收录组件与排除范围，并完成双语内容复核。"
+      ],
+      "en": [
+        "Define the included components and exclusions, then complete bilingual review."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -185,8 +201,11 @@ Licensing separates MIT code from CC BY-NC content. This remains a reading-resou
       "spdx": null,
       "osi_approved": false,
       "license_sha256": "d0a6a0fff1580e24e70fd803706f485b84a89195446188f95fe188ee2ac872cb",
-      "source_url": "https://github.com/byoungd/up/blob/main/LICENSE-CODE.md",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/byoungd/up/blob/9f83b2503638b3c7ff6e3bb52f3992038b4b4978/LICENSE-CODE.md",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "9f83b2503638b3c7ff6e3bb52f3992038b4b4978"
     },
     "activity_evidence": [],
     "sources": [
@@ -207,7 +226,7 @@ Licensing separates MIT code from CC BY-NC content. This remains a reading-resou
         }
       },
       {
-        "url": "https://github.com/byoungd/up/blob/main/LICENSE-CODE.md",
+        "url": "https://github.com/byoungd/up/blob/9f83b2503638b3c7ff6e3bb52f3992038b4b4978/LICENSE-CODE.md",
         "accessed_at": "2026-11-15T10:53:14.739Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -232,7 +251,8 @@ Licensing separates MIT code from CC BY-NC content. This remains a reading-resou
       "notes": {
         "zh-CN": "当前许可将 MIT 代码与 CC BY-NC 内容分开。按阅读资料保留，不把整库描述为 OSI 开源软件。",
         "en": "Licensing separates MIT code from CC BY-NC content. This remains a reading-resource candidate."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -246,7 +266,16 @@ Licensing separates MIT code from CC BY-NC content. This remains a reading-resou
     "license_spdx": "NOASSERTION",
     "license_sha256": "d0a6a0fff1580e24e70fd803706f485b84a89195446188f95fe188ee2ac872cb",
     "last_success_at": "2026-11-15T10:48:20.197Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

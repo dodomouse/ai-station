@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "049501fd54d27852507853a5b88094ca1c6ff97404418a5032f3310eecc9cde6",
-      "source_url": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/main/LICENSE",
+      "source_url": "https://github.com/ahujasid/mcp-for-blender/blob/b6a2ce30c14636a562b5549684d9db6fc01f29ab/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/main/LICENSE",
+          "source_url": "https://github.com/ahujasid/mcp-for-blender/blob/b6a2ce30c14636a562b5549684d9db6fc01f29ab/LICENSE",
           "fetched_at": "2026-11-16T14:23:40.518Z",
-          "sha256": "049501fd54d27852507853a5b88094ca1c6ff97404418a5032f3310eecc9cde6"
+          "sha256": "049501fd54d27852507853a5b88094ca1c6ff97404418a5032f3310eecc9cde6",
+          "source_commit": "b6a2ce30c14636a562b5549684d9db6fc01f29ab"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b6a2ce30c14636a562b5549684d9db6fc01f29ab"
     },
     "activity_evidence": [
       {
@@ -128,7 +132,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/ahujasid/mcp-for-blender",
         "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/main/README.md",
         "https://github.com/ahujasid/mcp-for-blender/commit/b6a2ce30c14636a562b5549684d9db6fc01f29ab",
-        "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/main/LICENSE"
+        "https://github.com/ahujasid/mcp-for-blender/blob/b6a2ce30c14636a562b5549684d9db6fc01f29ab/LICENSE"
       ]
     }
   },

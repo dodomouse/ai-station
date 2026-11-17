@@ -137,8 +137,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "e1e07ba86c3e6d2760efbbfbaec4ebeaac590f7d3fd885d622e1cdc2f92c20fc",
-      "source_url": "https://github.com/max-sixty/worktrunk/blob/main/LICENSE-APACHE",
-      "reviewed_at": "2026-11-16T14:34:39.906Z"
+      "source_url": "https://github.com/max-sixty/worktrunk/blob/da19b76d11fd0d59ef2663a6dada35cef551111b/LICENSE-APACHE",
+      "reviewed_at": "2026-11-16T14:34:39.906Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "da19b76d11fd0d59ef2663a6dada35cef551111b"
     },
     "activity_evidence": [
       {
@@ -163,7 +166,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/max-sixty/worktrunk/blob/main/LICENSE-APACHE",
+        "url": "https://github.com/max-sixty/worktrunk/blob/da19b76d11fd0d59ef2663a6dada35cef551111b/LICENSE-APACHE",
         "accessed_at": "2026-11-16T14:34:39.906Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

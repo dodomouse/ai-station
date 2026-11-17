@@ -203,8 +203,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:12.958Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "18332c61780ce8e694d4fa330770cd4d8c85e33f47ac13a80d72d70bb032ae72",
-      "source_url": "https://github.com/akitaonrails/ai-memory/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/akitaonrails/ai-memory/blob/37de561b2735915d6f860da729977f8ce2a4018e/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "37de561b2735915d6f860da729977f8ce2a4018e"
     },
     "activity_evidence": [
       {
@@ -237,7 +240,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:12.958Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/akitaonrails/ai-memory/blob/main/LICENSE",
+        "url": "https://github.com/akitaonrails/ai-memory/blob/37de561b2735915d6f860da729977f8ce2a4018e/LICENSE",
         "accessed_at": "2026-11-15T10:53:07.588Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

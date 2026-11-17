@@ -127,8 +127,11 @@ The source is a public republication dated 2026-09-05 with explicit attribution 
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-      "source_url": "https://github.com/jingyaogong/minimind/blob/master/LICENSE",
-      "reviewed_at": "2026-11-16T14:50:00.739Z"
+      "source_url": "https://github.com/jingyaogong/minimind/blob/233d00fa068ec2b8c0d4f07b703934d6391a5a73/LICENSE",
+      "reviewed_at": "2026-11-16T14:50:00.739Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "233d00fa068ec2b8c0d4f07b703934d6391a5a73"
     },
     "activity_evidence": [
       {
@@ -153,7 +156,7 @@ The source is a public republication dated 2026-09-05 with explicit attribution 
         }
       },
       {
-        "url": "https://github.com/jingyaogong/minimind/blob/master/LICENSE",
+        "url": "https://github.com/jingyaogong/minimind/blob/233d00fa068ec2b8c0d4f07b703934d6391a5a73/LICENSE",
         "accessed_at": "2026-11-16T14:50:00.739Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

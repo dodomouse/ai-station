@@ -174,8 +174,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.225Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7d25ae95b305b884c08ce898e53b58d2e180ff0119e5d203d8b4ae30420f3b33",
-      "source_url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/0ac8bf2b31942376cb6b8c4074715595d512acd2/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "0ac8bf2b31942376cb6b8c4074715595d512acd2"
     },
     "activity_evidence": [
       {
@@ -208,7 +211,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.225Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/main/LICENSE",
+        "url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/0ac8bf2b31942376cb6b8c4074715595d512acd2/LICENSE",
         "accessed_at": "2026-11-15T10:53:17.234Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "9994c50a3e043728bcf59106d5941c21b06e53dc64977e6bcafe9580a8a5e5d6",
-      "source_url": "https://raw.githubusercontent.com/htdt/godogen/master/LICENSE.md",
+      "source_url": "https://github.com/htdt/godogen/blob/40542b6c8efbdc40112c2b004fbaa6d67141846d/LICENSE.md",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE.md",
-          "source_url": "https://raw.githubusercontent.com/htdt/godogen/master/LICENSE.md",
+          "source_url": "https://github.com/htdt/godogen/blob/40542b6c8efbdc40112c2b004fbaa6d67141846d/LICENSE.md",
           "fetched_at": "2026-11-16T14:23:40.243Z",
-          "sha256": "9994c50a3e043728bcf59106d5941c21b06e53dc64977e6bcafe9580a8a5e5d6"
+          "sha256": "9994c50a3e043728bcf59106d5941c21b06e53dc64977e6bcafe9580a8a5e5d6",
+          "source_commit": "40542b6c8efbdc40112c2b004fbaa6d67141846d"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "40542b6c8efbdc40112c2b004fbaa6d67141846d"
     },
     "activity_evidence": [
       {
@@ -141,7 +145,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/htdt/godogen",
         "https://raw.githubusercontent.com/htdt/godogen/master/README.md",
         "https://github.com/htdt/godogen/commit/40542b6c8efbdc40112c2b004fbaa6d67141846d",
-        "https://raw.githubusercontent.com/htdt/godogen/master/LICENSE.md"
+        "https://github.com/htdt/godogen/blob/40542b6c8efbdc40112c2b004fbaa6d67141846d/LICENSE.md"
       ]
     }
   },

@@ -63,6 +63,9 @@ Public articles published or authorized by the author were also checked for attr
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:24:08.700270Z",
@@ -98,8 +101,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://github.com/milind-soni/OpenMausBot/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:24:08.700270Z"
+      "source_url": "https://github.com/milind-soni/OpenMausBot/blob/12c07fb5fff3faa755233a71d25f034bbed7ae0f/LICENSE",
+      "reviewed_at": "2026-11-16T14:24:08.700270Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "12c07fb5fff3faa755233a71d25f034bbed7ae0f"
     },
     "activity_evidence": [
       {
@@ -173,3 +179,5 @@ Public articles published or authorized by the author were also checked for attr
   }
 }
 ```
+
+</details>

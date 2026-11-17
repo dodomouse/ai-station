@@ -133,8 +133,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "GPL-2.0",
       "osi_approved": true,
       "license_sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
-      "source_url": "https://github.com/derv82/wifit3/blob/master/LICENSE",
-      "reviewed_at": "2026-11-16T14:47:41.313Z"
+      "source_url": "https://github.com/derv82/wifit3/blob/6f3f8ae8b2d7423f9514744284feed2b517c77b2/LICENSE",
+      "reviewed_at": "2026-11-16T14:47:41.313Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "6f3f8ae8b2d7423f9514744284feed2b517c77b2"
     },
     "activity_evidence": [
       {
@@ -159,7 +162,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/derv82/wifit3/blob/master/LICENSE",
+        "url": "https://github.com/derv82/wifit3/blob/6f3f8ae8b2d7423f9514744284feed2b517c77b2/LICENSE",
         "accessed_at": "2026-11-16T14:47:41.313Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

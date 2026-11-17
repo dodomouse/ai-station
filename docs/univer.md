@@ -75,17 +75,21 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
-      "source_url": "https://raw.githubusercontent.com/dream-num/univer/dev/LICENSE",
+      "source_url": "https://github.com/dream-num/univer/blob/8a301b94fdc1fb7f398181bfd9af33e320c95d42/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/dream-num/univer/dev/LICENSE",
+          "source_url": "https://github.com/dream-num/univer/blob/8a301b94fdc1fb7f398181bfd9af33e320c95d42/LICENSE",
           "fetched_at": "2026-11-16T14:23:29.017Z",
-          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+          "source_commit": "8a301b94fdc1fb7f398181bfd9af33e320c95d42"
         }
       ],
-      "scope": "Apache-2.0 open core only; commercial plugins, Server SDK and separately licensed AI extensions are excluded."
+      "scope": "Apache-2.0 open core only; commercial plugins, Server SDK and separately licensed AI extensions are excluded.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "8a301b94fdc1fb7f398181bfd9af33e320c95d42"
     },
     "activity_evidence": [
       {
@@ -137,7 +141,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/dream-num/univer",
         "https://raw.githubusercontent.com/dream-num/univer/dev/README.md",
         "https://github.com/dream-num/univer/commit/8a301b94fdc1fb7f398181bfd9af33e320c95d42",
-        "https://raw.githubusercontent.com/dream-num/univer/dev/LICENSE"
+        "https://github.com/dream-num/univer/blob/8a301b94fdc1fb7f398181bfd9af33e320c95d42/LICENSE"
       ]
     }
   },

@@ -175,8 +175,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:21.510Z. [Shared metadata](#revi
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "aa7ba36133bb07559b8f2f96eb4d7e2e95003432238973b31b6727517bd6c0a0",
-      "source_url": "https://github.com/alexgreensh/anidoodle/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/alexgreensh/anidoodle/blob/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "4ae27d2c281fcfd01bce87ab13dc5ad4df81a795"
     },
     "activity_evidence": [
       {
@@ -209,7 +212,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:21.510Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/alexgreensh/anidoodle/blob/main/LICENSE",
+        "url": "https://github.com/alexgreensh/anidoodle/blob/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/LICENSE",
         "accessed_at": "2026-11-15T10:53:17.007Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

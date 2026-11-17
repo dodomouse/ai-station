@@ -139,8 +139,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "AGPL-3.0",
       "osi_approved": true,
       "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "source_url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:34:39.859Z"
+      "source_url": "https://github.com/OpenBMB/PilotDeck/blob/9e6f889832f921745089a794988321075c6a6166/LICENSE",
+      "reviewed_at": "2026-11-16T14:34:39.859Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "9e6f889832f921745089a794988321075c6a6166"
     },
     "activity_evidence": [
       {
@@ -165,7 +168,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/9e6f889832f921745089a794988321075c6a6166/LICENSE",
         "accessed_at": "2026-11-16T14:34:39.859Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

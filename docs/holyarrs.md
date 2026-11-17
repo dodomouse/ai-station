@@ -55,6 +55,9 @@ The project appears in the account's [author-published article dated 2026-11-16]
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:30:19.931551Z",
@@ -91,8 +94,11 @@ The project appears in the account's [author-published article dated 2026-11-16]
       "spdx": "AGPL-3.0",
       "osi_approved": true,
       "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "source_url": "https://github.com/HolyArrs/HolyArrs/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:30:19.931551Z"
+      "source_url": "https://github.com/HolyArrs/HolyArrs/blob/25f120e60842ce8b3ff58dcae4756e72b65768f7/LICENSE",
+      "reviewed_at": "2026-11-16T14:30:19.931551Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "25f120e60842ce8b3ff58dcae4756e72b65768f7"
     },
     "activity_evidence": [
       {
@@ -146,3 +152,5 @@ The project appears in the account's [author-published article dated 2026-11-16]
   }
 }
 ```
+
+</details>

@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "GPL-3.0",
       "osi_approved": true,
       "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-      "source_url": "https://raw.githubusercontent.com/1Panel-dev/1Panel/dev-v2/LICENSE",
+      "source_url": "https://github.com/1Panel-dev/1Panel/blob/b00478c312443b88ad8cc7610bd3d3c8343a4a37/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/1Panel-dev/1Panel/dev-v2/LICENSE",
+          "source_url": "https://github.com/1Panel-dev/1Panel/blob/b00478c312443b88ad8cc7610bd3d3c8343a4a37/LICENSE",
           "fetched_at": "2026-11-16T14:23:42.069Z",
-          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "source_commit": "b00478c312443b88ad8cc7610bd3d3c8343a4a37"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b00478c312443b88ad8cc7610bd3d3c8343a4a37"
     },
     "activity_evidence": [
       {
@@ -134,7 +138,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/1panel-dev/1panel",
         "https://raw.githubusercontent.com/1Panel-dev/1Panel/dev-v2/README.md",
         "https://github.com/1Panel-dev/1Panel/releases/tag/v2.5.0",
-        "https://raw.githubusercontent.com/1Panel-dev/1Panel/dev-v2/LICENSE"
+        "https://github.com/1Panel-dev/1Panel/blob/b00478c312443b88ad8cc7610bd3d3c8343a4a37/LICENSE"
       ]
     }
   },

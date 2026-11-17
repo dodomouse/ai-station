@@ -172,8 +172,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "5baa6f2a531baa97eb2d3dea7778990fb244d5c6627025b5c2a5bdebd8d1bf5c",
-      "source_url": "https://github.com/bangtutorial/bang-motion/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/bangtutorial/bang-motion/blob/c1aa65e921c970d858705fcb4a53a8294d1a4131/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "c1aa65e921c970d858705fcb4a53a8294d1a4131"
     },
     "activity_evidence": [
       {
@@ -206,7 +209,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/bangtutorial/bang-motion/blob/main/LICENSE",
+        "url": "https://github.com/bangtutorial/bang-motion/blob/c1aa65e921c970d858705fcb4a53a8294d1a4131/LICENSE",
         "accessed_at": "2026-11-15T10:53:17.527Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

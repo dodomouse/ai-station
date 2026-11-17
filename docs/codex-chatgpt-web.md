@@ -126,8 +126,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "d8b06e8d802722749b8f09e4ed1f2439fde0995a09b7e47c65dca3cc54d43d6e",
-      "source_url": "https://github.com/miuuyy/codex-chatgpt-web/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:47:41.565Z"
+      "source_url": "https://github.com/miuuyy/codex-chatgpt-web/blob/f08d16509e6a5447a0d0f2943abb172c69705160/LICENSE",
+      "reviewed_at": "2026-11-16T14:47:41.565Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "f08d16509e6a5447a0d0f2943abb172c69705160"
     },
     "activity_evidence": [
       {
@@ -152,7 +155,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/miuuyy/codex-chatgpt-web/blob/main/LICENSE",
+        "url": "https://github.com/miuuyy/codex-chatgpt-web/blob/f08d16509e6a5447a0d0f2943abb172c69705160/LICENSE",
         "accessed_at": "2026-11-16T14:47:41.565Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

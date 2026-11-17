@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "97a617246303da2c1ec23133cbbe1dc6c99705948dd763a0845b1d508fb94a39",
-      "source_url": "https://raw.githubusercontent.com/govijr/terminal-mac/main/LICENSE",
+      "source_url": "https://github.com/govijr/terminal-mac/blob/74c548f27910ba2d228637780740e5fd3f9e0450/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/govijr/terminal-mac/main/LICENSE",
+          "source_url": "https://github.com/govijr/terminal-mac/blob/74c548f27910ba2d228637780740e5fd3f9e0450/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.438Z",
-          "sha256": "97a617246303da2c1ec23133cbbe1dc6c99705948dd763a0845b1d508fb94a39"
+          "sha256": "97a617246303da2c1ec23133cbbe1dc6c99705948dd763a0845b1d508fb94a39",
+          "source_commit": "74c548f27910ba2d228637780740e5fd3f9e0450"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "74c548f27910ba2d228637780740e5fd3f9e0450"
     },
     "activity_evidence": [
       {
@@ -125,7 +129,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/govijr/terminal-mac",
         "https://raw.githubusercontent.com/govijr/terminal-mac/main/README.md",
         "https://github.com/govijr/terminal-mac/commit/66458219780a710b683af7fdd6e59be872a29939",
-        "https://raw.githubusercontent.com/govijr/terminal-mac/main/LICENSE"
+        "https://github.com/govijr/terminal-mac/blob/74c548f27910ba2d228637780740e5fd3f9e0450/LICENSE"
       ]
     }
   },

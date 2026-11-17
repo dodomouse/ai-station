@@ -72,6 +72,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -107,9 +110,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "24caa63d04c523975b506ff57ba4abe677f4968a67a1206fe2c6c79e4b048f36",
-      "source_url": "https://github.com/Wechat-ggGitHub/voice-control-agent/blob/main/LICENSE",
+      "source_url": "https://github.com/Wechat-ggGitHub/voice-control-agent/blob/45f6ca93b715ad90101c504aa6e180fea62b0bc4/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "MIT covers original code only. Speech libraries, model files and packaged third-party components keep their individual licenses."
+      "scope_note": "MIT covers original code only. Speech libraries, model files and packaged third-party components keep their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "45f6ca93b715ad90101c504aa6e180fea62b0bc4"
     },
     "activity_evidence": [
       {
@@ -139,7 +145,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/Wechat-ggGitHub/voice-control-agent/blob/main/LICENSE",
+        "url": "https://github.com/Wechat-ggGitHub/voice-control-agent/blob/45f6ca93b715ad90101c504aa6e180fea62b0bc4/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -176,3 +182,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

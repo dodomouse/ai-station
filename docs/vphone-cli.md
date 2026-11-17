@@ -124,8 +124,11 @@ The source is a public republication dated 2026-09-05 with explicit attribution 
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "1f4b38df6a142e678a85d84c3a7ec4d1db328a556483241df714156134e81615",
-      "source_url": "https://github.com/Lakr233/vphone-cli/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:50:00.638Z"
+      "source_url": "https://github.com/Lakr233/vphone-cli/blob/a6784963e47e4e912a91d793c6c752734e2cd691/LICENSE",
+      "reviewed_at": "2026-11-16T14:50:00.638Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "a6784963e47e4e912a91d793c6c752734e2cd691"
     },
     "activity_evidence": [
       {
@@ -150,7 +153,7 @@ The source is a public republication dated 2026-09-05 with explicit attribution 
         }
       },
       {
-        "url": "https://github.com/Lakr233/vphone-cli/blob/main/LICENSE",
+        "url": "https://github.com/Lakr233/vphone-cli/blob/a6784963e47e4e912a91d793c6c752734e2cd691/LICENSE",
         "accessed_at": "2026-11-16T14:50:00.638Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

@@ -129,8 +129,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "acfcbb3fdae956821acce7ad72ba5c83a3b12d5dc5bc37a78bf2a95e9dbad111",
-      "source_url": "https://github.com/liseami/CCBaga/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:34:39.764Z"
+      "source_url": "https://github.com/liseami/CCBaga/blob/6db5ad55e799c5b020be8ff5e4def2c147cd5602/LICENSE",
+      "reviewed_at": "2026-11-16T14:34:39.764Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "6db5ad55e799c5b020be8ff5e4def2c147cd5602"
     },
     "activity_evidence": [
       {
@@ -155,7 +158,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/liseami/CCBaga/blob/main/LICENSE",
+        "url": "https://github.com/liseami/CCBaga/blob/6db5ad55e799c5b020be8ff5e4def2c147cd5602/LICENSE",
         "accessed_at": "2026-11-16T14:34:39.764Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

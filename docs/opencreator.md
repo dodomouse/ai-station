@@ -130,8 +130,11 @@ Discovered through Frontier Now, which attributes an OpenCreator article to AI�
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://github.com/krillinai/OpenCreator/blob/master/LICENSE",
-      "reviewed_at": "2026-11-16T14:29:18.253Z"
+      "source_url": "https://github.com/krillinai/OpenCreator/blob/3098333d93221089209d4d699d3eb2236744fcdf/LICENSE",
+      "reviewed_at": "2026-11-16T14:29:18.253Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "3098333d93221089209d4d699d3eb2236744fcdf"
     },
     "activity_evidence": [
       {
@@ -156,7 +159,7 @@ Discovered through Frontier Now, which attributes an OpenCreator article to AI�
         }
       },
       {
-        "url": "https://github.com/krillinai/OpenCreator/blob/master/LICENSE",
+        "url": "https://github.com/krillinai/OpenCreator/blob/3098333d93221089209d4d699d3eb2236744fcdf/LICENSE",
         "accessed_at": "2026-11-16T14:29:18.253Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

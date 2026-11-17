@@ -73,6 +73,9 @@ This review covers documentation and implementation evidence. The upstream proje
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:58:29.135174Z",
@@ -108,9 +111,12 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "d9329ae3b2de58aebaa015d8d1570513d48f1702318e6423896a4620845ab798",
-      "source_url": "https://github.com/handsomestWei/patent-disclosure-skill/blob/main/LICENSE",
+      "source_url": "https://github.com/handsomestWei/patent-disclosure-skill/blob/91e3b43a3e6b568c627bc83ffcb73ff453bf0304/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "91e3b43a3e6b568c627bc83ffcb73ff453bf0304"
     },
     "activity_evidence": [
       {
@@ -139,7 +145,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/handsomestWei/patent-disclosure-skill/blob/main/LICENSE",
+        "url": "https://github.com/handsomestWei/patent-disclosure-skill/blob/91e3b43a3e6b568c627bc83ffcb73ff453bf0304/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -172,3 +178,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

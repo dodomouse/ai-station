@@ -130,8 +130,11 @@ Discovered through Frontier Now, which attributes a Netdata article to AI开源�
       "spdx": "GPL-3.0-or-later",
       "osi_approved": true,
       "license_sha256": "0e5fd9d833efe9b79f784d1903281554af82d1b4261af67d35455728e5572aa6",
-      "source_url": "https://github.com/netdata/netdata/blob/master/LICENSE",
-      "reviewed_at": "2026-11-16T14:29:18.179Z"
+      "source_url": "https://github.com/netdata/netdata/blob/c7eeb0b732abfe5b95e16a33fa3b721a0b3b06e6/LICENSE",
+      "reviewed_at": "2026-11-16T14:29:18.179Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "c7eeb0b732abfe5b95e16a33fa3b721a0b3b06e6"
     },
     "activity_evidence": [
       {
@@ -156,7 +159,7 @@ Discovered through Frontier Now, which attributes a Netdata article to AI开源�
         }
       },
       {
-        "url": "https://github.com/netdata/netdata/blob/master/LICENSE",
+        "url": "https://github.com/netdata/netdata/blob/c7eeb0b732abfe5b95e16a33fa3b721a0b3b06e6/LICENSE",
         "accessed_at": "2026-11-16T14:29:18.179Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

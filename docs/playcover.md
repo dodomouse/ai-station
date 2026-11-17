@@ -123,8 +123,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "GPL-3.0",
       "osi_approved": true,
       "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-      "source_url": "https://github.com/PlayCover/PlayCover/blob/develop/LICENSE",
-      "reviewed_at": "2026-11-16T14:34:39.717Z"
+      "source_url": "https://github.com/PlayCover/PlayCover/blob/24bbed786fe1d5acfb0ffc2e619e126bdc09f22b/LICENSE",
+      "reviewed_at": "2026-11-16T14:34:39.717Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "24bbed786fe1d5acfb0ffc2e619e126bdc09f22b"
     },
     "activity_evidence": [
       {
@@ -149,7 +152,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/PlayCover/PlayCover/blob/develop/LICENSE",
+        "url": "https://github.com/PlayCover/PlayCover/blob/24bbed786fe1d5acfb0ffc2e619e126bdc09f22b/LICENSE",
         "accessed_at": "2026-11-16T14:34:39.717Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

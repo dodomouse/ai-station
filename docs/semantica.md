@@ -35,7 +35,7 @@ GitHub：[semantica-agi/semantica](https://github.com/semantica-agi/semantica)
 
 把多来源资料组织为知识图谱与上下文图，并记录数据来源和推理过程。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v0.7.0](https://github.com/semantica-agi/semantica/releases/tag/v0.7.0)，2026-09-22T11:18:03Z。已核对正式发行 v0.7.0 的发布状态与时间。
+有效维护证据：[v0.7.0](https://github.com/semantica-agi/semantica/releases/tag/v0.7.0)，2026-09-22T11:18:03Z。修复知识图谱导出按扩展名选择格式和保留导出器默认参数的行为，并跳过空集合。 2026-11-17 已读取[实现提交](https://github.com/semantica-agi/semantica/commit/04409b31d0093194602750725bc7470e3f6a3985)的差异；未运行上游测试。
 
 发现线索：[公开索引](https://www.noking.tech/github-radar/)记录的[微信文章](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247536122&idx=1&sn=b7a284d06296707235d8dde07c6f6d4e)，索引日期 2026-08-23。仅核对公开索引，未直接读取该篇微信全文；功能与限制以上游资料为依据。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A library for organizing data into knowledge and context graphs with provenance and reasoning records. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v0.7.0](https://github.com/semantica-agi/semantica/releases/tag/v0.7.0), 2026-09-22T11:18:03Z. Checked the non-draft, non-prerelease publication v0.7.0 and its date.
+Activity: [v0.7.0](https://github.com/semantica-agi/semantica/releases/tag/v0.7.0), 2026-09-22T11:18:03Z. Fixes extension-based knowledge-graph export routing, preserves exporter defaults and skips empty collections. On 2026-11-17, the [implementation diff](https://github.com/semantica-agi/semantica/commit/04409b31d0093194602750725bc7470e3f6a3985) was inspected; upstream tests were not run.
 
 Discovery: [an indexed WeChat article](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247536122&idx=1&sn=b7a284d06296707235d8dde07c6f6d4e). This is a secondary discovery record; the WeChat article body was not read. Features and limits come from upstream documentation.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,40 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7650ef0576603b337c310b9ad9dc051819257213abc44b720d9e678f8e4f4c40",
-      "source_url": "https://github.com/semantica-agi/semantica/blob/main/LICENSE",
+      "source_url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-09-22T11:18:03Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/semantica-agi/semantica/releases/tag/v0.7.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v0.7.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v0.7.0 and its date."
+          "zh-CN": "修复知识图谱导出按扩展名选择格式和保留导出器默认参数的行为，并跳过空集合。",
+          "en": "Fixes extension-based knowledge-graph export routing, preserves exporter defaults and skips empty collections."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/semantica-agi/semantica/commit/04409b31d0093194602750725bc7470e3f6a3985",
+          "sha": "04409b31d0093194602750725bc7470e3f6a3985",
+          "occurred_at": "2026-09-22T09:38:09Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "semantica/export/methods.py",
+            "semantica/export/csv_exporter.py",
+            "semantica/export/parquet_exporter.py"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +156,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/semantica-agi/semantica/blob/main/LICENSE",
+        "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +193,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

@@ -137,8 +137,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "01fde0bedf83bdc185065d7af524a61690efe576a67f922eaff3a1280c17b63a",
-      "source_url": "https://github.com/vectorize-io/hindsight/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:34:40.048Z"
+      "source_url": "https://github.com/vectorize-io/hindsight/blob/937216ffb7eed86df2088842b67dd3c4bc2ec3b1/LICENSE",
+      "reviewed_at": "2026-11-16T14:34:40.048Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "937216ffb7eed86df2088842b67dd3c4bc2ec3b1"
     },
     "activity_evidence": [
       {
@@ -163,7 +166,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/vectorize-io/hindsight/blob/main/LICENSE",
+        "url": "https://github.com/vectorize-io/hindsight/blob/937216ffb7eed86df2088842b67dd3c4bc2ec3b1/LICENSE",
         "accessed_at": "2026-11-16T14:34:40.048Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

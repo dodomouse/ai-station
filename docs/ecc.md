@@ -135,8 +135,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
-      "source_url": "https://github.com/affaan-m/ECC/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:32:13.687Z"
+      "source_url": "https://github.com/affaan-m/ECC/blob/9ff818b76cab4b263e6e8c1761e6cf5460a1324b/LICENSE",
+      "reviewed_at": "2026-11-16T14:32:13.687Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "9ff818b76cab4b263e6e8c1761e6cf5460a1324b"
     },
     "activity_evidence": [
       {
@@ -161,7 +164,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/affaan-m/ECC/blob/main/LICENSE",
+        "url": "https://github.com/affaan-m/ECC/blob/9ff818b76cab4b263e6e8c1761e6cf5460a1324b/LICENSE",
         "accessed_at": "2026-11-16T14:32:13.687Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

@@ -13,10 +13,16 @@ GitHub：[Whiplashzeb/photo-to-zine-postcard](https://github.com/Whiplashzeb/pho
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:22.955Z |
 
-候选原因：Star 未满 1000。
-Candidate reason: Below 1000 Stars.
+候选原因：按新收录标准待复评。
+Candidate reason: Reassessment under current criteria is pending.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。
+Next step: Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -81,7 +87,7 @@ A photo-preserving postcard workflow with doodles, color swatches and front/back
 
 ### Requirements and limits
 
-Platform dependencies and generation costs are not fully documented in the source card. Offline use is unconfirmed. The repository is below 1000 Stars; its last reported push also predates the three-month window, which is a warning rather than reviewed activity evidence.
+Platform dependencies and generation costs are not fully documented in the source card. Offline use is unconfirmed. The former Star threshold no longer applies. Its last reported push predates the original review window, which is a warning rather than reviewed activity evidence.
 
 ### Getting started
 
@@ -110,10 +116,20 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "ineligible",
+    "status": "needs_review",
     "reasons": [
-      "below_star_threshold"
-    ]
+      "policy_reassessment_pending"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。"
+      ],
+      "en": [
+        "Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -165,8 +181,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "e8606f61d5e3b4619b94ed8aec8837b9caeb82fe13d730d49cff909c927eaf80",
-      "source_url": "https://github.com/Whiplashzeb/photo-to-zine-postcard/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/Whiplashzeb/photo-to-zine-postcard/blob/0091403bccb219d1be78c5be8552de29a6446f0a/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "0091403bccb219d1be78c5be8552de29a6446f0a"
     },
     "activity_evidence": [],
     "sources": [
@@ -187,7 +206,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/Whiplashzeb/photo-to-zine-postcard/blob/main/LICENSE",
+        "url": "https://github.com/Whiplashzeb/photo-to-zine-postcard/blob/0091403bccb219d1be78c5be8552de29a6446f0a/LICENSE",
         "accessed_at": "2026-11-15T10:53:17.843Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -209,7 +228,8 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
         "last_push_before_window"
       ],
       "english_scope": "editorial_digest",
-      "source_card_preserved": true
+      "source_card_preserved": true,
+      "historical": true
     }
   },
   "snapshot": {
@@ -223,7 +243,16 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
     "license_spdx": "MIT",
     "license_sha256": "e8606f61d5e3b4619b94ed8aec8837b9caeb82fe13d730d49cff909c927eaf80",
     "last_success_at": "2026-11-15T10:48:22.955Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "ineligible",
+      "reasons": [
+        "below_star_threshold"
+      ]
+    }
+  ]
 }
 ```
 

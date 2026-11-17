@@ -83,6 +83,9 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:21:24.299979Z",
@@ -113,9 +116,12 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
       "spdx": "AGPL-3.0",
       "osi_approved": true,
       "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "source_url": "https://github.com/egoist/mygo-music/blob/main/LICENSE",
+      "source_url": "https://github.com/egoist/mygo-music/blob/298c88a03407844ac1c4eb76e3590edfe4577121/LICENSE",
       "reviewed_at": "2026-11-16T14:21:24.299979Z",
-      "scope_note": "项目主许可证已读取；外部依赖与素材仍保留各自许可。"
+      "scope_note": "项目主许可证已读取；外部依赖与素材仍保留各自许可。",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "298c88a03407844ac1c4eb76e3590edfe4577121"
     },
     "activity_evidence": [
       {
@@ -145,7 +151,7 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
         "accessed_at": "2026-11-16T14:21:24.299979Z"
       },
       {
-        "url": "https://github.com/egoist/mygo-music/blob/main/LICENSE",
+        "url": "https://github.com/egoist/mygo-music/blob/298c88a03407844ac1c4eb76e3590edfe4577121/LICENSE",
         "accessed_at": "2026-11-16T14:21:24.299979Z"
       },
       {
@@ -184,3 +190,5 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
   }
 }
 ```
+
+</details>

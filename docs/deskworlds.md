@@ -136,8 +136,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "b660528234fa02f2c865e920aff83cf4bfc0f0650e6b7f85de91149dad7e3f78",
-      "source_url": "https://github.com/chaseleantj/deskworlds/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:50:00.494Z"
+      "source_url": "https://github.com/chaseleantj/deskworlds/blob/b0642e7c7db1bb16408f4cc1adbd3aab30c5418b/LICENSE",
+      "reviewed_at": "2026-11-16T14:50:00.494Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b0642e7c7db1bb16408f4cc1adbd3aab30c5418b"
     },
     "activity_evidence": [
       {
@@ -162,7 +165,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/chaseleantj/deskworlds/blob/main/LICENSE",
+        "url": "https://github.com/chaseleantj/deskworlds/blob/b0642e7c7db1bb16408f4cc1adbd3aab30c5418b/LICENSE",
         "accessed_at": "2026-11-16T14:50:00.494Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

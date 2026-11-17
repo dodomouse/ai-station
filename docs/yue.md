@@ -133,8 +133,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://github.com/multimodal-art-projection/YuE/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:34:39.811Z"
+      "source_url": "https://github.com/multimodal-art-projection/YuE/blob/1116bea76032bee5668e5f097294d082fa0b84f0/LICENSE",
+      "reviewed_at": "2026-11-16T14:34:39.811Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "1116bea76032bee5668e5f097294d082fa0b84f0"
     },
     "activity_evidence": [
       {
@@ -159,7 +162,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/multimodal-art-projection/YuE/blob/main/LICENSE",
+        "url": "https://github.com/multimodal-art-projection/YuE/blob/1116bea76032bee5668e5f097294d082fa0b84f0/LICENSE",
         "accessed_at": "2026-11-16T14:34:39.811Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

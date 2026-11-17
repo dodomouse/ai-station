@@ -13,16 +13,22 @@ GitHub：[Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleane
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T11:45:04.617Z |
 
-候选原因：Star 未满 1000。
-Candidate reason: Below 1000 Stars.
+候选原因：按新收录标准待复评。
+Candidate reason: Reassessment under current criteria is pending.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。
+Next step: Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
 TelemetryCleaner 是 Android 运营商预装组件管理工具。它通过 Shizuku 检查已知组件在不同用户空间中的状态，提供权限查看、按空间卸载、恢复和停用操作。适合希望了解手机预装包、并评估是否调整组件状态的用户。
 
-当前保留为候选：本次核对时未达到字典的 1000 Star 门槛。数据见 [GitHub 快照](#review-evidence)。该项目列在目录的候选部分。
+原评估因未达到 1000 Star 门槛而保留为候选。该门槛已取消，当前等待按新标准复评。数据见 [GitHub 快照](#review-evidence)。该项目列在目录的候选部分。
 
 ### 适用场景
 
@@ -76,7 +82,7 @@ TelemetryCleaner 是 Android 运营商预装组件管理工具。它通过 Shizu
 
 TelemetryCleaner manages known carrier components preinstalled on Android devices. Through Shizuku, it inspects package states across user spaces and provides permission inspection, per-space removal, restoration and disabling controls. It is intended for users investigating preinstalled packages and deciding whether to change their state.
 
-This entry remains a candidate because it was below the catalog's 1000-Star threshold when reviewed. See the [GitHub snapshot](#review-evidence). The candidate is listed in the main index.
+The original review kept this entry as a candidate because of the former 1000-Star threshold. That threshold has been removed; reassessment under the current criteria is pending. See the [GitHub snapshot](#review-evidence). The candidate is listed in the main index.
 
 ### Use cases
 
@@ -137,10 +143,20 @@ Verification level: `docs`. Source inspection supports implementation descriptio
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "ineligible",
+    "status": "needs_review",
     "reasons": [
-      "below_star_threshold"
-    ]
+      "policy_reassessment_pending"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。"
+      ],
+      "en": [
+        "Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -199,7 +215,10 @@ Verification level: `docs`. Source inspection supports implementation descriptio
       "osi_approved": true,
       "license_sha256": "c93b8f273ef009de6e57fa5d920d328aa5197e40f8e1f739e9d1f70a46315f23",
       "source_url": "https://github.com/Eynnzerr/TelemetryCleaner/blob/47d7f733ecb821bae154ead8f8bfcb945a170db7/LICENSE",
-      "reviewed_at": "2026-11-15T11:54:08.129868Z"
+      "reviewed_at": "2026-11-15T11:54:08.129868Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "47d7f733ecb821bae154ead8f8bfcb945a170db7"
     },
     "activity_evidence": [
       {
@@ -285,7 +304,8 @@ Verification level: `docs`. Source inspection supports implementation descriptio
       "notes": {
         "zh-CN": "Star 未达门槛。已核对 MIT 与近期功能提交；只做文档和源码复核，未操作设备。",
         "en": "Below the Star threshold. MIT and recent functional activity were checked; documentation and source review only, with no device operations."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -299,7 +319,16 @@ Verification level: `docs`. Source inspection supports implementation descriptio
     "license_spdx": "MIT",
     "license_sha256": "c93b8f273ef009de6e57fa5d920d328aa5197e40f8e1f739e9d1f70a46315f23",
     "last_success_at": "2026-11-15T11:45:04.617Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "ineligible",
+      "reasons": [
+        "below_star_threshold"
+      ]
+    }
+  ]
 }
 ```
 

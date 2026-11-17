@@ -133,8 +133,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "AGPL-3.0-or-later",
       "osi_approved": true,
       "license_sha256": "f6b29267fe2c4251ed95cf9c846b47774a970c5960be9eb8a409f21ffd98425e",
-      "source_url": "https://github.com/laurent22/joplin/blob/dev/LICENSE",
-      "reviewed_at": "2026-11-16T14:50:00.392Z"
+      "source_url": "https://github.com/laurent22/joplin/blob/68b1f922791e14d3e8fa7b4d6765ad3eaedebdd0/LICENSE",
+      "reviewed_at": "2026-11-16T14:50:00.392Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "68b1f922791e14d3e8fa7b4d6765ad3eaedebdd0"
     },
     "activity_evidence": [
       {
@@ -159,7 +162,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/laurent22/joplin/blob/dev/LICENSE",
+        "url": "https://github.com/laurent22/joplin/blob/68b1f922791e14d3e8fa7b4d6765ad3eaedebdd0/LICENSE",
         "accessed_at": "2026-11-16T14:50:00.392Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

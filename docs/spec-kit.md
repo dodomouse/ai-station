@@ -200,8 +200,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:14.753Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "2510b446bc1f0cf9702453075d20cd88631e20e5642658edb7325d9c1eb534f7",
-      "source_url": "https://github.com/github/spec-kit/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/github/spec-kit/blob/2ee2b1e8005905db05f5717300a469b3068b908f/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "2ee2b1e8005905db05f5717300a469b3068b908f"
     },
     "activity_evidence": [
       {
@@ -234,7 +237,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:14.753Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/github/spec-kit/blob/main/LICENSE",
+        "url": "https://github.com/github/spec-kit/blob/2ee2b1e8005905db05f5717300a469b3068b908f/LICENSE",
         "accessed_at": "2026-11-15T10:53:08.988Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

@@ -122,8 +122,11 @@ The source is a public republication dated 2026-09-05 with explicit attribution 
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "c23e0aa0cdc924726993ffc8eb96e5283a7e8aaa7e068f1200277eb6df0f0f06",
-      "source_url": "https://github.com/every-app/open-seo/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:50:00.691Z"
+      "source_url": "https://github.com/every-app/open-seo/blob/2df84ff91461cc55b6c8bb98f3ce0f195d2e463d/LICENSE",
+      "reviewed_at": "2026-11-16T14:50:00.691Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "2df84ff91461cc55b6c8bb98f3ce0f195d2e463d"
     },
     "activity_evidence": [
       {
@@ -148,7 +151,7 @@ The source is a public republication dated 2026-09-05 with explicit attribution 
         }
       },
       {
-        "url": "https://github.com/every-app/open-seo/blob/main/LICENSE",
+        "url": "https://github.com/every-app/open-seo/blob/2df84ff91461cc55b6c8bb98f3ce0f195d2e463d/LICENSE",
         "accessed_at": "2026-11-16T14:50:00.691Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "d5af6735a633d3cb73496e62dee74bd490120345660a88be68752e03f00a75a6",
-      "source_url": "https://raw.githubusercontent.com/bas3line/ascii/main/LICENSE",
+      "source_url": "https://github.com/bas3line/ascii/blob/9ba5ab14a1946dc1ab875d5c456203079854bdcf/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/bas3line/ascii/main/LICENSE",
+          "source_url": "https://github.com/bas3line/ascii/blob/9ba5ab14a1946dc1ab875d5c456203079854bdcf/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.879Z",
-          "sha256": "d5af6735a633d3cb73496e62dee74bd490120345660a88be68752e03f00a75a6"
+          "sha256": "d5af6735a633d3cb73496e62dee74bd490120345660a88be68752e03f00a75a6",
+          "source_commit": "9ba5ab14a1946dc1ab875d5c456203079854bdcf"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "9ba5ab14a1946dc1ab875d5c456203079854bdcf"
     },
     "activity_evidence": [
       {
@@ -127,7 +131,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/bas3line/ascii",
         "https://raw.githubusercontent.com/bas3line/ascii/main/README.md",
         "https://github.com/bas3line/ascii/commit/8c6eefbb55b0944f999358e2adf81178f763da87",
-        "https://raw.githubusercontent.com/bas3line/ascii/main/LICENSE"
+        "https://github.com/bas3line/ascii/blob/9ba5ab14a1946dc1ab875d5c456203079854bdcf/LICENSE"
       ]
     }
   },

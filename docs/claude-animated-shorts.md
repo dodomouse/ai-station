@@ -85,6 +85,9 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:21:24.299979Z",
@@ -115,9 +118,12 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "0c88b6c1afe23ba94a2326eb289868fa4bb24edfd6994ad0c6bb7f2f2ed517e2",
-      "source_url": "https://github.com/mromidev/claude-animated-shorts/blob/main/LICENSE",
+      "source_url": "https://github.com/mromidev/claude-animated-shorts/blob/e3b817b6afc6cd413466d43f11ba31209e034bbf/LICENSE",
       "reviewed_at": "2026-11-16T14:21:24.299979Z",
-      "scope_note": "MIT covers code and documentation. Reference frames are limited to style study and excluded from the approved software-license scope."
+      "scope_note": "MIT covers code and documentation. Reference frames are limited to style study and excluded from the approved software-license scope.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "e3b817b6afc6cd413466d43f11ba31209e034bbf"
     },
     "activity_evidence": [
       {
@@ -145,7 +151,7 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
         "accessed_at": "2026-11-16T14:21:24.299979Z"
       },
       {
-        "url": "https://github.com/mromidev/claude-animated-shorts/blob/main/LICENSE",
+        "url": "https://github.com/mromidev/claude-animated-shorts/blob/e3b817b6afc6cd413466d43f11ba31209e034bbf/LICENSE",
         "accessed_at": "2026-11-16T14:21:24.299979Z"
       },
       {
@@ -192,3 +198,5 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
   }
 }
 ```
+
+</details>

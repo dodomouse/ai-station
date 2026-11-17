@@ -176,8 +176,11 @@ The README gives separate conditions for character art, fonts and stroke data; t
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96",
-      "source_url": "https://github.com/alchaincyf/huashu-art-motion/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/alchaincyf/huashu-art-motion/blob/b7c34521c61bb9359590193c9d1ec95de607a4d1/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b7c34521c61bb9359590193c9d1ec95de607a4d1"
     },
     "activity_evidence": [
       {
@@ -210,7 +213,7 @@ The README gives separate conditions for character art, fonts and stroke data; t
         }
       },
       {
-        "url": "https://github.com/alchaincyf/huashu-art-motion/blob/main/LICENSE",
+        "url": "https://github.com/alchaincyf/huashu-art-motion/blob/b7c34521c61bb9359590193c9d1ec95de607a4d1/LICENSE",
         "accessed_at": "2026-11-15T10:53:16.034Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

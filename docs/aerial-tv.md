@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "cb77d791da468f1ac31ff4ad9176ffa8833de3c4b91efc1d6e0a259da37e8c29",
-      "source_url": "https://raw.githubusercontent.com/pengchujin/aerial-tv/main/LICENSE",
+      "source_url": "https://github.com/pengchujin/aerial-tv/blob/d5a347302e3499771045f85a6e0a8317881525cf/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/pengchujin/aerial-tv/main/LICENSE",
+          "source_url": "https://github.com/pengchujin/aerial-tv/blob/d5a347302e3499771045f85a6e0a8317881525cf/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.764Z",
-          "sha256": "cb77d791da468f1ac31ff4ad9176ffa8833de3c4b91efc1d6e0a259da37e8c29"
+          "sha256": "cb77d791da468f1ac31ff4ad9176ffa8833de3c4b91efc1d6e0a259da37e8c29",
+          "source_commit": "d5a347302e3499771045f85a6e0a8317881525cf"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "d5a347302e3499771045f85a6e0a8317881525cf"
     },
     "activity_evidence": [
       {
@@ -134,7 +138,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/pengchujin/aerial-tv",
         "https://raw.githubusercontent.com/pengchujin/aerial-tv/main/README.md",
         "https://github.com/pengchujin/aerial-tv/releases/tag/v1.99",
-        "https://raw.githubusercontent.com/pengchujin/aerial-tv/main/LICENSE"
+        "https://github.com/pengchujin/aerial-tv/blob/d5a347302e3499771045f85a6e0a8317881525cf/LICENSE"
       ]
     }
   },

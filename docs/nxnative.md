@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "a65554a74de59bf4d2210f3d4381c67d6fc6fa78f237f83c85543773319efa7b",
-      "source_url": "https://raw.githubusercontent.com/seedds/nxnative/main/LICENSE",
+      "source_url": "https://github.com/seedds/nxnative/blob/aca80c3151b49539318528cf3c0b3f1d3afa34a2/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/seedds/nxnative/main/LICENSE",
+          "source_url": "https://github.com/seedds/nxnative/blob/aca80c3151b49539318528cf3c0b3f1d3afa34a2/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.545Z",
-          "sha256": "a65554a74de59bf4d2210f3d4381c67d6fc6fa78f237f83c85543773319efa7b"
+          "sha256": "a65554a74de59bf4d2210f3d4381c67d6fc6fa78f237f83c85543773319efa7b",
+          "source_commit": "aca80c3151b49539318528cf3c0b3f1d3afa34a2"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "aca80c3151b49539318528cf3c0b3f1d3afa34a2"
     },
     "activity_evidence": [
       {
@@ -127,7 +131,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/seedds/nxnative",
         "https://raw.githubusercontent.com/seedds/nxnative/main/README.md",
         "https://github.com/seedds/nxnative/commit/ba9ce21258c90bcf2b90be5555ba5333c227e752",
-        "https://raw.githubusercontent.com/seedds/nxnative/main/LICENSE"
+        "https://github.com/seedds/nxnative/blob/aca80c3151b49539318528cf3c0b3f1d3afa34a2/LICENSE"
       ]
     }
   },

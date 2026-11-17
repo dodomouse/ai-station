@@ -134,8 +134,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-      "source_url": "https://github.com/louis-e/arnis/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:47:41.516Z"
+      "source_url": "https://github.com/louis-e/arnis/blob/6082a4d93c1a5a22d1dfa8f2589d0943196833ed/LICENSE",
+      "reviewed_at": "2026-11-16T14:47:41.516Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "6082a4d93c1a5a22d1dfa8f2589d0943196833ed"
     },
     "activity_evidence": [
       {
@@ -160,7 +163,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/louis-e/arnis/blob/main/LICENSE",
+        "url": "https://github.com/louis-e/arnis/blob/6082a4d93c1a5a22d1dfa8f2589d0943196833ed/LICENSE",
         "accessed_at": "2026-11-16T14:47:41.516Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

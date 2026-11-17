@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "a8cfae3105018e6018e5a046977a9919c0e975d8d5eab79fd19339182211f058",
-      "source_url": "https://raw.githubusercontent.com/tw93/MiaoYan/main/LICENSE",
+      "source_url": "https://github.com/tw93/MiaoYan/blob/4328742c48d02eceb3584377262ea16bf8681226/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/tw93/MiaoYan/main/LICENSE",
+          "source_url": "https://github.com/tw93/MiaoYan/blob/4328742c48d02eceb3584377262ea16bf8681226/LICENSE",
           "fetched_at": "2026-11-16T14:23:40.611Z",
-          "sha256": "a8cfae3105018e6018e5a046977a9919c0e975d8d5eab79fd19339182211f058"
+          "sha256": "a8cfae3105018e6018e5a046977a9919c0e975d8d5eab79fd19339182211f058",
+          "source_commit": "4328742c48d02eceb3584377262ea16bf8681226"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "4328742c48d02eceb3584377262ea16bf8681226"
     },
     "activity_evidence": [
       {
@@ -123,7 +127,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/tw93/miaoyan",
         "https://raw.githubusercontent.com/tw93/MiaoYan/main/README.md",
         "https://github.com/tw93/MiaoYan/releases/tag/V4.10.0",
-        "https://raw.githubusercontent.com/tw93/MiaoYan/main/LICENSE"
+        "https://github.com/tw93/MiaoYan/blob/4328742c48d02eceb3584377262ea16bf8681226/LICENSE"
       ]
     }
   },

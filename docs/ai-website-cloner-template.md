@@ -203,8 +203,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:23.782Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "cfe9368816ead6d3b0a9e0d851dcab796885c72e7b479cff1c7939debea0826d",
-      "source_url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/5426e0e2ec35dbc173a7a18f47a3dfe2a765313e/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5426e0e2ec35dbc173a7a18f47a3dfe2a765313e"
     },
     "activity_evidence": [
       {
@@ -237,7 +240,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:23.782Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE",
+        "url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/5426e0e2ec35dbc173a7a18f47a3dfe2a765313e/LICENSE",
         "accessed_at": "2026-11-15T10:53:18.683Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

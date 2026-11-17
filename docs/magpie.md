@@ -215,8 +215,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:18.536Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "79d2c8444715d4bc453ec4f8a0aaf2051a4c1ee5ac08f5bd2e5848aef87c7572",
-      "source_url": "https://github.com/yetone/magpie/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/yetone/magpie/blob/338eae3c201ff4d05be58dcf79d5f5eaafe70a36/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "338eae3c201ff4d05be58dcf79d5f5eaafe70a36"
     },
     "activity_evidence": [
       {
@@ -249,7 +252,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:18.536Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/yetone/magpie/blob/main/LICENSE",
+        "url": "https://github.com/yetone/magpie/blob/338eae3c201ff4d05be58dcf79d5f5eaafe70a36/LICENSE",
         "accessed_at": "2026-11-15T10:53:12.923Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

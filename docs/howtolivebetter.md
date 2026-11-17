@@ -13,10 +13,16 @@ GitHub：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiv
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:19.553Z |
 
-候选原因：许可证不符合开源条件。
-Candidate reason: License does not meet the open-source criteria.
+候选原因：内容许可与收录范围待复核。
+Candidate reason: Content license and inclusion scope require review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：区分开放内容与软件许可，核对文档及附带代码的授权范围和维护证据。
+Next step: Distinguish content licensing from software licensing and check the licensed scope of documents, accompanying code and activity evidence.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -127,10 +133,20 @@ GitHub metadata was fetched at 2026-11-15T10:48:19.553Z. [Shared metadata](#revi
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "ineligible",
+    "status": "needs_review",
     "reasons": [
-      "license_not_approved"
-    ]
+      "content_license_scope_pending"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "区分开放内容与软件许可，核对文档及附带代码的授权范围和维护证据。"
+      ],
+      "en": [
+        "Distinguish content licensing from software licensing and check the licensed scope of documents, accompanying code and activity evidence."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -181,8 +197,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:19.553Z. [Shared metadata](#revi
       "spdx": "CC-BY-4.0",
       "osi_approved": false,
       "license_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
-      "source_url": "https://github.com/eternity4719/HowToLiveBetter/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/eternity4719/HowToLiveBetter/blob/089c6c1e0b4e8ee125e64e1c066a0c3cf75ea9bb/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "089c6c1e0b4e8ee125e64e1c066a0c3cf75ea9bb"
     },
     "activity_evidence": [],
     "sources": [
@@ -203,7 +222,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:19.553Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/eternity4719/HowToLiveBetter/blob/main/LICENSE",
+        "url": "https://github.com/eternity4719/HowToLiveBetter/blob/089c6c1e0b4e8ee125e64e1c066a0c3cf75ea9bb/LICENSE",
         "accessed_at": "2026-11-15T10:53:13.813Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -224,7 +243,8 @@ GitHub metadata was fetched at 2026-11-15T10:48:19.553Z. [Shared metadata](#revi
         "license_review_pending"
       ],
       "english_scope": "editorial_digest",
-      "source_card_preserved": true
+      "source_card_preserved": true,
+      "historical": true
     }
   },
   "snapshot": {
@@ -238,7 +258,16 @@ GitHub metadata was fetched at 2026-11-15T10:48:19.553Z. [Shared metadata](#revi
     "license_spdx": "CC-BY-4.0",
     "license_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
     "last_success_at": "2026-11-15T10:48:19.553Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "ineligible",
+      "reasons": [
+        "license_not_approved"
+      ]
+    }
+  ]
 }
 ```
 

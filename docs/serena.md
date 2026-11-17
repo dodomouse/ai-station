@@ -13,10 +13,16 @@ GitHub：[oraios/serena](https://github.com/oraios/serena)
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:16.306Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：组件许可范围待复核。
+Candidate reason: Component license scope requires review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：明确拟收录组件与排除范围，并完成双语内容复核。
+Next step: Define the included components and exclusions, then complete bilingual review.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -26,7 +32,7 @@ Candidate reason: License requires review.
 
 本次收录状态和数据见文首，来源及许可核对记录见[收录依据](#review-evidence)。
 
-当前许可按组件区分：SolidLSP 为 MIT，Serena 应用为 GPL-3.0-or-later。API 返回 NOASSERTION；当前单一许可门禁不能完整表达该结构，暂留候选，不等于判定闭源。
+已有许可记录区分 SolidLSP 的 MIT 与 Serena 应用的 GPL-3.0-or-later。API 的 NOASSERTION 不构成排除依据；当前待办是明确收录组件范围并完成双语内容复核。
 
 ### 原始中文记录（历史快照）
 
@@ -122,7 +128,7 @@ Code navigation and editing tools that use language servers or an optional JetBr
 
 ### Requirements and limits
 
-Language and backend support determine capabilities; the JetBrains plugin excludes Rider and CLion in the source card and may require payment. Current licensing separates MIT SolidLSP from the GPL-3.0-or-later application. GitHub's NOASSERTION and the catalog's single-license model keep this entry pending. Changes still need normal tests.
+Language and backend support determine capabilities; the JetBrains plugin excludes Rider and CLion in the source card and may require payment. Current licensing separates MIT SolidLSP from the GPL-3.0-or-later application. GitHub's NOASSERTION does not itself prevent inclusion; component scope and bilingual review remain pending. Changes still need normal tests.
 
 ### Getting started
 
@@ -140,7 +146,7 @@ This English digest condenses the user’s Chinese card and adds import findings
 
 GitHub metadata was fetched at 2026-11-15T10:48:16.306Z. [Shared metadata](#review-evidence) contains license and commit evidence; the [snapshot](#review-evidence) contains Stars and repository state. This is a dated review; repository state requires manual rechecking.
 
-SolidLSP is MIT and the application GPL-3.0-or-later. API detection is NOASSERTION; the current single-license gate keeps the entry pending rather than declaring it closed source.
+Existing license records distinguish MIT SolidLSP from the GPL-3.0-or-later Serena application. API detection of NOASSERTION is not an exclusion rule; the remaining work is to define the included component scope and complete bilingual review.
 
 ## Review evidence
 
@@ -153,10 +159,20 @@ SolidLSP is MIT and the application GPL-3.0-or-later. API detection is NOASSERTI
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "unknown",
+    "status": "needs_review",
     "reasons": [
-      "license_needs_review"
-    ]
+      "component_license_review_pending"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "明确拟收录组件与排除范围，并完成双语内容复核。"
+      ],
+      "en": [
+        "Define the included components and exclusions, then complete bilingual review."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -210,8 +226,11 @@ SolidLSP is MIT and the application GPL-3.0-or-later. API detection is NOASSERTI
       "spdx": null,
       "osi_approved": false,
       "license_sha256": "6239f4be78ccff409aedfbce88ac89b26f488f76aac7ab199fb6876dc7fdeb4c",
-      "source_url": "https://github.com/oraios/serena/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/oraios/serena/blob/6b39542bb108ce77901072deac699d770b302d52/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "6b39542bb108ce77901072deac699d770b302d52"
     },
     "activity_evidence": [
       {
@@ -244,7 +263,7 @@ SolidLSP is MIT and the application GPL-3.0-or-later. API detection is NOASSERTI
         }
       },
       {
-        "url": "https://github.com/oraios/serena/blob/main/LICENSE",
+        "url": "https://github.com/oraios/serena/blob/6b39542bb108ce77901072deac699d770b302d52/LICENSE",
         "accessed_at": "2026-11-15T10:53:10.771Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -268,7 +287,8 @@ SolidLSP is MIT and the application GPL-3.0-or-later. API detection is NOASSERTI
       "notes": {
         "zh-CN": "当前许可按组件区分：SolidLSP 为 MIT，Serena 应用为 GPL-3.0-or-later。API 返回 NOASSERTION；当前单一许可门禁不能完整表达该结构，暂留候选，不等于判定闭源。",
         "en": "SolidLSP is MIT and the application GPL-3.0-or-later. API detection is NOASSERTION; the current single-license gate keeps the entry pending rather than declaring it closed source."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -282,7 +302,16 @@ SolidLSP is MIT and the application GPL-3.0-or-later. API detection is NOASSERTI
     "license_spdx": "NOASSERTION",
     "license_sha256": "6239f4be78ccff409aedfbce88ac89b26f488f76aac7ab199fb6876dc7fdeb4c",
     "last_success_at": "2026-11-15T10:48:16.306Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

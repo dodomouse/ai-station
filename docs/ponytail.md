@@ -136,8 +136,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "fb1bc6909ac3ef82d5c22106e32ef682b0cff66788fa915fb9b53b15c9d2f3ab",
-      "source_url": "https://github.com/DietrichGebert/ponytail/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:32:13.500Z"
+      "source_url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/LICENSE",
+      "reviewed_at": "2026-11-16T14:32:13.500Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846"
     },
     "activity_evidence": [
       {
@@ -162,7 +165,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/DietrichGebert/ponytail/blob/main/LICENSE",
+        "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/LICENSE",
         "accessed_at": "2026-11-16T14:32:13.500Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

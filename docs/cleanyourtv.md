@@ -136,8 +136,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "e0941eca3b403700368b495fd9a91af4e15242fabb992ed27af95c0d4cdc6f83",
-      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:32:13.862Z"
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/c2d6e79381add9daa83e116882f6d6b130dc4a73/LICENSE",
+      "reviewed_at": "2026-11-16T14:32:13.862Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
     },
     "activity_evidence": [
       {
@@ -162,7 +165,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/Gathin23/cleanyourtv/blob/main/LICENSE",
+        "url": "https://github.com/Gathin23/cleanyourtv/blob/c2d6e79381add9daa83e116882f6d6b130dc4a73/LICENSE",
         "accessed_at": "2026-11-16T14:32:13.862Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

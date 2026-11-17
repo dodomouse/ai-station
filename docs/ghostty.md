@@ -198,8 +198,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:14.646Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "386211873e5b7a02f663ae4d7adf96285999f91608f8f9f31fecfd0f4095e6f1",
-      "source_url": "https://github.com/ghostty-org/ghostty/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/ghostty-org/ghostty/blob/7fa26e8b675f3248975479d88274c937d7e63905/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7fa26e8b675f3248975479d88274c937d7e63905"
     },
     "activity_evidence": [
       {
@@ -232,7 +235,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:14.646Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/ghostty-org/ghostty/blob/main/LICENSE",
+        "url": "https://github.com/ghostty-org/ghostty/blob/7fa26e8b675f3248975479d88274c937d7e63905/LICENSE",
         "accessed_at": "2026-11-15T10:53:08.350Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

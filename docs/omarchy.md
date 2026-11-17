@@ -123,8 +123,11 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "717ba1949502290f8e47688ae2e323acd06c8ca47aec9f7596b15f678c1af4a2",
-      "source_url": "https://github.com/omacom/omarchy/blob/quattro/LICENSE",
-      "reviewed_at": "2026-11-16T14:50:00.591Z"
+      "source_url": "https://github.com/omacom/omarchy/blob/7c8e05925391188d6e95e581dc51c12fb2facd48/LICENSE",
+      "reviewed_at": "2026-11-16T14:50:00.591Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7c8e05925391188d6e95e581dc51c12fb2facd48"
     },
     "activity_evidence": [
       {
@@ -149,7 +152,7 @@ Discovered through a third-party index of 逛逛GitHub articles. The index recor
         }
       },
       {
-        "url": "https://github.com/omacom/omarchy/blob/quattro/LICENSE",
+        "url": "https://github.com/omacom/omarchy/blob/7c8e05925391188d6e95e581dc51c12fb2facd48/LICENSE",
         "accessed_at": "2026-11-16T14:50:00.591Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

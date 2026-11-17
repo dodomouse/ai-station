@@ -195,8 +195,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:23.757Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "65cf34e685cb1dd4e18e44502d476240a028d42e295b48ffdc601968ca3ce033",
-      "source_url": "https://github.com/Thysrael/Horizon/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/Thysrael/Horizon/blob/12d5fbde4d9e0776a48618ea65d16fe6d1e1b606/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "12d5fbde4d9e0776a48618ea65d16fe6d1e1b606"
     },
     "activity_evidence": [
       {
@@ -229,7 +232,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:23.757Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/Thysrael/Horizon/blob/main/LICENSE",
+        "url": "https://github.com/Thysrael/Horizon/blob/12d5fbde4d9e0776a48618ea65d16fe6d1e1b606/LICENSE",
         "accessed_at": "2026-11-15T10:53:18.707Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

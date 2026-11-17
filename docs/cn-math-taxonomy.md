@@ -9,14 +9,20 @@ GitHub：[xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-
 | 分类 / Category | 文档与效率 / Productivity |
 | 状态 / Status | 候选 / Candidate |
 | Star | 8095 |
-| 许可证 / License | 待复核 / Review needed |
+| 许可证 / License | CC-BY-NC-4.0（非商业） / CC-BY-NC-4.0 (non-commercial) |
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:17.864Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：非商业许可，不符合工具收录条件。
+Candidate reason: Non-commercial license; does not meet tool inclusion criteria.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。
+Next step: Retain as a reference lead; reassess if the license changes or a separately includable open component is established.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -152,10 +158,20 @@ Current licensing applies CC BY-NC 4.0 to the data, question bank, diagnostic co
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "unknown",
+    "status": "ineligible",
     "reasons": [
-      "license_needs_review"
-    ]
+      "license_not_approved"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。"
+      ],
+      "en": [
+        "Retain as a reference lead; reassess if the license changes or a separately includable open component is established."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -211,8 +227,11 @@ Current licensing applies CC BY-NC 4.0 to the data, question bank, diagnostic co
       "spdx": null,
       "osi_approved": false,
       "license_sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
-      "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy/blob/f8f84d4cf2cadb0563b0849864e8b6ba10a23237/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "f8f84d4cf2cadb0563b0849864e8b6ba10a23237"
     },
     "activity_evidence": [],
     "sources": [
@@ -233,7 +252,7 @@ Current licensing applies CC BY-NC 4.0 to the data, question bank, diagnostic co
         }
       },
       {
-        "url": "https://github.com/xiaoyang111222/cn-math-taxonomy/blob/main/LICENSE",
+        "url": "https://github.com/xiaoyang111222/cn-math-taxonomy/blob/f8f84d4cf2cadb0563b0849864e8b6ba10a23237/LICENSE",
         "accessed_at": "2026-11-15T10:53:12.924Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -257,7 +276,8 @@ Current licensing applies CC BY-NC 4.0 to the data, question bank, diagnostic co
       "notes": {
         "zh-CN": "当前 LICENSE 与 README 说明数据、题库、诊断代码和文档采用 CC BY-NC 4.0。按非商业许可候选保留。",
         "en": "Current licensing applies CC BY-NC 4.0 to the data, question bank, diagnostic code and docs. Retained as a non-commercial candidate."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -271,7 +291,16 @@ Current licensing applies CC BY-NC 4.0 to the data, question bank, diagnostic co
     "license_spdx": "NOASSERTION",
     "license_sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
     "last_success_at": "2026-11-15T10:48:17.864Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

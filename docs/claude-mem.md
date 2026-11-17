@@ -138,8 +138,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://github.com/thedotmack/claude-mem/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:32:13.743Z"
+      "source_url": "https://github.com/thedotmack/claude-mem/blob/82d3602e2e43503ffd39c180b2af5f7521fc457b/LICENSE",
+      "reviewed_at": "2026-11-16T14:32:13.743Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "82d3602e2e43503ffd39c180b2af5f7521fc457b"
     },
     "activity_evidence": [
       {
@@ -164,7 +167,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/thedotmack/claude-mem/blob/main/LICENSE",
+        "url": "https://github.com/thedotmack/claude-mem/blob/82d3602e2e43503ffd39c180b2af5f7521fc457b/LICENSE",
         "accessed_at": "2026-11-16T14:32:13.743Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

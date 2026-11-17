@@ -13,10 +13,16 @@ GitHub：[lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:20.787Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：组件许可范围待复核。
+Candidate reason: Component license scope requires review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：明确拟收录组件与排除范围，并完成双语内容复核。
+Next step: Define the included components and exclusions, then complete bilingual review.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -128,10 +134,20 @@ The README now lists 99 styles; the original 66 refers to an earlier version. Co
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "unknown",
+    "status": "needs_review",
     "reasons": [
-      "license_needs_review"
-    ]
+      "component_license_review_pending"
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "明确拟收录组件与排除范围，并完成双语内容复核。"
+      ],
+      "en": [
+        "Define the included components and exclusions, then complete bilingual review."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -184,8 +200,11 @@ The README now lists 99 styles; the original 66 refers to an earlier version. Co
       "spdx": null,
       "osi_approved": false,
       "license_sha256": "aee72797af4389583c0f531f7fc89c87c87cb939bdba43d888926dd8aaea8d26",
-      "source_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/3a7132b996be0241c1ea0ab180d519f06e6f10b6/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "3a7132b996be0241c1ea0ab180d519f06e6f10b6"
     },
     "activity_evidence": [
       {
@@ -218,7 +237,7 @@ The README now lists 99 styles; the original 66 refers to an earlier version. Co
         }
       },
       {
-        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/LICENSE",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/3a7132b996be0241c1ea0ab180d519f06e6f10b6/LICENSE",
         "accessed_at": "2026-11-15T10:53:16.013Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
@@ -242,7 +261,8 @@ The README now lists 99 styles; the original 66 refers to an earlier version. Co
       "notes": {
         "zh-CN": "当前 README 已更新为 99 种风格，原卡的 66 种属于旧版本。当前许可分为 MIT 代码、CC BY-NC 文档与提示词、CC BY 示例影片，并另列第三方素材及配音例外。",
         "en": "The README now lists 99 styles; the original 66 refers to an earlier version. Code is MIT, docs/prompts CC BY-NC and demo films CC BY, with additional asset and voice exceptions."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -256,7 +276,16 @@ The README now lists 99 styles; the original 66 refers to an earlier version. Co
     "license_spdx": "NOASSERTION",
     "license_sha256": "aee72797af4389583c0f531f7fc89c87c87cb939bdba43d888926dd8aaea8d26",
     "last_success_at": "2026-11-15T10:48:20.787Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

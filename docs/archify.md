@@ -198,8 +198,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.071Z. [Shared metadata](#revi
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://github.com/tt-a1i/archify/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/tt-a1i/archify/blob/a7ed6fd6657da90414831d1d42cf95987188750c/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "a7ed6fd6657da90414831d1d42cf95987188750c"
     },
     "activity_evidence": [
       {
@@ -232,7 +235,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.071Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/tt-a1i/archify/blob/main/LICENSE",
+        "url": "https://github.com/tt-a1i/archify/blob/a7ed6fd6657da90414831d1d42cf95987188750c/LICENSE",
         "accessed_at": "2026-11-15T10:53:11.721Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

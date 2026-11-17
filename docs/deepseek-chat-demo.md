@@ -55,6 +55,9 @@ The project appears in the account's [author-published article dated 2026-11-16]
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:30:19.931551Z",
@@ -91,8 +94,11 @@ The project appears in the account's [author-published article dated 2026-11-16]
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "18895f3c654f34440e66b920a8815e43d38abaa77bd54d8da0e89c4f7fb987e4",
-      "source_url": "https://github.com/deepseek-ai/chat-demo/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:30:19.931551Z"
+      "source_url": "https://github.com/deepseek-ai/chat-demo/blob/5d5dd754ebc1948e977ddb880a9eb5aa25f37b4c/LICENSE",
+      "reviewed_at": "2026-11-16T14:30:19.931551Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5d5dd754ebc1948e977ddb880a9eb5aa25f37b4c"
     },
     "activity_evidence": [
       {
@@ -146,3 +152,5 @@ The project appears in the account's [author-published article dated 2026-11-16]
   }
 }
 ```
+
+</details>

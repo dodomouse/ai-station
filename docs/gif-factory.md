@@ -83,6 +83,9 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:21:24.299979Z",
@@ -113,9 +116,12 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7330cdef16d47a3a9d84e8b9689c5a1aec08720477dcd096d0921efacaffd332",
-      "source_url": "https://github.com/WoYun520/gif-factory/blob/main/LICENSE",
+      "source_url": "https://github.com/WoYun520/gif-factory/blob/e89003a4a6ca4fd0e9e39c8859851b58c82bc368/LICENSE",
       "reviewed_at": "2026-11-16T14:21:24.299979Z",
-      "scope_note": "项目主许可证已读取；外部依赖与素材仍保留各自许可。"
+      "scope_note": "项目主许可证已读取；外部依赖与素材仍保留各自许可。",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "e89003a4a6ca4fd0e9e39c8859851b58c82bc368"
     },
     "activity_evidence": [
       {
@@ -143,7 +149,7 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
         "accessed_at": "2026-11-16T14:21:24.299979Z"
       },
       {
-        "url": "https://github.com/WoYun520/gif-factory/blob/main/LICENSE",
+        "url": "https://github.com/WoYun520/gif-factory/blob/e89003a4a6ca4fd0e9e39c8859851b58c82bc368/LICENSE",
         "accessed_at": "2026-11-16T14:21:24.299979Z"
       },
       {
@@ -182,3 +188,5 @@ Discovery source: [the author-attributed five-project article](https://www.woshi
   }
 }
 ```
+
+</details>

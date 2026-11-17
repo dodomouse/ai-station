@@ -35,7 +35,7 @@ GitHub：[elie222/rakazo](https://github.com/elie222/rakazo)
 
 可自行部署的 AI 团队工作台，集中管理长期记忆、例行任务与智能体电脑。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v0.11.0](https://github.com/elie222/rakazo/releases/tag/v0.11.0)，2026-11-12T14:44:13Z。已核对正式发行 v0.11.0 的发布状态与时间。
+有效维护证据：[v0.11.0](https://github.com/elie222/rakazo/releases/tag/v0.11.0)，2026-11-12T14:44:13Z。模型路由在各付费模式下优先使用用户已连接的凭据，避免错误消耗托管额度。 2026-11-17 已读取[实现提交](https://github.com/elie222/rakazo/commit/beec8f5909840397d783a3cbf1cab9cb463c8588)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/ai/6475152.html)，平台日期 2026-10-09。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A self-hostable AI team workspace with persistent memory, routines and agent computers. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v0.11.0](https://github.com/elie222/rakazo/releases/tag/v0.11.0), 2026-11-12T14:44:13Z. Checked the non-draft, non-prerelease publication v0.11.0 and its date.
+Activity: [v0.11.0](https://github.com/elie222/rakazo/releases/tag/v0.11.0), 2026-11-12T14:44:13Z. Makes connected user credentials take precedence over hosted credits in every funding mode. On 2026-11-17, the [implementation diff](https://github.com/elie222/rakazo/commit/beec8f5909840397d783a3cbf1cab9cb463c8588) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/ai/6475152.html), dated 2026-10-09 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,38 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "b9738182c46747cb7cd36cad62d55c8922ca8d0029df280d3d73bb3c95d34935",
-      "source_url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+      "source_url": "https://github.com/elie222/rakazo/blob/cbe3645b9f0f3c1026ec46bc31d6ab87c5487f92/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "cbe3645b9f0f3c1026ec46bc31d6ab87c5487f92"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-12T14:44:13Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/elie222/rakazo/releases/tag/v0.11.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v0.11.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v0.11.0 and its date."
+          "zh-CN": "模型路由在各付费模式下优先使用用户已连接的凭据，避免错误消耗托管额度。",
+          "en": "Makes connected user credentials take precedence over hosted credits in every funding mode."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/elie222/rakazo/commit/beec8f5909840397d783a3cbf1cab9cb463c8588",
+          "sha": "beec8f5909840397d783a3cbf1cab9cb463c8588",
+          "occurred_at": "2026-11-12T14:20:41Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "packages/adapters/src/model-selection.ts"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +154,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+        "url": "https://github.com/elie222/rakazo/blob/cbe3645b9f0f3c1026ec46bc31d6ab87c5487f92/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +191,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

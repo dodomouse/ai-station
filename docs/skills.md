@@ -199,8 +199,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:15.523Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
-      "source_url": "https://github.com/mattpocock/skills/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/mattpocock/skills/blob/5863806dd4e15c63174bee4e7515a4256792ecfa/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5863806dd4e15c63174bee4e7515a4256792ecfa"
     },
     "activity_evidence": [
       {
@@ -233,7 +236,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:15.523Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/mattpocock/skills/blob/main/LICENSE",
+        "url": "https://github.com/mattpocock/skills/blob/5863806dd4e15c63174bee4e7515a4256792ecfa/LICENSE",
         "accessed_at": "2026-11-15T10:53:10.260Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

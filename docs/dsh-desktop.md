@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "434c81c99d0154715e5bdfca16fe5fcc4473346d34a329e19d2aea4ef73cb29e",
-      "source_url": "https://raw.githubusercontent.com/dataelement/dsh-desktop/main/LICENSE",
+      "source_url": "https://github.com/dataelement/dsh-desktop/blob/bbc7494aa9ed1cda0b89888264d7ee74a26ec50e/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/dataelement/dsh-desktop/main/LICENSE",
+          "source_url": "https://github.com/dataelement/dsh-desktop/blob/bbc7494aa9ed1cda0b89888264d7ee74a26ec50e/LICENSE",
           "fetched_at": "2026-11-16T14:23:40.297Z",
-          "sha256": "434c81c99d0154715e5bdfca16fe5fcc4473346d34a329e19d2aea4ef73cb29e"
+          "sha256": "434c81c99d0154715e5bdfca16fe5fcc4473346d34a329e19d2aea4ef73cb29e",
+          "source_commit": "bbc7494aa9ed1cda0b89888264d7ee74a26ec50e"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "bbc7494aa9ed1cda0b89888264d7ee74a26ec50e"
     },
     "activity_evidence": [
       {
@@ -123,7 +127,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/dataelement/dsh-desktop",
         "https://raw.githubusercontent.com/dataelement/dsh-desktop/main/README.md",
         "https://github.com/dataelement/dsh-desktop/releases/tag/v0.14.0",
-        "https://raw.githubusercontent.com/dataelement/dsh-desktop/main/LICENSE"
+        "https://github.com/dataelement/dsh-desktop/blob/bbc7494aa9ed1cda0b89888264d7ee74a26ec50e/LICENSE"
       ]
     }
   },

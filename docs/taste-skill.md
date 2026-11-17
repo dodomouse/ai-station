@@ -138,8 +138,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df",
-      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:32:13.437Z"
+      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/f6b76575f949707b4e3c37cd86cb44b0b98643e8/LICENSE",
+      "reviewed_at": "2026-11-16T14:32:13.437Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "f6b76575f949707b4e3c37cd86cb44b0b98643e8"
     },
     "activity_evidence": [
       {
@@ -164,7 +167,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/Leonxlnx/taste-skill/blob/main/LICENSE",
+        "url": "https://github.com/Leonxlnx/taste-skill/blob/f6b76575f949707b4e3c37cd86cb44b0b98643e8/LICENSE",
         "accessed_at": "2026-11-16T14:32:13.437Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

@@ -36,7 +36,7 @@ GitHub：[Leviidev/Henge](https://github.com/Leviidev/Henge)
 
 在 iPhone 和 iPad 上以 JIT 模拟器运行 macOS，用于系统兼容性实验。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[0.3](https://github.com/Leviidev/Henge/releases/tag/0.3)，2026-11-10T23:53:38Z。已核对正式发行 0.3 的发布状态与时间。
+有效维护证据：[0.3](https://github.com/Leviidev/Henge/releases/tag/0.3)，2026-11-10T23:53:38Z。为客机虚拟计数器应用启动偏移，使 macOS 的运行与空闲时间从虚拟机启动计时。 2026-11-17 已读取[实现提交](https://github.com/Leviidev/Henge/commit/8bde8134e012966c5968c3e71baedcc1985ace59)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/ai/6492489.html)，平台日期 2026-11-12。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -65,13 +65,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A JIT emulator for running macOS on iPhone and iPad for compatibility experiments. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [0.3](https://github.com/Leviidev/Henge/releases/tag/0.3), 2026-11-10T23:53:38Z. Checked the non-draft, non-prerelease publication 0.3 and its date.
+Activity: [0.3](https://github.com/Leviidev/Henge/releases/tag/0.3), 2026-11-10T23:53:38Z. Applies the machine-start offset to the guest virtual counter so macOS uptime and idle time start with the virtual machine. On 2026-11-17, the [implementation diff](https://github.com/Leviidev/Henge/commit/8bde8134e012966c5968c3e71baedcc1985ace59) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/ai/6492489.html), dated 2026-11-12 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -108,23 +111,40 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "GPL-2.0-or-later",
       "osi_approved": true,
       "license_sha256": "6f04ae8364d0079a192b14635f4b1da294ce18724c034c39a6a41d1b09df6100",
-      "source_url": "https://github.com/Leviidev/Henge/blob/main/LICENSE",
+      "source_url": "https://github.com/Leviidev/Henge/blob/7b557301195f130f900b1b4cd105c9ecf0fbc109/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "GPL-2.0-or-later covers emulator code; macOS and boot ROMs are outside that grant."
+      "scope_note": "GPL-2.0-or-later covers emulator code; macOS and boot ROMs are outside that grant.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "7b557301195f130f900b1b4cd105c9ecf0fbc109"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-10T23:53:38Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/Leviidev/Henge/releases/tag/0.3",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 0.3 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication 0.3 and its date."
+          "zh-CN": "为客机虚拟计数器应用启动偏移，使 macOS 的运行与空闲时间从虚拟机启动计时。",
+          "en": "Applies the machine-start offset to the guest virtual counter so macOS uptime and idle time start with the virtual machine."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/Leviidev/Henge/commit/8bde8134e012966c5968c3e71baedcc1985ace59",
+          "sha": "8bde8134e012966c5968c3e71baedcc1985ace59",
+          "occurred_at": "2026-11-10T15:36:30Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "core/cpu.h",
+            "core/machine.c",
+            "core/translate.c"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -137,7 +157,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/Leviidev/Henge/blob/main/LICENSE",
+        "url": "https://github.com/Leviidev/Henge/blob/7b557301195f130f900b1b4cd105c9ecf0fbc109/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -174,3 +194,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

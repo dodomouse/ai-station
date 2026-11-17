@@ -35,7 +35,7 @@ GitHub：[alejandrobujan/tendedero](https://github.com/alejandrobujan/tendedero)
 
 在 macOS 屏幕顶部暂存截图、复制文本和链接，便于拖放与再次使用。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v2.0.0](https://github.com/alejandrobujan/tendedero/releases/tag/v2.0.0)，2026-11-10T08:50:15Z。已核对正式发行 v2.0.0 的发布状态与时间。
+有效维护证据：[v2.0.0](https://github.com/alejandrobujan/tendedero/releases/tag/v2.0.0)，2026-11-10T08:50:15Z。新增 Markdown 笔记识别与显示，支持标题、列表、任务框和代码块，并保留原始文本。 2026-11-17 已读取[实现提交](https://github.com/alejandrobujan/tendedero/commit/5fb8a8dd70a819b8f5c04cc68df8555796f80152)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/share/6477077.html)，平台日期 2026-10-13。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A macOS shelf for screenshots, copied text and links, with drag-and-drop reuse. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v2.0.0](https://github.com/alejandrobujan/tendedero/releases/tag/v2.0.0), 2026-11-10T08:50:15Z. Checked the non-draft, non-prerelease publication v2.0.0 and its date.
+Activity: [v2.0.0](https://github.com/alejandrobujan/tendedero/releases/tag/v2.0.0), 2026-11-10T08:50:15Z. Adds Markdown note detection and rendering for headings, lists, checkboxes and code blocks while preserving source text. On 2026-11-17, the [implementation diff](https://github.com/alejandrobujan/tendedero/commit/5fb8a8dd70a819b8f5c04cc68df8555796f80152) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/share/6477077.html), dated 2026-10-13 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,39 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "7a1c1e644e9c6cf19afde4c3ca9e0952cbc9acb5d3a26954c69b6fa76eaa303b",
-      "source_url": "https://github.com/alejandrobujan/tendedero/blob/main/LICENSE",
+      "source_url": "https://github.com/alejandrobujan/tendedero/blob/e362da6d92e7ca9dd141de4017eae779dc1e4284/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "MIT covers source code. Name and icon are excluded; modified distributions must follow the branding conditions."
+      "scope_note": "MIT covers source code. Name and icon are excluded; modified distributions must follow the branding conditions.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "e362da6d92e7ca9dd141de4017eae779dc1e4284"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-10T08:50:15Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/alejandrobujan/tendedero/releases/tag/v2.0.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v2.0.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v2.0.0 and its date."
+          "zh-CN": "新增 Markdown 笔记识别与显示，支持标题、列表、任务框和代码块，并保留原始文本。",
+          "en": "Adds Markdown note detection and rendering for headings, lists, checkboxes and code blocks while preserving source text."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/alejandrobujan/tendedero/commit/5fb8a8dd70a819b8f5c04cc68df8555796f80152",
+          "sha": "5fb8a8dd70a819b8f5c04cc68df8555796f80152",
+          "occurred_at": "2026-11-10T07:35:06Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "Sources/Tendedero/Line.swift",
+            "Sources/Tendedero/Markdown.swift"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +155,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/alejandrobujan/tendedero/blob/main/LICENSE",
+        "url": "https://github.com/alejandrobujan/tendedero/blob/e362da6d92e7ca9dd141de4017eae779dc1e4284/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +192,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

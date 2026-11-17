@@ -35,7 +35,7 @@ GitHub：[SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red)
 
 面向授权安全研究和 CTF 的 Claude Code 技能集合。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v0.3.0](https://github.com/SnailSploit/Claude-Red/releases/tag/v0.3.0)，2026-08-30T11:02:25Z。已核对正式发行 v0.3.0 的发布状态与时间。
+有效维护证据：[v0.3.0](https://github.com/SnailSploit/Claude-Red/releases/tag/v0.3.0)，2026-08-30T11:02:25Z。新增 API 安全评估技能，包含 REST、gRPC 与 WebSocket 的授权测试流程；变更落在技能指令中。 2026-11-17 已读取[实现提交](https://github.com/SnailSploit/Claude-Red/commit/8cffe5d8b29b46c8aa052b07e95f5166125d6b54)的差异；未运行上游测试。
 
 发现线索：[公开索引](https://www.noking.tech/github-radar/)记录的[微信文章](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247538101&idx=2&sn=078856eda8d5566656a5ef45fdd0f971)，索引日期 2026-10-27。仅核对公开索引，未直接读取该篇微信全文；功能与限制以上游资料为依据。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A Claude Code skill collection for authorized security research and CTF work. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v0.3.0](https://github.com/SnailSploit/Claude-Red/releases/tag/v0.3.0), 2026-08-30T11:02:25Z. Checked the non-draft, non-prerelease publication v0.3.0 and its date.
+Activity: [v0.3.0](https://github.com/SnailSploit/Claude-Red/releases/tag/v0.3.0), 2026-08-30T11:02:25Z. Adds an API security assessment skill with authorized REST, gRPC and WebSocket testing workflows in the skill instructions. On 2026-11-17, the [implementation diff](https://github.com/SnailSploit/Claude-Red/commit/8cffe5d8b29b46c8aa052b07e95f5166125d6b54) was inspected; upstream tests were not run.
 
 Discovery: [an indexed WeChat article](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247538101&idx=2&sn=078856eda8d5566656a5ef45fdd0f971). This is a secondary discovery record; the WeChat article body was not read. Features and limits come from upstream documentation.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,38 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "f2ebf01e609ee09215fbe0334dc8a96e7474a186f07a73e24e983fa2462e0ff9",
-      "source_url": "https://github.com/SnailSploit/Claude-Red/blob/main/LICENSE",
+      "source_url": "https://github.com/SnailSploit/Claude-Red/blob/fd81441b613c7d4fab39256720a31c96859d138b/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "fd81441b613c7d4fab39256720a31c96859d138b"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-08-30T11:02:25Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/SnailSploit/Claude-Red/releases/tag/v0.3.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v0.3.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v0.3.0 and its date."
+          "zh-CN": "新增 API 安全评估技能，包含 REST、gRPC 与 WebSocket 的授权测试流程；变更落在技能指令中。",
+          "en": "Adds an API security assessment skill with authorized REST, gRPC and WebSocket testing workflows in the skill instructions."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/SnailSploit/Claude-Red/commit/8cffe5d8b29b46c8aa052b07e95f5166125d6b54",
+          "sha": "8cffe5d8b29b46c8aa052b07e95f5166125d6b54",
+          "occurred_at": "2026-08-25T15:30:59Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "Skills/api/offensive-api-security/SKILL.md"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +154,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/SnailSploit/Claude-Red/blob/main/LICENSE",
+        "url": "https://github.com/SnailSploit/Claude-Red/blob/fd81441b613c7d4fab39256720a31c96859d138b/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +191,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

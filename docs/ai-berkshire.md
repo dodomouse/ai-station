@@ -195,8 +195,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.763Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "81b843bec8a087f4c20e5be8ad744cfe1a169dc0b4f0147cbe61e6cd3da39981",
-      "source_url": "https://github.com/xbtlin/ai-berkshire/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/xbtlin/ai-berkshire/blob/bea57d5e72aad7def1c34ed5b2b1598039de41cf/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "bea57d5e72aad7def1c34ed5b2b1598039de41cf"
     },
     "activity_evidence": [
       {
@@ -229,7 +232,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.763Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/xbtlin/ai-berkshire/blob/main/LICENSE",
+        "url": "https://github.com/xbtlin/ai-berkshire/blob/bea57d5e72aad7def1c34ed5b2b1598039de41cf/LICENSE",
         "accessed_at": "2026-11-15T10:53:12.039Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

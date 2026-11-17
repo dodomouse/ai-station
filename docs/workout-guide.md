@@ -71,32 +71,57 @@ Discovery uses a third-party WeChat article index; the original article body was
       "verification_level": "docs"
     },
     "license_review": {
-      "spdx": "MIT AND CC-BY-SA-4.0",
+      "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "a986e77b01b06de6caf1dbb63d5a7d8abefaa05e637fc98ae8374e7a3cf05055",
-      "source_url": "https://raw.githubusercontent.com/bryllim/workout-guide/main/LICENSE",
+      "source_url": "https://github.com/bryllim/workout-guide/blob/aac599224bb9780305239607ef98540b7e0ce389/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/bryllim/workout-guide/main/LICENSE",
+          "source_url": "https://github.com/bryllim/workout-guide/blob/aac599224bb9780305239607ef98540b7e0ce389/LICENSE",
           "fetched_at": "2026-11-16T14:23:40.153Z",
-          "sha256": "a986e77b01b06de6caf1dbb63d5a7d8abefaa05e637fc98ae8374e7a3cf05055"
+          "sha256": "a986e77b01b06de6caf1dbb63d5a7d8abefaa05e637fc98ae8374e7a3cf05055",
+          "source_commit": "aac599224bb9780305239607ef98540b7e0ce389"
         },
         {
           "path": "LICENSE-ASSETS",
-          "source_url": "https://raw.githubusercontent.com/bryllim/workout-guide/main/LICENSE-ASSETS",
+          "source_url": "https://github.com/bryllim/workout-guide/blob/aac599224bb9780305239607ef98540b7e0ce389/LICENSE-ASSETS",
           "fetched_at": "2026-11-16T14:23:40.383Z",
-          "sha256": "b25de3faf3d7f163f842cb0e2c069da652705f738faa4c6232d45ed36fc29eb3"
+          "sha256": "b25de3faf3d7f163f842cb0e2c069da652705f738faa4c6232d45ed36fc29eb3",
+          "source_commit": "aac599224bb9780305239607ef98540b7e0ce389"
         },
         {
           "path": "LICENSES.md",
-          "source_url": "https://raw.githubusercontent.com/bryllim/workout-guide/main/LICENSES.md",
+          "source_url": "https://github.com/bryllim/workout-guide/blob/aac599224bb9780305239607ef98540b7e0ce389/LICENSES.md",
           "fetched_at": "2026-11-16T14:23:40.362Z",
-          "sha256": "5e268191030abaa82f4f26630036427d8ab148bea0eb1b40aa821dbc7d065bc9"
+          "sha256": "5e268191030abaa82f4f26630036427d8ab148bea0eb1b40aa821dbc7d065bc9",
+          "source_commit": "aac599224bb9780305239607ef98540b7e0ce389"
         }
       ],
-      "scope": "MIT software code; illustrations are CC-BY-SA-4.0 with attribution/share-alike requirements."
+      "scope": "Software code only. Illustration licensing is recorded separately in components.",
+      "components": [
+        {
+          "scope": "software-code",
+          "spdx": "MIT",
+          "osi_approved": true,
+          "source_url": "https://github.com/bryllim/workout-guide/blob/aac599224bb9780305239607ef98540b7e0ce389/LICENSE",
+          "license_sha256": "a986e77b01b06de6caf1dbb63d5a7d8abefaa05e637fc98ae8374e7a3cf05055",
+          "source_commit": "aac599224bb9780305239607ef98540b7e0ce389"
+        },
+        {
+          "scope": "illustrations",
+          "spdx": "CC-BY-SA-4.0",
+          "osi_approved": false,
+          "source_url": "https://github.com/bryllim/workout-guide/blob/aac599224bb9780305239607ef98540b7e0ce389/LICENSE-ASSETS",
+          "license_sha256": "b25de3faf3d7f163f842cb0e2c069da652705f738faa4c6232d45ed36fc29eb3",
+          "source_commit": "aac599224bb9780305239607ef98540b7e0ce389"
+        }
+      ],
+      "scope_clarified_at": "2026-11-17T03:11:46.178386+00:00",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "aac599224bb9780305239607ef98540b7e0ce389"
     },
     "activity_evidence": [
       {
@@ -136,7 +161,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/bryllim/workout-guide",
         "https://raw.githubusercontent.com/bryllim/workout-guide/main/README.md",
         "https://github.com/bryllim/workout-guide/releases/tag/v1.0.0",
-        "https://raw.githubusercontent.com/bryllim/workout-guide/main/LICENSE"
+        "https://github.com/bryllim/workout-guide/blob/aac599224bb9780305239607ef98540b7e0ce389/LICENSE"
       ]
     }
   },

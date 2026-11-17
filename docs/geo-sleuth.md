@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "bd374c9fb4dcb3273b0e1098445ce62355aaa66f45df18971a84a037ed89e4b0",
-      "source_url": "https://raw.githubusercontent.com/Oldcircle/geo-sleuth/main/LICENSE",
+      "source_url": "https://github.com/Oldcircle/geo-sleuth/blob/8245bf551b6b2469cbcedb021a980ff40c7530c2/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/Oldcircle/geo-sleuth/main/LICENSE",
+          "source_url": "https://github.com/Oldcircle/geo-sleuth/blob/8245bf551b6b2469cbcedb021a980ff40c7530c2/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.697Z",
-          "sha256": "bd374c9fb4dcb3273b0e1098445ce62355aaa66f45df18971a84a037ed89e4b0"
+          "sha256": "bd374c9fb4dcb3273b0e1098445ce62355aaa66f45df18971a84a037ed89e4b0",
+          "source_commit": "8245bf551b6b2469cbcedb021a980ff40c7530c2"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "8245bf551b6b2469cbcedb021a980ff40c7530c2"
     },
     "activity_evidence": [
       {
@@ -130,7 +134,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/oldcircle/geo-sleuth",
         "https://raw.githubusercontent.com/Oldcircle/geo-sleuth/main/README.md",
         "https://github.com/Oldcircle/geo-sleuth/commit/8245bf551b6b2469cbcedb021a980ff40c7530c2",
-        "https://raw.githubusercontent.com/Oldcircle/geo-sleuth/main/LICENSE"
+        "https://github.com/Oldcircle/geo-sleuth/blob/8245bf551b6b2469cbcedb021a980ff40c7530c2/LICENSE"
       ]
     }
   },

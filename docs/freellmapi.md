@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "d32d45dfea4847f158db264ae8afb67f1a390e4f28cf18bf088a564f44c7f0b9",
-      "source_url": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/LICENSE",
+      "source_url": "https://github.com/tashfeenahmed/freellmapi/blob/fd327a57bc4157b22d483007b522c2152c54ae9a/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/LICENSE",
+          "source_url": "https://github.com/tashfeenahmed/freellmapi/blob/fd327a57bc4157b22d483007b522c2152c54ae9a/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.462Z",
-          "sha256": "d32d45dfea4847f158db264ae8afb67f1a390e4f28cf18bf088a564f44c7f0b9"
+          "sha256": "d32d45dfea4847f158db264ae8afb67f1a390e4f28cf18bf088a564f44c7f0b9",
+          "source_commit": "fd327a57bc4157b22d483007b522c2152c54ae9a"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "fd327a57bc4157b22d483007b522c2152c54ae9a"
     },
     "activity_evidence": [
       {
@@ -154,7 +158,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/tashfeenahmed/freellmapi",
         "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/README.md",
         "https://github.com/tashfeenahmed/freellmapi/releases/tag/v0.16.31",
-        "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/LICENSE"
+        "https://github.com/tashfeenahmed/freellmapi/blob/fd327a57bc4157b22d483007b522c2152c54ae9a/LICENSE"
       ]
     }
   },

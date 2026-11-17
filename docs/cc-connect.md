@@ -13,10 +13,16 @@ GitHub：[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:13.241Z |
 
-候选原因：许可证待复核。
-Candidate reason: License requires review.
+候选原因：许可原文与范围待复核。
+Candidate reason: License text and scope require review.
 
-以上为历史核对结果，使用前请复核上游状态。 / This is a dated review; check the current upstream state before use.
+状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
+Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
+
+下一步：取得许可原文并核对适用范围。
+Next step: Obtain the license text and confirm its scope.
+
+历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
@@ -155,7 +161,17 @@ The README claims MIT, but no root license file was found and the API license is
     "status": "unknown",
     "reasons": [
       "license_needs_review"
-    ]
+    ],
+    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+    "review_basis": "existing_evidence_status_clarification",
+    "pending_actions": {
+      "zh-CN": [
+        "取得许可原文并核对适用范围。"
+      ],
+      "en": [
+        "Obtain the license text and confirm its scope."
+      ]
+    }
   },
   "metadata": {
     "schema_version": 1,
@@ -211,7 +227,9 @@ The README claims MIT, but no root license file was found and the API license is
       "osi_approved": false,
       "license_sha256": null,
       "source_url": null,
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "unavailable"
     },
     "activity_evidence": [
       {
@@ -260,7 +278,8 @@ The README claims MIT, but no root license file was found and the API license is
       "notes": {
         "zh-CN": "当前 README 自称 MIT，但仓库根目录未找到许可证文件，API 许可证为空。原卡的 MIT 描述保留为历史记录。",
         "en": "The README claims MIT, but no root license file was found and the API license is empty. The original MIT claim is historical."
-      }
+      },
+      "historical": true
     }
   },
   "snapshot": {
@@ -274,7 +293,16 @@ The README claims MIT, but no root license file was found and the API license is
     "license_spdx": null,
     "license_sha256": null,
     "last_success_at": "2026-11-15T10:48:13.241Z"
-  }
+  },
+  "eligibility_history": [
+    {
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ]
+    }
+  ]
 }
 ```
 

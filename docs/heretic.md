@@ -35,7 +35,7 @@ GitHub：[p-e-w/heretic](https://github.com/p-e-w/heretic)
 
 通过免训练的参数修改研究语言模型的回答风格、拒答与迎合行为。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v2.1.0](https://github.com/p-e-w/heretic/releases/tag/v2.1.0)，2026-11-08T07:14:03Z。已核对正式发行 v2.1.0 的发布状态与时间。
+有效维护证据：[v2.1.0](https://github.com/p-e-w/heretic/releases/tag/v2.1.0)，2026-11-08T07:14:03Z。在序列化和导出前写回插件的实际运行配置，避免导出过期的评分器或修改器设置。 2026-11-17 已读取[实现提交](https://github.com/p-e-w/heretic/commit/75a640b7ebc59d4e420f26a3ca6b0981bbf3fef9)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/ai/6460165.html)，平台日期 2026-09-05。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 A tool for studying language-model style, refusal and sycophancy through training-free parameter modification. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v2.1.0](https://github.com/p-e-w/heretic/releases/tag/v2.1.0), 2026-11-08T07:14:03Z. Checked the non-draft, non-prerelease publication v2.1.0 and its date.
+Activity: [v2.1.0](https://github.com/p-e-w/heretic/releases/tag/v2.1.0), 2026-11-08T07:14:03Z. Writes effective plugin settings back before serialization and export to avoid stale scorer or modifier configuration. On 2026-11-17, the [implementation diff](https://github.com/p-e-w/heretic/commit/75a640b7ebc59d4e420f26a3ca6b0981bbf3fef9) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/ai/6460165.html), dated 2026-09-05 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,39 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "AGPL-3.0",
       "osi_approved": true,
       "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "source_url": "https://github.com/p-e-w/heretic/blob/master/LICENSE",
+      "source_url": "https://github.com/p-e-w/heretic/blob/a14b8543537b50ce8db4db7eaae4eb295d5d5142/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "a14b8543537b50ce8db4db7eaae4eb295d5d5142"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-11-08T07:14:03Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/p-e-w/heretic/releases/tag/v2.1.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v2.1.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v2.1.0 and its date."
+          "zh-CN": "在序列化和导出前写回插件的实际运行配置，避免导出过期的评分器或修改器设置。",
+          "en": "Writes effective plugin settings back before serialization and export to avoid stale scorer or modifier configuration."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/p-e-w/heretic/commit/75a640b7ebc59d4e420f26a3ca6b0981bbf3fef9",
+          "sha": "75a640b7ebc59d4e420f26a3ca6b0981bbf3fef9",
+          "occurred_at": "2026-11-07T16:42:32Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "src/heretic/evaluator.py",
+            "src/heretic/main.py"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +155,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/p-e-w/heretic/blob/master/LICENSE",
+        "url": "https://github.com/p-e-w/heretic/blob/a14b8543537b50ce8db4db7eaae4eb295d5d5142/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -169,3 +188,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

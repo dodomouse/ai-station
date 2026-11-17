@@ -35,7 +35,7 @@ GitHub：[bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-v
 
 在交互式三维地球上叠加公开交通、地理与环境数据。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0)，2026-10-28T05:19:57Z。已核对正式发行 v0.3.0 的发布状态与时间。
+有效维护证据：[v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0)，2026-10-28T05:19:57Z。将街景方位角四舍五入后的 360° 归一化为 0°，并增加边界回归测试。 2026-11-17 已读取[实现提交](https://github.com/bilawalsidhu/gods-eye-view/commit/6d6b2e8fe9f9ff4a2279148aa8461476ae5a07fb)的差异；未运行上游测试。
 
 文章来源：[逛逛GitHub署名文章](https://www.woshipm.com/share/6473850.html)，平台日期 2026-10-06。已通过公开正文核对仓库链接与作者归属；微信正文未直接读取。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 An interactive 3D globe combining public transport, geographic and environmental data. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0), 2026-10-28T05:19:57Z. Checked the non-draft, non-prerelease publication v0.3.0 and its date.
+Activity: [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0), 2026-10-28T05:19:57Z. Normalizes a rounded street-view bearing of 360 degrees to zero, with a boundary regression test. On 2026-11-17, the [implementation diff](https://github.com/bilawalsidhu/gods-eye-view/commit/6d6b2e8fe9f9ff4a2279148aa8461476ae5a07fb) was inspected; upstream tests were not run.
 
 Discovery: [an author-attributed 逛逛GitHub article](https://www.woshipm.com/share/6473850.html), dated 2026-10-06 on the public platform. Repository links and attribution were checked in its public body; the WeChat body was not read directly.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,39 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "65bfc694b67094c80855179812bcac989da6e55840add547fd2e428b3e4175c3",
-      "source_url": "https://github.com/bilawalsidhu/gods-eye-view/blob/main/LICENSE",
+      "source_url": "https://github.com/bilawalsidhu/gods-eye-view/blob/9e9ce1db22c46de52d14b7ffb48a25dab04ad1b5/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "MIT covers original code and procedural models. Third-party datasets are excluded, including CC BY-NC/NC-SA datasets; live APIs retain provider terms."
+      "scope_note": "MIT covers original code and procedural models. Third-party datasets are excluded, including CC BY-NC/NC-SA datasets; live APIs retain provider terms.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "9e9ce1db22c46de52d14b7ffb48a25dab04ad1b5"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-10-28T05:19:57Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v0.3.0 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v0.3.0 and its date."
+          "zh-CN": "将街景方位角四舍五入后的 360° 归一化为 0°，并增加边界回归测试。",
+          "en": "Normalizes a rounded street-view bearing of 360 degrees to zero, with a boundary regression test."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view/commit/6d6b2e8fe9f9ff4a2279148aa8461476ae5a07fb",
+          "sha": "6d6b2e8fe9f9ff4a2279148aa8461476ae5a07fb",
+          "occurred_at": "2026-10-27T10:22:27Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "src/ui/streetLevelPresentation.js",
+            "src/ui/streetLevelPresentation.test.mjs"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +155,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/bilawalsidhu/gods-eye-view/blob/main/LICENSE",
+        "url": "https://github.com/bilawalsidhu/gods-eye-view/blob/9e9ce1db22c46de52d14b7ffb48a25dab04ad1b5/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +192,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

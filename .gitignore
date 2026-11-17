@@ -3,3 +3,7 @@
 /codex_artifact/
 /.business-map/
 /.code-map/
+
+# Python validation caches
+__pycache__/
+*.py[cod]

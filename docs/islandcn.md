@@ -55,6 +55,9 @@ The project appears in the account's [author-published article dated 2026-11-16]
 
 ## Review evidence
 
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
+
 ```json
 {
   "evaluated_at": "2026-11-16T14:30:19.931551Z",
@@ -91,8 +94,11 @@ The project appears in the account's [author-published article dated 2026-11-16]
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "0fdb775e00e6fdde23984b4f1184cd13c34135caac1e714ad489141c239704bc",
-      "source_url": "https://github.com/opencoredev/islandcn/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:30:19.931551Z"
+      "source_url": "https://github.com/opencoredev/islandcn/blob/0011a41ea4882f3818caf35c98f3ee46b80c4a2c/LICENSE",
+      "reviewed_at": "2026-11-16T14:30:19.931551Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "0011a41ea4882f3818caf35c98f3ee46b80c4a2c"
     },
     "activity_evidence": [
       {
@@ -160,3 +166,5 @@ The project appears in the account's [author-published article dated 2026-11-16]
   }
 }
 ```
+
+</details>

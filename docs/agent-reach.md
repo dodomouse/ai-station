@@ -75,16 +75,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "e94c131ac1c2f78cfd8f7e69da354c0ff58e4e54071697703d56856c036de402",
-      "source_url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/LICENSE",
+      "source_url": "https://github.com/Panniantong/Agent-Reach/blob/c70ae6da5d39bc90e09ad2ae0575ccc89f31e284/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/LICENSE",
+          "source_url": "https://github.com/Panniantong/Agent-Reach/blob/c70ae6da5d39bc90e09ad2ae0575ccc89f31e284/LICENSE",
           "fetched_at": "2026-11-16T14:23:16.457Z",
-          "sha256": "e94c131ac1c2f78cfd8f7e69da354c0ff58e4e54071697703d56856c036de402"
+          "sha256": "e94c131ac1c2f78cfd8f7e69da354c0ff58e4e54071697703d56856c036de402",
+          "source_commit": "c70ae6da5d39bc90e09ad2ae0575ccc89f31e284"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "c70ae6da5d39bc90e09ad2ae0575ccc89f31e284"
     },
     "activity_evidence": [
       {
@@ -134,7 +138,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/panniantong/agent-reach",
         "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/README.md",
         "https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.1",
-        "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/LICENSE"
+        "https://github.com/Panniantong/Agent-Reach/blob/c70ae6da5d39bc90e09ad2ae0575ccc89f31e284/LICENSE"
       ]
     }
   },

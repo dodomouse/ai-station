@@ -179,8 +179,11 @@ Code offers MIT or Apache-2.0. The snapshot preserves the API’s Apache-2.0 fie
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_url": "https://github.com/reason-machines/reason-network/blob/main/LICENSE-APACHE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/reason-machines/reason-network/blob/5442c8b551a6897b596c7695e51b0329551aaa6c/LICENSE-APACHE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "5442c8b551a6897b596c7695e51b0329551aaa6c"
     },
     "activity_evidence": [
       {
@@ -213,7 +216,7 @@ Code offers MIT or Apache-2.0. The snapshot preserves the API’s Apache-2.0 fie
         }
       },
       {
-        "url": "https://github.com/reason-machines/reason-network/blob/main/LICENSE-APACHE",
+        "url": "https://github.com/reason-machines/reason-network/blob/5442c8b551a6897b596c7695e51b0329551aaa6c/LICENSE-APACHE",
         "accessed_at": "2026-11-15T10:53:15.536Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

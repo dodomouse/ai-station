@@ -211,8 +211,11 @@ Current documentation reserves ee/ for future enterprise modules under separate 
       "spdx": "Apache-2.0",
       "osi_approved": true,
       "license_sha256": "68e32334df324ef4fc79fad3a26487e5abac36055a484bb6c8d7ecf9d8350885",
-      "source_url": "https://github.com/genspark-ai/genoffice/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/genspark-ai/genoffice/blob/19a389b39be75f611ec21dcda4a7b91a658239d2/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "19a389b39be75f611ec21dcda4a7b91a658239d2"
     },
     "activity_evidence": [
       {
@@ -245,7 +248,7 @@ Current documentation reserves ee/ for future enterprise modules under separate 
         }
       },
       {
-        "url": "https://github.com/genspark-ai/genoffice/blob/main/LICENSE",
+        "url": "https://github.com/genspark-ai/genoffice/blob/19a389b39be75f611ec21dcda4a7b91a658239d2/LICENSE",
         "accessed_at": "2026-11-15T10:53:08.979Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",

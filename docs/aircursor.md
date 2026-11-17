@@ -131,8 +131,11 @@ Public articles published or authorized by the author were also checked for attr
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "ac5569da19be1ab3d4581d246b98aeb7e278262dc0c8eff52cf19d5967c1180b",
-      "source_url": "https://github.com/m-afham/AirCursor/blob/main/LICENSE",
-      "reviewed_at": "2026-11-16T14:50:00.444Z"
+      "source_url": "https://github.com/m-afham/AirCursor/blob/b1ac85182a27b1d766ac487df22a6a908a4188f7/LICENSE",
+      "reviewed_at": "2026-11-16T14:50:00.444Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "b1ac85182a27b1d766ac487df22a6a908a4188f7"
     },
     "activity_evidence": [
       {
@@ -157,7 +160,7 @@ Public articles published or authorized by the author were also checked for attr
         }
       },
       {
-        "url": "https://github.com/m-afham/AirCursor/blob/main/LICENSE",
+        "url": "https://github.com/m-afham/AirCursor/blob/b1ac85182a27b1d766ac487df22a6a908a4188f7/LICENSE",
         "accessed_at": "2026-11-16T14:50:00.444Z",
         "supports": {
           "zh-CN": "许可正文与文件摘要。",

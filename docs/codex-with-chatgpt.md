@@ -35,7 +35,7 @@ GitHub：[XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-
 
 用只读 MCP 连接将 ChatGPT 网页的规划与审查接入 Codex 工作区。 已检查官方说明、使用入口、许可证和近期功能证据；用途明确，提供可检查实现。
 
-有效维护证据：[v0.1.4](https://github.com/XiaoDuoYa/codex-with-chatgpt/releases/tag/v0.1.4)，2026-10-01T05:19:24Z。已核对正式发行 v0.1.4 的发布状态与时间。
+有效维护证据：[v0.1.4](https://github.com/XiaoDuoYa/codex-with-chatgpt/releases/tag/v0.1.4)，2026-10-01T05:19:24Z。修复单文件搜索结果被静默限制为 20 条及恰好达到上限时误报截断的问题，并增加回归测试。 2026-11-17 已读取[实现提交](https://github.com/XiaoDuoYa/codex-with-chatgpt/commit/97339f2def73feed91a930b6380efe7a104a882b)的差异；未运行上游测试。
 
 发现线索：[公开索引](https://www.noking.tech/github-radar/)记录的[微信文章](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247536916&idx=1&sn=deaea310ec94f838f6484f580da1acc2)，索引日期 2026-09-14。仅核对公开索引，未直接读取该篇微信全文；功能与限制以上游资料为依据。
 
@@ -64,13 +64,16 @@ Choose the platform or integration in the [official documentation](https://githu
 
 Connects ChatGPT web planning and review to a Codex workspace through a read-only MCP bridge. Official docs, a usage entry point, the license and recent functional evidence were reviewed; the purpose and implementation are inspectable.
 
-Activity: [v0.1.4](https://github.com/XiaoDuoYa/codex-with-chatgpt/releases/tag/v0.1.4), 2026-10-01T05:19:24Z. Checked the non-draft, non-prerelease publication v0.1.4 and its date.
+Activity: [v0.1.4](https://github.com/XiaoDuoYa/codex-with-chatgpt/releases/tag/v0.1.4), 2026-10-01T05:19:24Z. Fixes silent loss of matches beyond 20 per file and false truncation at the exact limit, with regression tests. On 2026-11-17, the [implementation diff](https://github.com/XiaoDuoYa/codex-with-chatgpt/commit/97339f2def73feed91a930b6380efe7a104a882b) was inspected; upstream tests were not run.
 
 Discovery: [an indexed WeChat article](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA%3D%3D&mid=2247536916&idx=1&sn=deaea310ec94f838f6484f580da1acc2). This is a secondary discovery record; the WeChat article body was not read. Features and limits come from upstream documentation.
 
 This review covers documentation and implementation evidence. The upstream project was not installed or run.
 
 ## Review evidence
+
+<details>
+<summary>收录依据与来源 / Review evidence and sources</summary>
 
 ```json
 {
@@ -107,23 +110,39 @@ This review covers documentation and implementation evidence. The upstream proje
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "4b18c7291304dc84d601a6305053e9a68b3f39877f27434556f30e184eb834b5",
-      "source_url": "https://github.com/XiaoDuoYa/codex-with-chatgpt/blob/main/LICENSE",
+      "source_url": "https://github.com/XiaoDuoYa/codex-with-chatgpt/blob/535a07dbb7aee887924c53767d985c09d405319d/LICENSE",
       "reviewed_at": "2026-11-16T14:58:29.135174Z",
-      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses."
+      "scope_note": "Root license reviewed. External dependencies and assets retain their individual licenses.",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "535a07dbb7aee887924c53767d985c09d405319d"
     },
     "activity_evidence": [
       {
         "type": "release",
         "occurred_at": "2026-10-01T05:19:24Z",
-        "reviewed_at": "2026-11-16T14:58:29.135174Z",
+        "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
         "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt/releases/tag/v0.1.4",
         "qualifies": true,
         "reason": {
-          "zh-CN": "已核对正式发行 v0.1.4 的发布状态与时间。",
-          "en": "Checked the non-draft, non-prerelease publication v0.1.4 and its date."
+          "zh-CN": "修复单文件搜索结果被静默限制为 20 条及恰好达到上限时误报截断的问题，并增加回归测试。",
+          "en": "Fixes silent loss of matches beyond 20 per file and false truncation at the exact limit, with regression tests."
         },
         "draft": false,
-        "prerelease": false
+        "prerelease": false,
+        "implementation_evidence": {
+          "type": "commit",
+          "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt/commit/97339f2def73feed91a930b6380efe7a104a882b",
+          "sha": "97339f2def73feed91a930b6380efe7a104a882b",
+          "occurred_at": "2026-10-01T05:14:12Z",
+          "reviewed_at": "2026-11-17T03:15:51.892548+00:00",
+          "reviewed_files": [
+            "src/workspace/search.ts",
+            "tests/search.test.ts"
+          ],
+          "verification_level": "source_review",
+          "upstream_tests_run": false
+        }
       }
     ],
     "sources": [
@@ -136,7 +155,7 @@ This review covers documentation and implementation evidence. The upstream proje
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
-        "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt/blob/main/LICENSE",
+        "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt/blob/535a07dbb7aee887924c53767d985c09d405319d/LICENSE",
         "accessed_at": "2026-11-16T14:58:29.135174Z"
       },
       {
@@ -173,3 +192,5 @@ This review covers documentation and implementation evidence. The upstream proje
   }
 }
 ```
+
+</details>

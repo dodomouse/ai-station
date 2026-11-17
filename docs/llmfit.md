@@ -74,16 +74,20 @@ Discovery uses a third-party WeChat article index; the original article body was
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "b52696dc0457bf58616f5017e5146b2932611b9357bb9824c7c91183fc36471f",
-      "source_url": "https://raw.githubusercontent.com/AlexsJones/llmfit/main/LICENSE",
+      "source_url": "https://github.com/AlexsJones/llmfit/blob/700cfc818c63e98f61200b8b00401f4c76d265bc/LICENSE",
       "reviewed_at": "2026-11-16T14:50:50.290410+00:00",
       "files": [
         {
           "path": "LICENSE",
-          "source_url": "https://raw.githubusercontent.com/AlexsJones/llmfit/main/LICENSE",
+          "source_url": "https://github.com/AlexsJones/llmfit/blob/700cfc818c63e98f61200b8b00401f4c76d265bc/LICENSE",
           "fetched_at": "2026-11-16T14:23:40.610Z",
-          "sha256": "b52696dc0457bf58616f5017e5146b2932611b9357bb9824c7c91183fc36471f"
+          "sha256": "b52696dc0457bf58616f5017e5146b2932611b9357bb9824c7c91183fc36471f",
+          "source_commit": "700cfc818c63e98f61200b8b00401f4c76d265bc"
         }
-      ]
+      ],
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "700cfc818c63e98f61200b8b00401f4c76d265bc"
     },
     "activity_evidence": [
       {
@@ -123,7 +127,7 @@ Discovery uses a third-party WeChat article index; the original article body was
         "https://api.github.com/repos/alexsjones/llmfit",
         "https://raw.githubusercontent.com/AlexsJones/llmfit/main/README.md",
         "https://github.com/AlexsJones/llmfit/releases/tag/v1.1.20",
-        "https://raw.githubusercontent.com/AlexsJones/llmfit/main/LICENSE"
+        "https://github.com/AlexsJones/llmfit/blob/700cfc818c63e98f61200b8b00401f4c76d265bc/LICENSE"
       ]
     }
   },

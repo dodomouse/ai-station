@@ -196,8 +196,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.783Z. [Shared metadata](#revi
       "spdx": "MIT",
       "osi_approved": true,
       "license_sha256": "87c078ab9d90a3044f359e6b563d4e6afea7aa060897cf4f21618687b3856796",
-      "source_url": "https://github.com/wheresryan22/anatomy/blob/main/LICENSE",
-      "reviewed_at": "2026-11-15T11:03:50.120930Z"
+      "source_url": "https://github.com/wheresryan22/anatomy/blob/1482e8469b0a9e0d8cc18ea2740a01423d29ae80/LICENSE",
+      "reviewed_at": "2026-11-15T11:03:50.120930Z",
+      "evidence_pinned_at": "2026-11-17T03:18:39.545644+00:00",
+      "evidence_status": "hash_matched",
+      "source_commit": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80"
     },
     "activity_evidence": [
       {
@@ -230,7 +233,7 @@ GitHub metadata was fetched at 2026-11-15T10:48:17.783Z. [Shared metadata](#revi
         }
       },
       {
-        "url": "https://github.com/wheresryan22/anatomy/blob/main/LICENSE",
+        "url": "https://github.com/wheresryan22/anatomy/blob/1482e8469b0a9e0d8cc18ea2740a01423d29ae80/LICENSE",
         "accessed_at": "2026-11-15T10:53:12.033Z",
         "supports": {
           "zh-CN": "本次读取的许可文件；不代表已完成复杂许可范围复核。",
