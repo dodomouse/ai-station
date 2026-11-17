@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-220-2563eb?style=flat-square" alt="220 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-246-2563eb?style=flat-square" alt="246 included projects" /></a>
   <a href="#candidates"><img src="https://img.shields.io/badge/candidates-29-64748b?style=flat-square" alt="29 candidates" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
@@ -23,7 +23,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains 249 projects: **220 included** and **29 candidates**, across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
+The catalog contains 275 projects: **246 included** and **29 candidates**, across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
 
 Use it to find tools for a task, compare setup requirements or explore code worth learning from. Read the catalog in your browser, then follow the selected project's own setup guide.
 
@@ -73,26 +73,26 @@ Choose a category, then expand its list. Counts include both older entries and t
 
 | Category | Find | Included | Candidates |
 | --- | --- | ---: | ---: |
-| [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [55](#included-ai) | [3](#candidate-ai) |
-| [Development](#included-development) | Coding, review, interfaces and engineering | [63](#included-development) | [4](#candidate-development) |
+| [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [58](#included-ai) | [3](#candidate-ai) |
+| [Development](#included-development) | Coding, review, interfaces and engineering | [68](#included-development) | [4](#candidate-development) |
 | [Images, audio and video](#included-media) | Images, animation, audio and video creation | [39](#included-media) | [8](#candidate-media) |
-| [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [27](#included-productivity) | [10](#candidate-productivity) |
-| [Automation](#included-automation) | Scheduling, devices and application control | [11](#included-automation) | [1](#candidate-automation) |
-| [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [11](#included-operations) | [1](#candidate-operations) |
-| [Data processing](#included-data) | Data queries, research and analysis | [8](#included-data) | [2](#candidate-data) |
+| [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [41](#included-productivity) | [10](#candidate-productivity) |
+| [Automation](#included-automation) | Scheduling, devices and application control | [12](#included-automation) | [1](#candidate-automation) |
+| [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [12](#included-operations) | [1](#candidate-operations) |
+| [Data processing](#included-data) | Data queries, research and analysis | [9](#included-data) | [2](#candidate-data) |
 | [Terminal and shell](#included-terminal) | Terminals and command-line tools | [3](#included-terminal) | 0 |
-| [Knowledge and learning](#included-knowledge) | Textbooks, atlases and interactive learning | [3](#included-knowledge) | 0 |
+| [Knowledge and learning](#included-knowledge) | Textbooks, atlases and interactive learning | [4](#included-knowledge) | 0 |
 
 <a id="included"></a>
 
-## Included (220)
+## Included (246)
 
 Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
 
 <a id="included-ai"></a>
 
 <details>
-<summary><strong>AI tools</strong> · 55 projects</summary>
+<summary><strong>AI tools</strong> · 58 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -102,6 +102,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [ai-memory](docs/ai-memory.md#english) | Shared project memory for coding assistants, with searchable notes, session handoffs and optional document import and summaries. | AI tools | 15919 |
 | [AirLLM](docs/airllm.md#english) | Reduce LLM VRAM demand by loading and offloading weights layer by layer, with streamed LoRA training interfaces for selected models. | AI tools | 42524 |
 | [AstrBot](docs/astrbot.md#english) | Connect LLM conversations and agents to messaging platforms, with plugins, knowledge bases and a web administration interface. | AI tools | 47065 |
+| [Claude Skills by Alireza Rezvani](docs/alirezarezvani-claude-skills.md#english) | Provides skills, role instructions and helper scripts for AI agents across engineering, product, marketing, finance and compliance. | AI tools | 29928 |
 | [Claude-Mem](docs/claude-mem.md#english) | Records coding-agent observations and retrieves relevant memory in later sessions. | AI tools | 117552 |
 | [Codex ChatGPT Web Bridge](docs/codex-chatgpt-web.md#english) | Provides a third-party bridge from a signed-in local ChatGPT Web session to Codex. | AI tools | 15746 |
 | [colibri](docs/colibri.md#english) | Runs local models with C inference engines that load weights from RAM and disk on demand, with optional GPU acceleration. | AI tools | 51605 |
@@ -123,6 +124,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [llmfit](docs/llmfit.md#english) | Detects CPU, RAM and GPU memory to estimate local model and quantization fit, exposing TUI, web, CLI/API and benchmarking interfaces. | AI tools | 39014 |
 | [Magpie](docs/magpie.md#english) | A local gateway that routes coding-agent requests across configured model providers and accounts, with optional failover and masking. | AI tools | 36740 |
 | [MiniMind](docs/minimind.md#english) | Teaches language-model implementation from pretraining and fine-tuning to inference serving using small models. | AI tools | 65498 |
+| [Not Sandboxed（Cybersecurity Projects 子项目）](docs/cybersecurity-projects.md#english) | The LLM prompt-injection defense component of Cybersecurity Projects, offering a Python library, CLI and experimental proxy for provenance, tool policies and output checks. | AI tools | 9554 |
 | [Octop](docs/octop.md#english) | A self-hosted multi-user, multi-agent assistant with expert libraries, web/CLI/messaging access, scheduled tasks, knowledge bases and MCP/ACP interfaces. | AI tools | 12113 |
 | [Ollama](docs/ollama.md#english) | Download, manage and run language models, exposing model access to applications and agents through a CLI and local API. | AI tools | 187285 |
 | [oMLX](docs/omlx.md#english) | A local model-serving system with menu-bar management for Apple-silicon Macs. | AI tools | 23663 |
@@ -141,6 +143,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Qwen Code](docs/qwen-code.md#english) | An AI coding agent for terminals, editors and desktops that explores repositories, edits code and invokes development tools. | AI tools | 30668 |
 | [Rakazo](docs/rakazo.md#english) | A self-hostable AI team workspace with persistent memory, routines and agent computers. | AI tools | 8776 |
 | [Ruflo](docs/ruflo.md#english) | Provides task orchestration, shared memory and MCP tool integration for coding agents. | AI tools | 81892 |
+| [Skid Homework](docs/skid-homework.md#english) | A browser-based study assistant that uses multimodal models to analyze question images, PDFs and text and explain solutions. | AI tools | 1947 |
 | [StarNet](docs/starnet.md#english) | A desktop workspace that represents working agents as a pixel-art space station. | AI tools | 1854 |
 | [Suparagent](docs/suparagent.md#english) | A workspace for named agents with conversations, workspaces, memory, routines and approval controls. | AI tools | 7087 |
 | [SuperMimic](docs/supermimic.md#english) | A humanoid motion-tracking research implementation that trains whole-body control with a differentiable world model. | AI tools | 1646 |
@@ -157,7 +160,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-development"></a>
 
 <details>
-<summary><strong>Development</strong> · 63 projects</summary>
+<summary><strong>Development</strong> · 68 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -168,10 +171,12 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [AnyPS5](docs/anyps5.md#english) | A compatibility project for relinking console executables to desktop platforms. | Development | 54377 |
 | [Archify](docs/archify.md#english) | Turns ideas, plans and repository material into interactive HTML diagrams and explanatory pages with source references. | Development | 96538 |
 | [Claude Code Game Studios](docs/claude-code-game-studios.md#english) | A Claude Code template and skill collection for turning a game idea into a brief, browser prototype and incremental implementation. | Development | 39708 |
+| [Claude Code Templates](docs/claude-code-templates.md#english) | Provides a component catalog and CLI installer for Claude Code skills, subagents, commands, hooks, MCP configurations and plugins. | Development | 33885 |
 | [Claude Community Plugins：目录与校验器](docs/claude-plugins-community.md#english) | Provides a Claude community plugin directory and a reusable marketplace CI validator. | Development | 4903 |
 | [Claude Plugins Official](docs/claude-plugins-official.md#english) | Anthropic's plugin directory for extending Claude development and work workflows. | Development | 47430 |
 | [Claude Red](docs/claude-red.md#english) | A Claude Code skill collection for authorized security research and CTF work. | Development | 11091 |
 | [CLI-Anything](docs/cli-anything.md#english) | A framework for building command-line interfaces that drive real application backends, including JSON output and interactive workflows. | Development | 58741 |
+| [Code-Graph-RAG](docs/code-graph-rag.md#english) | Parses multilingual repositories into a knowledge graph for agents to retrieve code structure, answer questions and assist with edits. | Development | 5369 |
 | [code-review-graph](docs/code-review-graph.md#english) | Builds an incremental local code graph for dependency queries, impact exploration and review context. | Development | 32776 |
 | [Codex with ChatGPT](docs/codex-with-chatgpt.md#english) | Connects ChatGPT web planning and review to a Codex workspace through a read-only MCP bridge. | Development | 7718 |
 | [Cordis](docs/cordis.md#english) | A TypeScript framework for components, service dependencies and lifecycle management. | Development | 9915 |
@@ -193,8 +198,10 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [LASRecomp](docs/lasrecomp.md#english) | Recompiles the Switch edition of Link's Awakening into native desktop or mobile programs with graphics, input and platform compatibility code. | Development | 2451 |
 | [Lightpanda Browser](docs/lightpanda.md#english) | A headless browser for automation and agents, with JavaScript execution, page interaction and HTML, Markdown or structured extraction. | Development | 42129 |
 | [MacNativeGames](docs/macnativegames.md#english) | Explores adapting selected games' graphics and system calls to Apple silicon and Metal. | Development | 7913 |
+| [MiniMax Skills](docs/minimax-skills.md#english) | Provides frontend, full-stack and mobile-development skills for coding agents, alongside document workflows and MiniMax multimodal asset generation. | Development | 13846 |
 | [Moli：面向 AI 智能体的无头浏览器](docs/moli.md#english) | A Rust headless browser for JavaScript execution, page extraction and browser automation, with optional layout, screenshots and PDF output. | Development | 23783 |
 | [nxnative](docs/nxnative.md#english) | Translates user-owned Switch game programs into native Apple applications, with Horizon and graphics compatibility layers for static-recompilation research. | Development | 15844 |
+| [Obscura](docs/obscura.md#english) | A Rust headless browser for AI agents and web extraction, with V8 JavaScript execution and CDP and MCP interfaces. | Development | 36016 |
 | [Open Code Review](docs/open-code-review.md#english) | Reviews Git diffs or whole files with a configurable model and produces line-level findings. | Development | 52711 |
 | [OpenSmash-Ultimate](docs/opensmash-ultimate.md#english) | A static-recompilation project for running a specific, user-supplied Switch game on desktop platforms. | Development | 188 |
 | [Orca（智能体开发工作台）](docs/orca.md#english) | A coding-agent workspace with multiple project views, terminals, change review, remote SSH and mobile companions. | Development | 125338 |
@@ -216,6 +223,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Taste Skill](docs/taste-skill.md#english) | Provides website design workflows, asset tools and browser checks for coding agents. | Development | 116605 |
 | [Text to CAD](docs/text-to-cad.md#english) | Agent tools for turning design requests into parametric CAD scripts and manufacturing files. | Development | 26417 |
 | [ThinkRail](docs/thinkrail.md#english) | Builds workspace, editor, change-review and project-specification tools around the pi coding agent. | Development | 8310 |
+| [TokenEconomizer](docs/token-economizer.md#english) | Reuses repository experience, prunes unused tools and detects failure loops for coding agents, with session accounting that includes the plugin’s own model calls. | Development | 7272 |
 | [Univer](docs/univer.md#english) | An embeddable spreadsheet and document SDK with formulas, rendering, editing and programmatic APIs, including headless processing. | Development | 27511 |
 | [Universal Modder](docs/universal-modder.md#english) | Combines agent skills, the um CLI and a knowledge base for engine discovery, asset processing and in-game validation during mod development. | Development | 9725 |
 | [Unreal Engine Skills for Claude Code](docs/unreal-engine-skills.md#english) | Skills and session hooks that guide Claude Code in operating Unreal Editor through MCP. | Development | 1980 |
@@ -279,44 +287,58 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>Documents and productivity</strong> · 27 projects</summary>
+<summary><strong>Documents and productivity</strong> · 41 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
 | [Aerial TV](docs/aerial-tv.md#english) | An Android TV launcher with app grids, folders, HDMI shortcuts, wallpaper screensavers and phone-based remote management. | Documents and productivity | 12155 |
 | [AirCursor](docs/aircursor.md#english) | Turns motion from head-tracking headphones into Mac pointer movement and clicks. | Documents and productivity | 226 |
+| [Animated Resume Claude Skill](docs/animated-resume-claude-skill.md#english) | Guides an AI assistant to turn resume facts into structured profile data and generate a single-page HTML portfolio with career levels, an animated avatar and a project graph. | Documents and productivity | 2 |
 | [Anki Desktop](docs/anki.md#english) | Schedules flashcard reviews with spaced repetition. | Documents and productivity | 32834 |
+| [Answer me with HTML](docs/answer-me-with-html.md#english) | An AI agent skill and local rendering CLI that turn Markdown answers into single-page HTML with diagrams, code and reader feedback. | Documents and productivity | 6390 |
+| [Anthropic Skills](docs/anthropic-skills.md#english) | Anthropic’s agent-skill example repository; this entry focuses on the currently Apache-2.0-licensed Word, PDF, PowerPoint and spreadsheet skills and helper scripts. | Documents and productivity | 196194 |
 | [best-skills](docs/best-skills.md#english) | A collection of agent workflows for papers, patents, presentations, graphics, code and document processing. | Documents and productivity | 3176 |
+| [Call Notes to Actions](docs/call-notes-to-actions-skill.md#english) | A lightweight agent skill that turns meeting transcripts or rough notes into summaries, decisions, action tables and follow-up email drafts. | Documents and productivity | 0 |
 | [CCBaga](docs/ccbaga.md#english) | Manages local Claude identity configuration, client tooling and a companion browser environment. | Documents and productivity | 3618 |
-| [知了 Cicada](docs/cicada.md#english) | Live bilingual captions, interpreting and meeting notes for calls and streams, with transcript search and exports. | Documents and productivity | 2347 |
+| [Claude PowerPoint Skill](docs/claude-powerpoint-skill.md#english) | An AI coding-agent skill for building, linting and visually reviewing PowerPoint decks, with cross-platform PPTX generation and live PowerPoint automation on Windows. | Documents and productivity | 6 |
 | [ColaMD](docs/colamd.md#english) | A cross-platform Markdown editor with WYSIWYG and source views, disk synchronization, outlines, themes and common document exports. | Documents and productivity | 1303 |
 | [Echo Loop](docs/echo-loop.md#english) | An English listening and speaking app organized around intensive listening, shadowing, retelling and review. | Documents and productivity | 4772 |
+| [Filee](docs/filee.md#english) | A local file converter with optional Ollama document translation, Whisper audio/video transcription and AI image upscaling. | Documents and productivity | 28180 |
 | [GenOffice](docs/genoffice.md#english) | An office workspace with desktop, CLI and MCP interfaces for editing, converting and searching documents. | Documents and productivity | 12376 |
+| [Guizang PPT Skill](docs/guizang-ppt-skill.md#english) | Guides agents to create single-file HTML slide decks with magazine and Swiss-grid styles plus a local browser presenter view. | Documents and productivity | 29911 |
 | [Horizon：AI 信息聚合与双语新闻简报](docs/horizon.md#english) | Collects information from RSS, communities and other configured sources, filters and scores it, and produces bilingual reading reports. | Documents and productivity | 14389 |
 | [i-have-adhd](docs/i-have-adhd.md#english) | Adjusts coding-agent responses to make actions and key information easier to find. | Documents and productivity | 61361 |
 | [Joplin 客户端 / Joplin clients](docs/joplin.md#english) | Organizes Markdown notes, tasks and attachments into notebooks with search and synchronization. | Documents and productivity | 57204 |
+| [KISS Translator](docs/kiss-translator.md#english) | A browser extension and userscript for bilingual web reading, selection and subtitle translation, with a choice of conventional translation engines, cloud LLMs or local AI. | Documents and productivity | 13389 |
 | [Knowledge Work Plugins](docs/knowledge-work-plugins.md#english) | Role-oriented agent skills, commands and connector configurations for knowledge work. | Documents and productivity | 36258 |
+| [Marketing Skills](docs/marketingskills.md#english) | Provides marketing skills for AI agents, organizing copywriting, SEO, conversion analysis, outreach and growth workflows around product positioning. | Documents and productivity | 60867 |
 | [MarkText](docs/marktext.md#english) | A cross-platform Markdown editor with live preview and file management. | Documents and productivity | 64049 |
-| [妙言 / MiaoYan](docs/miaoyan.md#english) | A native Swift macOS Markdown notebook with local files and folders, links, formulas, Mermaid, history and presentation support. | Documents and productivity | 8781 |
 | [OpenLogi](docs/openlogi.md#english) | A native Rust Logitech-device tool using HID++/UVC for mouse, keyboard and webcam settings, including buttons, DPI, scrolling and cross-computer Flow. | Documents and productivity | 25783 |
 | [OpenWhispr](docs/openwhispr.md#english) | A cross-platform dictation and meeting-transcription app that inserts recognized speech at the cursor, with notes, speaker labeling and optional AI assistance. | Documents and productivity | 11669 |
-| [中国专利 Skill](docs/patent-disclosure-skill.md#english) | Helps turn technical material into patent-disclosure drafts and assists with search, reading and case organization. | Documents and productivity | 13513 |
 | [PlayCover](docs/playcover.md#english) | Runs compatible iOS applications on Apple Silicon Macs with keyboard, mouse and controller mapping. | Documents and productivity | 12156 |
+| [PPT Master](docs/ppt-master.md#english) | An agent workflow for source analysis, slide design and local export, turning topics or documents into editable PowerPoint presentations. | Documents and productivity | 77626 |
+| [Prosyo GTM Skills](docs/gtm-skill.md#english) | A marketing and sales skill collection for AI assistants, covering customer research, cold-email drafting, follow-ups, deliverability checks and customer interviews. | Documents and productivity | 12 |
 | [Read Frog](docs/read-frog.md#english) | A browser language-learning extension combining page translation, subtitle translation and vocabulary review. | Documents and productivity | 10456 |
 | [Tendedero](docs/tendedero.md#english) | A macOS shelf for screenshots, copied text and links, with drag-and-drop reuse. | Documents and productivity | 3263 |
+| [Tolaria](docs/tolaria.md#english) | Manage knowledge bases as Markdown files and Git repositories, with a desktop AI panel and MCP integration for models and coding agents to search, discuss or edit notes. | Documents and productivity | 20559 |
 | [VNote](docs/vnote.md#english) | Manages local notes and edits Markdown, Typst, text and mind maps. | Documents and productivity | 13048 |
 | [Window Sweaters](docs/window-sweaters.md#english) | Adds knitted-style borders to macOS windows, with per-app colors, exclusions and active-window distinction. | Documents and productivity | 1495 |
-| [词光 Word Atlas](docs/word-atlas.md#english) | A vocabulary web app combining illustrations, pronunciation and spaced review. | Documents and productivity | 4915 |
 | [Yank Note](docs/yank-note.md#english) | An extensible editor that stores notes as local Markdown files. | Documents and productivity | 6784 |
+| [YiShu5 Agent Skills](docs/yishu5-claude-skills.md#english) | A collection of AI agent workflows for Chinese office work and content creation, covering meeting notes, work reports, presentations, writing and WeChat publishing. | Documents and productivity | 130 |
 | [Yogurt](docs/yogurt.md#english) | Records meetings locally, creates transcripts and notes, and answers questions across meetings with source references. | Documents and productivity | 1788 |
 | [Zettlr](docs/zettlr.md#english) | A Markdown editor for research and long-form writing with citations, linked notes, full-text search and multi-format export. | Documents and productivity | 13922 |
+| [中国专利 Skill](docs/patent-disclosure-skill.md#english) | Helps turn technical material into patent-disclosure drafts and assists with search, reading and case organization. | Documents and productivity | 13513 |
+| [妙言 / MiaoYan](docs/miaoyan.md#english) | A native Swift macOS Markdown notebook with local files and folders, links, formulas, Mermaid, history and presentation support. | Documents and productivity | 8781 |
+| [数字员工配置包（开源样例）](docs/digital-employee-pack.md#english) | Three open-source Chinese office-work skill samples for AI agents: weekly reports, meeting minutes and slide-by-slide presentation outlines. | Documents and productivity | 0 |
+| [知了 Cicada](docs/cicada.md#english) | Live bilingual captions, interpreting and meeting notes for calls and streams, with transcript search and exports. | Documents and productivity | 2347 |
+| [词光 Word Atlas](docs/word-atlas.md#english) | A vocabulary web app combining illustrations, pronunciation and spaced review. | Documents and productivity | 4915 |
 
 </details>
 
 <a id="included-automation"></a>
 
 <details>
-<summary><strong>Automation</strong> · 11 projects</summary>
+<summary><strong>Automation</strong> · 12 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -327,6 +349,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Cua（MIT 桌面自动化组件）](docs/cua-mit-components.md#english) | Covers Cua's MIT-licensed SDK, CLI, Driver and Lume components for agent screenshots, input control and local virtual-computer management. | Automation | 32442 |
 | [ESP32 iPhone Agent](docs/esp32-iphone-agent.md#english) | A hardware and software project that lets an agent interact with a real iPhone through an ESP32-S3. | Automation | 5022 |
 | [Mobile MCP](docs/mobile-mcp.md#english) | An MCP server for agent interaction with Android and iOS apps, simulators and real devices. | Automation | 10616 |
+| [PhoneBox](docs/phonebox.md#english) | Turns an Android phone into a desktop panel and touch console for a computer, with system metrics, AI coding sessions, quotas and optional permission responses. | Automation | 2004 |
 | [Reason Network](docs/reason-network.md#english) | A background network for communication between agent sessions across teammates, devices and projects. | Automation | 1748 |
 | [Voice Control Agent](docs/voice-control-agent.md#english) | A Mac voice entry point for a Codex desktop conversation, with local wake-word detection and spoken replies. | Automation | 5 |
 | [XGIMI Agent](docs/xgimi-agent.md#english) | A macOS menu-bar app and agent skill for LAN control of the user's XGIMI projector, with remote input, screenshots and experimental Bluetooth wake. | Automation | 7 |
@@ -337,13 +360,14 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-operations"></a>
 
 <details>
-<summary><strong>Deployment and operations</strong> · 11 projects</summary>
+<summary><strong>Deployment and operations</strong> · 12 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
 | [1Panel](docs/1panel.md#english) | A web-based Linux server panel for containers, databases, files, websites and certificates, with model and GPU management features. | Deployment and operations | 37458 |
 | [Anthropic Sandbox Runtime](docs/anthropic-sandbox-runtime.md#english) | A runtime applying operating-system file and network restrictions to agents, MCP servers and commands. | Operations | 7155 |
 | [Clash Verge Rev](docs/clash-verge-rev.md#english) | A graphical proxy client built around Mihomo, with profile management, routing rules, system proxy and TUN controls. | Deployment and operations | 158520 |
+| [Claude Cage](docs/claude-cage.md#english) | A desktop workbench for Claude Code and related development tools, managing local VMs, project sharing and separate network configuration, with connections to self-hosted Linux servers. | Operations | 6137 |
 | [CleanYourTV](docs/cleanyourtv.md#english) | Provides reversible package-disabling workflows and a lightweight launcher for Android TV/Google TV. | Deployment and operations | 58509 |
 | [JumpServer](docs/jumpserver.md#english) | A platform for managing and auditing privileged access to servers, databases and infrastructure. | Deployment and operations | 31970 |
 | [Netdata Agent](docs/netdata.md#english) | Collects host, container and application metrics, with local storage, anomaly detection and alerts. | Deployment and operations | 81435 |
@@ -358,7 +382,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-data"></a>
 
 <details>
-<summary><strong>Data processing</strong> · 8 projects</summary>
+<summary><strong>Data processing</strong> · 9 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -366,6 +390,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Claude for Financial Services](docs/financial-services.md#english) | Provides agent templates, skills, data connectors and deployment scripts for financial research and operations. | Data processing | 41340 |
 | [Claude SEO](docs/claude-seo.md#english) | Audits technical SEO, content and structured data inside Claude Code and organizes improvement recommendations. | Data processing | 30107 |
 | [OpenSEO](docs/open-seo.md#english) | A self-hostable workspace for keywords, rankings, backlinks and site audits with MCP access for agents. | Data processing | 27897 |
+| [Resource Radar (Freebie Radar)](docs/freebie-radar.md#english) | A self-hosted information aggregator that collects community, RSS and resource-site entries, classifies and scores them with rules and optional AI review, then serves them on the web or through Telegram. | Data processing | 1214 |
 | [The Well](docs/the-well.md#english) | Provides unified loading, download and model benchmarks for spatiotemporal physics simulations. | Data processing | 4577 |
 | [TradingAgents](docs/tradingagents.md#english) | Organizes financial research through model-based analyst, researcher and risk-management roles. | Data processing | 122872 |
 | [Vibe Research](docs/vibe-research.md#english) | A research workspace for watchlists, holdings, company and sector studies, reports and backtesting across supported markets. | Data processing | 3720 |
@@ -389,12 +414,13 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-knowledge"></a>
 
 <details>
-<summary><strong>Knowledge and learning</strong> · 3 projects</summary>
+<summary><strong>Knowledge and learning</strong> · 4 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
 | [AI Agent 工程实践书](docs/ai-agent-book.md#english) | An open textbook with companion experiments and skills for learning AI agent design and engineering. | Knowledge and learning | 58306 |
 | [Human Atlas](docs/human-atlas.md#english) | A browser-based 3D anatomy atlas for rotating, separating, searching and selecting structures. | Knowledge and learning | 4571 |
+| [Many PPT Skills](docs/many-ppt-skills.md#english) | An AI slide-tool registry and query toolkit for agents, filtering skills and visual styles by editability, notes, templates and delivery format. | Knowledge and learning | 81 |
 | [Scientific Agent Skills](docs/scientific-agent-skills.md#english) | Agent skills for scientific computing, database lookup and research workflows. | Knowledge and learning | 57421 |
 
 </details>
@@ -511,6 +537,8 @@ These 27 candidates show current pending actions or confirmed restrictions. Earl
 <a id="review"></a>
 
 ## Review record and coverage
+
+The 2026-11-17 submitted-link review adds **26 bilingual entries**, classified by primary use and reviewed for licensing, substantive recent maintenance and usage limits. See the [submitted-repository review](reviews/2026-11-17-submitted-repositories.md) for decisions and exclusions.
 
 The 2026-11-17 Trending batch adds **40 bilingual AI-related entries**: **38 included** and **2 candidates**. Each came from the previously selected monthly list with at least 1,000 added stars and is classified by its primary use. This batch filter does not change the general inclusion criteria. See the [Trending review record](reviews/2026-11-17-ai-trending.md).
 

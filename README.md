@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-220-2563eb?style=flat-square" alt="220 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-246-2563eb?style=flat-square" alt="246 included projects" /></a>
   <a href="#candidates"><img src="https://img.shields.io/badge/candidates-29-64748b?style=flat-square" alt="29 candidates" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
@@ -23,7 +23,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 249 个项目，分为 **220 个已收录**、**29 个候选**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
+现有 275 个项目，分为 **246 个已收录**、**29 个候选**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
 
 可以按任务寻找工具、比较使用条件，也可以挑选适合学习的源码项目。在浏览器中阅读目录，选定项目后再按其官方说明配置环境。
 
@@ -73,26 +73,26 @@
 
 | 分类 | 可以找到 | 已收录 | 候选 |
 | --- | --- | ---: | ---: |
-| [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [55](#included-ai) | [3](#candidate-ai) |
-| [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [63](#included-development) | [4](#candidate-development) |
+| [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [58](#included-ai) | [3](#candidate-ai) |
+| [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [68](#included-development) | [4](#candidate-development) |
 | [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [39](#included-media) | [8](#candidate-media) |
-| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [27](#included-productivity) | [10](#candidate-productivity) |
-| [自动化](#included-automation) | 任务调度、设备与应用控制 | [11](#included-automation) | [1](#candidate-automation) |
-| [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [11](#included-operations) | [1](#candidate-operations) |
-| [数据处理](#included-data) | 数据查询、研究与分析流程 | [8](#included-data) | [2](#candidate-data) |
+| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [41](#included-productivity) | [10](#candidate-productivity) |
+| [自动化](#included-automation) | 任务调度、设备与应用控制 | [12](#included-automation) | [1](#candidate-automation) |
+| [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [12](#included-operations) | [1](#candidate-operations) |
+| [数据处理](#included-data) | 数据查询、研究与分析流程 | [9](#included-data) | [2](#candidate-data) |
 | [终端与 Shell](#included-terminal) | 终端环境与命令行工具 | [3](#included-terminal) | 0 |
-| [知识与学习](#included-knowledge) | 教材、图谱与交互学习材料 | [3](#included-knowledge) | 0 |
+| [知识与学习](#included-knowledge) | 教材、图谱与交互学习材料 | [4](#included-knowledge) | 0 |
 
 <a id="included"></a>
 
-## 已收录（220）
+## 已收录（246）
 
 点击名称查看双语介绍与带日期的证据。下表 Star 为复核时快照，不作实时排名。
 
 <a id="included-ai"></a>
 
 <details>
-<summary><strong>AI 工具</strong> · 55 项</summary>
+<summary><strong>AI 工具</strong> · 58 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -102,6 +102,7 @@
 | [ai-memory](docs/ai-memory.md#中文) | 为 AI 编码工具提供跨会话记忆和跨工具交接。使用 Git 管理的 Markdown 保存知识，并提供检索和摘要注入。 | AI 工具 | 15919 |
 | [AirLLM](docs/airllm.md#中文) | 通过逐层加载和卸载模型权重降低大语言模型的显存需求，并提供部分模型的流式 LoRA 训练接口。 | AI 工具 | 42524 |
 | [AstrBot](docs/astrbot.md#中文) | 将大模型对话和智能体接入多种即时通讯平台，提供插件、知识库及网页管理界面。 | AI 工具 | 47065 |
+| [Claude Skills by Alireza Rezvani](docs/alirezarezvani-claude-skills.md#中文) | 为 AI 智能体提供跨工程、产品、营销、财务和合规领域的技能、角色指令及辅助脚本。 | AI 工具 | 29928 |
 | [Claude-Mem](docs/claude-mem.md#中文) | 记录编码智能体的工作观察，在后续会话中检索和恢复相关记忆。 | AI 工具 | 117552 |
 | [Codex ChatGPT Web Bridge](docs/codex-chatgpt-web.md#中文) | 通过本机登录的ChatGPT网页会话，为Codex提供第三方模型桥接。 | AI 工具 | 15746 |
 | [colibri](docs/colibri.md#中文) | 以 C 推理引擎按需从内存和磁盘加载权重，并可结合 GPU 运行本地模型。 | AI 工具 | 51605 |
@@ -123,6 +124,7 @@
 | [llmfit](docs/llmfit.md#中文) | 检测 CPU、内存和 GPU 显存，估算本地模型及量化版本的适配程度，并提供 TUI、网页、CLI/API 与基准测试入口。 | AI 工具 | 39014 |
 | [Magpie](docs/magpie.md#中文) | 通过本地网关统一管理编码智能体的模型与服务商。提供多账号路由、故障转移及可选请求脱敏。 | AI 工具 | 36740 |
 | [MiniMind](docs/minimind.md#中文) | 用较小语言模型学习从预训练、微调到推理服务的完整实现。 | AI 工具 | 65498 |
+| [Not Sandboxed（Cybersecurity Projects 子项目）](docs/cybersecurity-projects.md#中文) | Cybersecurity Projects 中的 LLM 提示注入防护子项目，提供来源标记、工具权限策略和输出检查的 Python 库、CLI 及实验代理。 | AI 工具 | 9554 |
 | [Octop](docs/octop.md#中文) | 可自托管的多用户、多 Agent 助手，提供专家库、网页/CLI/消息渠道、定时任务、知识库及 MCP/ACP 接口。 | AI 工具 | 12113 |
 | [Ollama](docs/ollama.md#中文) | 下载、管理和运行语言模型，通过命令行及本地 API 为应用和智能体提供模型访问。 | AI 工具 | 187285 |
 | [oMLX](docs/omlx.md#中文) | 为 Apple 芯片 Mac 提供本地模型推理服务和菜单栏管理界面。 | AI 工具 | 23663 |
@@ -141,6 +143,7 @@
 | [Qwen Code](docs/qwen-code.md#中文) | 跨终端、编辑器和桌面的 AI 编程智能体，可理解仓库、修改代码并调用开发工具。 | AI 工具 | 30668 |
 | [Rakazo](docs/rakazo.md#中文) | 可自行部署的 AI 团队工作台，集中管理长期记忆、例行任务与智能体电脑。 | AI 工具 | 8776 |
 | [Ruflo](docs/ruflo.md#中文) | 为编码智能体提供任务编排、共享记忆和 MCP 工具集成。 | AI 工具 | 81892 |
+| [Skid Homework](docs/skid-homework.md#中文) | 在浏览器中调用多模态模型分析题目图片、PDF 和文本，辅助理解解题过程。 | AI 工具 | 1947 |
 | [StarNet](docs/starnet.md#中文) | 以像素空间站界面管理多个在本机工作的智能体。 | AI 工具 | 1854 |
 | [Suparagent](docs/suparagent.md#中文) | 为多个具名智能体提供会话、工作区、记忆、例行任务与审批界面。 | AI 工具 | 7087 |
 | [SuperMimic](docs/supermimic.md#中文) | 面向人形机器人的动作跟踪研究实现。使用可微世界模型训练全身动作控制策略。 | AI 工具 | 1646 |
@@ -157,7 +160,7 @@
 <a id="included-development"></a>
 
 <details>
-<summary><strong>开发辅助</strong> · 63 项</summary>
+<summary><strong>开发辅助</strong> · 68 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -168,10 +171,12 @@
 | [AnyPS5](docs/anyps5.md#中文) | 研究把控制台可执行文件重链接到桌面平台的兼容性工具。 | 开发辅助 | 54377 |
 | [Archify](docs/archify.md#中文) | 把想法、计划或代码仓资料生成交互式 HTML 图示。可制作架构图、流程图和带来源的解释页面。 | 开发辅助 | 96538 |
 | [Claude Code Game Studios](docs/claude-code-game-studios.md#中文) | 为 Claude Code 提供游戏开发模板和技能。可从玩法描述生成简要设计、浏览器原型，并逐步修改和扩展。 | 开发辅助 | 39708 |
+| [Claude Code Templates](docs/claude-code-templates.md#中文) | 提供 Claude Code 组件目录和命令行安装工具，用于选择技能、子智能体、命令、Hooks、MCP 配置及插件。 | 开发辅助 | 33885 |
 | [Claude Community Plugins：目录与校验器](docs/claude-plugins-community.md#中文) | 提供Claude社区插件目录，以及可复用的插件市场CI校验器。 | 开发辅助 | 4903 |
 | [Claude Plugins Official](docs/claude-plugins-official.md#中文) | Anthropic 维护的 Claude 插件目录，提供开发与工作流程扩展。 | 开发辅助 | 47430 |
 | [Claude Red](docs/claude-red.md#中文) | 面向授权安全研究和 CTF 的 Claude Code 技能集合。 | 开发辅助 | 11091 |
 | [CLI-Anything](docs/cli-anything.md#中文) | 分析软件源码，为真实应用后端生成 CLI harness。提供结构化命令、JSON 输出、交互式 REPL 及测试流程。 | 开发辅助 | 58741 |
+| [Code-Graph-RAG](docs/code-graph-rag.md#中文) | 将多语言代码仓库解析为知识图谱，供智能体检索代码结构、回答问题和辅助修改。 | 开发辅助 | 5369 |
 | [code-review-graph](docs/code-review-graph.md#中文) | 用 Tree-sitter 建立并增量更新本地代码结构图。通过 MCP 和 CLI 提供依赖、变更影响及审查上下文。 | 开发辅助 | 32776 |
 | [Codex with ChatGPT](docs/codex-with-chatgpt.md#中文) | 用只读 MCP 连接将 ChatGPT 网页的规划与审查接入 Codex 工作区。 | 开发辅助 | 7718 |
 | [Cordis](docs/cordis.md#中文) | 用于 TypeScript 应用的组件、服务依赖和生命周期管理框架。 | 开发辅助 | 9915 |
@@ -193,8 +198,10 @@
 | [LASRecomp](docs/lasrecomp.md#中文) | 将《塞尔达传说：织梦岛》Switch 版本重编译为桌面或移动端原生程序，提供图形、输入和平台兼容代码。 | 开发辅助 | 2451 |
 | [Lightpanda Browser](docs/lightpanda.md#中文) | 面向自动化和智能体的无头浏览器。执行网页脚本、操作页面并提取 HTML、Markdown 或结构化内容。 | 开发辅助 | 42129 |
 | [MacNativeGames](docs/macnativegames.md#中文) | 研究将指定游戏的图形与系统调用适配到 Apple 芯片和 Metal。 | 开发辅助 | 7913 |
+| [MiniMax Skills](docs/minimax-skills.md#中文) | 为编程智能体提供前端、全栈和移动开发技能，并附带文档处理及 MiniMax 多模态素材生成流程。 | 开发辅助 | 13846 |
 | [Moli：面向 AI 智能体的无头浏览器](docs/moli.md#中文) | Rust 编写的独立无头浏览器，支持 JavaScript 网页运行、Markdown 与语义树提取、按需布局，以及 CLI、CDP 和 WebDriver 自动化。 | 开发辅助 | 23783 |
 | [nxnative](docs/nxnative.md#中文) | 将用户自有 Switch 游戏程序转换为原生 Apple 平台应用，提供 Horizon 系统调用和图形接口的兼容层，适合研究静态重编译。 | 开发辅助 | 15844 |
+| [Obscura](docs/obscura.md#中文) | 面向 AI 智能体和网页采集的 Rust 无头浏览器，通过 V8 执行 JavaScript，并提供 CDP 与 MCP 接口。 | 开发辅助 | 36016 |
 | [Open Code Review](docs/open-code-review.md#中文) | 读取 Git 差异或整份文件，让可配置模型生成带行号的代码审查意见。 | 开发辅助 | 52711 |
 | [OpenSmash-Ultimate](docs/opensmash-ultimate.md#中文) | 通过静态重编译研究让用户自备的特定 Switch 游戏在桌面平台运行。 | 开发辅助 | 188 |
 | [Orca（智能体开发工作台）](docs/orca.md#中文) | 统一管理多个编程智能体的开发工作台。提供并行工作目录、终端、差异审查、手机端及 SSH 远程环境。 | 开发辅助 | 125338 |
@@ -216,6 +223,7 @@
 | [Taste Skill](docs/taste-skill.md#中文) | 为编码智能体提供网页设计流程、素材工具和浏览器检查脚本。 | 开发辅助 | 116605 |
 | [Text to CAD](docs/text-to-cad.md#中文) | 把自然语言设计需求转成参数化 CAD 脚本和制造文件的智能体工具。 | 开发辅助 | 26417 |
 | [ThinkRail](docs/thinkrail.md#中文) | 围绕 pi 编码智能体提供工作区、编辑器、变更审查和项目规格管理。 | 开发辅助 | 8310 |
+| [TokenEconomizer](docs/token-economizer.md#中文) | 为编程智能体复用仓库经验、裁剪少用工具并识别失败循环，记录包含插件自身模型调用的会话成本。 | 开发辅助 | 7272 |
 | [Univer](docs/univer.md#中文) | 用于嵌入网页的电子表格与文档 SDK，提供公式计算、渲染、编辑和程序接口，也支持无界面处理。 | 开发辅助 | 27511 |
 | [Universal Modder](docs/universal-modder.md#中文) | 提供游戏模组制作的 Agent 技能、um 命令行工具和知识库，覆盖引擎识别、资源处理与游戏内验证。 | 开发辅助 | 9725 |
 | [Unreal Engine Skills for Claude Code](docs/unreal-engine-skills.md#中文) | 指导 Claude Code 通过 MCP 操作 Unreal Editor 的技能和会话钩子。 | 开发辅助 | 1980 |
@@ -279,44 +287,58 @@
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>文档与效率</strong> · 27 项</summary>
+<summary><strong>文档与效率</strong> · 41 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
 | [Aerial TV](docs/aerial-tv.md#中文) | Android TV 桌面启动器，提供应用网格、文件夹、HDMI 入口、壁纸屏保和手机遥控管理。 | 文档与效率 | 12155 |
 | [AirCursor](docs/aircursor.md#中文) | 把支持头部追踪的耳机动作转换为Mac鼠标移动与点击。 | 文档与效率 | 226 |
+| [Animated Resume Claude Skill](docs/animated-resume-claude-skill.md#中文) | 引导 AI 助手把简历事实整理为结构化资料，再生成带职业关卡、动画头像和项目关系图的单页 HTML 作品集。 | 文档与效率 | 2 |
 | [Anki Desktop](docs/anki.md#中文) | 用记忆卡片与间隔重复安排复习。 | 文档与效率 | 32834 |
+| [Answer me with HTML](docs/answer-me-with-html.md#中文) | 供 AI Agent 使用的技能和本地渲染 CLI，将 Markdown 回答转换为包含图表、代码和交互反馈的单页 HTML。 | 文档与效率 | 6390 |
+| [Anthropic Skills](docs/anthropic-skills.md#中文) | Anthropic 的智能体技能示例仓库；本条重点收录当前采用 Apache 2.0 的 Word、PDF、PowerPoint 和表格文档技能及辅助脚本。 | 文档与效率 | 196194 |
 | [best-skills](docs/best-skills.md#中文) | 收集采用 SKILL.md 格式的智能体工作流程。覆盖论文、专利、汇报、自媒体、图表和代码文档。 | 文档与效率 | 3176 |
+| [Call Notes to Actions](docs/call-notes-to-actions-skill.md#中文) | 将会议转录或零散笔记整理成摘要、决策、行动表和跟进邮件草稿的轻量智能体技能。 | 文档与效率 | 0 |
 | [CCBaga](docs/ccbaga.md#中文) | 管理本机 Claude 身份配置、客户端工具和配套浏览器环境。 | 文档与效率 | 3618 |
-| [知了 Cicada](docs/cicada.md#中文) | 为会议和直播提供双语字幕、同声传译与会议纪要。直接读取系统声音，支持转写搜索和记录导出。 | 文档与效率 | 2347 |
+| [Claude PowerPoint Skill](docs/claude-powerpoint-skill.md#中文) | 为 AI 编程助手提供 PowerPoint 构建、检查和逐页渲染复核流程，支持跨平台生成 PPTX 及 Windows 下操作桌面 PowerPoint。 | 文档与效率 | 6 |
 | [ColaMD](docs/colamd.md#中文) | 跨平台 Markdown 编辑器，提供所见即所得与源码视图、文件同步、大纲和主题，并支持导出常用文档格式。 | 文档与效率 | 1303 |
 | [Echo Loop](docs/echo-loop.md#中文) | 通过精听、跟读、复述和复习流程练习英语听说。 | 文档与效率 | 4772 |
+| [Filee](docs/filee.md#中文) | 本地文件转换器，提供可选的 Ollama 文档翻译、Whisper 音视频转写和 AI 图像放大模块。 | 文档与效率 | 28180 |
 | [GenOffice](docs/genoffice.md#中文) | 提供 Office、PDF、Markdown 和 HTML 文件编辑。包含桌面编辑器、CLI、MCP 和智能体技能，可创建、转换和检索文件。 | 文档与效率 | 12376 |
+| [Guizang PPT Skill](docs/guizang-ppt-skill.md#中文) | 指导智能体制作单文件 HTML 演示文稿，提供电子杂志和瑞士网格风格，以及本地浏览器演讲者视图。 | 文档与效率 | 29911 |
 | [Horizon：AI 信息聚合与双语新闻简报](docs/horizon.md#中文) | 聚合 RSS、社区、GitHub 与新闻等信息源，按 Profile 评分、筛选和去重，生成中英双语 Markdown 日报。 | 文档与效率 | 14389 |
 | [i-have-adhd](docs/i-have-adhd.md#中文) | 调整编码智能体的回答格式，使行动步骤和关键信息更容易找到。 | 文档与效率 | 61361 |
 | [Joplin 客户端 / Joplin clients](docs/joplin.md#中文) | 以Markdown笔记本组织笔记、待办和附件，支持搜索与同步。 | 文档与效率 | 57204 |
+| [KISS Translator](docs/kiss-translator.md#中文) | 支持网页双语阅读、划词和字幕翻译的浏览器扩展与用户脚本，可选择传统翻译引擎、云端大模型或本地 AI。 | 文档与效率 | 13389 |
 | [Knowledge Work Plugins](docs/knowledge-work-plugins.md#中文) | 为知识工作提供按岗位组织的智能体技能、命令和连接器配置。 | 文档与效率 | 36258 |
+| [Marketing Skills](docs/marketingskills.md#中文) | 为 AI 智能体提供营销任务技能，围绕产品定位组织文案、SEO、转化分析、外联和增长工作流。 | 文档与效率 | 60867 |
 | [MarkText](docs/marktext.md#中文) | 支持实时预览与文件管理的跨平台 Markdown 编辑器。 | 文档与效率 | 64049 |
-| [妙言 / MiaoYan](docs/miaoyan.md#中文) | Swift 原生 macOS Markdown 笔记应用，管理本地文件与文件夹，支持双向链接、公式、Mermaid、历史记录和演示。 | 文档与效率 | 8781 |
 | [OpenLogi](docs/openlogi.md#中文) | Rust 原生 Logitech 设备工具，通过 HID++/UVC 配置鼠标、键盘与摄像头，提供按钮、DPI、滚轮和跨电脑 Flow 等能力。 | 文档与效率 | 25783 |
 | [OpenWhispr](docs/openwhispr.md#中文) | 跨平台语音输入与会议转写应用，通过快捷键把语音转换为当前光标处的文本，提供笔记、说话人区分和可选 AI 助手。 | 文档与效率 | 11669 |
-| [中国专利 Skill](docs/patent-disclosure-skill.md#中文) | 从技术资料整理专利交底草稿，并辅助检索、阅读和案卷整理。 | 文档与效率 | 13513 |
 | [PlayCover](docs/playcover.md#中文) | 在 Apple Silicon Mac 上运行兼容的 iOS 应用，提供键鼠和手柄映射。 | 文档与效率 | 12156 |
+| [PPT Master](docs/ppt-master.md#中文) | 在智能体中组织资料分析、页面设计和本地导出，将主题或文档制作成可继续编辑的 PowerPoint 演示文稿。 | 文档与效率 | 77626 |
+| [Prosyo GTM Skills](docs/gtm-skill.md#中文) | 面向 AI 助手的营销与销售技能集，提供客户研究、开发信起草、跟进、邮件送达率检查和客户访谈流程。 | 文档与效率 | 12 |
 | [Read Frog](docs/read-frog.md#中文) | 结合网页翻译、字幕翻译和词汇复习的浏览器语言学习扩展。 | 文档与效率 | 10456 |
 | [Tendedero](docs/tendedero.md#中文) | 在 macOS 屏幕顶部暂存截图、复制文本和链接，便于拖放与再次使用。 | 文档与效率 | 3263 |
+| [Tolaria](docs/tolaria.md#中文) | 用 Markdown 文件和 Git 管理知识库，并通过桌面 AI 面板与 MCP 让模型和编程智能体检索、讨论或编辑笔记。 | 文档与效率 | 20559 |
 | [VNote](docs/vnote.md#中文) | 在本地管理笔记，并编辑Markdown、Typst、文本和思维导图。 | 文档与效率 | 13048 |
 | [Window Sweaters](docs/window-sweaters.md#中文) | 给 macOS 窗口添加针织风格边框，可为不同应用设置颜色或关闭装饰，并区分活动窗口。 | 文档与效率 | 1495 |
-| [词光 Word Atlas](docs/word-atlas.md#中文) | 用插画、发音和间隔复习学习英语词汇的网页应用。 | 文档与效率 | 4915 |
 | [Yank Note](docs/yank-note.md#中文) | 以本地 Markdown 文件保存笔记的可扩展编辑器。 | 文档与效率 | 6784 |
+| [YiShu5 Agent Skills](docs/yishu5-claude-skills.md#中文) | 面向中文办公与创作的 AI Agent 技能集，包含会议纪要、日报周报、页面演示、写作和公众号工作流。 | 文档与效率 | 130 |
 | [Yogurt](docs/yogurt.md#中文) | 在本机记录会议语音、生成转写和纪要，并从历史会议中回答问题、附上出处。 | 文档与效率 | 1788 |
 | [Zettlr](docs/zettlr.md#中文) | 面向研究与长文写作的 Markdown 编辑器，提供文献引用、笔记链接、全文搜索和多格式导出。 | 文档与效率 | 13922 |
+| [中国专利 Skill](docs/patent-disclosure-skill.md#中文) | 从技术资料整理专利交底草稿，并辅助检索、阅读和案卷整理。 | 文档与效率 | 13513 |
+| [妙言 / MiaoYan](docs/miaoyan.md#中文) | Swift 原生 macOS Markdown 笔记应用，管理本地文件与文件夹，支持双向链接、公式、Mermaid、历史记录和演示。 | 文档与效率 | 8781 |
+| [数字员工配置包（开源样例）](docs/digital-employee-pack.md#中文) | 面向 AI Agent 的三个中文办公技能样例，帮助整理周报、会议纪要和 PPT 逐页内容大纲。 | 文档与效率 | 0 |
+| [知了 Cicada](docs/cicada.md#中文) | 为会议和直播提供双语字幕、同声传译与会议纪要。直接读取系统声音，支持转写搜索和记录导出。 | 文档与效率 | 2347 |
+| [词光 Word Atlas](docs/word-atlas.md#中文) | 用插画、发音和间隔复习学习英语词汇的网页应用。 | 文档与效率 | 4915 |
 
 </details>
 
 <a id="included-automation"></a>
 
 <details>
-<summary><strong>自动化</strong> · 11 项</summary>
+<summary><strong>自动化</strong> · 12 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -327,6 +349,7 @@
 | [Cua（MIT 桌面自动化组件）](docs/cua-mit-components.md#中文) | 收录 Cua 的 MIT 许可 SDK、CLI、Driver 和 Lume，用于 Agent 截图、输入控制及本地虚拟电脑管理。 | 自动化 | 32442 |
 | [ESP32 iPhone Agent](docs/esp32-iphone-agent.md#中文) | 让智能体通过 ESP32-S3 与真实 iPhone 交互的软硬件项目。 | 自动化 | 5022 |
 | [Mobile MCP](docs/mobile-mcp.md#中文) | 通过 MCP 让智能体操作 Android 与 iOS 应用、模拟器及真实设备。 | 自动化 | 10616 |
+| [PhoneBox](docs/phonebox.md#中文) | 把 Android 手机用作电脑的桌面面板和触控控制台，提供系统指标、AI 编程会话、配额及可选权限响应模块。 | 自动化 | 2004 |
 | [Reason Network](docs/reason-network.md#中文) | 每台电脑运行后台程序，共享团队 Agent 会话的人员、设备、项目、分支与工作概况。 | 自动化 | 1748 |
 | [Voice Control Agent](docs/voice-control-agent.md#中文) | 为 Mac 上的 Codex 桌面会话提供本机唤醒、语音输入和回复朗读入口。 | 自动化 | 5 |
 | [XGIMI Agent](docs/xgimi-agent.md#中文) | macOS 菜单栏与 Agent 技能，通过局域网控制用户自己的极米投影仪，提供遥控、截图与实验性蓝牙唤醒。 | 自动化 | 7 |
@@ -337,13 +360,14 @@
 <a id="included-operations"></a>
 
 <details>
-<summary><strong>部署与运维</strong> · 11 项</summary>
+<summary><strong>部署与运维</strong> · 12 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
 | [1Panel](docs/1panel.md#中文) | Linux 服务器的网页管理面板，管理容器、数据库、文件、站点与证书，并提供部分模型和 GPU 管理能力。 | 部署与运维 | 37458 |
 | [Anthropic Sandbox Runtime](docs/anthropic-sandbox-runtime.md#中文) | 为智能体、MCP 服务和命令提供操作系统级文件与网络访问限制的运行时。 | 部署与运维 | 7155 |
 | [Clash Verge Rev](docs/clash-verge-rev.md#中文) | 基于 Tauri 的 mihomo 图形代理客户端。提供配置管理、规则编辑、系统代理、TUN 模式和 WebDAV 同步。 | 部署与运维 | 158520 |
+| [Claude Cage](docs/claude-cage.md#中文) | 用于运行 Claude Code 和相关开发工具的桌面工作台，管理本地虚拟机、项目共享与独立网络配置，也可连接自有 Linux 服务器。 | 部署与运维 | 6137 |
 | [CleanYourTV](docs/cleanyourtv.md#中文) | 为 Android TV/Google TV 提供可恢复的预装软件停用流程和轻量桌面启动器。 | 部署与运维 | 58509 |
 | [JumpServer](docs/jumpserver.md#中文) | 集中管理服务器、数据库和其他基础设施的特权访问与审计。 | 部署与运维 | 31970 |
 | [Netdata Agent](docs/netdata.md#中文) | 采集主机、容器与应用指标，并在本地存储、检测异常和触发告警。 | 部署与运维 | 81435 |
@@ -358,7 +382,7 @@
 <a id="included-data"></a>
 
 <details>
-<summary><strong>数据处理</strong> · 8 项</summary>
+<summary><strong>数据处理</strong> · 9 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -366,6 +390,7 @@
 | [Claude for Financial Services](docs/financial-services.md#中文) | 为金融研究与运营提供智能体模板、技能、数据连接器和部署脚本。 | 数据处理 | 41340 |
 | [Claude SEO](docs/claude-seo.md#中文) | 在 Claude Code 中检查网站技术 SEO、内容和结构化数据，并整理改进建议。 | 数据处理 | 30107 |
 | [OpenSEO](docs/open-seo.md#中文) | 自托管关键词、排名、外链和网站审计工作台，并向智能体提供MCP接口。 | 数据处理 | 27897 |
+| [Resource Radar (Freebie Radar)](docs/freebie-radar.md#中文) | 自托管的信息聚合与筛选工具，从社区、RSS 和资源站采集条目，用规则和可选 AI 审核分类、评分，再供网页浏览或 Telegram 推送。 | 数据处理 | 1214 |
 | [The Well](docs/the-well.md#中文) | 提供物理时空模拟数据的统一读取、下载和模型基准工具。 | 数据处理 | 4577 |
 | [TradingAgents](docs/tradingagents.md#中文) | 通过多种大模型角色组织金融研究，包括分析师、研究员和风险管理角色。 | 数据处理 | 122872 |
 | [Vibe Research](docs/vibe-research.md#中文) | 面向 A 股、美股和港股的投研工作台。整合自选、持仓、每日复盘、产业与公司研究、历史回测和研报库。 | 数据处理 | 3720 |
@@ -389,12 +414,13 @@
 <a id="included-knowledge"></a>
 
 <details>
-<summary><strong>知识与学习</strong> · 3 项</summary>
+<summary><strong>知识与学习</strong> · 4 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
 | [AI Agent 工程实践书](docs/ai-agent-book.md#中文) | 通过公开教材、配套实验和技能包学习 AI Agent 的设计与工程实现。 | 知识与学习 | 58306 |
 | [Human Atlas](docs/human-atlas.md#中文) | 可在浏览器中旋转、拆分、搜索和选择人体结构的三维解剖图谱。 | 知识与学习 | 4571 |
+| [Many PPT Skills](docs/many-ppt-skills.md#中文) | 面向智能体的 AI 幻灯片工具登记册和查询脚本，按可编辑性、备注、模板与交付格式筛选技能及视觉样式。 | 知识与学习 | 81 |
 | [Scientific Agent Skills](docs/scientific-agent-skills.md#中文) | 为科学计算、资料检索和研究流程提供可组合的智能体技能。 | 知识与学习 | 57421 |
 
 </details>
@@ -511,6 +537,8 @@
 <a id="review"></a>
 
 ## 复核记录与覆盖范围
+
+2026-11-17 复核用户提供的仓库链接，新增 **26 个双语词条**。按主要用途分类，并分别检查许可、近期实质维护和使用限制。未通过项目及依据见[链接收录复核记录](reviews/2026-11-17-submitted-repositories.md)。
 
 2026-11-17 从此前筛选的 GitHub 月榜名单新增 **40 个 AI 相关双语词条**：**38 个已收录**、**2 个候选**。本批要求月榜新增至少 1,000 Star，并按主要用途归类。该门槛仅用于本批选项，不改变通用收录标准。详情见[趋势榜复核记录](reviews/2026-11-17-ai-trending.md)。
 
