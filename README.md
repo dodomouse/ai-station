@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-382-2563eb?style=flat-square" alt="382 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-384-2563eb?style=flat-square" alt="384 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,11 +22,13 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **382 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
+现有 **384 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
 
 **2026-11-17 新增收录：** [100 个可帮助 AI 完成任务的仓库](reviews/2026-11-17-ai-repository-shortlist.md)已全部整理为正式双语词条。它们按主要用途并入下方目录。筛选记录保留 Star 快照和近三个月活动，可按 12 类任务浏览。
 
 **媒体工具补充：** 新增 7 个[图像与音视频词条](#included-media)，覆盖视频制作、图片生成与分割、智能照片和视频库。
+
+**素材检索补充：** [SCM](docs/scm.md#中文) 用于 Mac 本地素材搜索；[FiftyOne](docs/fiftyone.md#中文) 用于视觉数据集检索、筛选和评估。
 
 可以按任务寻找工具、比较使用条件，也可以挑选适合学习的源码项目。在浏览器中阅读目录，选定项目后再按其官方说明配置环境。
 
@@ -73,27 +75,29 @@
 
 本次保留资格绑定原评估记录。项目再次复核时，须按当前标准记录新证据。
 
+**指定例外：** 用户于 2026-11-17 明确指定 [SCM](docs/scm.md#review-evidence) 正式收录。该次快照为 529 Star，近一个日历月净增尚未核实。本次仅豁免 SCM 的 Star 条件，AI 用途及近三个月活动已核对。例外绑定本次评估，独立记入 `catalog-policy.json` 的 `explicit_admissions`；不扩展到其他项目或未来复核。
+
 <a id="categories"></a>
 
 ## 分类导航
 
-选择分类后展开列表。382 个项目按主要用途各列一次。
+选择分类后展开列表。384 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
 | [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [97](#included-ai) |
 | [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [96](#included-development) |
-| [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [67](#included-media) |
+| [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
 | [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [56](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [19](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [19](#included-operations) |
-| [数据处理](#included-data) | 数据查询、研究与分析流程 | [21](#included-data) |
+| [数据处理](#included-data) | 数据查询、研究与分析流程 | [22](#included-data) |
 | [终端与 Shell](#included-terminal) | 终端环境与命令行工具 | [3](#included-terminal) |
 | [知识与学习](#included-knowledge) | 教材、图谱与交互学习材料 | [4](#included-knowledge) |
 
 <a id="included"></a>
 
-## 已收录（382）
+## 已收录（384）
 
 点击名称查看双语介绍与带日期的证据。下表 Star 为复核时快照，不作实时排名。
 
@@ -313,7 +317,7 @@
 <a id="included-media"></a>
 
 <details>
-<summary><strong>图像与音视频</strong> · 67 项</summary>
+<summary><strong>图像与音视频</strong> · 68 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -368,6 +372,7 @@
 | [Qwen-Image](docs/qwen-image.md#中文) | 提供文生图和图像编辑模型及示例，支持画面中的文字生成和多图编辑。 | 图像与音视频 | 8487 |
 | [Remotion](docs/remotion.md#中文) | 用 React 和网页技术制作视频，支持编码智能体生成工程、交互预览和批量渲染。 | 图像与音视频 | 73840 |
 | [SAM 3](docs/sam3.md#中文) | 按文字、点、框或掩码提示分割图像与视频，并跟踪视频中的目标。 | 图像与音视频 | 12319 |
+| [SCM](docs/scm.md#中文) | 在 Mac 本地索引图片、截图和视频。按画面描述、可见文字或对白查找素材，并跳转到匹配的视频时间位置。 | 图像与音视频 | 529 |
 | [Subvox](docs/subvox.md#中文) | 研究 AirPods 头部运动数据能否识别无声口型的小词汇量实验原型。 | 图像与音视频 | 838 |
 | [SwarmUI](docs/swarmui.md#中文) | 为图像、视频及部分音频生成模型提供可扩展的网页界面。 | 图像与音视频 | 4791 |
 | [Teardown：交互式机械拆解与3D演示](docs/teardown.md#中文) | 面向 Claude Code 的 3D 机械原理演示技能。支持部件拆解、剖视、联动、自动演示与人工交互，可构建离线 HTML 并录制 MP4。 | 图像与音视频 | 3534 |
@@ -514,7 +519,7 @@
 <a id="included-data"></a>
 
 <details>
-<summary><strong>数据处理</strong> · 21 项</summary>
+<summary><strong>数据处理</strong> · 22 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -526,6 +531,7 @@
 | [Datasets](docs/datasets.md#中文) | 加载、转换和流式读取机器学习数据集的 Python 库。 | 数据处理 | 22151 |
 | [easyquotation](docs/easyquotation.md#中文) | 封装新浪、腾讯和集思录部分接口的 Python 行情库，用于单只、多只股票及市场快照读取。 | 数据处理 | 5478 |
 | [Faiss](docs/faiss.md#中文) | 用于稠密向量相似度搜索和聚类的库。 | 数据处理 | 41767 |
+| [FiftyOne](docs/fiftyone.md#中文) | FiftyOne 将本地图片和视频整理为可筛选的数据集。它提供 Python 接口与可视化应用，用于检索、标注和模型评估。 | 数据处理 | 11315 |
 | [Firecrawl](docs/firecrawl.md#中文) | 提供网页搜索、抓取、交互与文档解析接口，为 AI 整理网页内容。 | 数据处理 | 202520 |
 | [LanceDB](docs/lancedb.md#中文) | 基于 Lance 列式格式管理向量和多模态数据的数据库。 | 数据处理 | 11913 |
 | [Milvus](docs/milvus.md#中文) | 存储向量与标量数据，并提供相似度检索的数据库。 | 数据处理 | 46677 |

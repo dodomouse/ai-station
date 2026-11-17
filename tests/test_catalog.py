@@ -101,7 +101,7 @@ The catalog contains {count} projects.
         file.write_text(text.replace(old, new), encoding="utf-8")
 
     def errors(self):
-        return CHECK.check_catalog(self.root, now=NOW)
+        return CHECK.check_catalog(self.root, now=getattr(self, "now", NOW))
 
     def assert_error(self, fragment):
         errors = self.errors()
@@ -124,6 +124,178 @@ The catalog contains {count} projects.
         self.data["metadata"].pop("ai_task_relevance")
         self.data["metadata"]["activity_evidence"] = []
         self.data["snapshot"]["stargazers_count"] = 2
+
+    def make_scm_exception(self):
+        self.now = datetime(2026, 11, 17, 16, tzinfo=timezone.utc)
+        self.data["evaluated_at"] = "2026-11-17T15:22:59Z"
+        self.data["metadata"].update(id="scm", name="SCM", repository="allenv0/SCM", repo_node_id="R_kgDOU6YAgA")
+        self.data["metadata"]["ai_task_relevance"]["source_url"] = "https://github.com/allenv0/SCM#readme"
+        self.data["metadata"]["activity_evidence"][0]["url"] = "https://github.com/allenv0/SCM/commit/" + "c" * 40
+        self.data["snapshot"].update(full_name="allenv0/SCM", repo_node_id="R_kgDOU6YAgA",
+                                     stargazers_count=529, last_success_at="2026-11-17T15:22:30Z")
+        self.data["eligibility"].update(admission_basis="user_directed_exception", exception_id="scm-star-2026-11-17")
+        self.policy["explicit_admissions"] = [{
+            "exception_id": "scm-star-2026-11-17", "id": "scm",
+            "repository": "allenv0/SCM", "repo_node_id": "R_kgDOU6YAgA",
+            "baseline_evaluated_at": "2026-11-17T15:22:59Z",
+            "waived_criteria": ["star_threshold"],
+            "authorization": {"type": "explicit_user_request", "instruction": "正式收录SCM",
+                              "recorded_at": "2026-11-17T15:22:59Z"},
+            "reason": {"zh-CN": "用户指定本次收录；529 Star，月净增未核实。",
+                       "en": "Included at the user's request for this review; 529 Stars, monthly growth unverified."},
+        }]
+
+    def test_scm_explicit_admission_waives_star_requirement(self):
+        self.make_scm_exception()
+        self.write_catalog()
+        self.assert_valid()
+        self.assertNotIn("star_growth_evidence", self.data["metadata"])
+        # A registered approval is not an implicit waiver: the entry must disclose it.
+        self.data["eligibility"].pop("exception_id")
+        self.data["eligibility"].pop("admission_basis")
+        self.write_catalog()
+        self.assert_error("1000 Stars or qualifying monthly growth")
+
+    def test_scm_exception_requires_valid_authorization_and_bilingual_reason(self):
+        self.make_scm_exception()
+        good = copy.deepcopy(self.policy)
+        cases = [
+            ("authorization", None, "authorization must be dict"),
+            ("authorization", {}, "instruction must be str"),
+            ("authorization", {"type": "inferred", "instruction": "正式收录SCM",
+                               "recorded_at": "2026-11-17T15:22:59Z"}, "authorization type is not authorized"),
+            ("authorization", {"type": "explicit_user_request", "instruction": "add anything",
+                               "recorded_at": "2026-11-17T15:22:59Z"}, "instruction is not authorized"),
+            ("authorization", {"type": "explicit_user_request", "instruction": "正式收录SCM",
+                               "recorded_at": "2027-01-01T00:00:00Z"}, "recorded_at must not be in the future"),
+            ("reason", {"zh-CN": "说明"}, "en must be str"),
+            ("reason", {"zh-CN": " ", "en": "Explanation"}, "zh-CN must not be empty"),
+        ]
+        for key, value, message in cases:
+            with self.subTest(key=key, value=value):
+                self.policy = copy.deepcopy(good)
+                self.policy["explicit_admissions"][0][key] = value
+                self.write_catalog()
+                self.assert_error(message)
+                self.assert_error("not registered with valid authorization")
+                self.assert_error("1000 Stars or qualifying monthly growth")
+
+    def test_scm_exception_policy_cannot_expand_authorized_scope(self):
+        self.make_scm_exception()
+        good = copy.deepcopy(self.policy)
+        for field, value in [("exception_id", "another-exception"), ("id", "another-id"),
+                ("repository", "other/repo"), ("repo_node_id", "R_other"),
+                ("baseline_evaluated_at", "2026-11-17T15:22:58Z")]:
+            with self.subTest(field=field):
+                self.policy = copy.deepcopy(good)
+                self.policy["explicit_admissions"][0][field] = value
+                self.write_catalog()
+                self.assert_error(f"explicit admission {field} is not authorized")
+                self.assert_error("1000 Stars or qualifying monthly growth")
+        for waived in ([], ["activity"], ["star_threshold", "activity"], "star_threshold"):
+            with self.subTest(waived=waived):
+                self.policy = copy.deepcopy(good)
+                self.policy["explicit_admissions"][0]["waived_criteria"] = waived
+                self.write_catalog()
+                self.assert_error("may waive only star_threshold")
+                self.assert_error("1000 Stars or qualifying monthly growth")
+
+    def test_scm_exception_cannot_be_claimed_by_other_identity(self):
+        self.make_scm_exception()
+        good = copy.deepcopy(self.data)
+        for field, value in [("id", "other-id"), ("repository", "other/repo"), ("repo_node_id", "R_other")]:
+            with self.subTest(field=field):
+                self.data = copy.deepcopy(good)
+                self.data["metadata"][field] = value
+                if field == "repository":
+                    self.data["snapshot"]["full_name"] = value
+                    self.data["metadata"]["activity_evidence"][0]["url"] = "https://github.com/other/repo/commit/" + "c" * 40
+                if field == "repo_node_id":
+                    self.data["snapshot"]["repo_node_id"] = value
+                self.write_catalog()
+                self.assert_error("explicit admission identity mismatch")
+                self.assert_error("1000 Stars or qualifying monthly growth")
+
+    def test_scm_exception_requires_matching_entry_claim_and_registration(self):
+        self.make_scm_exception()
+        good = copy.deepcopy(self.data)
+        for field, value in [("exception_id", "unknown"), ("exception_id", None),
+                             ("exception_id", []), ("admission_basis", "total_stars")]:
+            with self.subTest(field=field, value=value):
+                self.data = copy.deepcopy(good)
+                self.data["eligibility"][field] = value
+                self.write_catalog()
+                self.assert_error("1000 Stars or qualifying monthly growth")
+        self.data = good
+        self.policy.pop("explicit_admissions")
+        self.write_catalog()
+        self.assert_error("not registered with valid authorization")
+        self.assert_error("1000 Stars or qualifying monthly growth")
+
+    def test_scm_exception_does_not_survive_reassessment(self):
+        self.make_scm_exception()
+        self.data["evaluated_at"] = "2026-11-17T15:23:00Z"
+        self.write_catalog()
+        self.assert_error("only to its authorized evaluation time")
+        self.assert_error("1000 Stars or qualifying monthly growth")
+        # The same repository can be reassessed under the ordinary policy.
+        self.data["eligibility"].pop("admission_basis")
+        self.data["eligibility"].pop("exception_id")
+        self.data["snapshot"]["stargazers_count"] = 1000
+        self.write_catalog()
+        self.assert_valid()
+
+    def test_scm_exception_does_not_waive_ai_or_recent_activity(self):
+        self.make_scm_exception()
+        good = copy.deepcopy(self.data)
+        self.data["metadata"]["ai_task_relevance"]["supports_ai_tasks"] = False
+        self.write_catalog()
+        self.assert_error("explicitly support AI tasks")
+        self.data = copy.deepcopy(good)
+        self.data["metadata"]["activity_evidence"] = []
+        self.write_catalog()
+        self.assert_error("requires recent activity")
+        for date in ("2026-08-16T23:59:59Z", "2026-11-17T15:23:00Z"):
+            with self.subTest(date=date):
+                self.data = copy.deepcopy(good)
+                self.data["metadata"]["activity_evidence"][0]["occurred_at"] = date
+                self.write_catalog()
+                self.assert_error("three-calendar-month evaluation window")
+
+    def test_scm_exception_preserves_snapshot_and_declared_growth_checks(self):
+        self.make_scm_exception()
+        good = copy.deepcopy(self.data)
+        for key, value, message in [("stargazers_count", True, "stargazers_count must be int"),
+                                   ("repo_node_id", "R_other", "snapshot identity differs"),
+                                   ("last_success_at", "2027-01-01T00:00:00Z", "must not be in the future")]:
+            with self.subTest(key=key):
+                self.data = copy.deepcopy(good)
+                self.data["snapshot"][key] = value
+                self.write_catalog()
+                self.assert_error(message)
+        self.data = good
+        self.data["metadata"]["star_growth_evidence"] = {}
+        self.write_catalog()
+        self.assert_error("baseline_source_url must be str")
+
+    def test_scm_exception_rejects_duplicate_or_malformed_registration(self):
+        self.make_scm_exception()
+        record = copy.deepcopy(self.policy["explicit_admissions"][0])
+        for records, message in [({}, "explicit_admissions must be list"),
+                                 ([None], "exception_id must be str"),
+                                 ([record, record], "duplicate explicit admission")]:
+            with self.subTest(records=records):
+                self.policy["explicit_admissions"] = records
+                self.write_catalog()
+                self.assert_error(message)
+
+    def test_scm_exception_cannot_be_used_before_authorization(self):
+        self.make_scm_exception()
+        self.now = datetime(2026, 11, 17, 15, 22, 58, tzinfo=timezone.utc)
+        self.write_catalog()
+        self.assert_error("explicit baseline_evaluated_at must not be in the future")
+        self.assert_error("explicit authorization.recorded_at must not be in the future")
+        self.assert_error("not registered with valid authorization")
 
     def test_legacy_reassessment_must_meet_current_policy(self):
         original = copy.deepcopy(self.data)

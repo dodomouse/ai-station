@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-382-2563eb?style=flat-square" alt="382 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-384-2563eb?style=flat-square" alt="384 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,11 +22,13 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **382 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
+The catalog contains **384 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
 
 **Added on 2026-11-17:** [100 repositories that help AI complete tasks](reviews/2026-11-17-ai-repository-shortlist.md) now have complete bilingual entries in the directory below. The discovery record retains Star snapshots and recent activity, grouped into 12 task areas.
 
 **Media additions:** Seven new [media entries](#included-media) cover video creation, image generation and segmentation, and searchable photo and video libraries.
+
+**Media search additions:** [SCM](docs/scm.md#english) searches local media on a Mac. [FiftyOne](docs/fiftyone.md#english) supports visual dataset search, curation and evaluation.
 
 Use it to find tools for a task, compare setup requirements or explore code worth learning from. Read the catalog in your browser, then follow the selected project's own setup guide.
 
@@ -73,27 +75,29 @@ These criteria apply to future additions and reassessments from **2026-11-17**. 
 
 This transition applies to the original assessment records. Future reassessments must provide new evidence against the current criteria.
 
+**Explicit exception:** On 2026-11-17, the user specifically requested formal inclusion of [SCM](docs/scm.md#review-evidence). Its snapshot has 529 Stars; net growth over the past calendar month remains unverified. Only its Star criterion is waived for this assessment. AI task relevance and activity within three months were checked. The exception is bound to this assessment in `catalog-policy.json` under `explicit_admissions`; it does not apply to other projects or future reassessments.
+
 <a id="categories"></a>
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 382 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 384 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
 | [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [97](#included-ai) |
 | [Development](#included-development) | Coding, review, interfaces and engineering | [96](#included-development) |
-| [Images, audio and video](#included-media) | Images, animation, audio and video creation | [67](#included-media) |
+| [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
 | [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [56](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [19](#included-automation) |
 | [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [19](#included-operations) |
-| [Data processing](#included-data) | Data queries, research and analysis | [21](#included-data) |
+| [Data processing](#included-data) | Data queries, research and analysis | [22](#included-data) |
 | [Terminal and shell](#included-terminal) | Terminals and command-line tools | [3](#included-terminal) |
 | [Knowledge and learning](#included-knowledge) | Textbooks, atlases and interactive learning | [4](#included-knowledge) |
 
 <a id="included"></a>
 
-## Included (382)
+## Included (384)
 
 Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
 
@@ -313,7 +317,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-media"></a>
 
 <details>
-<summary><strong>Images, audio and video</strong> · 67 projects</summary>
+<summary><strong>Images, audio and video</strong> · 68 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -368,6 +372,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Qwen-Image](docs/qwen-image.md#english) | Models and examples for text-to-image generation and image editing, including text rendering within images and editing with multiple input images. | Images, audio and video | 8487 |
 | [Remotion](docs/remotion.md#english) | Creates videos with React and web technology, with coding-agent workflows, interactive previews and batch rendering. | Images, audio and video | 73840 |
 | [SAM 3](docs/sam3.md#english) | Segment images and videos using text, points, boxes, or masks, and track objects across video frames. | Images, audio and video | 12319 |
+| [SCM](docs/scm.md#english) | Index photos, screenshots, and videos locally on a Mac. Search by visual descriptions, visible text, or dialogue, and jump to matching moments in videos. | Images, audio and video | 529 |
 | [Subvox](docs/subvox.md#english) | A small-vocabulary prototype testing whether AirPods head-motion data can identify silently mouthed words. | Images, audio and video | 838 |
 | [SwarmUI](docs/swarmui.md#english) | An extensible web interface for image, video, and selected audio generation models. | Images, audio and video | 4791 |
 | [Teardown：交互式机械拆解与3D演示](docs/teardown.md#english) | A Claude Code skill for interactive 3D mechanism explanations, exploded views, sections and recorded video. | Images, audio and video | 3534 |
@@ -514,7 +519,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-data"></a>
 
 <details>
-<summary><strong>Data processing</strong> · 21 projects</summary>
+<summary><strong>Data processing</strong> · 22 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -526,6 +531,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Datasets](docs/datasets.md#english) | A Python library for loading, transforming, and streaming machine-learning datasets. | Data processing | 22151 |
 | [easyquotation](docs/easyquotation.md#english) | A Python library wrapping selected Sina, Tencent and Jisilu endpoints for symbol quotes and market snapshots. | Data processing | 5478 |
 | [Faiss](docs/faiss.md#english) | A library for similarity search and clustering of dense vectors. | Data processing | 41767 |
+| [FiftyOne](docs/fiftyone.md#english) | FiftyOne organizes local images and videos into datasets that you can filter and explore. Its Python API and visual application support search, annotation, and model evaluation. | Data processing | 11315 |
 | [Firecrawl](docs/firecrawl.md#english) | Provides web search, scraping, interaction and document-parsing APIs for AI-ready web content. | Data processing | 202520 |
 | [LanceDB](docs/lancedb.md#english) | A database built on the Lance columnar format for vectors and multimodal data. | Data processing | 11913 |
 | [Milvus](docs/milvus.md#english) | A database that stores vectors and scalar data and provides similarity search. | Data processing | 46677 |

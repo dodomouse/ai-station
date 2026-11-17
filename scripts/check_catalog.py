@@ -37,6 +37,21 @@ POLICY = {
     "ai_task_relevance_required": True,
 }
 ACTIVITY_TYPES = {"commit", "pr", "pull_request", "issue", "release"}
+# This is the one review the user explicitly authorized despite unverified
+# Star eligibility. Policy JSON records the authorization; it cannot grant new
+# exceptions or move this approval to another repository or assessment.
+SCM_STAR_EXCEPTION = {
+    "exception_id": "scm-star-2026-11-17",
+    "id": "scm",
+    "repository": "allenv0/SCM",
+    "repo_node_id": "R_kgDOU6YAgA",
+    "baseline_evaluated_at": "2026-11-17T15:22:59Z",
+}
+SCM_STAR_AUTHORIZATION = {
+    "type": "explicit_user_request",
+    "instruction": "正式收录SCM",
+    "recorded_at": "2026-11-17T15:22:59Z",
+}
 
 
 def months_before(value, months):
@@ -168,6 +183,35 @@ def check_catalog(root, now=None):
             key_set.add(key)
         legacy[fields] = baseline
 
+    explicit_records = policy.get("explicit_admissions", []) if isinstance(policy, dict) else []
+    if not isinstance(explicit_records, list):
+        error(policy_path, "explicit_admissions must be list")
+        explicit_records = []
+    explicit, explicit_ids = {}, set()
+    for record in explicit_records:
+        start_errors = len(errors)
+        fields = {key: required(record, key, str, policy_path) for key in SCM_STAR_EXCEPTION}
+        for key, expected in SCM_STAR_EXCEPTION.items():
+            if fields[key] != expected:
+                error(policy_path, f"explicit admission {key} is not authorized")
+        baseline = timestamp(fields["baseline_evaluated_at"], "explicit baseline_evaluated_at", policy_path)
+        waived = required(record, "waived_criteria", list, policy_path)
+        if waived != ["star_threshold"]:
+            error(policy_path, "explicit admission may waive only star_threshold")
+        authorization = required(record, "authorization", dict, policy_path)
+        for key, expected in SCM_STAR_AUTHORIZATION.items():
+            value = required(authorization, key, str, policy_path)
+            if value != expected:
+                error(policy_path, f"explicit authorization {key} is not authorized")
+        timestamp(authorization.get("recorded_at"), "explicit authorization.recorded_at", policy_path)
+        bilingual(required(record, "reason", dict, policy_path), policy_path)
+        exception_id = fields["exception_id"]
+        if exception_id in explicit_ids:
+            error(policy_path, "duplicate explicit admission: " + str(exception_id))
+        explicit_ids.add(exception_id)
+        if len(errors) == start_errors:
+            explicit[exception_id] = (tuple(fields[key] for key in ("id", "repository", "repo_node_id")), baseline)
+
     def growth_evidence(metadata, snapshot_at, stars, evaluated_at, path):
         start_errors = len(errors)
         growth = required(metadata, "star_growth_evidence", dict, path)
@@ -255,6 +299,20 @@ def check_catalog(root, now=None):
         identity_keys = ((entry_id or "").lower(), (repo or "").lower(), node_id)
         if not legacy_identity and any(key in keys for key, keys in zip(identity_keys, legacy_keys)):
             error(path, "legacy admission identity mismatch: id, repository and repo_node_id must all match")
+        star_exception = False
+        if eligibility.get("admission_basis") == "user_directed_exception" or "exception_id" in eligibility:
+            if eligibility.get("admission_basis") != "user_directed_exception":
+                error(path, "exception_id requires user_directed_exception admission_basis")
+            exception_id = required(eligibility, "exception_id", str, path)
+            approval = explicit.get(exception_id)
+            if approval is None:
+                error(path, "explicit admission is not registered with valid authorization")
+            elif identity != approval[0]:
+                error(path, "explicit admission identity mismatch: id, repository and repo_node_id must all match")
+            elif evaluated_at is None or evaluated_at != approval[1]:
+                error(path, "explicit admission applies only to its authorized evaluation time")
+            elif eligibility.get("admission_basis") == "user_directed_exception":
+                star_exception = True
         stars = required(snapshot, "stargazers_count", int, path)
         if stars is not None and stars < 0:
             error(path, "Stars must not be negative")
@@ -280,9 +338,9 @@ def check_catalog(root, now=None):
                 error(path, "new entry must explicitly support AI tasks")
         if not is_legacy:
             growth_ok = False
-            if "star_growth_evidence" in metadata or (stars is not None and stars < POLICY["min_stars"]):
+            if "star_growth_evidence" in metadata or (stars is not None and stars < POLICY["min_stars"] and not star_exception):
                 growth_ok = growth_evidence(metadata, snapshot_at, stars, evaluated_at, path)
-            if stars is not None and stars < POLICY["min_stars"] and not growth_ok:
+            if stars is not None and stars < POLICY["min_stars"] and not growth_ok and not star_exception:
                 error(path, "new entry requires at least 1000 Stars or qualifying monthly growth")
 
         activities = required(metadata, "activity_evidence", list, path) if not is_legacy or "activity_evidence" in metadata else []

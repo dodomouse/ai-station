@@ -1664,5 +1664,26 @@
       "repo_node_id": "MDEwOlJlcG9zaXRvcnkxMTU0NDYwODE=",
       "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
     }
+  ],
+  "explicit_admissions": [
+    {
+      "exception_id": "scm-star-2026-11-17",
+      "id": "scm",
+      "repository": "allenv0/SCM",
+      "repo_node_id": "R_kgDOU6YAgA",
+      "baseline_evaluated_at": "2026-11-17T15:22:59Z",
+      "waived_criteria": [
+        "star_threshold"
+      ],
+      "authorization": {
+        "type": "explicit_user_request",
+        "instruction": "正式收录SCM",
+        "recorded_at": "2026-11-17T15:22:59Z"
+      },
+      "reason": {
+        "zh-CN": "用户明确指定本次正式收录。529 Star，未达总量门槛；近一个日历月净增尚未核实。仅豁免本次 Star 条件。",
+        "en": "Explicitly included at the user's request for this review. The repository has 529 Stars, below the total threshold; net growth over the past calendar month is unverified. Only the Star criterion is waived for this review."
+      }
+    }
   ]
 }
