@@ -7,24 +7,24 @@ GitHub：[Whiplashzeb/photo-to-zine-postcard](https://github.com/Whiplashzeb/pho
 | 项目 / Item | 记录 / Record |
 | --- | --- |
 | 分类 / Category | 图像与音视频 / Images, audio and video |
-| 状态 / Status | 候选 / Candidate |
+| 状态 / Status | 已收录 / Included |
 | Star | 289 |
 | 许可证 / License | MIT |
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:22.955Z |
 
-候选原因：按新收录标准待复评。
-Candidate reason: Reassessment under current criteria is pending.
 
-状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
-Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
 
-下一步：按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。
-Next step: Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold.
 
 历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
+
+### 当前收录状态
+
+2026-11-17 按用户要求转为正式收录。本次是目录状态迁移，未重新核实全部新准入条件。原有 Star、活动与功能记录保留原核对日期，许可不再决定收录状态。
+
+### 先前介绍与复核记录（历史）
 
 ### 导入复核（2026-11-15）
 
@@ -78,6 +78,12 @@ Next step: Reassess purpose, bilingual content, licensing and recent substantive
 
 ## English
 
+### Current catalog status
+
+Promoted to an included entry on 2026-11-17 at the user’s request. This is a catalog transition, not a new verification of every admission criterion. Stars, activity and feature records retain their original review dates; licensing no longer determines admission.
+
+### Earlier description and review (historical)
+
 A photo-preserving postcard workflow with doodles, color swatches and front/back layouts.
 
 ### Use cases
@@ -116,20 +122,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "needs_review",
-    "reasons": [
-      "policy_reassessment_pending"
-    ],
-    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
-    "review_basis": "existing_evidence_status_clarification",
-    "pending_actions": {
-      "zh-CN": [
-        "按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。"
-      ],
-      "en": [
-        "Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold."
-      ]
-    }
+    "status": "eligible",
+    "reasons": [],
+    "admission_basis": "user_directed_transition",
+    "policy_id": "ai-activity-stars-2026-11-17",
+    "admitted_at": "2026-11-17T13:33:30.547820+00:00"
   },
   "metadata": {
     "schema_version": 1,
@@ -251,6 +248,25 @@ GitHub metadata was fetched at 2026-11-15T10:48:22.955Z. [Shared metadata](#revi
       "reasons": [
         "below_star_threshold"
       ]
+    },
+    {
+      "status": "needs_review",
+      "reasons": [
+        "policy_reassessment_pending"
+      ],
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "superseded_at": "2026-11-17T13:33:30.547820+00:00",
+      "superseded_by": "user_directed_transition_2026_11_17",
+      "pending_actions": {
+        "zh-CN": [
+          "按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。"
+        ],
+        "en": [
+          "Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold."
+        ]
+      },
+      "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+      "review_basis": "existing_evidence_status_clarification"
     }
   ]
 }

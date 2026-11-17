@@ -7,24 +7,24 @@ GitHub：[nextpad-plus-plus/nextpad-plus-plus-macos](https://github.com/nextpad-
 | 项目 / Item | 记录 / Record |
 | --- | --- |
 | 分类 / Category | 开发辅助 / Development |
-| 状态 / Status | 候选 / Candidate |
+| 状态 / Status | 已收录 / Included |
 | Star | 1445 |
 | 许可证 / License | 待复核 / Review needed |
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:16.187Z |
 
-候选原因：许可原文与范围待复核。
-Candidate reason: License text and scope require review.
 
-状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
-Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
 
-下一步：取得许可原文并核对适用范围。
-Next step: Obtain the license text and confirm its scope.
 
 历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
+
+### 当前收录状态
+
+2026-11-17 按用户要求转为正式收录。本次是目录状态迁移，未重新核实全部新准入条件。原有 Star、活动与功能记录保留原核对日期，许可不再决定收录状态。
+
+### 先前介绍与复核记录（历史）
 
 ### 导入复核（2026-11-15）
 
@@ -114,6 +114,12 @@ Next step: Obtain the license text and confirm its scope.
 
 ## English
 
+### Current catalog status
+
+Promoted to an included entry on 2026-11-17 at the user’s request. This is a catalog transition, not a new verification of every admission criterion. Stars, activity and feature records retain their original review dates; licensing no longer determines admission.
+
+### Earlier description and review (historical)
+
 A macOS adaptation of the Notepad++ editing workflow, including tabs, search, highlighting, macros and plugin migration.
 
 ### Use cases
@@ -154,20 +160,11 @@ The current name is Nextpad++ for macOS; the old name remains an alias. API lice
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "unknown",
-    "reasons": [
-      "license_needs_review"
-    ],
-    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
-    "review_basis": "existing_evidence_status_clarification",
-    "pending_actions": {
-      "zh-CN": [
-        "取得许可原文并核对适用范围。"
-      ],
-      "en": [
-        "Obtain the license text and confirm its scope."
-      ]
-    }
+    "status": "eligible",
+    "reasons": [],
+    "admission_basis": "user_directed_transition",
+    "policy_id": "ai-activity-stars-2026-11-17",
+    "admitted_at": "2026-11-17T13:33:30.547820+00:00"
   },
   "metadata": {
     "schema_version": 1,
@@ -306,6 +303,25 @@ The current name is Nextpad++ for macOS; the old name remains an alias. API lice
       "reasons": [
         "license_needs_review"
       ]
+    },
+    {
+      "status": "unknown",
+      "reasons": [
+        "license_needs_review"
+      ],
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "superseded_at": "2026-11-17T13:33:30.547820+00:00",
+      "superseded_by": "user_directed_transition_2026_11_17",
+      "pending_actions": {
+        "zh-CN": [
+          "取得许可原文并核对适用范围。"
+        ],
+        "en": [
+          "Obtain the license text and confirm its scope."
+        ]
+      },
+      "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+      "review_basis": "existing_evidence_status_clarification"
     }
   ]
 }

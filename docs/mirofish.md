@@ -7,16 +7,21 @@ GitHub：[666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 | 项目 / Item | 记录 / Record |
 | --- | --- |
 | 分类 / Category | AI 工具 / AI tools |
-| 状态 / Status | 候选 / Candidate |
+| 状态 / Status | 已收录 / Included |
 | Star | 85784 |
 | 许可证 / License | AGPL-3.0 |
 | 评估时间 / Evaluated at | 2026-11-17T04:07:37.955887+00:00 |
 
 ## 中文
 
+### 当前收录状态
+
+2026-11-17 按用户要求转为正式收录。本次是目录状态迁移，未重新核实全部新准入条件。原有 Star、活动与功能记录保留原核对日期，许可不再决定收录状态。
+
+### 先前介绍与复核记录（历史）
+
 根据输入资料构建多智能体模拟环境，探索群体互动和不同情景。
 
-候选原因：近三个月可见提交仅维护 Star History，最新可见功能修复在 2026-07-22，已超出维护窗口。
 
 ### 用途与功能
 
@@ -36,7 +41,7 @@ GitHub：[666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 
 ### 收录与来源
 
-适合探索多智能体社会模拟的工作流程；近期实质维护证据不足，保留为候选。
+适合探索多智能体社会模拟的工作流程。先前评估因近期实质维护证据不足而保留为候选；该结论已由 2026-11-17 转正取代，不是当前状态。
 
 维护证据：[该提交仅更新 Star History 数据与图像，不能作为功能或缺陷修复证据。近三个月未核到实质维护。](https://github.com/666ghj/MiroFish/commit/7657031ac01184afe2cb220f5ee3545573b5e843)（2026-10-01）。
 
@@ -46,9 +51,14 @@ GitHub：[666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 
 ## English
 
+### Current catalog status
+
+Promoted to an included entry on 2026-11-17 at the user’s request. This is a catalog transition, not a new verification of every admission criterion. Stars, activity and feature records retain their original review dates; licensing no longer determines admission.
+
+### Earlier description and review (historical)
+
 Builds multi-agent simulation environments from input materials to explore group interactions and scenarios.
 
-Candidate reason: Visible commits in the last three months only maintain Star History; the latest visible functional fixes date to 2026-07-22, outside the maintenance window.
 
 ### Uses and features
 
@@ -68,7 +78,7 @@ See the [official README](https://github.com/666ghj/MiroFish/blob/7657031ac01184
 
 ### Review and provenance
 
-Useful for exploring multi-agent social-simulation workflows; retained as a candidate because recent substantive maintenance evidence is insufficient.
+Useful for exploring multi-agent social-simulation workflows. The earlier assessment retained it as a candidate because recent substantive maintenance evidence was insufficient. That decision was superseded by the 2026-11-17 promotion and is not the current status.
 
 Maintenance evidence: [This commit only updates Star History data and images, providing no feature or bug-fix evidence; no substantive maintenance was verified in the three-month window.](https://github.com/666ghj/MiroFish/commit/7657031ac01184afe2cb220f5ee3545573b5e843) (2026-10-01).
 
@@ -85,18 +95,11 @@ This review checked official documentation, license text and maintenance changes
 {
   "evaluated_at": "2026-11-17T04:07:37.955887+00:00",
   "eligibility": {
-    "status": "needs_review",
-    "reasons": [
-      "recent_substantive_activity_unverified"
-    ],
-    "pending_actions": {
-      "zh-CN": [
-        "补充近三个月功能或缺陷修复提交，并核对具体实现差异。"
-      ],
-      "en": [
-        "Provide a feature or bug-fix commit within the last three months and review its implementation diff."
-      ]
-    }
+    "status": "eligible",
+    "reasons": [],
+    "admission_basis": "user_directed_transition",
+    "policy_id": "ai-activity-stars-2026-11-17",
+    "admitted_at": "2026-11-17T13:33:30.547820+00:00"
   },
   "metadata": {
     "schema_version": 1,
@@ -115,11 +118,6 @@ This review checked official documentation, license text and maintenance changes
         "zh-CN": "2026-11-17T04:07:37.955887+00:00",
         "en": "2026-11-17T04:07:37.955887+00:00"
       },
-      "verification_level": "docs"
-    },
-    "quality_review": {
-      "zh-CN": "适合探索多智能体社会模拟的工作流程；近期实质维护证据不足，保留为候选。",
-      "en": "Useful for exploring multi-agent social-simulation workflows; retained as a candidate because recent substantive maintenance evidence is insufficient.",
       "verification_level": "docs"
     },
     "license_review": {
@@ -190,7 +188,31 @@ This review checked official documentation, license text and maintenance changes
     "license_spdx": "AGPL-3.0",
     "license_sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
     "last_success_at": "2026-11-17T03:55:05.704236+00:00"
-  }
+  },
+  "eligibility_history": [
+    {
+      "status": "needs_review",
+      "reasons": [
+        "recent_substantive_activity_unverified"
+      ],
+      "evaluated_at": "2026-11-17T04:07:37.955887+00:00",
+      "superseded_at": "2026-11-17T13:33:30.547820+00:00",
+      "superseded_by": "user_directed_transition_2026_11_17",
+      "pending_actions": {
+        "zh-CN": [
+          "补充近三个月功能或缺陷修复提交，并核对具体实现差异。"
+        ],
+        "en": [
+          "Provide a feature or bug-fix commit within the last three months and review its implementation diff."
+        ]
+      },
+      "quality_review": {
+        "zh-CN": "适合探索多智能体社会模拟的工作流程；近期实质维护证据不足，保留为候选。",
+        "en": "Useful for exploring multi-agent social-simulation workflows; retained as a candidate because recent substantive maintenance evidence is insufficient.",
+        "verification_level": "docs"
+      }
+    }
+  ]
 }
 ```
 

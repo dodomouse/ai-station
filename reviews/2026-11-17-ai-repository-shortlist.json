@@ -1,0 +1,2893 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-17T13:52:47.871997Z",
+  "activity_window": {
+    "start": "2026-08-17",
+    "end": "2026-11-17"
+  },
+  "criteria": {
+    "ai_task_relevance_required": true,
+    "activity_months": 3,
+    "min_stars": 1000,
+    "star_growth_months": 1,
+    "min_star_growth": 500,
+    "license_required": false
+  },
+  "catalog_baseline": {
+    "count": 275,
+    "head": "cfbb464681c948adf2e3b7cf5d0b2de16c6bcfb2"
+  },
+  "deduplication": {
+    "canonical_name": true,
+    "repo_node_id": true,
+    "against_existing_catalog": true
+  },
+  "selection": {
+    "reviewed_qualifying_repositories": 110,
+    "selected": 100,
+    "basis": "total_stars",
+    "monthly_star_growth_measured": false,
+    "runtime_tested": false
+  },
+  "entries": [
+    {
+      "repository": "activepieces/activepieces",
+      "repo_node_id": "R_kgDOIjFiOQ",
+      "url": "https://github.com/activepieces/activepieces",
+      "name": "Activepieces",
+      "category": "智能体与工作流",
+      "summary_zh": "用 TypeScript 集成组件和可视化流程构建 AI 自动化。",
+      "ai_task_use_zh": "组件可作为 MCP 工具供模型调用，并支持分支、重试和人工审批。",
+      "stars": 25581,
+      "stars_checked_at": "2026-11-17T13:34:52.267Z",
+      "metadata_url": "https://api.github.com/repos/activepieces/activepieces",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:20:16Z",
+        "url": "https://github.com/activepieces/activepieces/commit/0f039962c863915544219ccf4ec60cec5091e4d7",
+        "summary": "feat(web): redesign the ai provider connect dialog (#17573)"
+      },
+      "readme_url": "https://github.com/activepieces/activepieces/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 1,
+      "catalog_entry": {
+        "id": "activepieces",
+        "path": "docs/activepieces.md",
+        "category": "automation",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "Agenta-AI/agenta",
+      "repo_node_id": "R_kgDOJbjazA",
+      "url": "https://github.com/Agenta-AI/agenta",
+      "name": "Agenta",
+      "category": "智能体与工作流",
+      "summary_zh": "通过对话配置团队智能体，连接应用，并按计划或事件执行任务。",
+      "ai_task_use_zh": "给 AI 提供应用工具、浏览器、共享文件和权限控制，完成团队运营与文档任务。",
+      "stars": 4915,
+      "stars_checked_at": "2026-11-17T13:42:25.285Z",
+      "metadata_url": "https://api.github.com/repos/Agenta-AI/agenta",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-13T00:08:28Z",
+        "url": "https://github.com/Agenta-AI/agenta/commit/8d6f0dff68eab619a4b5ae32970c342f005df74e",
+        "summary": "Merge pull request #8276 from Agenta-AI/release/v0.128.13"
+      },
+      "readme_url": "https://github.com/Agenta-AI/agenta/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.962Z",
+      "selection_basis": "total_stars",
+      "number": 2,
+      "catalog_entry": {
+        "id": "agenta",
+        "path": "docs/agenta.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "agno-agi/agno",
+      "repo_node_id": "R_kgDOHSAURg",
+      "url": "https://github.com/agno-agi/agno",
+      "name": "Agno",
+      "category": "智能体与工作流",
+      "summary_zh": "将智能体、团队和工作流部署为带 API、MCP、存储及调度能力的服务。",
+      "ai_task_use_zh": "为 AI 配置知识、记忆、工具和任务编排，并让其持续执行组织内的工作。",
+      "stars": 43215,
+      "stars_checked_at": "2026-11-17T13:42:25.537Z",
+      "metadata_url": "https://api.github.com/repos/agno-agi/agno",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T10:06:55Z",
+        "url": "https://github.com/agno-agi/agno/commit/8b5ce9f85812519a2452ff47981964b202e23828",
+        "summary": "fix: postgres drop a failed table from MetaData so a retry can create it (#11723)"
+      },
+      "readme_url": "https://github.com/agno-agi/agno/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.965Z",
+      "selection_basis": "total_stars",
+      "number": 3,
+      "catalog_entry": {
+        "id": "agno",
+        "path": "docs/agno.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "repo_node_id": "R_kgDOOlwd1Q",
+      "url": "https://github.com/bytedance/deer-flow",
+      "name": "DeerFlow",
+      "category": "智能体与工作流",
+      "summary_zh": "组合子智能体、记忆、技能和沙箱执行较长的任务。",
+      "ai_task_use_zh": "适合研究、编程和内容制作，能够把复杂工作拆成多个执行步骤。",
+      "stars": 85439,
+      "stars_checked_at": "2026-11-17T13:34:50.334Z",
+      "metadata_url": "https://api.github.com/repos/bytedance/deer-flow",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T11:57:40Z",
+        "url": "https://github.com/bytedance/deer-flow/commit/3751eb8daf491324e728f63bcc773e0f081eb7e5",
+        "summary": "feat(extensions): pass a task's final status, error, goal verdict and run metadata to on_task_stop (#8304)"
+      },
+      "readme_url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 4,
+      "catalog_entry": {
+        "id": "deer-flow",
+        "path": "docs/deer-flow.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "crewAIInc/crewAI",
+      "repo_node_id": "R_kgDOKlrpgA",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "name": "CrewAI",
+      "category": "智能体与工作流",
+      "summary_zh": "以角色化 Agent 协作和事件驱动流程组织多步骤工作。",
+      "ai_task_use_zh": "可将研究、工具调用和结果整理分配给多个智能体，并控制任务流程。",
+      "stars": 61024,
+      "stars_checked_at": "2026-11-17T13:34:51.047Z",
+      "metadata_url": "https://api.github.com/repos/crewAIInc/crewAI",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T16:53:25Z",
+        "url": "https://github.com/crewAIInc/crewAI/commit/96c4d85b6423dd06b7f1c38f12dd472399c6ce43",
+        "summary": "fix(agent): honor max_execution_time without waiting for the worker (#9324)"
+      },
+      "readme_url": "https://github.com/crewAIInc/crewAI/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 5,
+      "catalog_entry": {
+        "id": "crewai",
+        "path": "docs/crewai.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "evalstate/fast-agent",
+      "repo_node_id": "R_kgDONsNzVQ",
+      "url": "https://github.com/evalstate/fast-agent",
+      "name": "fast-agent",
+      "category": "智能体与工作流",
+      "summary_zh": "提供终端智能体、技能、MCP 连接、Shell 工具和多模型工作流。",
+      "ai_task_use_zh": "把提示、MCP 服务和执行工具组合成 AI 任务流程，并用回放模型辅助开发与评测。",
+      "stars": 3972,
+      "stars_checked_at": "2026-11-17T13:42:25.981Z",
+      "metadata_url": "https://api.github.com/repos/evalstate/fast-agent",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T23:24:36Z",
+        "url": "https://github.com/evalstate/fast-agent/commit/fed14e0d96e9c4a965dd93a918ebe6c28a5df010",
+        "summary": "Release 0.10.56: PTC model text without shell aliases or schema bounds (#1079)"
+      },
+      "readme_url": "https://github.com/evalstate/fast-agent/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.967Z",
+      "selection_basis": "total_stars",
+      "number": 6,
+      "catalog_entry": {
+        "id": "fast-agent",
+        "path": "docs/fast-agent.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "huggingface/smolagents",
+      "repo_node_id": "R_kgDONZUqgg",
+      "url": "https://github.com/huggingface/smolagents",
+      "name": "smolagents",
+      "category": "智能体与工作流",
+      "summary_zh": "让智能体用代码表达操作，支持多种模型、MCP 工具和沙箱执行环境。",
+      "ai_task_use_zh": "使 AI 编写并运行任务代码，组合搜索或其他工具来完成多步工作。",
+      "stars": 30403,
+      "stars_checked_at": "2026-11-17T13:42:25.091Z",
+      "metadata_url": "https://api.github.com/repos/huggingface/smolagents",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T09:55:03Z",
+        "url": "https://github.com/huggingface/smolagents/commit/8469d427d08655209a5a5e26242dba759b213206",
+        "summary": "docs: add Rapid-MLX (Apple Silicon) example for OpenAIModel (#2175)"
+      },
+      "readme_url": "https://github.com/huggingface/smolagents/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.965Z",
+      "selection_basis": "total_stars",
+      "number": 7,
+      "catalog_entry": {
+        "id": "smolagents",
+        "path": "docs/smolagents.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "langchain-ai/langchain",
+      "repo_node_id": "R_kgDOIPDwlg",
+      "url": "https://github.com/langchain-ai/langchain",
+      "name": "LangChain",
+      "category": "智能体与工作流",
+      "summary_zh": "用模型、工具及外部集成组件构建 Agent 和 LLM 应用。",
+      "ai_task_use_zh": "帮助 AI 连接数据源和业务工具，并组合调用过程。",
+      "stars": 149765,
+      "stars_checked_at": "2026-11-17T13:34:51.048Z",
+      "metadata_url": "https://api.github.com/repos/langchain-ai/langchain",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T19:55:28Z",
+        "url": "https://github.com/langchain-ai/langchain/commit/92c7defb0ac54ca2be18fca1bcf89cc88d9356c6",
+        "summary": "docs: update OpenWiki (#41862)"
+      },
+      "readme_url": "https://github.com/langchain-ai/langchain/blob/master/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 8,
+      "catalog_entry": {
+        "id": "langchain",
+        "path": "docs/langchain.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "langchain-ai/langgraph",
+      "repo_node_id": "R_kgDOKFU0lQ",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "name": "LangGraph",
+      "category": "智能体与工作流",
+      "summary_zh": "构建具有状态、持久执行和人工介入能力的 Agent 工作流。",
+      "ai_task_use_zh": "适合需要恢复执行、分支控制和长期状态的多步骤 AI 任务。",
+      "stars": 45066,
+      "stars_checked_at": "2026-11-17T13:34:50.312Z",
+      "metadata_url": "https://api.github.com/repos/langchain-ai/langgraph",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T08:59:08Z",
+        "url": "https://github.com/langchain-ai/langgraph/commit/02f2c2e6c992ffccce9e9129781fdd04f015c6fa",
+        "summary": "chore(deps): bump opentelemetry-api from 1.45.1 to 1.45.2 in /libs/cli (#9695)"
+      },
+      "readme_url": "https://github.com/langchain-ai/langgraph/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 9,
+      "catalog_entry": {
+        "id": "langgraph",
+        "path": "docs/langgraph.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "langflow-ai/langflow",
+      "repo_node_id": "R_kgDOI7jmAw",
+      "url": "https://github.com/langflow-ai/langflow",
+      "name": "Langflow",
+      "category": "智能体与工作流",
+      "summary_zh": "以可视化组件构建 Agent 和工作流，并提供 API 与 MCP 服务入口。",
+      "ai_task_use_zh": "把模型、向量数据库和工具组成可复用的 AI 功能。",
+      "stars": 156718,
+      "stars_checked_at": "2026-11-17T13:34:51.852Z",
+      "metadata_url": "https://api.github.com/repos/langflow-ai/langflow",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T18:16:58Z",
+        "url": "https://github.com/langflow-ai/langflow/commit/86fde091f88a8b40507512d36ed78b5917dc165e",
+        "summary": "test(google): tolerate timeout reconstruction across worker threads"
+      },
+      "readme_url": "https://github.com/langflow-ai/langflow/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 10,
+      "catalog_entry": {
+        "id": "langflow",
+        "path": "docs/langflow.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "langgenius/dify",
+      "repo_node_id": "R_kgDOJVxJug",
+      "url": "https://github.com/langgenius/dify",
+      "name": "Dify",
+      "category": "智能体与工作流",
+      "summary_zh": "通过可视化工作区构建 AI 流程、RAG 管线和 Agent 应用。",
+      "ai_task_use_zh": "为 AI 连接模型、知识库与工具，并管理应用的部署和运行记录。",
+      "stars": 161349,
+      "stars_checked_at": "2026-11-17T13:34:50.627Z",
+      "metadata_url": "https://api.github.com/repos/langgenius/dify",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:09:39Z",
+        "url": "https://github.com/langgenius/dify/commit/39addda308deb3f24885bc1e5ebaa6f160f2f492",
+        "summary": "test: fix specs that fail the merge queue (#46617)"
+      },
+      "readme_url": "https://github.com/langgenius/dify/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 11,
+      "catalog_entry": {
+        "id": "dify",
+        "path": "docs/dify.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "n8n-io/n8n",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxOTMyMTU1NTQ=",
+      "url": "https://github.com/n8n-io/n8n",
+      "name": "n8n",
+      "category": "智能体与工作流",
+      "summary_zh": "把可视化流程、自定义代码、业务集成和 AI Agent 组合起来。",
+      "ai_task_use_zh": "帮助 AI 调用业务系统、处理数据，并在多步骤流程中接入人工审批。",
+      "stars": 210777,
+      "stars_checked_at": "2026-11-17T13:34:50.261Z",
+      "metadata_url": "https://api.github.com/repos/n8n-io/n8n",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:17:26Z",
+        "url": "https://github.com/n8n-io/n8n/commit/12360b360184edb4f2fe96a3fd7e002e398e42f7",
+        "summary": "fix(editor): Keep the canvas visible after a source control pull (#44114)"
+      },
+      "readme_url": "https://github.com/n8n-io/n8n/blob/master/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 12,
+      "catalog_entry": {
+        "id": "n8n",
+        "path": "docs/n8n.md",
+        "category": "automation",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "openai/openai-agents-python",
+      "repo_node_id": "R_kgDOOGidpw",
+      "url": "https://github.com/openai/openai-agents-python",
+      "name": "OpenAI Agents SDK",
+      "category": "智能体与工作流",
+      "summary_zh": "提供多智能体工作流、工具调用、交接、追踪和语音交互组件。",
+      "ai_task_use_zh": "用于构建由多个 Agent 协作、可检查执行过程的应用。",
+      "stars": 30735,
+      "stars_checked_at": "2026-11-17T13:34:50.259Z",
+      "metadata_url": "https://api.github.com/repos/openai/openai-agents-python",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T01:01:56Z",
+        "url": "https://github.com/openai/openai-agents-python/commit/9e05bd5bf299a5ddbb25f7fec8da10bf2baf6133",
+        "summary": "fix: preserve pending input history across streamed retries (#6042)"
+      },
+      "readme_url": "https://github.com/openai/openai-agents-python/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 13,
+      "catalog_entry": {
+        "id": "openai-agents-python",
+        "path": "docs/openai-agents-python.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "pydantic/pydantic-ai",
+      "repo_node_id": "R_kgDOMMa-Pg",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "name": "Pydantic AI",
+      "category": "智能体与工作流",
+      "summary_zh": "提供有类型的智能体循环、工具调用、持久执行、评测和多模型接口。",
+      "ai_task_use_zh": "用类型校验、工具能力和任务状态管理构建可执行长任务的 AI 智能体。",
+      "stars": 21254,
+      "stars_checked_at": "2026-11-17T13:42:25.377Z",
+      "metadata_url": "https://api.github.com/repos/pydantic/pydantic-ai",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:17:25Z",
+        "url": "https://github.com/pydantic/pydantic-ai/commit/89287c2c53431e2615859134d44b0006f29fb0ba",
+        "summary": "Add `/sandbox` to clai2: run a new conversation in an E2B, boxd, Daytona, OpenSandbox, Modal, Render, Sprites or Kubernetes sandbox, signed in to GitHub (#13592)"
+      },
+      "readme_url": "https://github.com/pydantic/pydantic-ai/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.965Z",
+      "selection_basis": "total_stars",
+      "number": 14,
+      "catalog_entry": {
+        "id": "pydantic-ai",
+        "path": "docs/pydantic-ai.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "stanfordnlp/dspy",
+      "repo_node_id": "R_kgDOIv2ufA",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "name": "DSPy",
+      "category": "智能体与工作流",
+      "summary_zh": "用模块化程序组织语言模型调用，并优化提示词与模型参数。",
+      "ai_task_use_zh": "构建和优化分类、RAG 与智能体流程。",
+      "stars": 39108,
+      "stars_checked_at": "2026-11-17T13:33:38.859Z",
+      "metadata_url": "https://api.github.com/repos/stanfordnlp/dspy",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-12T14:09:40Z",
+        "url": "https://github.com/stanfordnlp/dspy/commit/2c07ebbee3a66f6e04b71e141c6c198f1b31a129",
+        "summary": "chore: refresh model metadata provenance to LiteLLM 1.109.1 (#10878)"
+      },
+      "readme_url": "https://github.com/stanfordnlp/dspy/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 15,
+      "catalog_entry": {
+        "id": "dspy",
+        "path": "docs/dspy.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "e2b-dev/E2B",
+      "repo_node_id": "R_kgDOJFTWgw",
+      "url": "https://github.com/e2b-dev/E2B",
+      "name": "E2B",
+      "category": "编码与工具接入",
+      "summary_zh": "通过 Python 或 JavaScript SDK 管理隔离的代码执行环境。",
+      "ai_task_use_zh": "为 Agent 执行生成代码、处理文件和调用桌面工具提供运行环境。",
+      "stars": 14905,
+      "stars_checked_at": "2026-11-17T13:34:48.208Z",
+      "metadata_url": "https://api.github.com/repos/e2b-dev/E2B",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T16:53:35Z",
+        "url": "https://github.com/e2b-dev/E2B/commit/c4bab34e85a82cf55bbec5ce89d91d1abf299b1a",
+        "summary": "chore(deps): bump the uv group across 3 directories with 2 updates (#2143)"
+      },
+      "readme_url": "https://github.com/e2b-dev/E2B/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 16,
+      "catalog_entry": {
+        "id": "e2b",
+        "path": "docs/e2b.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "github/github-mcp-server",
+      "repo_node_id": "R_kgDOODGMVA",
+      "url": "https://github.com/github/github-mcp-server",
+      "name": "GitHub MCP Server",
+      "category": "编码与工具接入",
+      "summary_zh": "GitHub 官方 MCP 服务，为智能体提供仓库、代码、Issue、PR 和工作流接口。",
+      "ai_task_use_zh": "让 AI 读取代码、分析提交、管理工作项并检查 CI，完成开发协作任务。",
+      "stars": 34544,
+      "stars_checked_at": "2026-11-17T13:43:30.932Z",
+      "metadata_url": "https://api.github.com/repos/github/github-mcp-server",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T12:36:47Z",
+        "url": "https://github.com/github/github-mcp-server/commit/67d4dc489700ec955ad255d098396dd86c729523",
+        "summary": "Add public agent automation tools (#3719)"
+      },
+      "readme_url": "https://github.com/github/github-mcp-server/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.967Z",
+      "selection_basis": "total_stars",
+      "number": 17,
+      "catalog_entry": {
+        "id": "github-mcp-server",
+        "path": "docs/github-mcp-server.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "letta-ai/letta-code",
+      "repo_node_id": "R_kgDOQIyqvg",
+      "url": "https://github.com/letta-ai/letta-code",
+      "name": "Letta Code",
+      "category": "编码与工具接入",
+      "summary_zh": "具有持久记忆、技能和身份状态的智能体运行工具，支持终端及远程使用。",
+      "ai_task_use_zh": "让 AI 在多轮编码任务间保留项目上下文，并执行工具操作；按当前 letta-code 仓库独立核验。",
+      "stars": 3862,
+      "stars_checked_at": "2026-11-17T13:44:18.333Z",
+      "metadata_url": "https://api.github.com/repos/letta-ai/letta-code",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T03:51:16Z",
+        "url": "https://github.com/letta-ai/letta-code/commit/b622fb1bc0941981e08da5ec2b2736d897e9bde1",
+        "summary": "fix(skills): look up named real things before drawing them (#5755)"
+      },
+      "readme_url": "https://github.com/letta-ai/letta-code/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.966Z",
+      "selection_basis": "total_stars",
+      "number": 18,
+      "catalog_entry": {
+        "id": "letta-code",
+        "path": "docs/letta-code.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "modelcontextprotocol/servers",
+      "repo_node_id": "R_kgDONRaG_w",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "name": "MCP Reference Servers",
+      "category": "编码与工具接入",
+      "summary_zh": "MCP 官方参考服务集合，演示如何向模型提供工具和数据访问接口。",
+      "ai_task_use_zh": "可用来开发 Agent 的工具连接层；这些是参考实现，部署前需补齐自身场景要求。",
+      "stars": 92064,
+      "stars_checked_at": "2026-11-17T13:34:48.377Z",
+      "metadata_url": "https://api.github.com/repos/modelcontextprotocol/servers",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-11T06:50:30Z",
+        "url": "https://github.com/modelcontextprotocol/servers/commit/e1dc4b18dbb948921da37f3d4224a628730b43b0",
+        "summary": "Merge pull request #5518 from modelcontextprotocol/v2/chore/5509-release-v2.4.0"
+      },
+      "readme_url": "https://github.com/modelcontextprotocol/servers/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 19,
+      "catalog_entry": {
+        "id": "servers",
+        "path": "docs/servers.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "open-webui/mcpo",
+      "repo_node_id": "R_kgDOORD1Vg",
+      "url": "https://github.com/open-webui/mcpo",
+      "name": "mcpo",
+      "category": "编码与工具接入",
+      "summary_zh": "将 MCP 服务代理为 OpenAPI HTTP 接口，并生成工具 API 文档。",
+      "ai_task_use_zh": "让使用 OpenAPI 工具接口的 AI 应用复用 MCP 服务，适合连接 Open WebUI 等客户端。",
+      "stars": 4429,
+      "stars_checked_at": "2026-11-17T13:42:25.809Z",
+      "metadata_url": "https://api.github.com/repos/open-webui/mcpo",
+      "activity": {
+        "type": "issue",
+        "date": "2026-11-04T20:04:55Z",
+        "url": "https://github.com/open-webui/mcpo/issues/318",
+        "summary": "新建 Issue：issue: suppress(Exception) in _close_session_locked cannot catch CancelledError, so every shutdown logs an ERROR traceback"
+      },
+      "readme_url": "https://github.com/open-webui/mcpo/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.967Z",
+      "selection_basis": "total_stars",
+      "number": 20,
+      "catalog_entry": {
+        "id": "mcpo",
+        "path": "docs/mcpo.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "openai/codex",
+      "repo_node_id": "R_kgDOOYsS4Q",
+      "url": "https://github.com/openai/codex",
+      "name": "Codex CLI",
+      "category": "编码与工具接入",
+      "summary_zh": "在终端运行的编码智能体，可接入代码编辑器并围绕本地工程开展工作。",
+      "ai_task_use_zh": "让 AI 阅读代码、修改文件、执行命令和验证结果，完成开发与排错任务。",
+      "stars": 135635,
+      "stars_checked_at": "2026-11-17T13:42:25.845Z",
+      "metadata_url": "https://api.github.com/repos/openai/codex",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:39:08Z",
+        "url": "https://github.com/openai/codex/commit/49d657aad0e878fb7ab156b91126828c21a0005f",
+        "summary": "Add a keyboard diagram to TUI shortcut help (#62048)"
+      },
+      "readme_url": "https://github.com/openai/codex/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.967Z",
+      "selection_basis": "total_stars",
+      "number": 21,
+      "catalog_entry": {
+        "id": "codex",
+        "path": "docs/codex.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "PrefectHQ/fastmcp",
+      "repo_node_id": "R_kgDONWxneQ",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "name": "FastMCP (Python)",
+      "category": "编码与工具接入",
+      "summary_zh": "用 Python 构建 MCP 服务端、客户端和交互应用，自动生成工具定义与校验。",
+      "ai_task_use_zh": "将业务函数和数据封装为 AI 可调用的工具，并处理 MCP 连接、认证及协议交互。",
+      "stars": 28616,
+      "stars_checked_at": "2026-11-17T13:43:30.890Z",
+      "metadata_url": "https://api.github.com/repos/PrefectHQ/fastmcp",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T06:41:43Z",
+        "url": "https://github.com/PrefectHQ/fastmcp/commit/10083f77731f90ba6191f0a8d2c23d9adf0aacce",
+        "summary": "Raise opentelemetry-api floor past traceparent ReDoS (#6513)"
+      },
+      "readme_url": "https://github.com/PrefectHQ/fastmcp/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.966Z",
+      "selection_basis": "total_stars",
+      "number": 22,
+      "catalog_entry": {
+        "id": "fastmcp",
+        "path": "docs/fastmcp.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "tadata-org/fastapi_mcp",
+      "repo_node_id": "R_kgDOOFMy0Q",
+      "url": "https://github.com/tadata-org/fastapi_mcp",
+      "name": "FastAPI-MCP",
+      "category": "编码与工具接入",
+      "summary_zh": "把 FastAPI 路由转换为 MCP 工具，保留模型结构、说明和现有依赖认证。",
+      "ai_task_use_zh": "使 AI 调用既有业务 API；仓库有路径参数编码问题报告，部署前需核对该问题处理状态。",
+      "stars": 12029,
+      "stars_checked_at": "2026-11-17T13:42:25.460Z",
+      "metadata_url": "https://api.github.com/repos/tadata-org/fastapi_mcp",
+      "activity": {
+        "type": "pr",
+        "date": "2026-11-16T11:35:29Z",
+        "url": "https://github.com/tadata-org/fastapi_mcp/pull/360",
+        "summary": "新建 PR：fix: expose non-object JSON bodies as MCP tool arguments"
+      },
+      "readme_url": "https://github.com/tadata-org/fastapi_mcp/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.966Z",
+      "selection_basis": "total_stars",
+      "additional_sources": [
+        {
+          "url": "https://github.com/tadata-org/fastapi_mcp/issues/354",
+          "purpose": "路径参数编码问题报告，未声称已修复。"
+        }
+      ],
+      "number": 23,
+      "catalog_entry": {
+        "id": "fastapi-mcp",
+        "path": "docs/fastapi-mcp.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "browser-use/browser-use",
+      "repo_node_id": "R_kgDONIn9tw",
+      "url": "https://github.com/browser-use/browser-use",
+      "name": "Browser Use",
+      "category": "浏览器与网页采集",
+      "summary_zh": "让模型在真实浏览器中用 Python 和浏览器工具执行任务。",
+      "ai_task_use_zh": "适合跨页面浏览、信息提取和网页操作；本地库与托管服务是不同使用入口。",
+      "stars": 121289,
+      "stars_checked_at": "2026-11-17T13:34:48.284Z",
+      "metadata_url": "https://api.github.com/repos/browser-use/browser-use",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T04:48:53Z",
+        "url": "https://github.com/browser-use/browser-use/commit/197972b206d3a6ec9fb30afcf76149c07fb8ee61",
+        "summary": "README: Browser Use for enterprises (#6442)"
+      },
+      "readme_url": "https://github.com/browser-use/browser-use/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 24,
+      "catalog_entry": {
+        "id": "browser-use",
+        "path": "docs/browser-use.md",
+        "category": "automation",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "browserbase/stagehand",
+      "repo_node_id": "R_kgDOLk6wNA",
+      "url": "https://github.com/browserbase/stagehand",
+      "name": "Stagehand",
+      "category": "浏览器与网页采集",
+      "summary_zh": "提供浏览器交互与结构化数据提取 SDK，并配有面向编码智能体的 CLI。",
+      "ai_task_use_zh": "让 AI 按页面上下文操作网站，复用登录会话和可检查的浏览器步骤。",
+      "stars": 26077,
+      "stars_checked_at": "2026-11-17T13:34:48.196Z",
+      "metadata_url": "https://api.github.com/repos/browserbase/stagehand",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T01:05:08Z",
+        "url": "https://github.com/browserbase/stagehand/commit/0f9a64c141d929b0595b4d909d89fb02e37c1ca4",
+        "summary": "[Claimed #3463] fix(cli): decode daemon replies as streaming UTF-8 (#3473)"
+      },
+      "readme_url": "https://github.com/browserbase/stagehand/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 25,
+      "catalog_entry": {
+        "id": "stagehand",
+        "path": "docs/stagehand.md",
+        "category": "automation",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "ChromeDevTools/chrome-devtools-mcp",
+      "repo_node_id": "R_kgDOPt7f_g",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "name": "Chrome DevTools MCP",
+      "category": "浏览器与网页采集",
+      "summary_zh": "让编码智能体控制 Chrome，并读取调试和性能信息。",
+      "ai_task_use_zh": "帮助 AI 检查页面行为、定位前端错误和分析运行性能。",
+      "stars": 57942,
+      "stars_checked_at": "2026-11-17T13:34:48.213Z",
+      "metadata_url": "https://api.github.com/repos/ChromeDevTools/chrome-devtools-mcp",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T12:31:37Z",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/ec0abfc80568b9585299d739debb8869fabd710f",
+        "summary": "fix(cli): pass option values starting with `-` through to tools (#3501)"
+      },
+      "readme_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 26,
+      "catalog_entry": {
+        "id": "chrome-devtools-mcp",
+        "path": "docs/chrome-devtools-mcp.md",
+        "category": "automation",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "firecrawl/firecrawl",
+      "repo_node_id": "R_kgDOLunVBg",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "name": "Firecrawl",
+      "category": "浏览器与网页采集",
+      "summary_zh": "提供网页搜索、抓取、交互和文档解析接口。",
+      "ai_task_use_zh": "向 Agent 提供网页上下文，例如 Markdown、结构化 JSON 与截图。",
+      "stars": 202506,
+      "stars_checked_at": "2026-11-17T13:34:49.259Z",
+      "metadata_url": "https://api.github.com/repos/firecrawl/firecrawl",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T05:35:29Z",
+        "url": "https://github.com/firecrawl/firecrawl/commit/8e7e5887cfd69e1db2d3f16be22a642a02370aec",
+        "summary": "fix(api): log where a firebill call's time went, and keep its connections alive (#5799)"
+      },
+      "readme_url": "https://github.com/firecrawl/firecrawl/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 27,
+      "catalog_entry": {
+        "id": "firecrawl",
+        "path": "docs/firecrawl.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "microsoft/playwright-mcp",
+      "repo_node_id": "R_kgDOOMjd8A",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "name": "Playwright MCP",
+      "category": "浏览器与网页采集",
+      "summary_zh": "通过 MCP 把浏览器导航、交互和页面结构读取交给 AI。",
+      "ai_task_use_zh": "适合网页操作、探索式测试与表单流程，主要使用可访问性快照。",
+      "stars": 39778,
+      "stars_checked_at": "2026-11-17T13:34:48.328Z",
+      "metadata_url": "https://api.github.com/repos/microsoft/playwright-mcp",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T22:57:05Z",
+        "url": "https://github.com/microsoft/playwright-mcp/commit/a62ea28698af6d9bc89438bcec50c63377cef957",
+        "summary": "devops: pin exact Node.js version in the Docker image and roll it with Playwright (#1867)"
+      },
+      "readme_url": "https://github.com/microsoft/playwright-mcp/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 28,
+      "catalog_entry": {
+        "id": "playwright-mcp",
+        "path": "docs/playwright-mcp.md",
+        "category": "automation",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "unclecode/crawl4ai",
+      "repo_node_id": "R_kgDOL5OWWw",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "name": "Crawl4AI",
+      "category": "浏览器与网页采集",
+      "summary_zh": "提供可自行部署的爬取器，也有托管的网页抓取与搜索接口。",
+      "ai_task_use_zh": "帮助 AI 从网页获取干净文本和结构化数据，用于 RAG 或信息整理。",
+      "stars": 87468,
+      "stars_checked_at": "2026-11-17T13:34:49.124Z",
+      "metadata_url": "https://api.github.com/repos/unclecode/crawl4ai",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T10:19:36Z",
+        "url": "https://github.com/unclecode/crawl4ai/commit/bf0c7925e21992af972039672fecd8e85163b575",
+        "summary": "docs: remove retired aravind@crawl4ai.com from SECURITY.md contacts (#2570)"
+      },
+      "readme_url": "https://github.com/unclecode/crawl4ai/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.390Z",
+      "selection_basis": "total_stars",
+      "number": 29,
+      "catalog_entry": {
+        "id": "crawl4ai",
+        "path": "docs/crawl4ai.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "chroma-core/chroma",
+      "repo_node_id": "R_kgDOII5zmA",
+      "url": "https://github.com/chroma-core/chroma",
+      "name": "Chroma",
+      "category": "文档与知识检索",
+      "summary_zh": "管理文档、嵌入和元数据的 AI 数据基础设施，提供集合与查询接口。",
+      "ai_task_use_zh": "快速建立 RAG 原型，按语义相似度和元数据检索文档。",
+      "stars": 29704,
+      "stars_checked_at": "2026-11-17T13:33:38.880Z",
+      "metadata_url": "https://api.github.com/repos/chroma-core/chroma",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-07T04:52:06Z",
+        "url": "https://github.com/chroma-core/chroma/commit/1a3ac2c7c623adbd03ed2508dc27b98cdf26016d",
+        "summary": "[DOC] Remove the retired BYOC option from the Cloud docs (#7945)"
+      },
+      "readme_url": "https://github.com/chroma-core/chroma/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 30,
+      "catalog_entry": {
+        "id": "chroma",
+        "path": "docs/chroma.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "deepset-ai/haystack",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyMjE2NTQ2Nzg=",
+      "url": "https://github.com/deepset-ai/haystack",
+      "name": "Haystack",
+      "category": "文档与知识检索",
+      "summary_zh": "用可组合流水线和智能体工作流组织检索、路由、记忆与生成。",
+      "ai_task_use_zh": "开发可定制的 RAG、语义搜索与问答应用。",
+      "stars": 27027,
+      "stars_checked_at": "2026-11-17T13:33:38.550Z",
+      "metadata_url": "https://api.github.com/repos/deepset-ai/haystack",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:15:04Z",
+        "url": "https://github.com/deepset-ai/haystack/commit/2b85450acc16c28f6069ed3644f0eed31c76c249",
+        "summary": "fix: preserve non-string dict keys in pipeline snapshot serialization (#13732)"
+      },
+      "readme_url": "https://github.com/deepset-ai/haystack/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 31,
+      "catalog_entry": {
+        "id": "haystack",
+        "path": "docs/haystack.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "docling-project/docling",
+      "repo_node_id": "R_kgDOMT5TYA",
+      "url": "https://github.com/docling-project/docling",
+      "name": "Docling",
+      "category": "文档与知识检索",
+      "summary_zh": "解析多种资料并提取结构化内容，例如 PDF、Office、网页、图像和音频。",
+      "ai_task_use_zh": "为生成式 AI 和 RAG 准备文档，处理版面、阅读顺序和表格结构。",
+      "stars": 70693,
+      "stars_checked_at": "2026-11-17T13:34:49.186Z",
+      "metadata_url": "https://api.github.com/repos/docling-project/docling",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T10:35:08Z",
+        "url": "https://github.com/docling-project/docling/commit/48f272b99c90616222901a0f3ee73bf367d0c592",
+        "summary": "fix(html): add the quotation marks of inline quotations (#5388)"
+      },
+      "readme_url": "https://github.com/docling-project/docling/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 32,
+      "catalog_entry": {
+        "id": "docling",
+        "path": "docs/docling.md",
+        "category": "productivity",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "facebookresearch/faiss",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk4MTIyNzAwNQ==",
+      "url": "https://github.com/facebookresearch/faiss",
+      "name": "Faiss",
+      "category": "文档与知识检索",
+      "summary_zh": "提供稠密向量相似度搜索、索引与聚类算法的库。",
+      "ai_task_use_zh": "为嵌入召回构建 CPU 或 GPU 索引，并比较检索参数。",
+      "stars": 41766,
+      "stars_checked_at": "2026-11-17T13:33:38.972Z",
+      "metadata_url": "https://api.github.com/repos/facebookresearch/faiss",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T20:48:07Z",
+        "url": "https://github.com/facebookresearch/faiss/commit/c8f283867285af547db7a701c1b8dfa89631b3ea",
+        "summary": "Add IndexIVFRaBitQSSD: IVF-RaBitQ with codes split across RAM and SSD (#5746)"
+      },
+      "readme_url": "https://github.com/facebookresearch/faiss/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 33,
+      "catalog_entry": {
+        "id": "faiss",
+        "path": "docs/faiss.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "HKUDS/LightRAG",
+      "repo_node_id": "R_kgDOM6XxNA",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "name": "LightRAG",
+      "category": "文档与知识检索",
+      "summary_zh": "结合知识图谱与向量嵌入的 RAG 框架，支持文档增量更新。",
+      "ai_task_use_zh": "构建兼顾实体关系与语义召回的知识问答系统。",
+      "stars": 40740,
+      "stars_checked_at": "2026-11-17T13:33:38.772Z",
+      "metadata_url": "https://api.github.com/repos/HKUDS/LightRAG",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T10:06:05Z",
+        "url": "https://github.com/HKUDS/LightRAG/commit/2ecced370abaca1a73364733ba13f737fa97d476",
+        "summary": "Merge pull request #3930 from adity982/fix/custom-chunk-ingress-token-limits"
+      },
+      "readme_url": "https://github.com/HKUDS/LightRAG/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 34,
+      "catalog_entry": {
+        "id": "lightrag",
+        "path": "docs/lightrag.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "huggingface/sentence-transformers",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxOTg2MTY5Nzg=",
+      "url": "https://github.com/huggingface/sentence-transformers",
+      "name": "Sentence Transformers",
+      "category": "文档与知识检索",
+      "summary_zh": "计算和训练向量嵌入、重排序、稀疏编码与多向量检索模型。",
+      "ai_task_use_zh": "为语义搜索和 RAG 构建召回、相似度评分与重排序能力。",
+      "stars": 19289,
+      "stars_checked_at": "2026-11-17T13:33:37.512Z",
+      "metadata_url": "https://api.github.com/repos/huggingface/sentence-transformers",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:02:00Z",
+        "url": "https://github.com/huggingface/sentence-transformers/commit/ea66116aeea5e827963bedaa0c38ed4a4681229a",
+        "summary": "[fix] Resolve similarity per call in pairwise evaluators instead of latching onto the first model (#4397)"
+      },
+      "readme_url": "https://github.com/huggingface/sentence-transformers/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 35,
+      "catalog_entry": {
+        "id": "sentence-transformers",
+        "path": "docs/sentence-transformers.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "infiniflow/ragflow",
+      "repo_node_id": "R_kgDOK4sStA",
+      "url": "https://github.com/infiniflow/ragflow",
+      "name": "RAGFlow",
+      "category": "文档与知识检索",
+      "summary_zh": "结合文档解析、知识组织、检索和智能体能力的 RAG 引擎。",
+      "ai_task_use_zh": "把复杂文档转成知识库，为问答和智能体提供上下文。",
+      "stars": 94304,
+      "stars_checked_at": "2026-11-17T13:33:38.633Z",
+      "metadata_url": "https://api.github.com/repos/infiniflow/ragflow",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T11:28:12Z",
+        "url": "https://github.com/infiniflow/ragflow/commit/cbffd01860ba441acb2c2d5c472c64f4a8a118d4",
+        "summary": "fix(docker): authenticate search engine health checks (#22361)"
+      },
+      "readme_url": "https://github.com/infiniflow/ragflow/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 36,
+      "catalog_entry": {
+        "id": "ragflow",
+        "path": "docs/ragflow.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "lancedb/lancedb",
+      "repo_node_id": "R_kgDOJDTTIg",
+      "url": "https://github.com/lancedb/lancedb",
+      "name": "LanceDB",
+      "category": "文档与知识检索",
+      "summary_zh": "基于 Lance 列式格式管理向量、多模态数据与版本的数据库。",
+      "ai_task_use_zh": "把向量检索、全文检索和数据分析用于 AI 应用。",
+      "stars": 11913,
+      "stars_checked_at": "2026-11-17T13:33:38.589Z",
+      "metadata_url": "https://api.github.com/repos/lancedb/lancedb",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T12:58:43Z",
+        "url": "https://github.com/lancedb/lancedb/commit/1670859327d5503e8bf7e02c58f93260da4881b4",
+        "summary": "fix(deps): ignore unmaintained chrono family advisories (#5073)"
+      },
+      "readme_url": "https://github.com/lancedb/lancedb/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 37,
+      "catalog_entry": {
+        "id": "lancedb",
+        "path": "docs/lancedb.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "microsoft/markitdown",
+      "repo_node_id": "R_kgDONO810w",
+      "url": "https://github.com/microsoft/markitdown",
+      "name": "MarkItDown",
+      "category": "文档与知识检索",
+      "summary_zh": "把 Office、PDF 及多种文件转换成适合文本处理的 Markdown。",
+      "ai_task_use_zh": "为 LLM 阅读和分析资料保留文档结构，例如标题、列表与表格。",
+      "stars": 195964,
+      "stars_checked_at": "2026-11-17T13:34:48.218Z",
+      "metadata_url": "https://api.github.com/repos/microsoft/markitdown",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-07T00:14:01Z",
+        "url": "https://github.com/microsoft/markitdown/commit/ed178952a6672abdfd35b5f9e76a80b6cefc086e",
+        "summary": "fix: match ExifTool directories case-insensitively on Windows (#2837)"
+      },
+      "readme_url": "https://github.com/microsoft/markitdown/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 38,
+      "catalog_entry": {
+        "id": "markitdown",
+        "path": "docs/markitdown.md",
+        "category": "productivity",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "milvus-io/milvus",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyMDg3Mjg3NzI=",
+      "url": "https://github.com/milvus-io/milvus",
+      "name": "Milvus",
+      "category": "文档与知识检索",
+      "summary_zh": "面向大规模向量的数据库，支持元数据过滤、混合检索和分布式部署。",
+      "ai_task_use_zh": "保存模型生成的嵌入，为 RAG 和语义搜索提供检索服务。",
+      "stars": 46677,
+      "stars_checked_at": "2026-11-17T13:33:47.857Z",
+      "metadata_url": "https://api.github.com/repos/milvus-io/milvus",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T12:22:07Z",
+        "url": "https://github.com/milvus-io/milvus/commit/663f0d57407a489030b94e986ea60ad615b930d1",
+        "summary": "enhance: propagate candidates and null rejection to element predicates (#55529)"
+      },
+      "readme_url": "https://github.com/milvus-io/milvus/blob/master/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 39,
+      "catalog_entry": {
+        "id": "milvus",
+        "path": "docs/milvus.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "opendatalab/MinerU",
+      "repo_node_id": "R_kgDOLZpAvQ",
+      "url": "https://github.com/opendatalab/MinerU",
+      "name": "MinerU",
+      "category": "文档与知识检索",
+      "summary_zh": "把复杂 PDF、扫描件和 Office 文件解析为 Markdown 或 JSON。",
+      "ai_task_use_zh": "帮助 Agent 读取文档、OCR、定位页面内容并保留可引用的段落位置。",
+      "stars": 83800,
+      "stars_checked_at": "2026-11-17T13:34:49.265Z",
+      "metadata_url": "https://api.github.com/repos/opendatalab/MinerU",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T18:13:52Z",
+        "url": "https://github.com/opendatalab/MinerU/commit/b4efa4b2b76ebb012c476b79bdfc6f18a95aacd6",
+        "summary": "chore: sync recent releases in issue templates"
+      },
+      "readme_url": "https://github.com/opendatalab/MinerU/blob/master/README.md",
+      "checked_at": "2026-11-17T13:37:09.389Z",
+      "selection_basis": "total_stars",
+      "number": 40,
+      "catalog_entry": {
+        "id": "mineru",
+        "path": "docs/mineru.md",
+        "category": "productivity",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "PaddlePaddle/PaddleOCR",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyNjIyOTYxMjI=",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "name": "PaddleOCR",
+      "category": "文档与知识检索",
+      "summary_zh": "识别图像和 PDF 中的文字、表格与公式，并把文档结构转换为 Markdown 或 JSON。",
+      "ai_task_use_zh": "为语言模型和 RAG 流程提取文档内容，将扫描件与复杂版式转为可检索的结构化输入。",
+      "stars": 92802,
+      "stars_checked_at": "2026-11-17T13:40:54.736Z",
+      "metadata_url": "https://api.github.com/repos/PaddlePaddle/PaddleOCR",
+      "activity": {
+        "type": "commit",
+        "date": "2026-09-16T03:30:53Z",
+        "url": "https://github.com/PaddlePaddle/PaddleOCR/commit/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+        "summary": "更新文档，去重图片并简化仓库克隆。",
+        "sha": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+        "upstream_title": "docs: deduplicate images and streamline repository cloning (#18359)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 41,
+      "catalog_entry": {
+        "id": "paddleocr",
+        "path": "docs/paddleocr.md",
+        "category": "productivity",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "qdrant/qdrant",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyNjgxNjM2MDk=",
+      "url": "https://github.com/qdrant/qdrant",
+      "name": "Qdrant",
+      "category": "文档与知识检索",
+      "summary_zh": "存储向量及其附加数据，提供相似度搜索和细粒度过滤。",
+      "ai_task_use_zh": "将嵌入模型接入检索、匹配和推荐应用。",
+      "stars": 35604,
+      "stars_checked_at": "2026-11-17T13:33:38.331Z",
+      "metadata_url": "https://api.github.com/repos/qdrant/qdrant",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T09:12:16Z",
+        "url": "https://github.com/qdrant/qdrant/commit/23065a0bf6857c3e5da45f6c8939cc746cc0580e",
+        "summary": "Bump version to 1.20.2 (#11558)"
+      },
+      "readme_url": "https://github.com/qdrant/qdrant/blob/master/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 42,
+      "catalog_entry": {
+        "id": "qdrant",
+        "path": "docs/qdrant.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "run-llama/llama_index",
+      "repo_node_id": "R_kgDOIWuq5w",
+      "url": "https://github.com/run-llama/llama_index",
+      "name": "LlamaIndex Framework",
+      "category": "文档与知识检索",
+      "summary_zh": "用于构建 RAG 和智能体应用的开放编排框架。",
+      "ai_task_use_zh": "连接文档与语言模型，组织数据检索和智能体应用流程。",
+      "stars": 52925,
+      "stars_checked_at": "2026-11-17T13:33:37.885Z",
+      "metadata_url": "https://api.github.com/repos/run-llama/llama_index",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-14T02:10:23Z",
+        "url": "https://github.com/run-llama/llama_index/commit/99d7433f6f71888951379ccca9294e272442c832",
+        "summary": "llama-dev: install changed sibling packages without -U (#24141)"
+      },
+      "readme_url": "https://github.com/run-llama/llama_index/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 43,
+      "catalog_entry": {
+        "id": "llama-index",
+        "path": "docs/llama-index.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "Unstructured-IO/unstructured",
+      "repo_node_id": "R_kgDOIEsvCg",
+      "url": "https://github.com/Unstructured-IO/unstructured",
+      "name": "Unstructured",
+      "category": "文档与知识检索",
+      "summary_zh": "解析非结构化材料，例如 PDF、HTML、Word 和图像。提供文档分区和预处理组件。",
+      "ai_task_use_zh": "把原始文档转为语言模型可使用的结构化片段，为检索、总结和数据准备提供输入。",
+      "stars": 15755,
+      "stars_checked_at": "2026-11-17T13:40:55.499Z",
+      "metadata_url": "https://api.github.com/repos/Unstructured-IO/unstructured",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T00:54:36Z",
+        "url": "https://github.com/Unstructured-IO/unstructured/commit/0c166fc21b65de8d398ff3ba13976882266916a4",
+        "summary": "修复 JSON 内容结构检测前的 UTF-8 BOM 处理。",
+        "sha": "0c166fc21b65de8d398ff3ba13976882266916a4",
+        "upstream_title": "fix: strip leading UTF-8 BOM before JSON content-shape detection (#4397)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 44,
+      "catalog_entry": {
+        "id": "unstructured",
+        "path": "docs/unstructured.md",
+        "category": "productivity",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "weaviate/weaviate",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk1NTA3MjY3Nw==",
+      "url": "https://github.com/weaviate/weaviate",
+      "name": "Weaviate",
+      "category": "文档与知识检索",
+      "summary_zh": "结合向量搜索、关键词过滤、RAG 与重排序的向量数据库。",
+      "ai_task_use_zh": "构建语义检索与知识问答，使用自带或外部嵌入模型。",
+      "stars": 16952,
+      "stars_checked_at": "2026-11-17T13:33:38.173Z",
+      "metadata_url": "https://api.github.com/repos/weaviate/weaviate",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T12:54:29Z",
+        "url": "https://github.com/weaviate/weaviate/commit/a33c0ef138d41eef14247aba4fd70d63c007ee88",
+        "summary": "feat(sacr): draft shard sizes on each node before a rebalance plan completes (#13887)"
+      },
+      "readme_url": "https://github.com/weaviate/weaviate/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 45,
+      "catalog_entry": {
+        "id": "weaviate",
+        "path": "docs/weaviate.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "getzep/graphiti",
+      "repo_node_id": "R_kgDOMhI98g",
+      "url": "https://github.com/getzep/graphiti",
+      "name": "Graphiti",
+      "category": "记忆与上下文",
+      "summary_zh": "构建保留时间与来源信息的上下文图谱，支持语义、关键词和图遍历检索。",
+      "ai_task_use_zh": "帮助 AI 查询人物、事件和关系随时间的变化，为持续任务补充可追溯上下文。",
+      "stars": 32877,
+      "stars_checked_at": "2026-11-17T13:42:25.972Z",
+      "metadata_url": "https://api.github.com/repos/getzep/graphiti",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-15T20:27:41Z",
+        "url": "https://github.com/getzep/graphiti/commit/869c1b279e01a2767a464581e1cb657ce0e39271",
+        "summary": "Add concurrent ingestion for one graph (#2154)"
+      },
+      "readme_url": "https://github.com/getzep/graphiti/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.965Z",
+      "selection_basis": "total_stars",
+      "number": 46,
+      "catalog_entry": {
+        "id": "graphiti",
+        "path": "docs/graphiti.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "mem0ai/mem0",
+      "repo_node_id": "R_kgDOJxtHSw",
+      "url": "https://github.com/mem0ai/mem0",
+      "name": "Mem0",
+      "category": "记忆与上下文",
+      "summary_zh": "为智能体和应用提取、保存并检索用户、会话和任务记忆。",
+      "ai_task_use_zh": "让 AI 在后续任务中复用用户偏好和历史事实，降低跨会话重复说明；托管版与开源 SDK 能力不同。",
+      "stars": 69106,
+      "stars_checked_at": "2026-11-17T13:42:26.513Z",
+      "metadata_url": "https://api.github.com/repos/mem0ai/mem0",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-06T16:53:06Z",
+        "url": "https://github.com/mem0ai/mem0/commit/f1791daa86d469249c9b002f62644d58a1eb96a0",
+        "summary": "fix(security): upgrade @azure/msal-node to 7.x via @azure/identity 4.14.1 (CVE-2026-109461) (#7850)"
+      },
+      "readme_url": "https://github.com/mem0ai/mem0/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.965Z",
+      "selection_basis": "total_stars",
+      "number": 47,
+      "catalog_entry": {
+        "id": "mem0",
+        "path": "docs/mem0.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "supermemoryai/supermemory",
+      "repo_node_id": "R_kgDOLY4afw",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "name": "Supermemory",
+      "category": "记忆与上下文",
+      "summary_zh": "提供记忆与上下文接口、助手插件和 MCP 接入，用于提取事实和检索历史。",
+      "ai_task_use_zh": "让编码助手与应用在不同会话中检索项目背景、偏好和已完成的讨论。",
+      "stars": 31641,
+      "stars_checked_at": "2026-11-17T13:42:25.439Z",
+      "metadata_url": "https://api.github.com/repos/supermemoryai/supermemory",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T01:35:34Z",
+        "url": "https://github.com/supermemoryai/supermemory/commit/fb105722a4a86b0e4010c09851c83fb93655b121",
+        "summary": "docs: link the Convex component (#1896)"
+      },
+      "readme_url": "https://github.com/supermemoryai/supermemory/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.966Z",
+      "selection_basis": "total_stars",
+      "number": 48,
+      "catalog_entry": {
+        "id": "supermemory",
+        "path": "docs/supermemory.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "567-labs/instructor",
+      "repo_node_id": "R_kgDOJvT6bg",
+      "url": "https://github.com/567-labs/instructor",
+      "name": "Instructor",
+      "category": "结构化输出与模型网关",
+      "summary_zh": "基于 Pydantic 将模型响应解析为有类型的数据，并处理校验失败和重试。",
+      "ai_task_use_zh": "让 AI 从文本提取可验证的结构化字段，便于后续工具调用、表单和数据处理。",
+      "stars": 14117,
+      "stars_checked_at": "2026-11-17T13:43:30.889Z",
+      "metadata_url": "https://api.github.com/repos/567-labs/instructor",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-15T02:21:50Z",
+        "url": "https://github.com/567-labs/instructor/commit/1e85ddf38807084182aeefb5bb67f4deee821163",
+        "summary": "fix: 1.18 community batch (CLI, batch, token limits, providers, DSL) (#3056)"
+      },
+      "readme_url": "https://github.com/567-labs/instructor/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.964Z",
+      "selection_basis": "total_stars",
+      "number": 49,
+      "catalog_entry": {
+        "id": "instructor",
+        "path": "docs/instructor.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "dottxt-ai/outlines",
+      "repo_node_id": "R_kgDOJK5PTA",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "name": "Outlines",
+      "category": "结构化输出与模型网关",
+      "summary_zh": "用 Python 类型、Pydantic 模型和约束生成定义语言模型输出结构。",
+      "ai_task_use_zh": "把 AI 输出约束为分类标签、数字或 JSON 对象，减少任务流水线中的格式解析失败。",
+      "stars": 16012,
+      "stars_checked_at": "2026-11-17T13:42:25.089Z",
+      "metadata_url": "https://api.github.com/repos/dottxt-ai/outlines",
+      "activity": {
+        "type": "commit",
+        "date": "2026-08-24T14:20:14Z",
+        "url": "https://github.com/dottxt-ai/outlines/commit/c52af8472c6fe8a607a733ec11b709476af77a96",
+        "summary": "Give the mypy hook urllib3 so the style check passes"
+      },
+      "readme_url": "https://github.com/dottxt-ai/outlines/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.964Z",
+      "selection_basis": "total_stars",
+      "number": 50,
+      "catalog_entry": {
+        "id": "outlines",
+        "path": "docs/outlines.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "guidance-ai/guidance",
+      "repo_node_id": "R_kgDOIaS4dw",
+      "url": "https://github.com/guidance-ai/guidance",
+      "name": "Guidance",
+      "category": "结构化输出与模型网关",
+      "summary_zh": "在 Python 中组合生成、条件和循环，并使用正则或语法约束输出。",
+      "ai_task_use_zh": "让 AI 按任务要求生成受约束的数据和文本，支持工具使用与分步控制；能力依赖模型后端。",
+      "stars": 21825,
+      "stars_checked_at": "2026-11-17T13:42:25.387Z",
+      "metadata_url": "https://api.github.com/repos/guidance-ai/guidance",
+      "activity": {
+        "type": "pr",
+        "date": "2026-11-05T06:51:58Z",
+        "url": "https://github.com/guidance-ai/guidance/pull/1559",
+        "summary": "新建 PR：[Doc] Explain stop regex token boundaries"
+      },
+      "readme_url": "https://github.com/guidance-ai/guidance/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.964Z",
+      "selection_basis": "total_stars",
+      "number": 51,
+      "catalog_entry": {
+        "id": "guidance",
+        "path": "docs/guidance.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "Portkey-AI/gateway",
+      "repo_node_id": "R_kgDOKKe4LA",
+      "url": "https://github.com/Portkey-AI/gateway",
+      "name": "Portkey AI Gateway",
+      "category": "结构化输出与模型网关",
+      "summary_zh": "为多家模型提供统一调用接口、条件路由、重试、回退和护栏。",
+      "ai_task_use_zh": "让 AI 工作流在模型供应商之间切换，并在调用失败时重试或选择后备模型。",
+      "stars": 13390,
+      "stars_checked_at": "2026-11-17T13:42:26.342Z",
+      "metadata_url": "https://api.github.com/repos/Portkey-AI/gateway",
+      "activity": {
+        "type": "pr",
+        "date": "2026-11-16T06:11:14Z",
+        "url": "https://github.com/Portkey-AI/gateway/pull/1903",
+        "summary": "新建 PR：improvement: count tokens for newer Claude models on Bedrock via bedrock-mantle"
+      },
+      "readme_url": "https://github.com/Portkey-AI/gateway/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.963Z",
+      "selection_basis": "total_stars",
+      "number": 52,
+      "catalog_entry": {
+        "id": "gateway",
+        "path": "docs/gateway.md",
+        "category": "operations",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "Arize-ai/phoenix",
+      "repo_node_id": "R_kgDOIZ8Rag",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "name": "Arize Phoenix",
+      "category": "评测与可观测",
+      "summary_zh": "提供 OpenTelemetry 追踪、数据集、实验和提示管理，并支持 MCP 查询。",
+      "ai_task_use_zh": "让编码智能体读取执行轨迹、数据集和实验结果，辅助排查与改进 AI 工作流。",
+      "stars": 12325,
+      "stars_checked_at": "2026-11-17T13:42:25.808Z",
+      "metadata_url": "https://api.github.com/repos/Arize-ai/phoenix",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T11:11:54Z",
+        "url": "https://github.com/Arize-ai/phoenix/commit/8b409d4531cda2844d5f172119835cfe43ab8a9b",
+        "summary": "chore(skills): update external skills (#18002)"
+      },
+      "readme_url": "https://github.com/Arize-ai/phoenix/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.962Z",
+      "selection_basis": "total_stars",
+      "number": 53,
+      "catalog_entry": {
+        "id": "phoenix",
+        "path": "docs/phoenix.md",
+        "category": "operations",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "confident-ai/deepeval",
+      "repo_node_id": "R_kgDOKFeYBA",
+      "url": "https://github.com/confident-ai/deepeval",
+      "name": "DeepEval",
+      "category": "评测与可观测",
+      "summary_zh": "面向 LLM 应用的测试框架，评估回答、检索和智能体执行轨迹。",
+      "ai_task_use_zh": "将质量评测加入应用测试流程，比较模型、提示词和架构。",
+      "stars": 19525,
+      "stars_checked_at": "2026-11-17T13:33:38.435Z",
+      "metadata_url": "https://api.github.com/repos/confident-ai/deepeval",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T00:36:10Z",
+        "url": "https://github.com/confident-ai/deepeval/commit/c0bd9c89f33853b2dedc7db8415b3036894fb204",
+        "summary": "Merge pull request #3622 from ykocaogullar/main"
+      },
+      "readme_url": "https://github.com/confident-ai/deepeval/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 54,
+      "catalog_entry": {
+        "id": "deepeval",
+        "path": "docs/deepeval.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "EleutherAI/lm-evaluation-harness",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyOTA5MDkxOTI=",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "name": "LM Evaluation Harness",
+      "category": "评测与可观测",
+      "summary_zh": "用统一接口在多类基准任务上测试生成式语言模型。",
+      "ai_task_use_zh": "复用公开任务、提示词和指标，比较模型及适配器表现。",
+      "stars": 14492,
+      "stars_checked_at": "2026-11-17T13:33:37.895Z",
+      "metadata_url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness",
+      "activity": {
+        "type": "commit",
+        "date": "2026-09-14T10:51:05Z",
+        "url": "https://github.com/EleutherAI/lm-evaluation-harness/commit/d6de81643928d653435c431bae19945d41d32520",
+        "summary": "fix(basqueglue): load the f1 metric with evaluate (#4076)"
+      },
+      "readme_url": "https://github.com/EleutherAI/lm-evaluation-harness/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 55,
+      "catalog_entry": {
+        "id": "lm-evaluation-harness",
+        "path": "docs/lm-evaluation-harness.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "Helicone/helicone",
+      "repo_node_id": "R_kgDOI4Othg",
+      "url": "https://github.com/Helicone/helicone",
+      "name": "Helicone",
+      "category": "评测与可观测",
+      "summary_zh": "结合模型网关、请求日志、会话分析和提示版本管理的 LLM 平台。",
+      "ai_task_use_zh": "为智能体选择模型、处理路由回退，并追踪任务中的成本、延迟和请求结果。",
+      "stars": 6286,
+      "stars_checked_at": "2026-11-17T13:42:25.372Z",
+      "metadata_url": "https://api.github.com/repos/Helicone/helicone",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T00:37:41Z",
+        "url": "https://github.com/Helicone/helicone/commit/5a21c3a1be183c684b49136eb5abc5e95ed6ba26",
+        "summary": "fix(bifrost): restore Contact Us booking embed (#5874)"
+      },
+      "readme_url": "https://github.com/Helicone/helicone/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.962Z",
+      "selection_basis": "total_stars",
+      "number": 56,
+      "catalog_entry": {
+        "id": "helicone",
+        "path": "docs/helicone.md",
+        "category": "operations",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "langfuse/langfuse",
+      "repo_node_id": "R_kgDOJku7Qg",
+      "url": "https://github.com/langfuse/langfuse",
+      "name": "Langfuse",
+      "category": "评测与可观测",
+      "summary_zh": "汇集模型调用、智能体轨迹、提示版本和评测结果的 AI 工程平台。",
+      "ai_task_use_zh": "为 AI 应用记录工具调用与检索过程，帮助定位失败步骤、比较提示版本和监测成本。",
+      "stars": 37546,
+      "stars_checked_at": "2026-11-17T13:42:25.090Z",
+      "metadata_url": "https://api.github.com/repos/langfuse/langfuse",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:14:33Z",
+        "url": "https://github.com/langfuse/langfuse/commit/364223f2fba19695491d5ae54b5ab6f2e911b7a1",
+        "summary": "perf(ci): pilot larger worker test runners (#20265)"
+      },
+      "readme_url": "https://github.com/langfuse/langfuse/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.961Z",
+      "selection_basis": "total_stars",
+      "number": 57,
+      "catalog_entry": {
+        "id": "langfuse",
+        "path": "docs/langfuse.md",
+        "category": "operations",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "langwatch/langwatch",
+      "repo_node_id": "R_kgDOKRXhvA",
+      "url": "https://github.com/langwatch/langwatch",
+      "name": "LangWatch",
+      "category": "评测与可观测",
+      "summary_zh": "统一查看智能体轨迹、模拟测试、编码助手会话和模型网关用量。",
+      "ai_task_use_zh": "用模拟对话测试 AI 任务流程，定位失败调用，并限制智能体模型调用预算。",
+      "stars": 5042,
+      "stars_checked_at": "2026-11-17T13:42:25.374Z",
+      "metadata_url": "https://api.github.com/repos/langwatch/langwatch",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T11:00:41Z",
+        "url": "https://github.com/langwatch/langwatch/commit/396d2727b93e08cd4aec407dbadba2ecbc6afec5",
+        "summary": "chore(main): release clickhouse-serverless 0.5.0 (#8203)"
+      },
+      "readme_url": "https://github.com/langwatch/langwatch/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.962Z",
+      "selection_basis": "total_stars",
+      "number": 58,
+      "catalog_entry": {
+        "id": "langwatch",
+        "path": "docs/langwatch.md",
+        "category": "operations",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "open-compass/opencompass",
+      "repo_node_id": "R_kgDOJv0mSQ",
+      "url": "https://github.com/open-compass/opencompass",
+      "name": "OpenCompass",
+      "category": "评测与可观测",
+      "summary_zh": "统一模型与数据配置、推理、评测和结果汇总的模型评测平台。",
+      "ai_task_use_zh": "比较本地或 API 模型的知识、推理、代码和多模态能力。",
+      "stars": 7599,
+      "stars_checked_at": "2026-11-17T13:33:38.176Z",
+      "metadata_url": "https://api.github.com/repos/open-compass/opencompass",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-11T11:08:57Z",
+        "url": "https://github.com/open-compass/opencompass/commit/8b4193ff01cfbdb870a573330b2b199e20242bba",
+        "summary": "[Fix] Restore missing comma in mathbench first_option_postprocess answer patterns (#2705)"
+      },
+      "readme_url": "https://github.com/open-compass/opencompass/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 59,
+      "catalog_entry": {
+        "id": "opencompass",
+        "path": "docs/opencompass.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "promptfoo/promptfoo",
+      "repo_node_id": "R_kgDOJcj3uQ",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "name": "Promptfoo",
+      "category": "评测与可观测",
+      "summary_zh": "用配置和命令行比较提示与模型，执行评测、红队测试和 CI 检查。",
+      "ai_task_use_zh": "验证 AI 的回答与工具流程是否达到预期，把回归用例和安全测试纳入开发流程。",
+      "stars": 27370,
+      "stars_checked_at": "2026-11-17T13:44:41.992Z",
+      "metadata_url": "https://api.github.com/repos/promptfoo/promptfoo",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T00:21:31Z",
+        "url": "https://github.com/promptfoo/promptfoo/commit/9a7187a33b53277295151cc20d24cf96fa0d5cfb",
+        "summary": "fix(redteam): isolate live config files for concurrent runs (#12457)"
+      },
+      "readme_url": "https://github.com/promptfoo/promptfoo/blob/main/README.md",
+      "checked_at": "2026-11-17T13:46:14.963Z",
+      "selection_basis": "total_stars",
+      "number": 60,
+      "catalog_entry": {
+        "id": "promptfoo",
+        "path": "docs/promptfoo.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "vibrantlabsai/ragas",
+      "repo_node_id": "R_kgDOJgX1Gg",
+      "url": "https://github.com/vibrantlabsai/ragas",
+      "name": "Ragas",
+      "category": "评测与可观测",
+      "summary_zh": "为 LLM 应用提供评测指标、测试数据生成和反馈分析工具。",
+      "ai_task_use_zh": "评估 RAG 与模型输出质量，并建立可重复的测试数据。",
+      "stars": 16354,
+      "stars_checked_at": "2026-11-17T13:34:34.467Z",
+      "metadata_url": "https://api.github.com/repos/vibrantlabsai/ragas",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-14T02:30:59Z",
+        "url": "https://github.com/vibrantlabsai/ragas/commit/8c63f10d500c44efbf24fdb9e2920de2104c321c",
+        "summary": "fix: point deprecation warnings to correct collections metric names (#2974)"
+      },
+      "readme_url": "https://github.com/vibrantlabsai/ragas/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 61,
+      "catalog_entry": {
+        "id": "ragas",
+        "path": "docs/ragas.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "bitsandbytes-foundation/bitsandbytes",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkzNzM2NzQyNTg=",
+      "url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+      "name": "bitsandbytes",
+      "category": "模型推理与服务",
+      "summary_zh": "提供低比特量化、8 位优化器和 4 位线性层的 PyTorch 扩展。",
+      "ai_task_use_zh": "降低模型推理和 QLoRA 微调的显存需求。",
+      "stars": 8543,
+      "stars_checked_at": "2026-11-17T13:33:38.210Z",
+      "metadata_url": "https://api.github.com/repos/bitsandbytes-foundation/bitsandbytes",
+      "activity": {
+        "type": "commit",
+        "date": "2026-10-27T21:18:29Z",
+        "url": "https://github.com/bitsandbytes-foundation/bitsandbytes/commit/a616886cacf86701514f0cb1d6be760f967481c0",
+        "summary": "Cache the hipBLASLt int8 matmul algo per problem on ROCm (#2100)"
+      },
+      "readme_url": "https://github.com/bitsandbytes-foundation/bitsandbytes/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 62,
+      "catalog_entry": {
+        "id": "bitsandbytes",
+        "path": "docs/bitsandbytes.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "InternLM/lmdeploy",
+      "repo_node_id": "R_kgDOJv0ecQ",
+      "url": "https://github.com/InternLM/lmdeploy",
+      "name": "LMDeploy",
+      "category": "模型推理与服务",
+      "summary_zh": "集成大模型量化、压缩、部署与服务的工具链。",
+      "ai_task_use_zh": "把语言或视觉语言模型部署为可调用服务，减少推理资源需求。",
+      "stars": 8149,
+      "stars_checked_at": "2026-11-17T13:33:37.381Z",
+      "metadata_url": "https://api.github.com/repos/InternLM/lmdeploy",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T08:29:21Z",
+        "url": "https://github.com/InternLM/lmdeploy/commit/fc33f69736ff48c10ad720593b021dcdaedcb80d",
+        "summary": "fix(vl): honor request-local multimodal processor options (#5113)"
+      },
+      "readme_url": "https://github.com/InternLM/lmdeploy/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 63,
+      "catalog_entry": {
+        "id": "lmdeploy",
+        "path": "docs/lmdeploy.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "NVIDIA/TensorRT-LLM",
+      "repo_node_id": "R_kgDOKH5Now",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "name": "TensorRT-LLM",
+      "category": "模型推理与服务",
+      "summary_zh": "为 NVIDIA GPU 上的大模型和视觉生成模型提供推理内核与运行时。",
+      "ai_task_use_zh": "构建、优化和部署模型推理服务。",
+      "stars": 15084,
+      "stars_checked_at": "2026-11-17T13:33:37.205Z",
+      "metadata_url": "https://api.github.com/repos/NVIDIA/TensorRT-LLM",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:29:45Z",
+        "url": "https://github.com/NVIDIA/TensorRT-LLM/commit/b63aca8de25fe4989509e97678d968c393255cc6",
+        "summary": "[https://nvbugs/7105739][fix] Restore generation-only perf-sanity coverage (#22438)"
+      },
+      "readme_url": "https://github.com/NVIDIA/TensorRT-LLM/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 64,
+      "catalog_entry": {
+        "id": "tensorrt-llm",
+        "path": "docs/tensorrt-llm.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "sgl-project/sglang",
+      "repo_node_id": "R_kgDOLCAjRg",
+      "url": "https://github.com/sgl-project/sglang",
+      "name": "SGLang",
+      "category": "模型推理与服务",
+      "summary_zh": "面向语言和多模态模型的推理服务框架，支持批处理、缓存与分布式执行。",
+      "ai_task_use_zh": "部署模型 API，支持智能体请求和强化学习 rollout。",
+      "stars": 38977,
+      "stars_checked_at": "2026-11-17T13:33:37.658Z",
+      "metadata_url": "https://api.github.com/repos/sgl-project/sglang",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T11:19:50Z",
+        "url": "https://github.com/sgl-project/sglang/commit/703e763d5f3af75ea3587275d79155c28d3c5d4f",
+        "summary": "[Perf] [AMD] qwen3: Fuse prefill QK-norm + RoPE on ROCm with the JIT qknorm_rope kernel (#47052)"
+      },
+      "readme_url": "https://github.com/sgl-project/sglang/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 65,
+      "catalog_entry": {
+        "id": "sglang",
+        "path": "docs/sglang.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "triton-inference-server/server",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxNTE2MzYxOTQ=",
+      "url": "https://github.com/triton-inference-server/server",
+      "name": "Triton Inference Server",
+      "category": "模型推理与服务",
+      "summary_zh": "统一托管多种机器学习框架模型的推理服务器，提供并发执行和动态批处理。",
+      "ai_task_use_zh": "为模型部署提供 HTTP/gRPC 接口、模型流水线与运行指标。",
+      "stars": 11146,
+      "stars_checked_at": "2026-11-17T13:33:37.318Z",
+      "metadata_url": "https://api.github.com/repos/triton-inference-server/server",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T22:29:09Z",
+        "url": "https://github.com/triton-inference-server/server/commit/24af411c99d09cfb60259dceb63a718606148aa2",
+        "summary": "revert(skills): remove triton-pytorch-model-repository (unsigned merge of #9074) (#9079)"
+      },
+      "readme_url": "https://github.com/triton-inference-server/server/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 66,
+      "catalog_entry": {
+        "id": "server",
+        "path": "docs/server.md",
+        "category": "operations",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "axolotl-ai-cloud/axolotl",
+      "repo_node_id": "R_kgDOJWpdTQ",
+      "url": "https://github.com/axolotl-ai-cloud/axolotl",
+      "name": "Axolotl",
+      "category": "模型开发与训练",
+      "summary_zh": "用 YAML 配置组织大模型数据预处理、微调、评测、量化和推理。",
+      "ai_task_use_zh": "运行全量微调、LoRA、QLoRA 及分布式后训练。",
+      "stars": 12735,
+      "stars_checked_at": "2026-11-17T13:33:37.790Z",
+      "metadata_url": "https://api.github.com/repos/axolotl-ai-cloud/axolotl",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-13T19:22:33Z",
+        "url": "https://github.com/axolotl-ai-cloud/axolotl/commit/f2158ff1922b2bcf701854a17e47cc91ba26e7e9",
+        "summary": "Resolve the parallel layout once into a typed MeshSpec (dense-degree dp_shard_size) (#4299)"
+      },
+      "readme_url": "https://github.com/axolotl-ai-cloud/axolotl/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 67,
+      "catalog_entry": {
+        "id": "axolotl",
+        "path": "docs/axolotl.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "deepspeedai/DeepSpeed",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyMzU4NjAyMDQ=",
+      "url": "https://github.com/deepspeedai/DeepSpeed",
+      "name": "DeepSpeed",
+      "category": "模型开发与训练",
+      "summary_zh": "为大规模深度学习提供 ZeRO、并行训练和内存管理优化。",
+      "ai_task_use_zh": "把大型模型训练扩展到多 GPU，并降低训练资源开销。",
+      "stars": 43331,
+      "stars_checked_at": "2026-11-17T13:33:38.645Z",
+      "metadata_url": "https://api.github.com/repos/deepspeedai/DeepSpeed",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T11:16:21Z",
+        "url": "https://github.com/deepspeedai/DeepSpeed/commit/fd8be8161176d0359060cc44faa98383382b70d3",
+        "summary": "Exit spawned test workers with os._exit to avoid gloo abort at shutdown (#9100)"
+      },
+      "readme_url": "https://github.com/deepspeedai/DeepSpeed/blob/master/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 68,
+      "catalog_entry": {
+        "id": "deepspeed",
+        "path": "docs/deepspeed.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "hiyouga/LlamaFactory",
+      "repo_node_id": "R_kgDOJodxvg",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "name": "LlamaFactory",
+      "category": "模型开发与训练",
+      "summary_zh": "统一多种模型的预训练、监督微调和偏好优化，提供配置与图形入口。",
+      "ai_task_use_zh": "以统一流程准备数据、微调模型并部署推理接口。",
+      "stars": 76082,
+      "stars_checked_at": "2026-11-17T13:34:33.734Z",
+      "metadata_url": "https://api.github.com/repos/hiyouga/LlamaFactory",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T04:25:41Z",
+        "url": "https://github.com/hiyouga/LlamaFactory/commit/885a4ca65cebf17a92e869af13c2ce42caca314a",
+        "summary": "[deps] upgrade transformers to 5.17.0 (#10869)"
+      },
+      "readme_url": "https://github.com/hiyouga/LlamaFactory/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 69,
+      "catalog_entry": {
+        "id": "llamafactory",
+        "path": "docs/llamafactory.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "huggingface/datasets",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyNTAyMTMyODY=",
+      "url": "https://github.com/huggingface/datasets",
+      "name": "Datasets",
+      "category": "模型开发与训练",
+      "summary_zh": "加载公开或本地数据集，并提供可复现的数据预处理接口。",
+      "ai_task_use_zh": "准备模型训练和评测所需的数据，处理多种文件格式。",
+      "stars": 22151,
+      "stars_checked_at": "2026-11-17T13:33:38.848Z",
+      "metadata_url": "https://api.github.com/repos/huggingface/datasets",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:08:56Z",
+        "url": "https://github.com/huggingface/datasets/commit/167807008ac3aa96f9b377efde58767e53a7f3b3",
+        "summary": "Support STS session traces (#9065)"
+      },
+      "readme_url": "https://github.com/huggingface/datasets/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 70,
+      "catalog_entry": {
+        "id": "datasets",
+        "path": "docs/datasets.md",
+        "category": "data",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "huggingface/peft",
+      "repo_node_id": "R_kgDOIf9iDA",
+      "url": "https://github.com/huggingface/peft",
+      "name": "PEFT",
+      "category": "模型开发与训练",
+      "summary_zh": "实现 LoRA 等参数高效微调方法，只更新少量参数以适配预训练模型。",
+      "ai_task_use_zh": "在较小计算和存储预算下完成模型领域适配。",
+      "stars": 21900,
+      "stars_checked_at": "2026-11-17T13:33:38.970Z",
+      "metadata_url": "https://api.github.com/repos/huggingface/peft",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T12:34:13Z",
+        "url": "https://github.com/huggingface/peft/commit/3a6d5808712f5756aa7b4b02d1619f6887ddc196",
+        "summary": "Fix HRA Conv2d string padding (#4159)"
+      },
+      "readme_url": "https://github.com/huggingface/peft/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 71,
+      "catalog_entry": {
+        "id": "peft",
+        "path": "docs/peft.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "huggingface/trl",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyNTA1MTAwNzU=",
+      "url": "https://github.com/huggingface/trl",
+      "name": "TRL",
+      "category": "模型开发与训练",
+      "summary_zh": "提供基础模型后训练方法及训练器，例如 SFT、GRPO 和 DPO。",
+      "ai_task_use_zh": "执行监督微调、偏好优化和强化学习训练。",
+      "stars": 19750,
+      "stars_checked_at": "2026-11-17T13:33:38.714Z",
+      "metadata_url": "https://api.github.com/repos/huggingface/trl",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T11:57:32Z",
+        "url": "https://github.com/huggingface/trl/commit/b2686bf5c300756cdf878b84f83a48f794e2fb94",
+        "summary": "Add support for vLLM 0.34.x (#8418)"
+      },
+      "readme_url": "https://github.com/huggingface/trl/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 72,
+      "catalog_entry": {
+        "id": "trl",
+        "path": "docs/trl.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "ml-explore/mlx",
+      "repo_node_id": "R_kgDOKzRn1w",
+      "url": "https://github.com/ml-explore/mlx",
+      "name": "MLX",
+      "category": "模型开发与训练",
+      "summary_zh": "面向 Apple 芯片的机器学习数组框架，提供统一内存、自动微分和模型组件。",
+      "ai_task_use_zh": "在 Mac 上实现、训练和运行机器学习模型。",
+      "stars": 29192,
+      "stars_checked_at": "2026-11-17T13:33:38.336Z",
+      "metadata_url": "https://api.github.com/repos/ml-explore/mlx",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T12:34:13Z",
+        "url": "https://github.com/ml-explore/mlx/commit/fbedcee5f4a0c7b2cbb642ea91d4c555460d3e48",
+        "summary": "Fix: Respect dtype for array values in mx.full (#4901)"
+      },
+      "readme_url": "https://github.com/ml-explore/mlx/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 73,
+      "catalog_entry": {
+        "id": "mlx",
+        "path": "docs/mlx.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "ml-explore/mlx-lm",
+      "repo_node_id": "R_kgDOOG6IBg",
+      "url": "https://github.com/ml-explore/mlx-lm",
+      "name": "MLX LM",
+      "category": "模型开发与训练",
+      "summary_zh": "基于 MLX 在 Apple 芯片上生成文本、量化和微调大语言模型。",
+      "ai_task_use_zh": "在 Mac 上运行模型，执行低秩或全量微调。",
+      "stars": 7671,
+      "stars_checked_at": "2026-11-17T13:33:39.056Z",
+      "metadata_url": "https://api.github.com/repos/ml-explore/mlx-lm",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T23:02:24Z",
+        "url": "https://github.com/ml-explore/mlx-lm/commit/c4c9c762cc797fd979fc98645f5db5112753bbe9",
+        "summary": "Add Qwen3.8-Flash-Next (qwen4_exp) model support (#1788)"
+      },
+      "readme_url": "https://github.com/ml-explore/mlx-lm/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 74,
+      "catalog_entry": {
+        "id": "mlx-lm",
+        "path": "docs/mlx-lm.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "OpenRLHF/OpenRLHF",
+      "repo_node_id": "R_kgDOKBQ9ow",
+      "url": "https://github.com/OpenRLHF/OpenRLHF",
+      "name": "OpenRLHF",
+      "category": "模型开发与训练",
+      "summary_zh": "结合 Ray、vLLM 与 DeepSpeed 的分布式 RLHF 框架。",
+      "ai_task_use_zh": "组织奖励模型、强化学习训练和多轮智能体训练流程。",
+      "stars": 10161,
+      "stars_checked_at": "2026-11-17T13:33:39.093Z",
+      "metadata_url": "https://api.github.com/repos/OpenRLHF/OpenRLHF",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-03T03:17:18Z",
+        "url": "https://github.com/OpenRLHF/OpenRLHF/commit/26494490bc237f6c3af62dab6117e6bbb0a78dba",
+        "summary": "docs: make the Molt recommendation concise and actionable (#1391)"
+      },
+      "readme_url": "https://github.com/OpenRLHF/OpenRLHF/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 75,
+      "catalog_entry": {
+        "id": "openrlhf",
+        "path": "docs/openrlhf.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "pytorch/pytorch",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk2NTYwMDk3NQ==",
+      "url": "https://github.com/pytorch/pytorch",
+      "name": "PyTorch",
+      "category": "模型开发与训练",
+      "summary_zh": "提供 GPU 张量计算、自动微分与神经网络开发的 Python 框架。",
+      "ai_task_use_zh": "编写、训练和调试深度学习模型，并扩展自定义算子。",
+      "stars": 105672,
+      "stars_checked_at": "2026-11-17T13:33:38.097Z",
+      "metadata_url": "https://api.github.com/repos/pytorch/pytorch",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T12:59:02Z",
+        "url": "https://github.com/pytorch/pytorch/commit/6af6987aa3603504c75df85c0906be686e0b8454",
+        "summary": "[CD] Remove redundant libgomp NEEDED replacement (#201032)"
+      },
+      "readme_url": "https://github.com/pytorch/pytorch/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 76,
+      "catalog_entry": {
+        "id": "pytorch",
+        "path": "docs/pytorch.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "verl-project/verl",
+      "repo_node_id": "R_kgDONIZfbg",
+      "url": "https://github.com/verl-project/verl",
+      "name": "verl",
+      "category": "模型开发与训练",
+      "summary_zh": "基于 HybridFlow 的大语言模型强化学习训练库，集成训练与推理基础设施。",
+      "ai_task_use_zh": "实现和扩展后训练数据流，例如 GRPO 和 PPO。",
+      "stars": 24263,
+      "stars_checked_at": "2026-11-17T13:34:34.148Z",
+      "metadata_url": "https://api.github.com/repos/verl-project/verl",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T11:15:47Z",
+        "url": "https://github.com/verl-project/verl/commit/cc35929bf8eedf5f3eb7c4ace3441dfd9f6d4c0e",
+        "summary": "[perf] feat: mstx profiler support schedule to actor update mini batch (#8687)"
+      },
+      "readme_url": "https://github.com/verl-project/verl/blob/main/README.md",
+      "checked_at": "2026-11-17T13:37:22.387Z",
+      "selection_basis": "total_stars",
+      "number": 77,
+      "catalog_entry": {
+        "id": "verl",
+        "path": "docs/verl.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "assistant-ui/assistant-ui",
+      "repo_node_id": "R_kgDOKwunUQ",
+      "url": "https://github.com/assistant-ui/assistant-ui",
+      "name": "assistant-ui",
+      "category": "AI 应用与交互",
+      "summary_zh": "为 React 应用提供 AI 聊天组件，支持流式消息、附件、生成式界面及工具审批。",
+      "ai_task_use_zh": "将智能体的工具调用呈现为可操作界面，并在需要时收集人的批准或补充输入。",
+      "stars": 13287,
+      "stars_checked_at": "2026-11-17T13:40:54.785Z",
+      "metadata_url": "https://api.github.com/repos/assistant-ui/assistant-ui",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:37:16Z",
+        "url": "https://github.com/assistant-ui/assistant-ui/commit/a4c705b08dbe04159c0a10f1cf9e737928d54c3c",
+        "summary": "更新文档中的语音输入支持示例，改为通过 useSyncExternalStore 读取状态。",
+        "sha": "a4c705b08dbe04159c0a10f1cf9e737928d54c3c",
+        "upstream_title": "docs: read dictation support through useSyncExternalStore (#10684)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/assistant-ui/assistant-ui/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 78,
+      "catalog_entry": {
+        "id": "assistant-ui",
+        "path": "docs/assistant-ui.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "Chainlit/chainlit",
+      "repo_node_id": "R_kgDOJJioGw",
+      "url": "https://github.com/Chainlit/chainlit",
+      "name": "Chainlit",
+      "category": "AI 应用与交互",
+      "summary_zh": "用 Python 构建对话式 AI 应用，展示消息、工具步骤及交互结果。",
+      "ai_task_use_zh": "为智能体提供对话入口和工具执行过程展示，帮助完成需要用户输入与反馈的任务。",
+      "stars": 12503,
+      "stars_checked_at": "2026-11-17T13:40:54.740Z",
+      "metadata_url": "https://api.github.com/repos/Chainlit/chainlit",
+      "activity": {
+        "type": "commit",
+        "date": "2026-08-26T08:54:31Z",
+        "url": "https://github.com/Chainlit/chainlit/commit/190ea74239d9e84b26e7c91bc2882dd038942564",
+        "summary": "为 CI 增加检查：声明但未实际应用的 pnpm.overrides 固定项会导致检查失败。",
+        "sha": "190ea74239d9e84b26e7c91bc2882dd038942564",
+        "upstream_title": "Fail CI when a pnpm.overrides pin is declared but never applied (#3017)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Chainlit/chainlit/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 79,
+      "catalog_entry": {
+        "id": "chainlit",
+        "path": "docs/chainlit.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "repo_node_id": "R_kgDOL_2xwg",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "name": "Cherry Studio",
+      "category": "AI 应用与交互",
+      "summary_zh": "提供跨平台 AI 工作区，整合多模型、智能体、知识库、图像生成和定时任务。",
+      "ai_task_use_zh": "让智能体使用文件、命令、浏览器及 MCP 工具，并结合本地知识库处理日常任务。",
+      "stars": 53595,
+      "stars_checked_at": "2026-11-17T13:40:55.873Z",
+      "metadata_url": "https://api.github.com/repos/CherryHQ/cherry-studio",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:33:00Z",
+        "url": "https://github.com/CherryHQ/cherry-studio/commit/195e7f6bf7bdedf5d73ac85ca3f28a39895f295d",
+        "summary": "调整额度拒绝处理，由服务端决定是否拒绝请求。",
+        "sha": "195e7f6bf7bdedf5d73ac85ca3f28a39895f295d",
+        "upstream_title": "fix(cherry-cloud): let the server decide quota refusals instead of the client (#24687)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 80,
+      "catalog_entry": {
+        "id": "cherry-studio",
+        "path": "docs/cherry-studio.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "CopilotKit/CopilotKit",
+      "repo_node_id": "R_kgDOJxJfAQ",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "name": "CopilotKit",
+      "category": "AI 应用与交互",
+      "summary_zh": "把已有智能体接入前端应用，提供聊天、生成式界面、共享状态和人工参与流程。",
+      "ai_task_use_zh": "让智能体读取应用状态、展示交互结果并与用户共同完成界面中的多步任务。",
+      "stars": 38761,
+      "stars_checked_at": "2026-11-17T13:40:54.850Z",
+      "metadata_url": "https://api.github.com/repos/CopilotKit/CopilotKit",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T09:47:31Z",
+        "url": "https://github.com/CopilotKit/CopilotKit/commit/d6067175e8fdb365f5671cfdd9aea0c0252cdc8b",
+        "summary": "更新 GitHub Actions 中 actions/setup-go 的依赖摘要。",
+        "sha": "d6067175e8fdb365f5671cfdd9aea0c0252cdc8b",
+        "upstream_title": "chore(deps): update actions/setup-go digest to d8cbb80 (#8439)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 81,
+      "catalog_entry": {
+        "id": "copilotkit",
+        "path": "docs/copilotkit.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "gradio-app/gradio",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxNjI0MDU5NjM=",
+      "url": "https://github.com/gradio-app/gradio",
+      "name": "Gradio",
+      "category": "AI 应用与交互",
+      "summary_zh": "用 Python 为模型、API 或函数创建网页应用。提供聊天、图像和音频交互组件。",
+      "ai_task_use_zh": "把 AI 模型能力封装为可交互的应用，让用户提交多模态输入并查看生成结果。",
+      "stars": 44073,
+      "stars_checked_at": "2026-11-17T13:40:55.364Z",
+      "metadata_url": "https://api.github.com/repos/gradio-app/gradio",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-13T18:01:54Z",
+        "url": "https://github.com/gradio-app/gradio/commit/ec06278ed72e5eb73494a9d171ca851d553dc82a",
+        "summary": "更新工作流中的嵌入式推理配置。",
+        "sha": "ec06278ed72e5eb73494a9d171ca851d553dc82a",
+        "upstream_title": "workflow: add embedded inference token (#14037)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/gradio-app/gradio/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 82,
+      "catalog_entry": {
+        "id": "gradio",
+        "path": "docs/gradio.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "LibreChat-AI/LibreChat",
+      "repo_node_id": "R_kgDOI8xhwA",
+      "url": "https://github.com/LibreChat-AI/LibreChat",
+      "name": "LibreChat",
+      "category": "AI 应用与交互",
+      "summary_zh": "提供多模型对话与智能体工作区，支持 MCP、技能、附件、代码执行和工具权限控制。",
+      "ai_task_use_zh": "让智能体读取文件、运行工具和处理多步任务，同时呈现过程并收集执行批准。",
+      "stars": 47224,
+      "stars_checked_at": "2026-11-17T13:42:27.736Z",
+      "metadata_url": "https://api.github.com/repos/LibreChat-AI/LibreChat",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:16:57Z",
+        "url": "https://github.com/LibreChat-AI/LibreChat/commit/c1d3e2358bf68c33f9f771a6b7b18a31b05b6de1",
+        "summary": "修复启动时的触发器索引兼容性。",
+        "sha": "c1d3e2358bf68c33f9f771a6b7b18a31b05b6de1",
+        "upstream_title": "🫘 fix: Preserve Trigger Index Compatibility at Startup (#18246)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/LibreChat-AI/LibreChat/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 83,
+      "catalog_entry": {
+        "id": "librechat",
+        "path": "docs/librechat.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "livekit/agents",
+      "repo_node_id": "R_kgDOKiqzdw",
+      "url": "https://github.com/livekit/agents",
+      "name": "LiveKit Agents",
+      "category": "AI 应用与交互",
+      "summary_zh": "构建实时语音与多模态智能体，提供模型插件、WebRTC、任务调度、电话与 MCP 接入。",
+      "ai_task_use_zh": "让智能体通过语音或电话与用户交互、调用工具，并把结果及时返回会话。",
+      "stars": 15259,
+      "stars_checked_at": "2026-11-17T13:40:55.590Z",
+      "metadata_url": "https://api.github.com/repos/livekit/agents",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T07:22:33Z",
+        "url": "https://github.com/livekit/agents/commit/0cfc0306335cc8b3633ec2cdce072a3f340cb14e",
+        "summary": "调整 AWS 转写流依赖的版本上限。",
+        "sha": "0cfc0306335cc8b3633ec2cdce072a3f340cb14e",
+        "upstream_title": "fix(aws): cap aws-sdk-transcribe-streaming below 0.13 (#8591)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/livekit/agents/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 84,
+      "catalog_entry": {
+        "id": "agents",
+        "path": "docs/agents.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "lobehub/lobehub",
+      "repo_node_id": "R_kgDOJlox8w",
+      "url": "https://github.com/lobehub/lobehub",
+      "name": "LobeHub",
+      "category": "AI 应用与交互",
+      "summary_zh": "组织模型、智能体、MCP 和技能，并将智能体接入团队聊天与并行任务工作区。",
+      "ai_task_use_zh": "把智能体放入已有团队沟通渠道，提供上下文、工具和协作入口来承接具体工作。",
+      "stars": 85694,
+      "stars_checked_at": "2026-11-17T13:42:27.776Z",
+      "metadata_url": "https://api.github.com/repos/lobehub/lobehub",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:39:15Z",
+        "url": "https://github.com/lobehub/lobehub/commit/88a905b8cf671ee4097db80bc988e153ad545448",
+        "summary": "调整设置中的套餐页宽度，让四张套餐卡完整排列。",
+        "sha": "88a905b8cf671ee4097db80bc988e153ad545448",
+        "upstream_title": "💄 style(settings): widen the Plans tab so four plan cards fit (#23242)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/lobehub/lobehub/canary/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 85,
+      "catalog_entry": {
+        "id": "lobehub",
+        "path": "docs/lobehub.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "open-webui/open-webui",
+      "repo_node_id": "R_kgDOKdDCcw",
+      "url": "https://github.com/open-webui/open-webui",
+      "name": "Open WebUI",
+      "category": "AI 应用与交互",
+      "summary_zh": "提供可自行部署的 AI 交互平台，连接 Ollama 和兼容 OpenAI 的本地或云端模型。",
+      "ai_task_use_zh": "为模型任务提供统一对话工作区，并可通过配套知识库和终端组件扩展检索与执行能力。",
+      "stars": 158914,
+      "stars_checked_at": "2026-11-17T13:40:55.212Z",
+      "metadata_url": "https://api.github.com/repos/open-webui/open-webui",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-08T23:48:12Z",
+        "url": "https://github.com/open-webui/open-webui/commit/b0e6098e940942281d9c83f3529ea117287a3a22",
+        "summary": "将开发分支的 PR 合并到主分支。",
+        "sha": "b0e6098e940942281d9c83f3529ea117287a3a22",
+        "upstream_title": "Merge pull request #33931 from open-webui/dev"
+      },
+      "readme_url": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 86,
+      "catalog_entry": {
+        "id": "open-webui",
+        "path": "docs/open-webui.md",
+        "category": "ai",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "pipecat-ai/pipecat",
+      "repo_node_id": "R_kgDOK-Kftw",
+      "url": "https://github.com/pipecat-ai/pipecat",
+      "name": "Pipecat",
+      "category": "AI 应用与交互",
+      "summary_zh": "用 Python 编排实时语音与多模态智能体，组合识别、模型、合成、传输和多智能体流程。",
+      "ai_task_use_zh": "把语音识别、工具调用和语音回复串成实时对话任务，并支持专家智能体交接或并行协作。",
+      "stars": 17304,
+      "stars_checked_at": "2026-11-17T13:40:54.720Z",
+      "metadata_url": "https://api.github.com/repos/pipecat-ai/pipecat",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-16T23:57:54Z",
+        "url": "https://github.com/pipecat-ai/pipecat/commit/6203e080683aaaaf49d4f801d75eb22526ee0a68",
+        "summary": "合并评估指标相关 PR。",
+        "sha": "6203e080683aaaaf49d4f801d75eb22526ee0a68",
+        "upstream_title": "Merge pull request #6835 from pipecat-ai/mb/evals-metrics"
+      },
+      "readme_url": "https://raw.githubusercontent.com/pipecat-ai/pipecat/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 87,
+      "catalog_entry": {
+        "id": "pipecat",
+        "path": "docs/pipecat.md",
+        "category": "development",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "Comfy-Org/ComfyUI",
+      "repo_node_id": "R_kgDOIygeJg",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "name": "ComfyUI",
+      "category": "图像、视频与 3D",
+      "summary_zh": "用节点工作流组合图像、视频、音频和 3D 内容生成，提供本地运行与 API 接入。",
+      "ai_task_use_zh": "让智能体通过 API 调用可复用的生成流程，将提示词和素材转为图像、视频或音频。",
+      "stars": 147306,
+      "stars_checked_at": "2026-11-17T13:40:54.750Z",
+      "metadata_url": "https://api.github.com/repos/Comfy-Org/ComfyUI",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T05:22:29Z",
+        "url": "https://github.com/Comfy-Org/ComfyUI/commit/ee34406f56f84f6bc89996b8b77a4bedec98a2b9",
+        "summary": "合并对前一个 PR 的清理提交。",
+        "sha": "ee34406f56f84f6bc89996b8b77a4bedec98a2b9",
+        "upstream_title": "Clean up previous PR. (#17790)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 88,
+      "catalog_entry": {
+        "id": "comfyui",
+        "path": "docs/comfyui.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "huggingface/diffusers",
+      "repo_node_id": "R_kgDOHa8MBQ",
+      "url": "https://github.com/huggingface/diffusers",
+      "name": "Diffusers",
+      "category": "图像、视频与 3D",
+      "summary_zh": "通过 Python 扩散模型管线、调度器和模型组件完成图像、视频及音频生成与训练。",
+      "ai_task_use_zh": "将预训练生成模型接入 AI 应用，用可组合的推理管线执行媒体生成和编辑任务。",
+      "stars": 34932,
+      "stars_checked_at": "2026-11-17T13:40:54.887Z",
+      "metadata_url": "https://api.github.com/repos/huggingface/diffusers",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T13:09:16Z",
+        "url": "https://github.com/huggingface/diffusers/commit/d9586a3dc62cce5091bdb7cff981d725f4a6dfe5",
+        "summary": "为 PAB 和 FasterCache 实现 cache_context。",
+        "sha": "d9586a3dc62cce5091bdb7cff981d725f4a6dfe5",
+        "upstream_title": "feat: implement cache_context for pab and fastercache. (#14900)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/huggingface/diffusers/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 89,
+      "catalog_entry": {
+        "id": "diffusers",
+        "path": "docs/diffusers.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "invoke-ai/InvokeAI",
+      "repo_node_id": "R_kgDOH1Ppow",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "name": "InvokeAI",
+      "category": "图像、视频与 3D",
+      "summary_zh": "以画布、局部重绘和节点工作流组织 AI 图像创作，并管理模型与生成素材。",
+      "ai_task_use_zh": "为图像生成模型提供可反复调整的创作流程，完成局部重绘、扩图和素材迭代。",
+      "stars": 29105,
+      "stars_checked_at": "2026-11-17T13:40:54.578Z",
+      "metadata_url": "https://api.github.com/repos/invoke-ai/InvokeAI",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T04:05:27Z",
+        "url": "https://github.com/invoke-ai/InvokeAI/commit/471bb0f4de2d09efcdfe5d4e0326c1c1ee593f87",
+        "summary": "优化 GGUF 文件探测的内存回收行为，并清理无效测试。",
+        "sha": "471bb0f4de2d09efcdfe5d4e0326c1c1ee593f87",
+        "upstream_title": "perf(model-manager): probe GGUF files without a full collection; drop dead tests (#10301)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 90,
+      "catalog_entry": {
+        "id": "invokeai",
+        "path": "docs/invokeai.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "KlingAIResearch/LivePortrait",
+      "repo_node_id": "R_kgDOMRlcpg",
+      "url": "https://github.com/KlingAIResearch/LivePortrait",
+      "name": "LivePortrait",
+      "category": "图像、视频与 3D",
+      "summary_zh": "用驱动视频或图像控制人像与动物肖像动画，提供姿态编辑和 Gradio 操作界面。",
+      "ai_task_use_zh": "把静态角色素材转成受控的人像动画，作为 AI 视频和虚拟角色制作的生成环节。",
+      "stars": 19513,
+      "stars_checked_at": "2026-11-17T13:42:27.707Z",
+      "metadata_url": "https://api.github.com/repos/KlingAIResearch/LivePortrait",
+      "activity": {
+        "type": "pr",
+        "date": "2026-10-23T21:00:33Z",
+        "url": "https://github.com/KlingAIResearch/LivePortrait/pull/577",
+        "summary": "新建 PR，建议以 float32 计算 channels_first LayerNorm 统计量；作为 PR 活动记录，不据此声称已合并。",
+        "upstream_title": "fix: compute channels_first LayerNorm statistics in float32"
+      },
+      "readme_url": "https://raw.githubusercontent.com/KlingAIResearch/LivePortrait/main/readme.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 91,
+      "catalog_entry": {
+        "id": "liveportrait",
+        "path": "docs/liveportrait.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "mcmonkeyprojects/SwarmUI",
+      "repo_node_id": "R_kgDOMMOABQ",
+      "url": "https://github.com/mcmonkeyprojects/SwarmUI",
+      "name": "SwarmUI",
+      "category": "图像、视频与 3D",
+      "summary_zh": "提供面向图像、视频和部分音频模型的生成界面，可使用 Comfy 工作流与批量参数工具。",
+      "ai_task_use_zh": "把生成模型、参数和工作流组织成可重复的媒体任务，支持编辑图像和比较批量生成结果。",
+      "stars": 4791,
+      "stars_checked_at": "2026-11-17T13:40:54.759Z",
+      "metadata_url": "https://api.github.com/repos/mcmonkeyprojects/SwarmUI",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-12T18:08:36Z",
+        "url": "https://github.com/mcmonkeyprojects/SwarmUI/commit/d347f3061ce9aa19e0d3950e5189415022de6659",
+        "summary": "移除 DirectML 引用。",
+        "sha": "d347f3061ce9aa19e0d3950e5189415022de6659",
+        "upstream_title": "scrap directml ref"
+      },
+      "readme_url": "https://raw.githubusercontent.com/mcmonkeyprojects/SwarmUI/master/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 92,
+      "catalog_entry": {
+        "id": "swarmui",
+        "path": "docs/swarmui.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "Tencent-Hunyuan/Hunyuan3D-2",
+      "repo_node_id": "R_kgDONtOTwg",
+      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+      "name": "Hunyuan3D 2",
+      "category": "图像、视频与 3D",
+      "summary_zh": "从图像生成 3D 形状与纹理，提供推理管线、示例和 Blender 插件。",
+      "ai_task_use_zh": "将 AI 创作中的参考图转成带纹理的 3D 资产，也可为已有网格生成纹理。",
+      "stars": 15461,
+      "stars_checked_at": "2026-11-17T13:42:27.670Z",
+      "metadata_url": "https://api.github.com/repos/Tencent-Hunyuan/Hunyuan3D-2",
+      "activity": {
+        "type": "pr",
+        "date": "2026-11-08T08:38:39Z",
+        "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/pull/385",
+        "summary": "新建 PR，建议修复层次解码中的整数截断；作为 PR 活动记录，不据此声称已合并。",
+        "upstream_title": "Fix integer truncation in hierarchical decoding"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 93,
+      "catalog_entry": {
+        "id": "hunyuan3d-2",
+        "path": "docs/hunyuan3d-2.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "fishaudio/fish-speech",
+      "repo_node_id": "R_kgDOKePR1A",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "name": "Fish Speech",
+      "category": "语音识别与合成",
+      "summary_zh": "提供语音生成的命令行、API 服务与网页界面，支持多角色、声音克隆和局部音频编辑。",
+      "ai_task_use_zh": "将 AI 编写的对话转为多角色音频，并根据文字反馈修改语气或局部台词。",
+      "stars": 33763,
+      "stars_checked_at": "2026-11-17T13:40:55.150Z",
+      "metadata_url": "https://api.github.com/repos/fishaudio/fish-speech",
+      "activity": {
+        "type": "commit",
+        "date": "2026-10-29T17:05:07Z",
+        "url": "https://github.com/fishaudio/fish-speech/commit/0f8a12e8a651062fdee9c33a894bdccd3a8513f1",
+        "summary": "提交 Drama 3 的小幅更新。",
+        "sha": "0f8a12e8a651062fdee9c33a894bdccd3a8513f1",
+        "upstream_title": "drama-3 small updates (#1368)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/fishaudio/fish-speech/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 94,
+      "catalog_entry": {
+        "id": "fish-speech",
+        "path": "docs/fish-speech.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "m-bain/whisperX",
+      "repo_node_id": "R_kgDOIlaj4w",
+      "url": "https://github.com/m-bain/whisperX",
+      "name": "WhisperX",
+      "category": "语音识别与合成",
+      "summary_zh": "组合语音识别、音素对齐和说话人区分，生成带词级时间戳的转写结果。",
+      "ai_task_use_zh": "为 AI 字幕、会议总结和音视频检索提供带时间轴与说话人信息的文本。",
+      "stars": 25403,
+      "stars_checked_at": "2026-11-17T13:40:55.134Z",
+      "metadata_url": "https://api.github.com/repos/m-bain/whisperX",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-12T17:34:05Z",
+        "url": "https://github.com/m-bain/whisperX/commit/b904f02b7e1f26fd10fb04840d655ff27e88e464",
+        "summary": "合并 Ascend NPU 设备支持的 PR。",
+        "sha": "b904f02b7e1f26fd10fb04840d655ff27e88e464",
+        "upstream_title": "Merge pull request #1483 from li-lizhe/ascend-npu-device"
+      },
+      "readme_url": "https://raw.githubusercontent.com/m-bain/whisperX/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 95,
+      "catalog_entry": {
+        "id": "whisperx",
+        "path": "docs/whisperx.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "modelscope/FunASR",
+      "repo_node_id": "R_kgDOIfjisw",
+      "url": "https://github.com/modelscope/FunASR",
+      "name": "FunASR",
+      "category": "语音识别与合成",
+      "summary_zh": "提供离线与流式语音识别、语音检测、标点和说话人处理，支持 API 与 MCP 服务。",
+      "ai_task_use_zh": "将音频转为智能体可处理的文字，并通过兼容接口把转写能力接入助手和自动化流程。",
+      "stars": 21058,
+      "stars_checked_at": "2026-11-17T13:40:55.251Z",
+      "metadata_url": "https://api.github.com/repos/modelscope/FunASR",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-17T05:33:29Z",
+        "url": "https://github.com/modelscope/FunASR/commit/e227484d98ca90aa829a0ae180731c9ee2e87e77",
+        "summary": "提交 FunASR 1.4.27 发行更新。",
+        "sha": "e227484d98ca90aa829a0ae180731c9ee2e87e77",
+        "upstream_title": "Release FunASR 1.4.27 (#3916)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/modelscope/FunASR/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 96,
+      "catalog_entry": {
+        "id": "funasr",
+        "path": "docs/funasr.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "QwenAudio/CosyVoice",
+      "repo_node_id": "R_kgDOMRSMsg",
+      "url": "https://github.com/QwenAudio/CosyVoice",
+      "name": "CosyVoice",
+      "category": "语音识别与合成",
+      "summary_zh": "提供多语言语音合成、声音克隆和流式推理，支持语速、情绪与发音控制。",
+      "ai_task_use_zh": "把智能体生成的文本转成连续语音，或按参考音频和指令生成配音。",
+      "stars": 24432,
+      "stars_checked_at": "2026-11-17T13:42:27.671Z",
+      "metadata_url": "https://api.github.com/repos/QwenAudio/CosyVoice",
+      "activity": {
+        "type": "issue",
+        "date": "2026-11-03T15:43:42Z",
+        "url": "https://github.com/QwenAudio/CosyVoice/issues/1964",
+        "summary": "新建 Fun-CosyVoice3 使用条款澄清 issue；作为 issue 活动记录，不代表代码修复或许可判定。",
+        "upstream_title": "Title: Request for clarification on commercial use of Fun-CosyVoice3-0.5B-2512"
+      },
+      "readme_url": "https://raw.githubusercontent.com/QwenAudio/CosyVoice/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 97,
+      "catalog_entry": {
+        "id": "cosyvoice",
+        "path": "docs/cosyvoice.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "RVC-Boss/GPT-SoVITS",
+      "repo_node_id": "R_kgDOLEzKcw",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "name": "GPT-SoVITS",
+      "category": "语音识别与合成",
+      "summary_zh": "使用参考语音完成语音合成和微调。提供数据准备工具，例如切分、识别和标注。",
+      "ai_task_use_zh": "让 AI 文本生成流程输出指定音色的多语言配音，同时辅助准备语音训练数据。",
+      "stars": 65251,
+      "stars_checked_at": "2026-11-17T13:40:54.737Z",
+      "metadata_url": "https://api.github.com/repos/RVC-Boss/GPT-SoVITS",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-11T16:26:17Z",
+        "url": "https://github.com/RVC-Boss/GPT-SoVITS/commit/6d51ffceafbf240145619af4c92408a6e54b7924",
+        "summary": "更新 ASR 配置、Faster Whisper、FunASR 和 WebUI。",
+        "sha": "6d51ffceafbf240145619af4c92408a6e54b7924",
+        "upstream_title": "Update ASR configuration, Faster Whisper, FunASR and WebUI from update_asr package"
+      },
+      "readme_url": "https://raw.githubusercontent.com/RVC-Boss/GPT-SoVITS/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 98,
+      "catalog_entry": {
+        "id": "gpt-sovits",
+        "path": "docs/gpt-sovits.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "SWivid/F5-TTS",
+      "repo_node_id": "R_kgDOM9RF8g",
+      "url": "https://github.com/SWivid/F5-TTS",
+      "name": "F5-TTS",
+      "category": "语音识别与合成",
+      "summary_zh": "提供语音合成与微调工具，包含 CLI 和 Gradio 界面，支持分段及多风格、多说话人生成。",
+      "ai_task_use_zh": "将生成文本与参考音频组合为配音，支持 AI 故事、角色对话及语音交互流程。",
+      "stars": 15607,
+      "stars_checked_at": "2026-11-17T13:40:55.401Z",
+      "metadata_url": "https://api.github.com/repos/SWivid/F5-TTS",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-03T15:05:09Z",
+        "url": "https://github.com/SWivid/F5-TTS/commit/600e5fdfbf319f84735557aca80a7aaf60d487e6",
+        "summary": "修复 torch、torchaudio 与 torchcodec 不兼容问题。",
+        "sha": "600e5fdfbf319f84735557aca80a7aaf60d487e6",
+        "upstream_title": "Fix #1342 incompatible torch torchaudio torchcodec, thanks to @algmironov"
+      },
+      "readme_url": "https://raw.githubusercontent.com/SWivid/F5-TTS/main/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 99,
+      "catalog_entry": {
+        "id": "f5-tts",
+        "path": "docs/f5-tts.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    },
+    {
+      "repository": "SYSTRAN/faster-whisper",
+      "repo_node_id": "R_kgDOI8jj-Q",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "name": "faster-whisper",
+      "category": "语音识别与合成",
+      "summary_zh": "以 CTranslate2 运行 Whisper 转写，支持批量推理及 CPU、GPU 量化。",
+      "ai_task_use_zh": "把会议、录音或视频音轨转成文字，为语言模型提供可总结、检索和分析的输入。",
+      "stars": 26822,
+      "stars_checked_at": "2026-11-17T13:40:54.777Z",
+      "metadata_url": "https://api.github.com/repos/SYSTRAN/faster-whisper",
+      "activity": {
+        "type": "commit",
+        "date": "2026-11-12T09:05:55Z",
+        "url": "https://github.com/SYSTRAN/faster-whisper/commit/6cb639e70786aea42b9233006ae60eaf07190bdb",
+        "summary": "调整批量转写，使未启用 VAD 时接受一个完整窗口。",
+        "sha": "6cb639e70786aea42b9233006ae60eaf07190bdb",
+        "upstream_title": "Accept one full window in batched transcription without VAD (#1701)"
+      },
+      "readme_url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md",
+      "checked_at": "2026-11-17T13:45:09.127Z",
+      "selection_basis": "total_stars",
+      "number": 100,
+      "catalog_entry": {
+        "id": "faster-whisper",
+        "path": "docs/faster-whisper.md",
+        "category": "media",
+        "status": "eligible"
+      }
+    }
+  ],
+  "integration": {
+    "status": "included",
+    "integrated_at": "2026-11-17T14:28:04.908178Z",
+    "entries": 100,
+    "catalog_total": 375
+  }
+}

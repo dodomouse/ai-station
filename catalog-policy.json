@@ -1,0 +1,1668 @@
+{
+  "schema_version": 1,
+  "policy_id": "ai-activity-stars-2026-11-17",
+  "activity_months": 3,
+  "min_stars": 1000,
+  "star_growth_months": 1,
+  "min_star_growth": 500,
+  "license_required": false,
+  "ai_task_relevance_required": true,
+  "transition": {
+    "applied_at": "2026-11-17T13:33:30.547820+00:00",
+    "reason": "User requested retaining all existing entries and promoting every candidate; these identities are not represented as re-evaluated under the new criteria.",
+    "new_entries_must_meet_current_policy": true,
+    "reevaluation_requires_current_policy": true
+  },
+  "legacy_admissions": [
+    {
+      "id": "1panel",
+      "repository": "1Panel-dev/1Panel",
+      "repo_node_id": "R_kgDOHrwnHA",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "2010-rust-rewrite-mashup",
+      "repository": "chasmlol/2010-rust-rewrite-mashup",
+      "repo_node_id": "R_kgDOUvC1gg",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "3d-model-anything",
+      "repository": "wesbos/3d-model-anything",
+      "repo_node_id": "R_kgDOVSqAyw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "abyssal-garden",
+      "repository": "Noniv/abyssal-garden",
+      "repo_node_id": "R_kgDOVr8_yw",
+      "baseline_evaluated_at": "2026-11-16T14:30:19.931551Z"
+    },
+    {
+      "id": "aerial-tv",
+      "repository": "pengchujin/aerial-tv",
+      "repo_node_id": "R_kgDOVQrvmA",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "agency-agents",
+      "repository": "msitarzewski/agency-agents",
+      "repo_node_id": "R_kgDOQBjiAQ",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.953119+00:00"
+    },
+    {
+      "id": "agent-autoloop",
+      "repository": "KKKKhazix/agent-autoloop",
+      "repo_node_id": "R_kgDOVhF2rg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "agent-beacon",
+      "repository": "Asymptote-Labs/agent-beacon",
+      "repo_node_id": "R_kgDOSa6n_g",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.964448+00:00"
+    },
+    {
+      "id": "agent-browser",
+      "repository": "vercel-labs/agent-browser",
+      "repo_node_id": "R_kgDOQ3j5Tg",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.953819+00:00"
+    },
+    {
+      "id": "agent-desktop",
+      "repository": "vercel-labs/agent-desktop",
+      "repo_node_id": "R_kgDORUIU8w",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.945382+00:00"
+    },
+    {
+      "id": "agent-reach",
+      "repository": "Panniantong/Agent-Reach",
+      "repo_node_id": "R_kgDORXS4VA",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "agentes-chat",
+      "repository": "agentes-chat/agentes-chat",
+      "repo_node_id": "R_kgDOVnleRw",
+      "baseline_evaluated_at": "2026-11-16T14:30:19.931551Z"
+    },
+    {
+      "id": "ai-agent-book",
+      "repository": "bojieli/ai-agent-book",
+      "repo_node_id": "R_kgDOPsVO8g",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "ai-berkshire",
+      "repository": "xbtlin/ai-berkshire",
+      "repo_node_id": "R_kgDOR8AxgA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "ai-infra-book",
+      "repository": "bojieli/ai-infra-book",
+      "repo_node_id": "R_kgDOUAuQJg",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "ai-memory",
+      "repository": "akitaonrails/ai-memory",
+      "repo_node_id": "R_kgDOSka2Jw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "ai-website-cloner-template",
+      "repository": "JCodesMore/ai-website-cloner-template",
+      "repo_node_id": "R_kgDORmDA6Q",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "aircursor",
+      "repository": "m-afham/AirCursor",
+      "repo_node_id": "R_kgDOVjSCdQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.444Z"
+    },
+    {
+      "id": "airllm",
+      "repository": "lyogavin/airllm",
+      "repo_node_id": "R_kgDOJueYYw",
+      "baseline_evaluated_at": "2026-11-17T03:59:14.752762+00:00"
+    },
+    {
+      "id": "alirezarezvani-claude-skills",
+      "repository": "alirezarezvani/claude-skills",
+      "repo_node_id": "R_kgDOQFGGXQ",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.883381+00:00"
+    },
+    {
+      "id": "anatomy",
+      "repository": "wheresryan22/anatomy",
+      "repo_node_id": "R_kgDOVAzMMQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "anidoodle",
+      "repository": "alexgreensh/anidoodle",
+      "repo_node_id": "R_kgDOUlXTIA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "animate",
+      "repository": "cth9191/animate",
+      "repo_node_id": "R_kgDOU6tADA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "animated-resume-claude-skill",
+      "repository": "dooa-ansari/animated-resume-claude-skill",
+      "repo_node_id": "R_kgDOVGZYKw",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.892652+00:00"
+    },
+    {
+      "id": "anki",
+      "repository": "ankitects/anki",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk3MjcwNTM4",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.615Z"
+    },
+    {
+      "id": "answer-me-with-html",
+      "repository": "QingYunA/answer-me-with-html",
+      "repo_node_id": "R_kgDOU4jVlA",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.877612+00:00"
+    },
+    {
+      "id": "anthropic-sandbox-runtime",
+      "repository": "anthropics/sandbox-runtime",
+      "repo_node_id": "R_kgDOQFjJqA",
+      "baseline_evaluated_at": "2026-11-17T04:00:03.484710+00:00"
+    },
+    {
+      "id": "anthropic-skills",
+      "repository": "anthropics/skills",
+      "repo_node_id": "R_kgDOP0wfhg",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.887249+00:00"
+    },
+    {
+      "id": "anyps5",
+      "repository": "boykopovar/AnyPS5",
+      "repo_node_id": "R_kgDOTs_xqg",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "archify",
+      "repository": "tt-a1i/archify",
+      "repo_node_id": "R_kgDOSDCHbQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "arnis",
+      "repository": "louis-e/arnis",
+      "repo_node_id": "R_kgDOH-ObJw",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.516Z"
+    },
+    {
+      "id": "artcraft",
+      "repository": "storytold/artcraft",
+      "repo_node_id": "R_kgDOHGbvPA",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "ascii",
+      "repository": "bas3line/ascii",
+      "repo_node_id": "R_kgDOU_IMGw",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "astrbot",
+      "repository": "AstrBotDevs/AstrBot",
+      "repo_node_id": "R_kgDOIlMBmA",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.958040+00:00"
+    },
+    {
+      "id": "awesome-design-md",
+      "repository": "VoltAgent/awesome-design-md",
+      "repo_node_id": "R_kgDOR2Chew",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "bang-motion",
+      "repository": "bangtutorial/bang-motion",
+      "repo_node_id": "R_kgDOUPn_DA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "best-skills",
+      "repository": "xstongxue/best-skills",
+      "repo_node_id": "R_kgDORe4mMg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "bettafish",
+      "repository": "666ghj/BettaFish",
+      "repo_node_id": "R_kgDOMQfyrg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "call-notes-to-actions-skill",
+      "repository": "FairdraftStudio/call-notes-to-actions-skill",
+      "repo_node_id": "R_kgDOUWo7PQ",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.885244+00:00"
+    },
+    {
+      "id": "cc-connect",
+      "repository": "chenhg5/cc-connect",
+      "repo_node_id": "R_kgDORa0x3w",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "ccbaga",
+      "repository": "liseami/CCBaga",
+      "repo_node_id": "R_kgDOVEZgvw",
+      "baseline_evaluated_at": "2026-11-16T14:34:39.764Z"
+    },
+    {
+      "id": "chinese-independent-developer",
+      "repository": "1c7/chinese-independent-developer",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxMDQzMzc3NzM=",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "cicada",
+      "repository": "wquguru/cicada",
+      "repo_node_id": "R_kgDOVeveRQ",
+      "baseline_evaluated_at": "2026-11-16T14:21:24.299979Z"
+    },
+    {
+      "id": "cinecode",
+      "repository": "sarpstar/cinecode",
+      "repo_node_id": "R_kgDOVhNo0Q",
+      "baseline_evaluated_at": "2026-11-16T14:21:24.299979Z"
+    },
+    {
+      "id": "clash-verge-rev",
+      "repository": "clash-verge-rev/clash-verge-rev",
+      "repo_node_id": "R_kgDOKwVKzA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "clash",
+      "repository": "clashbk/clash",
+      "repo_node_id": "R_kgDOPt2pCg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "claude-animated-shorts",
+      "repository": "mromidev/claude-animated-shorts",
+      "repo_node_id": "R_kgDOVevxrA",
+      "baseline_evaluated_at": "2026-11-16T14:21:24.299979Z"
+    },
+    {
+      "id": "claude-cage",
+      "repository": "Lee-xeo/Claude-Cage",
+      "repo_node_id": "R_kgDOVeN7AA",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.872784+00:00"
+    },
+    {
+      "id": "claude-code-game-studios",
+      "repository": "Donchitos/Claude-Code-Game-Studios",
+      "repo_node_id": "R_kgDOROahWg",
+      "baseline_evaluated_at": "2026-11-16T14:24:08.700270Z"
+    },
+    {
+      "id": "claude-code-templates",
+      "repository": "davila7/claude-code-templates",
+      "repo_node_id": "R_kgDOPGh7XA",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.884334+00:00"
+    },
+    {
+      "id": "claude-mem",
+      "repository": "thedotmack/claude-mem",
+      "repo_node_id": "R_kgDOPng1Jw",
+      "baseline_evaluated_at": "2026-11-16T14:32:13.743Z"
+    },
+    {
+      "id": "claude-plugins-community",
+      "repository": "anthropics/claude-plugins-community",
+      "repo_node_id": "R_kgDORr03Lg",
+      "baseline_evaluated_at": "2026-11-16T15:06:51.866Z"
+    },
+    {
+      "id": "claude-plugins-official",
+      "repository": "anthropics/claude-plugins-official",
+      "repo_node_id": "R_kgDOQZyFQA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "claude-powerpoint-skill",
+      "repository": "PeterKalmstrom/claude-powerpoint-skill",
+      "repo_node_id": "R_kgDOSaI1cA",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.888356+00:00"
+    },
+    {
+      "id": "claude-red",
+      "repository": "SnailSploit/Claude-Red",
+      "repo_node_id": "R_kgDORd96qw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "claude-seo",
+      "repository": "AgriciDaniel/claude-seo",
+      "repo_node_id": "R_kgDORKpZAg",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.951649+00:00"
+    },
+    {
+      "id": "claudeanimationbase",
+      "repository": "JohnHeibel/ClaudeAnimationBase",
+      "repo_node_id": "R_kgDOUoCYTw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "cleanyourtv",
+      "repository": "Gathin23/cleanyourtv",
+      "repo_node_id": "R_kgDOVNLNMw",
+      "baseline_evaluated_at": "2026-11-16T14:32:13.862Z"
+    },
+    {
+      "id": "cli-anything",
+      "repository": "HKUDS/CLI-Anything",
+      "repo_node_id": "R_kgDORhiEjA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "cn-math-taxonomy",
+      "repository": "xiaoyang111222/cn-math-taxonomy",
+      "repo_node_id": "R_kgDOVONPVA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "code-graph-rag",
+      "repository": "vitali87/code-graph-rag",
+      "repo_node_id": "R_kgDOO8k4_w",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.875414+00:00"
+    },
+    {
+      "id": "code-review-graph",
+      "repository": "tirth8205/code-review-graph",
+      "repo_node_id": "R_kgDORZsJNQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "codex-chatgpt-web",
+      "repository": "miuuyy/codex-chatgpt-web",
+      "repo_node_id": "R_kgDOTj_alw",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.565Z"
+    },
+    {
+      "id": "codex-with-chatgpt",
+      "repository": "XiaoDuoYa/codex-with-chatgpt",
+      "repo_node_id": "R_kgDOUHFJRw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "colamd",
+      "repository": "marswaveai/ColaMD",
+      "repo_node_id": "R_kgDORzjgdQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "colibri",
+      "repository": "JustVugg/colibri",
+      "repo_node_id": "R_kgDOTKgHjQ",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.952522+00:00"
+    },
+    {
+      "id": "copilotkit-openbot",
+      "repository": "CopilotKit/OpenBot",
+      "repo_node_id": "R_kgDOT6ln0w",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.956750+00:00"
+    },
+    {
+      "id": "cordis",
+      "repository": "cordiverse/cordis",
+      "repo_node_id": "R_kgDOHWhUTA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "craft-anything",
+      "repository": "storytold/craft-anything",
+      "repo_node_id": "R_kgDOVeM_1A",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "cua-mit-components",
+      "repository": "trycua/cua",
+      "repo_node_id": "R_kgDONyaAvQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "cybersecurity-projects",
+      "repository": "CarterPerez-dev/Cybersecurity-Projects",
+      "repo_node_id": "R_kgDOQRgy4w",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.894839+00:00"
+    },
+    {
+      "id": "deepinfer",
+      "repository": "deepseek-ai/DeepInfer",
+      "repo_node_id": "R_kgDOVL9UxQ",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "deepseek-chat-demo",
+      "repository": "deepseek-ai/chat-demo",
+      "repo_node_id": "R_kgDOVrmjdg",
+      "baseline_evaluated_at": "2026-11-16T14:30:19.931551Z"
+    },
+    {
+      "id": "deeptutor",
+      "repository": "HKUDS/DeepTutor",
+      "repo_node_id": "R_kgDOQwI8Aw",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.948814+00:00"
+    },
+    {
+      "id": "deskworlds",
+      "repository": "chaseleantj/deskworlds",
+      "repo_node_id": "R_kgDOUf3pQg",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.494Z"
+    },
+    {
+      "id": "diagram-design",
+      "repository": "cathrynlavery/diagram-design",
+      "repo_node_id": "R_kgDOSEljpA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "digital-employee-pack",
+      "repository": "Hahaknight/digital-employee-pack",
+      "repo_node_id": "R_kgDOUGtxWw",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.889905+00:00"
+    },
+    {
+      "id": "dsh-desktop",
+      "repository": "dataelement/dsh-desktop",
+      "repo_node_id": "R_kgDOT3Z-Mw",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "dsh-superagent-prototype",
+      "repository": "deepseek-ai/dsh-superagent-prototype",
+      "repo_node_id": "R_kgDOVd9sjw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "easyquotation",
+      "repository": "shidenggui/easyquotation",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk0ODQ4ODQzMA==",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "ecc",
+      "repository": "affaan-m/ECC",
+      "repo_node_id": "R_kgDOQ77-1A",
+      "baseline_evaluated_at": "2026-11-16T14:32:13.687Z"
+    },
+    {
+      "id": "echo-loop",
+      "repository": "echo-loop/Echo-Loop",
+      "repo_node_id": "R_kgDOSWroNQ",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "ego-lite",
+      "repository": "citrolabs/ego-lite",
+      "repo_node_id": "R_kgDOSEVU0g",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.957469+00:00"
+    },
+    {
+      "id": "esp32-iphone-agent",
+      "repository": "onehumanbeing/esp32-iphone-agent",
+      "repo_node_id": "R_kgDOVFJing",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "expo-skills",
+      "repository": "expo/skills",
+      "repo_node_id": "R_kgDOQfkh9A",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.966540+00:00"
+    },
+    {
+      "id": "filee",
+      "repository": "KnifeLemon/Filee",
+      "repo_node_id": "R_kgDOUz1Obg",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.873739+00:00"
+    },
+    {
+      "id": "financial-services",
+      "repository": "anthropics/financial-services",
+      "repo_node_id": "R_kgDORXFZgQ",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.248Z"
+    },
+    {
+      "id": "flutter",
+      "repository": "flutter/flutter",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkzMTc5MjgyNA==",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "freebie-radar",
+      "repository": "ZiChuanLan/freebie-radar",
+      "repo_node_id": "R_kgDOVrqNtQ",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.876287+00:00"
+    },
+    {
+      "id": "freellmapi",
+      "repository": "tashfeenahmed/freellmapi",
+      "repo_node_id": "R_kgDOSIqPOQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "freetoken",
+      "repository": "FlashML-org/FreeToken",
+      "repo_node_id": "R_kgDOTedDYg",
+      "baseline_evaluated_at": "2026-11-16T14:24:08.700270Z"
+    },
+    {
+      "id": "garden-skills",
+      "repository": "ConardLi/garden-skills",
+      "repo_node_id": "R_kgDOSIk_Sw",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.962114+00:00"
+    },
+    {
+      "id": "gathered-scenes-zine-skill",
+      "repository": "Zeejay0/gathered-scenes-zine-skill",
+      "repo_node_id": "R_kgDOTqS-ZA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "gemini-cli",
+      "repository": "google-gemini/gemini-cli",
+      "repo_node_id": "R_kgDOObWEYA",
+      "baseline_evaluated_at": "2026-11-17T04:00:03.483009+00:00"
+    },
+    {
+      "id": "genoffice",
+      "repository": "genspark-ai/genoffice",
+      "repo_node_id": "R_kgDOTpHwCA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "geo-sleuth",
+      "repository": "Oldcircle/geo-sleuth",
+      "repo_node_id": "R_kgDOUf44tQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "ghidra",
+      "repository": "NationalSecurityAgency/ghidra",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxNzMyMjg0MzY=",
+      "baseline_evaluated_at": "2026-11-16T14:32:13.622Z"
+    },
+    {
+      "id": "ghostty",
+      "repository": "ghostty-org/ghostty",
+      "repo_node_id": "R_kgDOHFhdAg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "gif-factory",
+      "repository": "WoYun520/gif-factory",
+      "repo_node_id": "R_kgDOVjgRrQ",
+      "baseline_evaluated_at": "2026-11-16T14:21:24.299979Z"
+    },
+    {
+      "id": "godogen",
+      "repository": "htdt/godogen",
+      "repo_node_id": "R_kgDORKUN8g",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "gods-eye-view",
+      "repository": "bilawalsidhu/gods-eye-view",
+      "repo_node_id": "R_kgDOTCSrMw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "google-ax",
+      "repository": "google/ax",
+      "repo_node_id": "R_kgDOR1BXBQ",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "goutoujunshi",
+      "repository": "shengjidaguai-china/goutoujunshi",
+      "repo_node_id": "R_kgDOTeMCBg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "gpui-kit",
+      "repository": "longbridge/gpui-kit",
+      "repo_node_id": "R_kgDOMI8ZRg",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "graphify",
+      "repository": "Graphify-Labs/graphify",
+      "repo_node_id": "R_kgDOR4-pDw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "gtm-skill",
+      "repository": "prosyo-ai/gtm-skill",
+      "repo_node_id": "R_kgDOVT8RUg",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.891612+00:00"
+    },
+    {
+      "id": "guizang-ppt-skill",
+      "repository": "op7418/guizang-ppt-skill",
+      "repo_node_id": "R_kgDOSKkbmA",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.879399+00:00"
+    },
+    {
+      "id": "hallmark",
+      "repository": "Nutlope/hallmark",
+      "repo_node_id": "R_kgDOSOQ9xw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "handy",
+      "repository": "cjpais/Handy",
+      "repo_node_id": "R_kgDON4t-Ng",
+      "baseline_evaluated_at": "2026-11-16T14:24:08.700270Z"
+    },
+    {
+      "id": "henge",
+      "repository": "Leviidev/Henge",
+      "repo_node_id": "R_kgDOVfjofA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "heretic",
+      "repository": "p-e-w/heretic",
+      "repo_node_id": "R_kgDOPz41qA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "hex",
+      "repository": "anomalyco/hex",
+      "repo_node_id": "R_kgDOTcCg9w",
+      "baseline_evaluated_at": "2026-11-16T14:24:08.700270Z"
+    },
+    {
+      "id": "heytea-style",
+      "repository": "Hchen1218/heytea-style",
+      "repo_node_id": "R_kgDOTLihvg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "hindsight",
+      "repository": "vectorize-io/hindsight",
+      "repo_node_id": "R_kgDOQMFwdQ",
+      "baseline_evaluated_at": "2026-11-16T14:34:40.048Z"
+    },
+    {
+      "id": "holo-card-studio",
+      "repository": "EverettFish/holo-card-studio",
+      "repo_node_id": "R_kgDOUQoDJQ",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.468Z"
+    },
+    {
+      "id": "holyarrs",
+      "repository": "HolyArrs/HolyArrs",
+      "repo_node_id": "R_kgDOVovjIg",
+      "baseline_evaluated_at": "2026-11-16T14:30:19.931551Z"
+    },
+    {
+      "id": "horizon",
+      "repository": "Thysrael/Horizon",
+      "repo_node_id": "R_kgDORUj52g",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "howtocook",
+      "repository": "Anduin2017/HowToCook",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyNDM5NTA0MDg=",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "howtogetalong",
+      "repository": "kkk-bot/HowToGetAlong",
+      "repo_node_id": "R_kgDOU42ARg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "howtolivebetter",
+      "repository": "eternity4719/HowToLiveBetter",
+      "repo_node_id": "R_kgDOUQqY2Q",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "howtolivelonger",
+      "repository": "geekan/HowToLiveLonger",
+      "repo_node_id": "R_kgDOHL0RdA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "huashu-art-motion",
+      "repository": "alchaincyf/huashu-art-motion",
+      "repo_node_id": "R_kgDOU9iibA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "huashu-design",
+      "repository": "alchaincyf/huashu-design",
+      "repo_node_id": "R_kgDOSG2mmQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "human-atlas",
+      "repository": "ashemag/human-atlas",
+      "repo_node_id": "R_kgDOUOzYpA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "hyperframes",
+      "repository": "heygen-com/hyperframes",
+      "repo_node_id": "R_kgDORi26-Q",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "i-have-adhd",
+      "repository": "ayghri/i-have-adhd",
+      "repo_node_id": "R_kgDOScw2eQ",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "ian-xiaohei-illustrations",
+      "repository": "helloianneo/ian-xiaohei-illustrations",
+      "repo_node_id": "R_kgDOSpyU9Q",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "impeccable",
+      "repository": "pbakaus/impeccable",
+      "repo_node_id": "R_kgDOQWgufQ",
+      "baseline_evaluated_at": "2026-11-16T14:32:13.558Z"
+    },
+    {
+      "id": "investing-for-beginners",
+      "repository": "xuchonglang/investing-for-beginners",
+      "repo_node_id": "R_kgDOTML2jA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "ipatool",
+      "repository": "majd/ipatool",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkzNjk3NTU4NTY=",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "islandcn",
+      "repository": "opencoredev/islandcn",
+      "repo_node_id": "R_kgDOVtD-og",
+      "baseline_evaluated_at": "2026-11-16T14:30:19.931551Z"
+    },
+    {
+      "id": "jadx",
+      "repository": "skylot/jadx",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk4ODU5NDc0",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "jev-chat-jarvis",
+      "repository": "jev-chat/jev-chat-jarvis",
+      "repo_node_id": "R_kgDOUjqjyA",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "joplin",
+      "repository": "laurent22/joplin",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk3OTE2MjY4Mg==",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.392Z"
+    },
+    {
+      "id": "jumpserver",
+      "repository": "jumpserver/jumpserver",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyMTQ4NDc4MQ==",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "kiss-translator",
+      "repository": "fishjar/kiss-translator",
+      "repo_node_id": "R_kgDOJ8zHyg",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.869942+00:00"
+    },
+    {
+      "id": "knowledge-work-plugins",
+      "repository": "anthropics/knowledge-work-plugins",
+      "repo_node_id": "R_kgDOQ_-q4g",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "lasrecomp",
+      "repository": "peiikai/LASRecomp",
+      "repo_node_id": "R_kgDOVBqNYQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "laya-mlx",
+      "repository": "mizorewww/laya-mlx",
+      "repo_node_id": "R_kgDOUhaUgA",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.417Z"
+    },
+    {
+      "id": "laya",
+      "repository": "NandhaKishorM/laya",
+      "repo_node_id": "R_kgDOUfqq7Q",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "lemo-opuscar",
+      "repository": "lemomo-ai/lemo-opuscar",
+      "repo_node_id": "R_kgDOUsqjIA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "lightpanda",
+      "repository": "lightpanda-io/browser",
+      "repo_node_id": "R_kgDOI67vwg",
+      "baseline_evaluated_at": "2026-11-16T14:24:08.700270Z"
+    },
+    {
+      "id": "llama-cpp",
+      "repository": "ggml-org/llama.cpp",
+      "repo_node_id": "R_kgDOJH_K4A",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.960167+00:00"
+    },
+    {
+      "id": "llmfit",
+      "repository": "AlexsJones/llmfit",
+      "repo_node_id": "R_kgDORQ6nQA",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "mac-duo",
+      "repository": "sumimakito/Mac-Duo",
+      "repo_node_id": "R_kgDOUViyVQ",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "macnativegames",
+      "repository": "ly05010419/MacNativeGames",
+      "repo_node_id": "R_kgDOVNvIig",
+      "baseline_evaluated_at": "2026-11-16T14:34:39.666Z"
+    },
+    {
+      "id": "magpie",
+      "repository": "yetone/magpie",
+      "repo_node_id": "R_kgDOUns_9A",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "many-ppt-skills",
+      "repository": "brycewang-stanford/many-ppt-skills",
+      "repo_node_id": "R_kgDOTmBScw",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.881310+00:00"
+    },
+    {
+      "id": "marketingskills",
+      "repository": "coreyhaines31/marketingskills",
+      "repo_node_id": "R_kgDOQ6n2Jw",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.886126+00:00"
+    },
+    {
+      "id": "marktext",
+      "repository": "marktext/marktext",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxMTA0NDY4NDQ=",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "mcp-for-blender",
+      "repository": "ahujasid/mcp-for-blender",
+      "repo_node_id": "R_kgDOOEqgHw",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "mg-styles-15",
+      "repository": "Vincentwei1021/mg-styles-15",
+      "repo_node_id": "R_kgDOU4ibMw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "miaoyan",
+      "repository": "tw93/MiaoYan",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyNTM0NjEyMzM=",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "micrograd",
+      "repository": "karpathy/micrograd",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkyNTUyMzEyOTM=",
+      "baseline_evaluated_at": "2026-11-17T04:00:03.487232+00:00"
+    },
+    {
+      "id": "minimax-skills",
+      "repository": "MiniMax-AI/skills",
+      "repo_node_id": "R_kgDORpLePg",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.880337+00:00"
+    },
+    {
+      "id": "minimind",
+      "repository": "jingyaogong/minimind",
+      "repo_node_id": "R_kgDOMbt5gA",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.739Z"
+    },
+    {
+      "id": "mirofish",
+      "repository": "666ghj/MiroFish",
+      "repo_node_id": "R_kgDOQdLIuw",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.955887+00:00"
+    },
+    {
+      "id": "mobile-mcp",
+      "repository": "mobile-next/mobile-mcp",
+      "repo_node_id": "R_kgDOOQVw5Q",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "moli",
+      "repository": "lexmount/moli",
+      "repo_node_id": "R_kgDOT0PjyQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "moneyprinterturbo",
+      "repository": "harry0703/MoneyPrinterTurbo",
+      "repo_node_id": "R_kgDOLeediw",
+      "baseline_evaluated_at": "2026-11-17T03:59:03.771151+00:00"
+    },
+    {
+      "id": "mygo-music",
+      "repository": "egoist/mygo-music",
+      "repo_node_id": "R_kgDOViuR6A",
+      "baseline_evaluated_at": "2026-11-16T14:21:24.299979Z"
+    },
+    {
+      "id": "netdata",
+      "repository": "netdata/netdata",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxMDc0NDE4Mw==",
+      "baseline_evaluated_at": "2026-11-16T14:29:18.179Z"
+    },
+    {
+      "id": "nextpad-plus-plus-macos",
+      "repository": "nextpad-plus-plus/nextpad-plus-plus-macos",
+      "repo_node_id": "R_kgDORnzOWQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "nxnative",
+      "repository": "seedds/nxnative",
+      "repo_node_id": "R_kgDOVG4bQg",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "obscura",
+      "repository": "h4ckf0r0day/obscura",
+      "repo_node_id": "R_kgDOSBUdsQ",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.870826+00:00"
+    },
+    {
+      "id": "octop",
+      "repository": "TencentCloud/Octop",
+      "repo_node_id": "R_kgDOTRrGxQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "ollama",
+      "repository": "ollama/ollama",
+      "repo_node_id": "R_kgDOJ0Z1Pg",
+      "baseline_evaluated_at": "2026-11-17T03:59:14.750906+00:00"
+    },
+    {
+      "id": "omarchy",
+      "repository": "omacom/omarchy",
+      "repo_node_id": "R_kgDOO0Cobg",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.591Z"
+    },
+    {
+      "id": "omlx",
+      "repository": "jundot/omlx",
+      "repo_node_id": "R_kgDORPkI2g",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "open-code-review",
+      "repository": "alibaba/open-code-review",
+      "repo_node_id": "R_kgDOSgbPIg",
+      "baseline_evaluated_at": "2026-11-16T14:34:40.000Z"
+    },
+    {
+      "id": "open-generative-ai",
+      "repository": "Anil-matcha/Open-Generative-AI",
+      "repo_node_id": "R_kgDOJg7yeg",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.959341+00:00"
+    },
+    {
+      "id": "open-interpreter",
+      "repository": "openinterpreter/openinterpreter",
+      "repo_node_id": "R_kgDOJ7brVg",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "open-sandbox",
+      "repository": "opensandbox-group/OpenSandbox",
+      "repo_node_id": "R_kgDOQqSjUg",
+      "baseline_evaluated_at": "2026-11-17T04:00:03.485220+00:00"
+    },
+    {
+      "id": "open-seo",
+      "repository": "every-app/open-seo",
+      "repo_node_id": "R_kgDORanENg",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.691Z"
+    },
+    {
+      "id": "openbao",
+      "repository": "openbao/openbao",
+      "repo_node_id": "R_kgDOKrhEtA",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.365Z"
+    },
+    {
+      "id": "opencode",
+      "repository": "anomalyco/opencode",
+      "repo_node_id": "R_kgDOOiiGLw",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.950012+00:00"
+    },
+    {
+      "id": "opencreator",
+      "repository": "krillinai/OpenCreator",
+      "repo_node_id": "R_kgDONeluaA",
+      "baseline_evaluated_at": "2026-11-16T14:29:18.253Z"
+    },
+    {
+      "id": "opendots",
+      "repository": "CopilotKit/OpenDots",
+      "repo_node_id": "R_kgDOUzcQzw",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "openfuse",
+      "repository": "CopilotKit/openfuse",
+      "repo_node_id": "R_kgDOUcNbCg",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.542Z"
+    },
+    {
+      "id": "openhands",
+      "repository": "OpenHands/OpenHands",
+      "repo_node_id": "R_kgDOLfkiww",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "openlogi",
+      "repository": "AprilNEA/OpenLogi",
+      "repo_node_id": "R_kgDOSmXwow",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "openmaic",
+      "repository": "THU-MAIC/OpenMAIC",
+      "repo_node_id": "R_kgDORkIb9w",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "openmausbot",
+      "repository": "milind-soni/OpenMausBot",
+      "repo_node_id": "R_kgDOT1lw9w",
+      "baseline_evaluated_at": "2026-11-16T14:24:08.700270Z"
+    },
+    {
+      "id": "openshell",
+      "repository": "NVIDIA/OpenShell",
+      "repo_node_id": "R_kgDORYG5fg",
+      "baseline_evaluated_at": "2026-11-16T14:34:39.604Z"
+    },
+    {
+      "id": "opensmash-ultimate",
+      "repository": "OpenSmash-Ultimate/OpenSmash-Ultimate",
+      "repo_node_id": "R_kgDOVStUSQ",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "opentest",
+      "repository": "cryopentest/opentest",
+      "repo_node_id": "R_kgDOQter3Q",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "openviking",
+      "repository": "volcengine/OpenViking",
+      "repo_node_id": "R_kgDOQz3Myg",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.664Z"
+    },
+    {
+      "id": "openwhispr",
+      "repository": "OpenWhispr/openwhispr",
+      "repo_node_id": "R_kgDOO-G1sQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "orca",
+      "repository": "stablyai/orca",
+      "repo_node_id": "R_kgDORpCz1g",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "paperclip",
+      "repository": "paperclipai/paperclip",
+      "repo_node_id": "R_kgDORclPyA",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "patent-disclosure-skill",
+      "repository": "handsomestWei/patent-disclosure-skill",
+      "repo_node_id": "R_kgDOR8OmFg",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "phonebox",
+      "repository": "ersinkoc/phonebox",
+      "repo_node_id": "R_kgDOVmZZOQ",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.868390+00:00"
+    },
+    {
+      "id": "photo-relic-editorial",
+      "repository": "wnby/photo-relic-editorial",
+      "repo_node_id": "R_kgDOTuPJZg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "photo-to-poster-skills",
+      "repository": "GZ-L/photo-to-poster-skills",
+      "repo_node_id": "R_kgDOUC1azA",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "photo-to-zine-postcard",
+      "repository": "Whiplashzeb/photo-to-zine-postcard",
+      "repo_node_id": "R_kgDOTw1kSQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "pilotdeck",
+      "repository": "OpenBMB/PilotDeck",
+      "repo_node_id": "R_kgDOSkqLzQ",
+      "baseline_evaluated_at": "2026-11-16T14:34:39.859Z"
+    },
+    {
+      "id": "plannotator",
+      "repository": "backnotprop/plannotator",
+      "repo_node_id": "R_kgDOQv43sg",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.961386+00:00"
+    },
+    {
+      "id": "playcover",
+      "repository": "PlayCover/PlayCover",
+      "repo_node_id": "R_kgDOHoPqDw",
+      "baseline_evaluated_at": "2026-11-16T14:34:39.717Z"
+    },
+    {
+      "id": "ponytail",
+      "repository": "DietrichGebert/ponytail",
+      "repo_node_id": "R_kgDOS4HNrw",
+      "baseline_evaluated_at": "2026-11-16T14:32:13.500Z"
+    },
+    {
+      "id": "ppt-master",
+      "repository": "hugohe3/ppt-master",
+      "repo_node_id": "R_kgDOQl_Gyg",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.878663+00:00"
+    },
+    {
+      "id": "pr-agent",
+      "repository": "The-PR-Agent/pr-agent",
+      "repo_node_id": "R_kgDOJ4EDkg",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.960878+00:00"
+    },
+    {
+      "id": "prime-agent",
+      "repository": "PrimeIntellect-ai/prime-agent",
+      "repo_node_id": "R_kgDOSXZbXg",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.714Z"
+    },
+    {
+      "id": "public-apis",
+      "repository": "public-apis/public-apis",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk1NDM0Njc5OQ==",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "qwen-code",
+      "repository": "QwenLM/qwen-code",
+      "repo_node_id": "R_kgDOPB-92Q",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.963437+00:00"
+    },
+    {
+      "id": "rakazo",
+      "repository": "elie222/rakazo",
+      "repo_node_id": "R_kgDOT3ChxQ",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "rea",
+      "repository": "morluto/rea",
+      "repo_node_id": "R_kgDOSB6hVQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "read-frog",
+      "repository": "mengxi-ream/read-frog",
+      "repo_node_id": "R_kgDOOa6Ffw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "reason-network",
+      "repository": "reason-machines/reason-network",
+      "repo_node_id": "R_kgDOVMdAHw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "ruflo",
+      "repository": "ruvnet/ruflo",
+      "repo_node_id": "R_kgDOO07yiQ",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.955235+00:00"
+    },
+    {
+      "id": "s2arm",
+      "repository": "jhaizhou-ops/S2Arm",
+      "repo_node_id": "R_kgDOVm1wdg",
+      "baseline_evaluated_at": "2026-11-16T14:30:19.931551Z"
+    },
+    {
+      "id": "scientific-agent-skills",
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "repo_node_id": "R_kgDOQFcxuA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "screenshot-to-code",
+      "repository": "abi/screenshot-to-code",
+      "repo_node_id": "R_kgDOKtchNQ",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "security-audit-skill",
+      "repository": "cloudflare/security-audit-skill",
+      "repo_node_id": "R_kgDOS-b1TA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "semantica",
+      "repository": "semantica-agi/semantica",
+      "repo_node_id": "R_kgDOPBmB5g",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "serena",
+      "repository": "oraios/serena",
+      "repo_node_id": "R_kgDOONgOeg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "skid-homework",
+      "repository": "cubewhy/skid-homework",
+      "repo_node_id": "R_kgDOP3tWeg",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.874484+00:00"
+    },
+    {
+      "id": "skills",
+      "repository": "mattpocock/skills",
+      "repo_node_id": "R_kgDORHkddg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "skillspector",
+      "repository": "NVIDIA/SkillSpector",
+      "repo_node_id": "R_kgDORsnMJw",
+      "baseline_evaluated_at": "2026-11-16T14:34:39.953Z"
+    },
+    {
+      "id": "spec-kit",
+      "repository": "github/spec-kit",
+      "repo_node_id": "R_kgDOPiFCnQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "stack-diagram",
+      "repository": "caru-ini/stack-diagram",
+      "repo_node_id": "R_kgDOVevQxw",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "starnet",
+      "repository": "androoAGI/starnet",
+      "repo_node_id": "R_kgDOS6yb-Q",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "stitch-skills",
+      "repository": "google-labs-code/stitch-skills",
+      "repo_node_id": "R_kgDOQ7Opvg",
+      "baseline_evaluated_at": "2026-11-17T04:00:03.486610+00:00"
+    },
+    {
+      "id": "subvox",
+      "repository": "joeblau/subvox",
+      "repo_node_id": "R_kgDOVdrchw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "suparagent",
+      "repository": "Anil-matcha/suparagent",
+      "repo_node_id": "R_kgDOJne9Sg",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "supermimic",
+      "repository": "HybridRobotics/supermimic",
+      "repo_node_id": "R_kgDOVpPffg",
+      "baseline_evaluated_at": "2026-11-16T14:30:19.931551Z"
+    },
+    {
+      "id": "superpowers",
+      "repository": "obra/superpowers",
+      "repo_node_id": "R_kgDOP_gcWw",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.947199+00:00"
+    },
+    {
+      "id": "sweety-handdraw-video",
+      "repository": "threerocks/sweety-handdraw-video",
+      "repo_node_id": "R_kgDOVF-t_A",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "t3code",
+      "repository": "pingdotgg/t3code",
+      "repo_node_id": "R_kgDORLtfbQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "taste-skill",
+      "repository": "Leonxlnx/taste-skill",
+      "repo_node_id": "R_kgDORUQ5bw",
+      "baseline_evaluated_at": "2026-11-16T14:32:13.437Z"
+    },
+    {
+      "id": "teardown",
+      "repository": "elvarofficial/teardown",
+      "repo_node_id": "R_kgDOVc1e6Q",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "telemetrycleaner",
+      "repository": "Eynnzerr/TelemetryCleaner",
+      "repo_node_id": "R_kgDOVqQ_bw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "tendedero",
+      "repository": "alejandrobujan/tendedero",
+      "repo_node_id": "R_kgDOU-3mFg",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "terminal-mac",
+      "repository": "govijr/terminal-mac",
+      "repo_node_id": "R_kgDOVg4HSg",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "text-to-cad",
+      "repository": "earthtojake/text-to-cad",
+      "repo_node_id": "R_kgDOSJHpkw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "the-well",
+      "repository": "PolymathicAI/the_well",
+      "repo_node_id": "R_kgDONXvPsg",
+      "baseline_evaluated_at": "2026-11-16T14:32:13.801Z"
+    },
+    {
+      "id": "thinkrail",
+      "repository": "JetBrains/thinkrail",
+      "repo_node_id": "R_kgDOTRU_yQ",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.954529+00:00"
+    },
+    {
+      "id": "timesfm",
+      "repository": "google-research/timesfm",
+      "repo_node_id": "R_kgDOL1Au9w",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "token-economizer",
+      "repository": "microsoft/TokenEconomizer",
+      "repo_node_id": "R_kgDOVG0zYA",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.893655+00:00"
+    },
+    {
+      "id": "tolaria",
+      "repository": "refactoringhq/tolaria",
+      "repo_node_id": "R_kgDORQcoNw",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.871807+00:00"
+    },
+    {
+      "id": "tradingagents-cn",
+      "repository": "hsliuping/TradingAgents-CN",
+      "repo_node_id": "R_kgDOPCHzDw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "tradingagents",
+      "repository": "TauricResearch/TradingAgents",
+      "repo_node_id": "R_kgDONjF_4A",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.951043+00:00"
+    },
+    {
+      "id": "transformers",
+      "repository": "huggingface/transformers",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxNTUyMjA2NDE=",
+      "baseline_evaluated_at": "2026-11-17T04:00:03.483574+00:00"
+    },
+    {
+      "id": "turbo-kart-rally",
+      "repository": "bridge-mind/turbo-kart-rally",
+      "repo_node_id": "R_kgDOUmB3cg",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "univer",
+      "repository": "dream-num/univer",
+      "repo_node_id": "R_kgDOIF8T9Q",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "universal-modder",
+      "repository": "rehan-remade/universal-modder",
+      "repo_node_id": "R_kgDOU0THuw",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "unreal-engine-skills",
+      "repository": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
+      "repo_node_id": "R_kgDOS0wqzw",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.965977+00:00"
+    },
+    {
+      "id": "unsloth",
+      "repository": "unslothai/unsloth",
+      "repo_node_id": "R_kgDOKznBOA",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "up",
+      "repository": "byoungd/up",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk5MjgwNzYxNg==",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "upscayl",
+      "repository": "upscayl/upscayl",
+      "repo_node_id": "R_kgDOHvghIw",
+      "baseline_evaluated_at": "2026-11-17T04:01:50.032580+00:00"
+    },
+    {
+      "id": "uzu",
+      "repository": "trymirai/uzu",
+      "repo_node_id": "R_kgDOPAsbmQ",
+      "baseline_evaluated_at": "2026-11-17T04:07:37.967141+00:00"
+    },
+    {
+      "id": "vercel-skills",
+      "repository": "vercel-labs/skills",
+      "repo_node_id": "R_kgDOQ5_BBQ",
+      "baseline_evaluated_at": "2026-11-17T03:59:14.751398+00:00"
+    },
+    {
+      "id": "vibe-research",
+      "repository": "simonlin1212/Vibe-Research",
+      "repo_node_id": "R_kgDOTN_trg",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "video-shotcraft",
+      "repository": "Vincentwei1021/video-shotcraft",
+      "repo_node_id": "R_kgDOTdLZdQ",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "vllm",
+      "repository": "vllm-project/vllm",
+      "repo_node_id": "R_kgDOI7xefg",
+      "baseline_evaluated_at": "2026-11-17T03:59:14.753179+00:00"
+    },
+    {
+      "id": "vnote",
+      "repository": "vnotex/vnote",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnk3MDAzODQzNw==",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.331Z"
+    },
+    {
+      "id": "voice-control-agent",
+      "repository": "Wechat-ggGitHub/voice-control-agent",
+      "repo_node_id": "R_kgDOVOjwMA",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "voicestudio",
+      "repository": "debpalash/VoiceStudio",
+      "repo_node_id": "R_kgDOR-gPKw",
+      "baseline_evaluated_at": "2026-11-15T11:54:08.129868Z"
+    },
+    {
+      "id": "voxel-musou",
+      "repository": "mike007jd/voxel-musou",
+      "repo_node_id": "R_kgDOUoevwQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "vphone-cli",
+      "repository": "Lakr233/vphone-cli",
+      "repo_node_id": "R_kgDORZbd0w",
+      "baseline_evaluated_at": "2026-11-16T14:50:00.638Z"
+    },
+    {
+      "id": "wakaru",
+      "repository": "pionxzh/wakaru",
+      "repo_node_id": "R_kgDOI2v4zQ",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "weknora",
+      "repository": "Tencent/WeKnora",
+      "repo_node_id": "R_kgDOPQrONg",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "whisper",
+      "repository": "openai/whisper",
+      "repo_node_id": "R_kgDOIAstBQ",
+      "baseline_evaluated_at": "2026-11-17T03:59:14.755230+00:00"
+    },
+    {
+      "id": "wifit3",
+      "repository": "derv82/wifit3",
+      "repo_node_id": "R_kgDOTAYQNQ",
+      "baseline_evaluated_at": "2026-11-16T14:47:41.313Z"
+    },
+    {
+      "id": "window-sweaters",
+      "repository": "saragordic/window-sweaters",
+      "repo_node_id": "R_kgDOUbPzig",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "word-atlas",
+      "repository": "designfuchen/word-atlas",
+      "repo_node_id": "R_kgDOVWmLuw",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "workout-guide",
+      "repository": "bryllim/workout-guide",
+      "repo_node_id": "R_kgDOUCJOdw",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "worktrunk",
+      "repository": "max-sixty/worktrunk",
+      "repo_node_id": "R_kgDOQEkLnw",
+      "baseline_evaluated_at": "2026-11-16T14:34:39.906Z"
+    },
+    {
+      "id": "xerj",
+      "repository": "xerj-org/xerj",
+      "repo_node_id": "R_kgDOTJJATQ",
+      "baseline_evaluated_at": "2026-11-17T03:59:03.770697+00:00"
+    },
+    {
+      "id": "xgimi-agent",
+      "repository": "Wechat-ggGitHub/xgimi-agent",
+      "repo_node_id": "R_kgDOVOjvdw",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    },
+    {
+      "id": "xiaozhi-esp32",
+      "repository": "78/xiaozhi-esp32",
+      "repo_node_id": "R_kgDOMq4NxA",
+      "baseline_evaluated_at": "2026-11-17T04:00:03.482525+00:00"
+    },
+    {
+      "id": "yank-note",
+      "repository": "purocean/yn",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxMTkzMzYyOTM=",
+      "baseline_evaluated_at": "2026-11-16T14:58:29.135174Z"
+    },
+    {
+      "id": "yishu5-claude-skills",
+      "repository": "YiShu5/claude-skills",
+      "repo_node_id": "R_kgDORoRv_A",
+      "baseline_evaluated_at": "2026-11-17T06:06:21.889151+00:00"
+    },
+    {
+      "id": "yogurt",
+      "repository": "FrigadeHQ/yogurt",
+      "repo_node_id": "R_kgDOVp0Log",
+      "baseline_evaluated_at": "2026-11-16T14:30:19.931551Z"
+    },
+    {
+      "id": "yue",
+      "repository": "multimodal-art-projection/YuE",
+      "repo_node_id": "R_kgDONuVFoA",
+      "baseline_evaluated_at": "2026-11-16T14:34:39.811Z"
+    },
+    {
+      "id": "zettlr",
+      "repository": "Zettlr/Zettlr",
+      "repo_node_id": "MDEwOlJlcG9zaXRvcnkxMTU0NDYwODE=",
+      "baseline_evaluated_at": "2026-11-16T14:50:50.290410+00:00"
+    }
+  ]
+}

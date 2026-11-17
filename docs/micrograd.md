@@ -7,16 +7,21 @@ GitHub：[karpathy/micrograd](https://github.com/karpathy/micrograd)
 | 项目 / Item | 记录 / Record |
 | --- | --- |
 | 分类 / Category | AI 工具 / AI tools |
-| 状态 / Status | 候选 / Candidate |
+| 状态 / Status | 已收录 / Included |
 | Star | 18968 |
 | 许可证 / License | MIT |
 | 评估时间 / Evaluated at | 2026-11-17T04:00:03.487232+00:00 |
 
 ## 中文
 
+### 当前收录状态
+
+2026-11-17 按用户要求转为正式收录。本次是目录状态迁移，未重新核实全部新准入条件。原有 Star、活动与功能记录保留原核对日期，许可不再决定收录状态。
+
+### 先前介绍与复核记录（历史）
+
 用于学习反向自动微分的微型标量引擎，并附带简单神经网络模块。
 
-候选原因：尚无三个月内的实质维护证据；最近提交只是 README 链接更新。
 
 ### 用途与功能
 
@@ -35,7 +40,7 @@ GitHub：[karpathy/micrograd](https://github.com/karpathy/micrograd)
 
 ### 收录与来源
 
-实现紧凑，便于逐步理解计算图与梯度传播；当前缺少目录要求的近期实质维护证据。
+实现紧凑，便于逐步理解计算图与梯度传播。先前评估缺少当时目录要求的近期实质维护证据；该资格结论已由 2026-11-17 转正取代。
 
 维护证据：[最近提交仅在 README 增加外部 microgpt 教程链接，未修改自动微分实现，且已超出三个月窗口。](https://github.com/karpathy/micrograd/commit/7bc720e951fe422b8f8814aa5aa1b64121d26b4c)（2026-08-03）。
 
@@ -45,9 +50,14 @@ GitHub：[karpathy/micrograd](https://github.com/karpathy/micrograd)
 
 ## English
 
+### Current catalog status
+
+Promoted to an included entry on 2026-11-17 at the user’s request. This is a catalog transition, not a new verification of every admission criterion. Stars, activity and feature records retain their original review dates; licensing no longer determines admission.
+
+### Earlier description and review (historical)
+
 A small scalar reverse-mode autodifferentiation engine with a basic neural-network module for learning.
 
-Candidate reason: No substantive maintenance evidence within three months; the latest commit only updates a README link.
 
 ### Uses and features
 
@@ -66,7 +76,7 @@ See the [official README](https://github.com/karpathy/micrograd/blob/7bc720e951f
 
 ### Review and provenance
 
-The compact implementation helps explain computation graphs and gradient propagation, but lacks the recent substantive maintenance required by this catalog.
+The compact implementation helps explain computation graphs and gradient propagation. The earlier review lacked the recent substantive maintenance evidence required by the former criteria; that eligibility decision was superseded by the 2026-11-17 promotion.
 
 Maintenance evidence: [The latest commit only adds an external microgpt tutorial link to the README, changes no autodiff implementation and falls outside the three-month window.](https://github.com/karpathy/micrograd/commit/7bc720e951fe422b8f8814aa5aa1b64121d26b4c) (2026-08-03).
 
@@ -83,18 +93,11 @@ This review checked official documentation, license text and maintenance changes
 {
   "evaluated_at": "2026-11-17T04:00:03.487232+00:00",
   "eligibility": {
-    "status": "needs_review",
-    "reasons": [
-      "no_recent_substantive_activity"
-    ],
-    "pending_actions": {
-      "zh-CN": [
-        "发现三个月窗口内的实质实现变更后重新核对。"
-      ],
-      "en": [
-        "Recheck when a substantive implementation change appears within the three-month window."
-      ]
-    }
+    "status": "eligible",
+    "reasons": [],
+    "admission_basis": "user_directed_transition",
+    "policy_id": "ai-activity-stars-2026-11-17",
+    "admitted_at": "2026-11-17T13:33:30.547820+00:00"
   },
   "metadata": {
     "schema_version": 1,
@@ -113,11 +116,6 @@ This review checked official documentation, license text and maintenance changes
         "zh-CN": "2026-11-17T04:00:03.487232+00:00",
         "en": "2026-11-17T04:00:03.487232+00:00"
       },
-      "verification_level": "docs"
-    },
-    "quality_review": {
-      "zh-CN": "实现紧凑，便于逐步理解计算图与梯度传播；当前缺少目录要求的近期实质维护证据。",
-      "en": "The compact implementation helps explain computation graphs and gradient propagation, but lacks the recent substantive maintenance required by this catalog.",
       "verification_level": "docs"
     },
     "license_review": {
@@ -186,7 +184,31 @@ This review checked official documentation, license text and maintenance changes
     "license_spdx": "MIT",
     "license_sha256": "f372f582c99dc5b0e8dcf5ca5542183a735365468857ec6416af628490187cc1",
     "last_success_at": "2026-11-17T03:54:54.265448+00:00"
-  }
+  },
+  "eligibility_history": [
+    {
+      "status": "needs_review",
+      "reasons": [
+        "no_recent_substantive_activity"
+      ],
+      "evaluated_at": "2026-11-17T04:00:03.487232+00:00",
+      "superseded_at": "2026-11-17T13:33:30.547820+00:00",
+      "superseded_by": "user_directed_transition_2026_11_17",
+      "pending_actions": {
+        "zh-CN": [
+          "发现三个月窗口内的实质实现变更后重新核对。"
+        ],
+        "en": [
+          "Recheck when a substantive implementation change appears within the three-month window."
+        ]
+      },
+      "quality_review": {
+        "zh-CN": "实现紧凑，便于逐步理解计算图与梯度传播；当前缺少目录要求的近期实质维护证据。",
+        "en": "The compact implementation helps explain computation graphs and gradient propagation, but lacks the recent substantive maintenance required by this catalog.",
+        "verification_level": "docs"
+      }
+    }
+  ]
 }
 ```
 

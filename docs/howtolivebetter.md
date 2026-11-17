@@ -7,24 +7,24 @@ GitHub：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiv
 | 项目 / Item | 记录 / Record |
 | --- | --- |
 | 分类 / Category | 文档与效率 / Productivity |
-| 状态 / Status | 候选 / Candidate |
+| 状态 / Status | 已收录 / Included |
 | Star | 75865 |
 | 许可证 / License | CC-BY-4.0 |
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T10:48:19.553Z |
 
-候选原因：内容许可与收录范围待复核。
-Candidate reason: Content license and inclusion scope require review.
 
-状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
-Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
 
-下一步：区分开放内容与软件许可，核对文档及附带代码的授权范围和维护证据。
-Next step: Distinguish content licensing from software licensing and check the licensed scope of documents, accompanying code and activity evidence.
 
 历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
+
+### 当前收录状态
+
+2026-11-17 按用户要求转为正式收录。本次是目录状态迁移，未重新核实全部新准入条件。原有 Star、活动与功能记录保留原核对日期，许可不再决定收录状态。
+
+### 先前介绍与复核记录（历史）
 
 ### 导入复核（2026-11-15）
 
@@ -95,6 +95,12 @@ Next step: Distinguish content licensing from software licensing and check the l
 
 ## English
 
+### Current catalog status
+
+Promoted to an included entry on 2026-11-17 at the user’s request. This is a catalog transition, not a new verification of every admission criterion. Stars, activity and feature records retain their original review dates; licensing no longer determines admission.
+
+### Earlier description and review (historical)
+
 A Chinese reference collection on everyday systems, emergency preparation and practical life topics.
 
 ### Use cases
@@ -103,7 +109,7 @@ A Chinese reference collection on everyday systems, emergency preparation and pr
 
 ### Requirements and limits
 
-Counts differ across document versions. Institutional material assumes mainland China and needs local, current verification. The contents were not audited as medical or legal guidance. This is a reference candidate, not a software-tool entry; no complete deployment or pricing information was supplied.
+Counts differ across document versions. Institutional material assumes mainland China and needs local, current verification. The contents were not audited as medical or legal guidance. The earlier assessment classified this reference material as a candidate, not a software-tool entry; no complete deployment or pricing information was supplied. That candidate status was superseded by the 2026-11-17 promotion.
 
 ### Getting started
 
@@ -133,20 +139,11 @@ GitHub metadata was fetched at 2026-11-15T10:48:19.553Z. [Shared metadata](#revi
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "needs_review",
-    "reasons": [
-      "content_license_scope_pending"
-    ],
-    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
-    "review_basis": "existing_evidence_status_clarification",
-    "pending_actions": {
-      "zh-CN": [
-        "区分开放内容与软件许可，核对文档及附带代码的授权范围和维护证据。"
-      ],
-      "en": [
-        "Distinguish content licensing from software licensing and check the licensed scope of documents, accompanying code and activity evidence."
-      ]
-    }
+    "status": "eligible",
+    "reasons": [],
+    "admission_basis": "user_directed_transition",
+    "policy_id": "ai-activity-stars-2026-11-17",
+    "admitted_at": "2026-11-17T13:33:30.547820+00:00"
   },
   "metadata": {
     "schema_version": 1,
@@ -266,6 +263,25 @@ GitHub metadata was fetched at 2026-11-15T10:48:19.553Z. [Shared metadata](#revi
       "reasons": [
         "license_not_approved"
       ]
+    },
+    {
+      "status": "needs_review",
+      "reasons": [
+        "content_license_scope_pending"
+      ],
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "superseded_at": "2026-11-17T13:33:30.547820+00:00",
+      "superseded_by": "user_directed_transition_2026_11_17",
+      "pending_actions": {
+        "zh-CN": [
+          "区分开放内容与软件许可，核对文档及附带代码的授权范围和维护证据。"
+        ],
+        "en": [
+          "Distinguish content licensing from software licensing and check the licensed scope of documents, accompanying code and activity evidence."
+        ]
+      },
+      "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+      "review_basis": "existing_evidence_status_clarification"
     }
   ]
 }

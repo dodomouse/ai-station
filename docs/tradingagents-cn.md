@@ -7,28 +7,28 @@ GitHub：[hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents
 | 项目 / Item | 记录 / Record |
 | --- | --- |
 | 分类 / Category | 数据处理 / Data processing |
-| 状态 / Status | 候选 / Candidate |
+| 状态 / Status | 已收录 / Included |
 | Star | 32957 |
 | 许可证 / License | 混合许可，含专有组件 / Mixed, includes proprietary components |
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T11:46:22.824Z |
 
-候选原因：应用层采用专有许可。
-Candidate reason: Proprietary application layer.
 
-状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
-Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
 
-下一步：仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。
-Next step: Retain as a reference lead; reassess if the license changes or a separately includable open component is established.
 
 历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
+### 当前收录状态
+
+2026-11-17 按用户要求转为正式收录。本次是目录状态迁移，未重新核实全部新准入条件。原有 Star、活动与功能记录保留原核对日期，许可不再决定收录状态。
+
+### 先前介绍与复核记录（历史）
+
 TradingAgents-CN 是面向 A 股的多智能体研究辅助系统。当前默认分支 `v3.0` 为社区版，提供单股研究、主题研究、自然语言筛选、学习课程和模拟交易。它通过多个模型角色组织分析与讨论。
 
-当前保留为参考候选：项目采用混合许可。部分目录为 Apache-2.0，应用层为专有的源码可见组件，不能将整个社区版视为完整开源软件。GitHub 的许可字段为 `NOASSERTION`；本词条依据已记录的专有应用层范围，将整体资格记为 `ineligible`，仅作参考线索保留。具体限制见下文。
+先前评估结论（已由 2026-11-17 转正取代）：当时因混合许可保留为参考候选。部分目录为 Apache-2.0，应用层为专有的源码可见组件，不能将整个社区版视为完整开源软件。GitHub 的许可字段为 `NOASSERTION`；原评估依据已记录的专有应用层范围，按当时准入规则将整体资格记为 `ineligible`。具体使用限制见下文。
 
 ### 适用场景
 
@@ -90,13 +90,19 @@ TradingAgents-CN 是面向 A 股的多智能体研究辅助系统。当前默认
 
 2026-11-15 核对默认分支、README、分层许可证、Python 包声明和 2026-09-22 的社区版首发提交。该提交包含应用启动和模型能力配置代码，属于窗口内的功能发布。仓库较新的推送时间未替代这条证据。
 
-验证级别为 `docs`。本次只阅读文档与选定源码，候选原因是许可范围。来源和指纹见 [收录依据](#review-evidence)，Star 与仓库状态见 [GitHub 快照](#review-evidence)。
+原复核的验证级别为 `docs`，只阅读文档与选定源码。当时因许可范围保留为候选，该状态已由 2026-11-17 转正取代。来源和指纹见 [收录依据](#review-evidence)，Star 与仓库状态见 [GitHub 快照](#review-evidence)。
 
 ## English
 
+### Current catalog status
+
+Promoted to an included entry on 2026-11-17 at the user’s request. This is a catalog transition, not a new verification of every admission criterion. Stars, activity and feature records retain their original review dates; licensing no longer determines admission.
+
+### Earlier description and review (historical)
+
 TradingAgents-CN is a multi-agent research assistant for Chinese A-shares. Its current default branch, `v3.0`, is the Community Edition, with single-stock research, topic research, natural-language screening, learning material and paper trading. Several model roles organize analysis and discussion.
 
-This entry remains a reference candidate because licensing differs by component. Some directories use Apache-2.0, while the application layer is proprietary source-available code. The complete Community Edition therefore cannot be described as wholly open-source software. GitHub reports `NOASSERTION`; the documented proprietary application scope makes the complete application `ineligible`, retained only as a reference lead.
+Earlier assessment, superseded by the 2026-11-17 promotion: the entry was kept as a reference candidate because licensing differs by component. Some directories use Apache-2.0, while the application layer is proprietary source-available code. The complete Community Edition therefore cannot be described as wholly open-source software. GitHub reports `NOASSERTION`; the documented proprietary application scope led the earlier review to record the complete application as `ineligible` under the former criteria.
 
 ### Use cases
 
@@ -158,7 +164,7 @@ These comparisons do not establish feature parity or tested integration.
 
 On 2026-11-15, this review checked the default branch, README, component licenses, Python package declaration and the Community Edition's 2026-09-22 initial commit. That commit includes application startup and model-capability configuration code, providing functional activity within the window. A newer repository push date is not used as a substitute.
 
-Verification level: `docs`. Only documentation and selected code were inspected; license scope keeps the entry outside the default catalog. See [shared metadata](#review-evidence) and the [GitHub snapshot](#review-evidence).
+The earlier verification level was `docs`. Only documentation and selected code were inspected. License scope kept the entry outside the default catalog at that time; that status was superseded by the 2026-11-17 promotion. See [shared metadata](#review-evidence) and the [GitHub snapshot](#review-evidence).
 
 ## Review evidence
 
@@ -171,20 +177,11 @@ Verification level: `docs`. Only documentation and selected code were inspected;
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "ineligible",
-    "reasons": [
-      "license_not_approved"
-    ],
-    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
-    "review_basis": "existing_evidence_status_clarification",
-    "pending_actions": {
-      "zh-CN": [
-        "仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。"
-      ],
-      "en": [
-        "Retain as a reference lead; reassess if the license changes or a separately includable open component is established."
-      ]
-    }
+    "status": "eligible",
+    "reasons": [],
+    "admission_basis": "user_directed_transition",
+    "policy_id": "ai-activity-stars-2026-11-17",
+    "admitted_at": "2026-11-17T13:33:30.547820+00:00"
   },
   "metadata": {
     "schema_version": 1,
@@ -330,6 +327,25 @@ Verification level: `docs`. Only documentation and selected code were inspected;
       "reasons": [
         "license_needs_review"
       ]
+    },
+    {
+      "status": "ineligible",
+      "reasons": [
+        "license_not_approved"
+      ],
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "superseded_at": "2026-11-17T13:33:30.547820+00:00",
+      "superseded_by": "user_directed_transition_2026_11_17",
+      "pending_actions": {
+        "zh-CN": [
+          "仅作参考线索保留；许可改变或可独立收录的开放组件明确后再评估。"
+        ],
+        "en": [
+          "Retain as a reference lead; reassess if the license changes or a separately includable open component is established."
+        ]
+      },
+      "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+      "review_basis": "existing_evidence_status_clarification"
     }
   ]
 }

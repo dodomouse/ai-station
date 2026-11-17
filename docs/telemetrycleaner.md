@@ -7,28 +7,28 @@ GitHub：[Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleane
 | 项目 / Item | 记录 / Record |
 | --- | --- |
 | 分类 / Category | 部署与运维 / Operations |
-| 状态 / Status | 候选 / Candidate |
+| 状态 / Status | 已收录 / Included |
 | Star | 807 |
 | 许可证 / License | MIT |
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T11:45:04.617Z |
 
-候选原因：按新收录标准待复评。
-Candidate reason: Reassessment under current criteria is pending.
 
-状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
-Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
 
-下一步：按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。
-Next step: Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold.
 
 历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
+### 当前收录状态
+
+2026-11-17 按用户要求转为正式收录。本次是目录状态迁移，未重新核实全部新准入条件。原有 Star、活动与功能记录保留原核对日期，许可不再决定收录状态。
+
+### 先前介绍与复核记录（历史）
+
 TelemetryCleaner 是 Android 运营商预装组件管理工具。它通过 Shizuku 检查已知组件在不同用户空间中的状态，提供权限查看、按空间卸载、恢复和停用操作。适合希望了解手机预装包、并评估是否调整组件状态的用户。
 
-原评估因未达到 1000 Star 门槛而保留为候选。该门槛已取消，当前等待按新标准复评。数据见 [GitHub 快照](#review-evidence)。该项目列在目录的候选部分。
+先前评估结论（已由 2026-11-17 转正取代）：最初因未达到当时的 1000 Star 门槛而保留为候选。后续规则曾取消该门槛，词条曾等待复评并列在候选目录。原数据见 [GitHub 快照](#review-evidence)。
 
 ### 适用场景
 
@@ -80,9 +80,15 @@ TelemetryCleaner 是 Android 运营商预装组件管理工具。它通过 Shizu
 
 ## English
 
+### Current catalog status
+
+Promoted to an included entry on 2026-11-17 at the user’s request. This is a catalog transition, not a new verification of every admission criterion. Stars, activity and feature records retain their original review dates; licensing no longer determines admission.
+
+### Earlier description and review (historical)
+
 TelemetryCleaner manages known carrier components preinstalled on Android devices. Through Shizuku, it inspects package states across user spaces and provides permission inspection, per-space removal, restoration and disabling controls. It is intended for users investigating preinstalled packages and deciding whether to change their state.
 
-The original review kept this entry as a candidate because of the former 1000-Star threshold. That threshold has been removed; reassessment under the current criteria is pending. See the [GitHub snapshot](#review-evidence). The candidate is listed in the main index.
+Earlier assessment, superseded by the 2026-11-17 promotion: the entry was initially kept as a candidate because it did not meet the 1000-Star threshold in force at that time. A subsequent policy removed that threshold, and the entry was awaiting reassessment in the candidate directory. Original data is in the [GitHub snapshot](#review-evidence).
 
 ### Use cases
 
@@ -143,20 +149,11 @@ Verification level: `docs`. Source inspection supports implementation descriptio
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "needs_review",
-    "reasons": [
-      "policy_reassessment_pending"
-    ],
-    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
-    "review_basis": "existing_evidence_status_clarification",
-    "pending_actions": {
-      "zh-CN": [
-        "按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。"
-      ],
-      "en": [
-        "Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold."
-      ]
-    }
+    "status": "eligible",
+    "reasons": [],
+    "admission_basis": "user_directed_transition",
+    "policy_id": "ai-activity-stars-2026-11-17",
+    "admitted_at": "2026-11-17T13:33:30.547820+00:00"
   },
   "metadata": {
     "schema_version": 1,
@@ -327,6 +324,25 @@ Verification level: `docs`. Source inspection supports implementation descriptio
       "reasons": [
         "below_star_threshold"
       ]
+    },
+    {
+      "status": "needs_review",
+      "reasons": [
+        "policy_reassessment_pending"
+      ],
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "superseded_at": "2026-11-17T13:33:30.547820+00:00",
+      "superseded_by": "user_directed_transition_2026_11_17",
+      "pending_actions": {
+        "zh-CN": [
+          "按不设Star门槛的新标准重新核对用途、双语内容、许可及近期实质活动。"
+        ],
+        "en": [
+          "Reassess purpose, bilingual content, licensing and recent substantive activity under the criteria without a Star threshold."
+        ]
+      },
+      "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+      "review_basis": "existing_evidence_status_clarification"
     }
   ]
 }

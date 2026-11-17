@@ -7,28 +7,28 @@ GitHub：[shidenggui/easyquotation](https://github.com/shidenggui/easyquotation)
 | 项目 / Item | 记录 / Record |
 | --- | --- |
 | 分类 / Category | 数据处理 / Data processing |
-| 状态 / Status | 候选 / Candidate |
+| 状态 / Status | 已收录 / Included |
 | Star | 5478 |
 | 许可证 / License | MIT |
 | 评估时间 / Evaluated at | 2026-11-15T11:54:08.129868Z |
 | 快照时间 / Snapshot fetched at | 2026-11-15T11:46:23.180Z |
 
-候选原因：缺少近期有效维护证据。
-Candidate reason: Recent substantive activity evidence is missing.
 
-状态整理：2026-11-17，依据已有证据区分当前待办与历史结论；未重新完成全部准入复核，Star 与快照日期保持原值。
-Status clarified on 2026-11-17 from existing evidence; this is not a complete new eligibility review. Stars and snapshot dates retain their original values.
 
-下一步：核对近期功能提交或发行内容；纯文档更新不单独计入。
-Next step: Check recent functional commits or release contents; documentation-only updates do not qualify on their own.
 
 历史资格见[收录依据](#review-evidence)中的 `eligibility_history`。 / Earlier decisions are retained in `eligibility_history` in the [review evidence](#review-evidence).
 
 ## 中文
 
+### 当前收录状态
+
+2026-11-17 按用户要求转为正式收录。本次是目录状态迁移，未重新核实全部新准入条件。原有 Star、活动与功能记录保留原核对日期，许可不再决定收录状态。
+
+### 先前介绍与复核记录（历史）
+
 easyquotation 是读取股票行情的 Python 库。它封装新浪、腾讯和集思录的部分数据接口，向脚本返回行情字典。适合已有 Python 程序、只需要增加行情读取能力的用户。
 
-当前保留为候选：默认分支最近提交为 2026-02-28 的文档更新，本次未发现三个月内的有效维护证据。Star 已达到门槛，具体数据见 [GitHub 快照](#review-evidence)。
+先前评估结论（已由 2026-11-17 转正取代）：当时保留为候选，默认分支最近提交为 2026-02-28 的文档更新，原复核未发现三个月内符合旧标准的维护证据。Star 已达到当时门槛，具体数据见 [GitHub 快照](#review-evidence)。
 
 ### 适用场景
 
@@ -85,13 +85,19 @@ quotes = quotation.real(["sh000001", "sz000001"], prefix=True)
 
 2026-11-15 核对默认分支、最近提交、发行列表、README、`setup.py` 与 MIT 文件。最近提交只新增项目协作说明，且早于活动窗口；发行列表为空。不把这些观察扩大为项目永远不可用的判断。
 
-验证级别为 `docs`，未安装或请求行情。该项目列在目录的候选部分。证据见 [收录依据](#review-evidence)。
+原复核的验证级别为 `docs`，未安装或请求行情。该项目当时列在候选目录，现已于 2026-11-17 转正。原证据见 [收录依据](#review-evidence)。
 
 ## English
 
+### Current catalog status
+
+Promoted to an included entry on 2026-11-17 at the user’s request. This is a catalog transition, not a new verification of every admission criterion. Stars, activity and feature records retain their original review dates; licensing no longer determines admission.
+
+### Earlier description and review (historical)
+
 easyquotation is a Python library for reading stock quotations. It wraps selected Sina, Tencent and Jisilu endpoints and returns quote dictionaries to Python programs. It suits users adding market-data retrieval to an existing script.
 
-This entry remains a candidate. The latest default-branch commit is a documentation change dated 2026-02-28, and this review found no qualifying maintenance within three months. Stars meet the threshold; see the [GitHub snapshot](#review-evidence).
+Earlier assessment, superseded by the 2026-11-17 promotion: the entry was kept as a candidate. The latest default-branch commit was a documentation change dated 2026-02-28, and that review found no maintenance meeting the former criteria within three months. Stars met the threshold; see the [GitHub snapshot](#review-evidence).
 
 ### Use cases
 
@@ -148,7 +154,7 @@ These are purpose comparisons. Direct integration with easyquotation was not ver
 
 On 2026-11-15, this review checked the default branch, recent commits, release list, README, `setup.py` and MIT file. The latest commit only adds project guidance and predates the activity window; the release list is empty. These observations do not establish that every interface is unusable.
 
-Verification level: `docs`. No package was installed and no quotes were requested. The candidate is listed in the main index. Evidence is in [review evidence](#review-evidence).
+The earlier verification level was `docs`. No package was installed and no quotes were requested. The entry was listed as a candidate at that time and was promoted on 2026-11-17. Original evidence is in [review evidence](#review-evidence).
 
 ## Review evidence
 
@@ -161,20 +167,11 @@ Verification level: `docs`. No package was installed and no quotes were requeste
 {
   "evaluated_at": "2026-11-15T11:54:08.129868Z",
   "eligibility": {
-    "status": "needs_review",
-    "reasons": [
-      "activity_evidence_expired_or_missing"
-    ],
-    "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
-    "review_basis": "existing_evidence_status_clarification",
-    "pending_actions": {
-      "zh-CN": [
-        "核对近期功能提交或发行内容；纯文档更新不单独计入。"
-      ],
-      "en": [
-        "Check recent functional commits or release contents; documentation-only updates do not qualify on their own."
-      ]
-    }
+    "status": "eligible",
+    "reasons": [],
+    "admission_basis": "user_directed_transition",
+    "policy_id": "ai-activity-stars-2026-11-17",
+    "admitted_at": "2026-11-17T13:33:30.547820+00:00"
   },
   "metadata": {
     "schema_version": 1,
@@ -321,6 +318,25 @@ Verification level: `docs`. No package was installed and no quotes were requeste
       "reasons": [
         "activity_evidence_expired_or_missing"
       ]
+    },
+    {
+      "status": "needs_review",
+      "reasons": [
+        "activity_evidence_expired_or_missing"
+      ],
+      "evaluated_at": "2026-11-15T11:54:08.129868Z",
+      "superseded_at": "2026-11-17T13:33:30.547820+00:00",
+      "superseded_by": "user_directed_transition_2026_11_17",
+      "pending_actions": {
+        "zh-CN": [
+          "核对近期功能提交或发行内容；纯文档更新不单独计入。"
+        ],
+        "en": [
+          "Check recent functional commits or release contents; documentation-only updates do not qualify on their own."
+        ]
+      },
+      "reviewed_at": "2026-11-17T03:11:46.178386+00:00",
+      "review_basis": "existing_evidence_status_clarification"
     }
   ]
 }
