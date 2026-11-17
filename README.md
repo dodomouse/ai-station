@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-375-2563eb?style=flat-square" alt="375 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-382-2563eb?style=flat-square" alt="382 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,9 +22,11 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **375 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
+现有 **382 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
 
 **2026-11-17 新增收录：** [100 个可帮助 AI 完成任务的仓库](reviews/2026-11-17-ai-repository-shortlist.md)已全部整理为正式双语词条。它们按主要用途并入下方目录。筛选记录保留 Star 快照和近三个月活动，可按 12 类任务浏览。
+
+**媒体工具补充：** 新增 7 个[图像与音视频词条](#included-media)，覆盖视频制作、图片生成与分割、智能照片和视频库。
 
 可以按任务寻找工具、比较使用条件，也可以挑选适合学习的源码项目。在浏览器中阅读目录，选定项目后再按其官方说明配置环境。
 
@@ -75,13 +77,13 @@
 
 ## 分类导航
 
-选择分类后展开列表。375 个项目按主要用途各列一次。
+选择分类后展开列表。382 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
 | [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [97](#included-ai) |
 | [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [96](#included-development) |
-| [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [60](#included-media) |
+| [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [67](#included-media) |
 | [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [56](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [19](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [19](#included-operations) |
@@ -91,7 +93,7 @@
 
 <a id="included"></a>
 
-## 已收录（375）
+## 已收录（382）
 
 点击名称查看双语介绍与带日期的证据。下表 Star 为复核时快照，不作实时排名。
 
@@ -311,7 +313,7 @@
 <a id="included-media"></a>
 
 <details>
-<summary><strong>图像与音视频</strong> · 60 项</summary>
+<summary><strong>图像与音视频</strong> · 67 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -349,9 +351,11 @@
 | [Hunyuan3D 2](docs/hunyuan3d-2.md#中文) | 通过形状生成和纹理合成两个阶段，把图像转换为带纹理的 3D 资产。 | 图像与音视频 | 15462 |
 | [Hyperframes](docs/hyperframes.md#中文) | 用 HTML/CSS 和可定位时间的动画制作视频，通过无头浏览器与 FFmpeg 确定性渲染 MP4；提供 CLI、Agent 技能和桌面工作台。 | 图像与音视频 | 85034 |
 | [Ian Xiaohei Illustrations](docs/ian-xiaohei-illustrations.md#中文) | 为中文正文生成白底手绘“小黑”风格的 PNG 插图。技能先提炼文章观点，再规划分镜并生成配图。 | 图像与音视频 | 13217 |
+| [Immich](docs/immich.md#中文) | Immich 是自托管的照片与视频库，提供手机自动上传、相册管理、人脸识别和 CLIP 检索。 | 图像与音视频 | 119440 |
 | [InvokeAI](docs/invokeai.md#中文) | 面向图像创作的本地 AI 应用，结合画布编辑、节点工作流和模型管理。 | 图像与音视频 | 29105 |
 | [Lemo-Opuscar](docs/lemo-opuscar.md#中文) | 提供动画风格指南、提示词、示例代码和短片。当前 README 列出 99 种风格。 | 图像与音视频 | 16446 |
 | [LivePortrait](docs/liveportrait.md#中文) | 用驱动视频或运动模板为人物及动物肖像生成动画。 | 图像与音视频 | 19514 |
+| [LTX-2](docs/ltx-2.md#中文) | 用于同步音视频生成、视频转换和局部片段重生成的 Python 工具库。 | 图像与音视频 | 10280 |
 | [Mac Duo](docs/mac-duo.md#中文) | 根据 MacBook 屏幕开合角度，为实时桌面画面添加倾斜、模糊和渐暗效果。 | 图像与音视频 | 1236 |
 | [MCP for Blender](docs/mcp-for-blender.md#中文) | 通过 MCP 把 Agent 连接到 Blender，用自然语言组织场景、模型、材质和渲染，并接入可选素材服务。 | 图像与音视频 | 34616 |
 | [MoneyPrinterTurbo](docs/moneyprinterturbo.md#中文) | 将主题或关键词转成脚本、配音、素材和字幕，并合成短视频。 | 图像与音视频 | 144052 |
@@ -360,12 +364,17 @@
 | [OpenCreator](docs/opencreator.md#中文) | 以对话与可视化工作区组织内容制作，管理生成任务、素材、字幕和版本。 | 图像与音视频 | 14380 |
 | [Photo Relic Editorial：照片与纸上印迹](docs/photo-relic-editorial.md#中文) | 上方保持真实照片，下方将源图轮廓、光线和配色提炼为纸张版画式印迹。 | 图像与音视频 | 454 |
 | [Photo-to-Zine：照片明信片正反面](docs/photo-to-zine-postcard.md#中文) | 保留原照，结合手绘元素、三个色块与协调的背面，生成 2:3 明信片正反面。 | 图像与音视频 | 289 |
+| [PhotoPrism](docs/photoprism.md#中文) | PhotoPrism 是自托管的照片与视频管理工具，可自动生成标签、识别人脸，并按内容及元数据筛选素材。 | 图像与音视频 | 40456 |
+| [Qwen-Image](docs/qwen-image.md#中文) | 提供文生图和图像编辑模型及示例，支持画面中的文字生成和多图编辑。 | 图像与音视频 | 8487 |
+| [Remotion](docs/remotion.md#中文) | 用 React 和网页技术制作视频，支持编码智能体生成工程、交互预览和批量渲染。 | 图像与音视频 | 73840 |
+| [SAM 3](docs/sam3.md#中文) | 按文字、点、框或掩码提示分割图像与视频，并跟踪视频中的目标。 | 图像与音视频 | 12319 |
 | [Subvox](docs/subvox.md#中文) | 研究 AirPods 头部运动数据能否识别无声口型的小词汇量实验原型。 | 图像与音视频 | 838 |
 | [SwarmUI](docs/swarmui.md#中文) | 为图像、视频及部分音频生成模型提供可扩展的网页界面。 | 图像与音视频 | 4791 |
 | [Teardown：交互式机械拆解与3D演示](docs/teardown.md#中文) | 面向 Claude Code 的 3D 机械原理演示技能。支持部件拆解、剖视、联动、自动演示与人工交互，可构建离线 HTML 并录制 MP4。 | 图像与音视频 | 3534 |
 | [Turbo Kart Rally](docs/turbo-kart-rally.md#中文) | 在浏览器中运行的 Three.js 卡丁车游戏和程序化内容示例。 | 图像与音视频 | 50 |
 | [Upscayl](docs/upscayl.md#中文) | 使用 AI 超分辨率模型放大低分辨率图像的桌面工具，支持批量处理和模型选择。 | 图像与音视频 | 52784 |
 | [VoiceStudio](docs/voicestudio.md#中文) | 在本地运行语音克隆、声音设计、转录和视频配音。另提供听写、有声书、批量任务及本地 API 与 MCP 接口。 | 图像与音视频 | 110994 |
+| [Wan2.2](docs/wan2-2.md#中文) | 用于文生视频、图生视频和角色动画的模型与推理代码。 | 图像与音视频 | 18725 |
 | [Whisper](docs/whisper.md#中文) | 将音频转写为文本的多语言语音识别模型与工具，支持语言检测和将语音翻译为英语。 | 图像与音视频 | 112864 |
 | [WhisperX](docs/whisperx.md#中文) | 在 Whisper 转写基础上增加逐词时间戳、对齐和说话人区分。 | 图像与音视频 | 25405 |
 | [YuE2 推理代码 / YuE2 inference code](docs/yue.md#中文) | 通过可编辑旋律与和弦计划生成包含人声和伴奏的歌曲。 | 图像与音视频 | 13534 |

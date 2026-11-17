@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-375-2563eb?style=flat-square" alt="375 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-382-2563eb?style=flat-square" alt="382 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,9 +22,11 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **375 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
+The catalog contains **382 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
 
 **Added on 2026-11-17:** [100 repositories that help AI complete tasks](reviews/2026-11-17-ai-repository-shortlist.md) now have complete bilingual entries in the directory below. The discovery record retains Star snapshots and recent activity, grouped into 12 task areas.
+
+**Media additions:** Seven new [media entries](#included-media) cover video creation, image generation and segmentation, and searchable photo and video libraries.
 
 Use it to find tools for a task, compare setup requirements or explore code worth learning from. Read the catalog in your browser, then follow the selected project's own setup guide.
 
@@ -75,13 +77,13 @@ This transition applies to the original assessment records. Future reassessments
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 375 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 382 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
 | [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [97](#included-ai) |
 | [Development](#included-development) | Coding, review, interfaces and engineering | [96](#included-development) |
-| [Images, audio and video](#included-media) | Images, animation, audio and video creation | [60](#included-media) |
+| [Images, audio and video](#included-media) | Images, animation, audio and video creation | [67](#included-media) |
 | [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [56](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [19](#included-automation) |
 | [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [19](#included-operations) |
@@ -91,7 +93,7 @@ Choose a category, then expand its list. Each of the 375 projects appears once i
 
 <a id="included"></a>
 
-## Included (375)
+## Included (382)
 
 Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
 
@@ -311,7 +313,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-media"></a>
 
 <details>
-<summary><strong>Images, audio and video</strong> · 60 projects</summary>
+<summary><strong>Images, audio and video</strong> · 67 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -349,9 +351,11 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Hunyuan3D 2](docs/hunyuan3d-2.md#english) | Convert images into textured 3D assets through separate shape-generation and texture-synthesis stages. | Images, audio and video | 15462 |
 | [Hyperframes](docs/hyperframes.md#english) | Creates videos from HTML/CSS and seekable animations, rendering MP4 with headless Chromium and FFmpeg through a CLI, agent skills or desktop studio. | Images, audio and video | 85034 |
 | [Ian Xiaohei Illustrations](docs/ian-xiaohei-illustrations.md#english) | A Codex-oriented skill for turning Chinese article concepts into white-background hand-drawn Xiaohei illustrations. | Images, audio and video | 13217 |
+| [Immich](docs/immich.md#english) | Immich is a self-hosted photo and video library with automatic mobile uploads, albums, face recognition, and CLIP search. | Images, audio and video | 119440 |
 | [InvokeAI](docs/invokeai.md#english) | A local AI application for image creation, combining canvas editing, node workflows, and model management. | Images, audio and video | 29105 |
 | [Lemo-Opuscar](docs/lemo-opuscar.md#english) | A motion-design library of style guides, prompts, code examples and demonstration films; the current README lists 99 styles. | Images, audio and video | 16446 |
 | [LivePortrait](docs/liveportrait.md#english) | Animate human and animal portraits using driving video or motion templates. | Images, audio and video | 19514 |
+| [LTX-2](docs/ltx-2.md#english) | A Python toolkit for synchronized audio-video generation, video transformations, and regenerating selected segments. | Images, audio and video | 10280 |
 | [Mac Duo](docs/mac-duo.md#english) | Applies tilt, blur and dimming to live desktop content as a MacBook lid moves. | Images, audio and video | 1236 |
 | [MCP for Blender](docs/mcp-for-blender.md#english) | Connects agents to Blender through MCP for scenes, models, materials and rendering, with optional asset-service integrations. | Images, audio and video | 34616 |
 | [MoneyPrinterTurbo](docs/moneyprinterturbo.md#english) | Turns topics or keywords into scripts, narration, assets and subtitles, then composes short videos. | Images, audio and video | 144052 |
@@ -360,12 +364,17 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [OpenCreator](docs/opencreator.md#english) | Organizes content creation through conversation and a visual workspace, managing runs, media, subtitles and revisions. | Images, audio and video | 14380 |
 | [Photo Relic Editorial：照片与纸上印迹](docs/photo-relic-editorial.md#english) | A photo-layout skill that pairs a photographic upper section with paper-like abstract editorial elements below. | Images, audio and video | 454 |
 | [Photo-to-Zine：照片明信片正反面](docs/photo-to-zine-postcard.md#english) | A photo-preserving postcard workflow with doodles, color swatches and front/back layouts. | Images, audio and video | 289 |
+| [PhotoPrism](docs/photoprism.md#english) | PhotoPrism is a self-hosted photo and video manager that generates labels, recognizes faces, and filters media by content and metadata. | Images, audio and video | 40456 |
+| [Qwen-Image](docs/qwen-image.md#english) | Models and examples for text-to-image generation and image editing, including text rendering within images and editing with multiple input images. | Images, audio and video | 8487 |
+| [Remotion](docs/remotion.md#english) | Creates videos with React and web technology, with coding-agent workflows, interactive previews and batch rendering. | Images, audio and video | 73840 |
+| [SAM 3](docs/sam3.md#english) | Segment images and videos using text, points, boxes, or masks, and track objects across video frames. | Images, audio and video | 12319 |
 | [Subvox](docs/subvox.md#english) | A small-vocabulary prototype testing whether AirPods head-motion data can identify silently mouthed words. | Images, audio and video | 838 |
 | [SwarmUI](docs/swarmui.md#english) | An extensible web interface for image, video, and selected audio generation models. | Images, audio and video | 4791 |
 | [Teardown：交互式机械拆解与3D演示](docs/teardown.md#english) | A Claude Code skill for interactive 3D mechanism explanations, exploded views, sections and recorded video. | Images, audio and video | 3534 |
 | [Turbo Kart Rally](docs/turbo-kart-rally.md#english) | A Three.js browser kart racer and example of procedural game content. | Images, audio and video | 50 |
 | [Upscayl](docs/upscayl.md#english) | A desktop tool that enlarges low-resolution images with AI super-resolution models, supporting batch processing and model selection. | Images, audio and video | 52784 |
 | [VoiceStudio](docs/voicestudio.md#english) | Voice software for cloning, speech design, transcription and dubbing, with batch processing and agent interfaces. | Images, audio and video | 110994 |
+| [Wan2.2](docs/wan2-2.md#english) | Models and inference code for text-to-video, image-to-video, and character animation. | Images, audio and video | 18725 |
 | [Whisper](docs/whisper.md#english) | A multilingual speech-recognition model and toolkit for transcription, language detection and speech translation into English. | Images, audio and video | 112864 |
 | [WhisperX](docs/whisperx.md#english) | Add word-level timestamps, alignment, and speaker diarization to Whisper transcription. | Images, audio and video | 25405 |
 | [YuE2 推理代码 / YuE2 inference code](docs/yue.md#english) | Generates vocals and accompaniment from editable melody and chord plans. | Images, audio and video | 13534 |
