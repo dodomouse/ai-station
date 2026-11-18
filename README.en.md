@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-387-2563eb?style=flat-square" alt="387 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-391-2563eb?style=flat-square" alt="391 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **387 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
+The catalog contains **391 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
 
 **Added on 2026-11-17:** [100 repositories that help AI complete tasks](reviews/2026-11-17-ai-repository-shortlist.md) now have complete bilingual entries in the directory below. The discovery record retains Star snapshots and recent activity, grouped into 12 task areas.
 
@@ -81,14 +81,14 @@ This transition applies to the original assessment records. Future reassessments
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 387 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 391 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
-| [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [97](#included-ai) |
-| [Development](#included-development) | Coding, review, interfaces and engineering | [96](#included-development) |
+| [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [98](#included-ai) |
+| [Development](#included-development) | Coding, review, interfaces and engineering | [98](#included-development) |
 | [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
-| [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [58](#included-productivity) |
+| [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [59](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [20](#included-automation) |
 | [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [19](#included-operations) |
 | [Data processing](#included-data) | Data queries, research and analysis | [22](#included-data) |
@@ -97,14 +97,14 @@ Choose a category, then expand its list. Each of the 387 projects appears once i
 
 <a id="included"></a>
 
-## Included (387)
+## Included (391)
 
 Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
 
 <a id="included-ai"></a>
 
 <details>
-<summary><strong>AI tools</strong> · 97 projects</summary>
+<summary><strong>AI tools</strong> · 98 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -205,13 +205,14 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [WeKnora](docs/weknora.md#english) | An enterprise-document knowledge base and RAG service combining parsing, retrieval, agents and wiki workflows. | AI tools | 37540 |
 | [XERJ](docs/xerj.md#english) | An open-source search engine for AI agents, indexing code, documents and logs for full-text, vector and hybrid retrieval. | AI tools | 19162 |
 | [微舆（BettaFish）](docs/bettafish.md#english) | Multi-agent research software that combines web, social and database material into public-opinion reports. | AI tools | 42701 |
+| [Last30Days Skill](docs/last30days-skill.md#english) | An AI agent-led search engine that scores multiple platforms by real engagement and synthesizes a grounded brief for research tasks. | AI tools | 69671 |
 
 </details>
 
 <a id="included-development"></a>
 
 <details>
-<summary><strong>Development</strong> · 96 projects</summary>
+<summary><strong>Development</strong> · 98 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -311,6 +312,8 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [vphone-cli](docs/vphone-cli.md#english) | Runs a virtual iPhone on Apple Silicon Macs for research and debugging. | Development | 16695 |
 | [Wakaru](docs/wakaru.md#english) | A JavaScript decompiler that unbundles packages, expands minified code and restores some transpiled structures through a CLI or playground. | Development | 1090 |
 | [Worktrunk](docs/worktrunk.md#english) | Simplifies switching, inspecting and removing Git worktrees for parallel coding tasks. | Development | 12565 |
+| [Claude-BugHunter](docs/claude-bughunter.md#english) | A Claude Code skill bundle for authorized bug hunting and external red-team work that helps AI run security tests and reporting. | Development | 10641 |
+| [SkillEvaluator](docs/skill-evaluator.md#english) | A multi-tier framework for evaluating AI agent skills and plugins on quality, security, overlap, compatibility, and real impact. | Development | 3513 |
 
 </details>
 
@@ -395,7 +398,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>Documents and productivity</strong> · 58 projects</summary>
+<summary><strong>Documents and productivity</strong> · 59 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -457,6 +460,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [程序员延寿指南](docs/howtolivelonger.md#english) | A reading collection that summarizes research on food, activity, sleep and other habits. | Documents and productivity | 36107 |
 | [词光 Word Atlas](docs/word-atlas.md#english) | A vocabulary web app combining illustrations, pronunciation and spaced review. | Documents and productivity | 4915 |
 | [高性价比人生指南](docs/howtolivebetter.md#english) | A Chinese reference collection on everyday systems, emergency preparation and practical life topics. | Documents and productivity | 75865 |
+| [PaperOrchestra](docs/paper-orchestra.md#english) | A multi-agent framework that turns ideas and experiment logs into submission-ready LaTeX papers with literature synthesis and figures. | Documents and productivity | 3837 |
 
 </details>
 

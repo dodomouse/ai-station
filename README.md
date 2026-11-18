@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-387-2563eb?style=flat-square" alt="387 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-391-2563eb?style=flat-square" alt="391 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **387 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
+现有 **391 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
 
 **2026-11-17 新增收录：** [100 个可帮助 AI 完成任务的仓库](reviews/2026-11-17-ai-repository-shortlist.md)已全部整理为正式双语词条。它们按主要用途并入下方目录。筛选记录保留 Star 快照和近三个月活动，可按 12 类任务浏览。
 
@@ -81,14 +81,14 @@
 
 ## 分类导航
 
-选择分类后展开列表。387 个项目按主要用途各列一次。
+选择分类后展开列表。391 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
-| [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [97](#included-ai) |
-| [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [96](#included-development) |
+| [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [98](#included-ai) |
+| [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [98](#included-development) |
 | [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
-| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [58](#included-productivity) |
+| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [59](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [20](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [19](#included-operations) |
 | [数据处理](#included-data) | 数据查询、研究与分析流程 | [22](#included-data) |
@@ -97,14 +97,14 @@
 
 <a id="included"></a>
 
-## 已收录（387）
+## 已收录（391）
 
 点击名称查看双语介绍与带日期的证据。下表 Star 为复核时快照，不作实时排名。
 
 <a id="included-ai"></a>
 
 <details>
-<summary><strong>AI 工具</strong> · 97 项</summary>
+<summary><strong>AI 工具</strong> · 98 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -205,13 +205,14 @@
 | [WeKnora](docs/weknora.md#中文) | 企业文档知识库与 RAG 问答服务，整合文档解析、检索、Agent 和 Wiki 工作流。 | AI 工具 | 37540 |
 | [XERJ](docs/xerj.md#中文) | 面向 AI 智能体的开源搜索引擎，索引代码、文档和日志，提供全文、向量与混合检索。 | AI 工具 | 19162 |
 | [微舆（BettaFish）](docs/bettafish.md#中文) | 多智能体舆情分析系统，组合网页搜索、社媒分析和数据库查询。通过协作汇总资料，输出 HTML 等格式的分析报告。 | AI 工具 | 42701 |
+| [Last30Days Skill](docs/last30days-skill.md#中文) | AI 智能体主导的搜索引擎，跨多平台检索并按真实互动评分综合成简报，帮助 AI 完成调研任务。 | AI 工具 | 69671 |
 
 </details>
 
 <a id="included-development"></a>
 
 <details>
-<summary><strong>开发辅助</strong> · 96 项</summary>
+<summary><strong>开发辅助</strong> · 98 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -311,6 +312,8 @@
 | [vphone-cli](docs/vphone-cli.md#中文) | 在Apple Silicon Mac上运行用于研究与调试的虚拟iPhone。 | 开发辅助 | 16695 |
 | [Wakaru](docs/wakaru.md#中文) | JavaScript 反编译工具，可拆分打包文件、展开压缩代码并恢复部分转译结构，提供 CLI 和网页试用。 | 开发辅助 | 1090 |
 | [Worktrunk](docs/worktrunk.md#中文) | 简化 Git worktree 的切换、查看和清理，支持并行编码任务。 | 开发辅助 | 12565 |
+| [Claude-BugHunter](docs/claude-bughunter.md#中文) | 用于授权范围内漏洞赏金与外部红队工作的 Claude Code 技能包，帮助 AI 完成安全测试与报告。 | 开发辅助 | 10641 |
+| [SkillEvaluator](docs/skill-evaluator.md#中文) | 多层框架，用于评估 AI 智能体技能与插件的质量、安全、重叠、兼容性及真实效果。 | 开发辅助 | 3513 |
 
 </details>
 
@@ -395,7 +398,7 @@
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>文档与效率</strong> · 58 项</summary>
+<summary><strong>文档与效率</strong> · 59 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -457,6 +460,7 @@
 | [程序员延寿指南](docs/howtolivelonger.md#中文) | README 列出 64 篇研究摘要，覆盖食物、运动、睡眠和日常习惯。 | 文档与效率 | 36107 |
 | [词光 Word Atlas](docs/word-atlas.md#中文) | 用插画、发音和间隔复习学习英语词汇的网页应用。 | 文档与效率 | 4915 |
 | [高性价比人生指南](docs/howtolivebetter.md#中文) | 覆盖生活开支、应急、健康、社保、就业、法律边界和家庭事务。条目说明成本、收益、证据和出处。 | 文档与效率 | 75865 |
+| [PaperOrchestra](docs/paper-orchestra.md#中文) | 多智能体框架，将想法与实验日志自动写成可提交的 LaTeX 论文并完成文献综述与图表。 | 文档与效率 | 3837 |
 
 </details>
 
