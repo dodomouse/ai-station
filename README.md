@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-385-2563eb?style=flat-square" alt="385 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-386-2563eb?style=flat-square" alt="386 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **385 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
+现有 **386 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
 
 **2026-11-17 新增收录：** [100 个可帮助 AI 完成任务的仓库](reviews/2026-11-17-ai-repository-shortlist.md)已全部整理为正式双语词条。它们按主要用途并入下方目录。筛选记录保留 Star 快照和近三个月活动，可按 12 类任务浏览。
 
@@ -81,14 +81,14 @@
 
 ## 分类导航
 
-选择分类后展开列表。385 个项目按主要用途各列一次。
+选择分类后展开列表。386 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
 | [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [97](#included-ai) |
 | [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [96](#included-development) |
 | [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
-| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [57](#included-productivity) |
+| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [58](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [19](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [19](#included-operations) |
 | [数据处理](#included-data) | 数据查询、研究与分析流程 | [22](#included-data) |
@@ -97,7 +97,7 @@
 
 <a id="included"></a>
 
-## 已收录（385）
+## 已收录（386）
 
 点击名称查看双语介绍与带日期的证据。下表 Star 为复核时快照，不作实时排名。
 
@@ -395,7 +395,7 @@
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>文档与效率</strong> · 57 项</summary>
+<summary><strong>文档与效率</strong> · 58 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -425,6 +425,7 @@
 | [MarkItDown](docs/markitdown.md#中文) | 将多种文件转换为 Markdown 的 Python 工具。 | 文档与效率 | 195977 |
 | [MarkText](docs/marktext.md#中文) | 支持实时预览与文件管理的跨平台 Markdown 编辑器。 | 文档与效率 | 64049 |
 | [MinerU](docs/mineru.md#中文) | 将复杂文档解析为结构化内容，并提供文档库和读取接口的工具。 | 文档与效率 | 83808 |
+| [NewsNow](docs/newsnow.md#中文) | 聚合多站热点与实时新闻，支持 GitHub 登录同步，并通过官方 MCP 为 AI 客户端提供新闻标题和原文链接。 | 文档与效率 | 22489 |
 | [OpenLogi](docs/openlogi.md#中文) | Rust 原生 Logitech 设备工具，通过 HID++/UVC 配置鼠标、键盘与摄像头，提供按钮、DPI、滚轮和跨电脑 Flow 等能力。 | 文档与效率 | 25783 |
 | [OpenWhispr](docs/openwhispr.md#中文) | 跨平台语音输入与会议转写应用，通过快捷键把语音转换为当前光标处的文本，提供笔记、说话人区分和可选 AI 助手。 | 文档与效率 | 11669 |
 | [PaddleOCR](docs/paddleocr.md#中文) | 识别图像文字并解析文档结构的 OCR 工具集。 | 文档与效率 | 92809 |
