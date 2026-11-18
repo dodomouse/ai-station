@@ -28,7 +28,7 @@ Last30Days 是一个由 AI 智能体主导的搜索引擎，按点赞、喜欢�
 ### 环境要求
 
 - 推荐 Claude Code 插件安装；也支持 `npx skills add -g` 安装到任意 Agent Skills 宿主。
-- Reddit、HN、Polymarket、GitHub 等开箱即用；X、YouTube、TikTok、arXiv 等需在设置向导中配置自有密钥或浏览器会话。
+- Reddit、HN、Polymarket、GitHub 等开箱即用；X、YouTube、TikTok 等按启用来源配置所需凭据或会话。arXiv 免费且不需要 API 密钥，安装 `arxiv-pp-cli` 后自动启用。
 - 部分来源需单独安装 CLI（如 digg-pp-cli、arxiv-pp-cli、techmeme-pp-cli）或提供 API 令牌。
 - 可用 `--preflight` 在不读 Cookie、不写文件、不运行研究的情况下查看配置计划。
 
@@ -70,7 +70,7 @@ It helps an agent build a grounded picture of the last 30 days before a meeting,
 ### Requirements
 
 - Claude Code plugin install is recommended; `npx skills add -g` works for any Agent Skills host.
-- Reddit, HN, Polymarket, and GitHub work immediately; X, YouTube, TikTok, and arXiv require your own keys or browser sessions via the setup wizard.
+- Reddit, HN, Polymarket, and GitHub work immediately; configure credentials or sessions for X, YouTube, TikTok, and other sources as required by the sources you enable. arXiv is free and needs no API key; it is enabled when `arxiv-pp-cli` is installed.
 - Some sources need extra CLIs (for example digg-pp-cli, arxiv-pp-cli, techmeme-pp-cli) or API tokens.
 - Use `--preflight` to inspect config, cookie plans, and writes without running research.
 

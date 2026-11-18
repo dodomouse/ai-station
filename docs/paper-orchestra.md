@@ -26,15 +26,15 @@ PaperOrchestra 是 Google Cloud AI Research 推出的多智能体框架，用于
 
 ### 环境要求
 
-- 依赖名为 paper_orchestra 的 Conda 环境，文档使用 Python 3.11；通过 `pip install -r requirements.txt` 安装依赖。
-- 需在根目录 .env 配置 API 密钥：SEMANTIC_SCHOLAR_API_KEY、OPENAI_API_KEY，以及 VERTEX_AI_PROJECT/LOCATION 或 GEMINI_API_KEY；可选 SMTP_EMAIL/SMTP_PASSWORD 用于发送演示邮件。
+- README 示例使用名为 paper_orchestra 的 Conda 环境与 Python 3.11；通过 `pip install -r requirements.txt` 安装依赖。
+- 在根目录 .env 中按启用的模型和功能填写相关配置：OpenAI 模型使用 OPENAI_API_KEY；Gemini 模型使用 VERTEX_AI_PROJECT/VERTEX_AI_LOCATION 或 GEMINI_API_KEY。SEMANTIC_SCHOLAR_API_KEY 和可选 SMTP_EMAIL/SMTP_PASSWORD 按所用功能配置，未使用的项可留空。
 - 论文生成所用数据集未包含在代码仓库中，需另行下载并放到 datasets/ 目录。
 
 ### 使用限制
 
 - 数据集不随仓库发布，需等待单独放出后手动放置。
 - 输入材料需为想法与实验日志等预写作素材；输出质量取决于所选模型与模板。
-- 需自备模型 API 密钥；无密钥时无法运行写作与文献智能体。
+- 写作与文献智能体需要可用的模型服务及相应认证配置，具体凭据取决于所选模型。
 - 官方声明这不是 Google 官方支持的产品。
 - 本次为文档复核，未安装或运行上游项目。
 
@@ -67,15 +67,15 @@ Acting like an orchestrated team of specialized agents, it handles outline gener
 
 ### Requirements
 
-- Relies on a Conda environment named paper_orchestra; docs use Python 3.11, with dependencies via `pip install -r requirements.txt`.
-- Configure a root .env with SEMANTIC_SCHOLAR_API_KEY, OPENAI_API_KEY, and either VERTEX_AI_PROJECT/LOCATION or GEMINI_API_KEY; SMTP_EMAIL/SMTP_PASSWORD are optional for demo emails.
+- The README examples use a Conda environment named paper_orchestra and Python 3.11, with dependencies via `pip install -r requirements.txt`.
+- Configure the root .env for the models and features you enable: OPENAI_API_KEY for OpenAI models; VERTEX_AI_PROJECT/VERTEX_AI_LOCATION or GEMINI_API_KEY for Gemini. Configure SEMANTIC_SCHOLAR_API_KEY and optional SMTP_EMAIL/SMTP_PASSWORD as needed for the selected features; unused entries can remain empty.
 - The dataset used for paper generation is not included; download it separately and place it under datasets/.
 
 ### Limitations
 
 - The dataset is not shipped with the repository and must be placed manually once released.
 - Input must be pre-writing material such as ideas and experiment logs; output quality depends on the chosen models and template.
-- Model API keys are required; writing and literature agents cannot run without them.
+- Writing and literature agents need a usable model service and its authentication configuration; required credentials depend on the selected model.
 - The authors state this is not an officially supported Google product.
 - This is a documentation review; the upstream software was not installed or run.
 

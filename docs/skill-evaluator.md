@@ -43,7 +43,7 @@ SkillEvaluator 是 NVIDIA 推出的多层框架，用于评估和改进 AI 智�
 
 1. 在 Python 3.12–3.14 环境执行 `pip install skillevaluator`。
 2. 运行 `skillevaluator quality-check ./my-skill` 做无密钥静态质量检查，或 `skillevaluator harness-check ./my-skill` 检查宿主兼容性。
-3. 运行 `skillevaluator validate ./my-skill --tiers 1` 执行 Tier 1；配置密钥与扫描器后可去掉 `--tiers 1` 运行全部层级。
+3. 运行 `skillevaluator validate ./my-skill --tiers 1` 执行 Tier 1。运行全部层级前，按官方说明执行 `pip install "skillevaluator[all]"`（或对应的全层级安装），配置所选模型提供方及扫描器，准备已审查的数据集并启动 Docker 沙箱，再去掉 `--tiers 1`。
 
 ### 收录与来源
 
@@ -85,7 +85,7 @@ It starts with quality checks, then compares runs with and without a skill to me
 
 1. Run `pip install skillevaluator` in a Python 3.12–3.14 environment.
 2. Run `skillevaluator quality-check ./my-skill` for a keyless static check, or `skillevaluator harness-check ./my-skill` for harness compatibility.
-3. Run `skillevaluator validate ./my-skill --tiers 1` for Tier 1; with providers and scanners configured, drop `--tiers 1` to run all tiers.
+3. Run `skillevaluator validate ./my-skill --tiers 1` for Tier 1. Before running all tiers, follow the official setup for `pip install "skillevaluator[all]"` (or an equivalent all-tier installation), configure the selected provider and scanners, prepare a reviewed dataset, and start the Docker sandbox; then omit `--tiers 1`.
 
 ### Review and sources
 
