@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-386-2563eb?style=flat-square" alt="386 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-387-2563eb?style=flat-square" alt="387 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **386 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
+The catalog contains **387 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
 
 **Added on 2026-11-17:** [100 repositories that help AI complete tasks](reviews/2026-11-17-ai-repository-shortlist.md) now have complete bilingual entries in the directory below. The discovery record retains Star snapshots and recent activity, grouped into 12 task areas.
 
@@ -81,7 +81,7 @@ This transition applies to the original assessment records. Future reassessments
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 386 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 387 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
@@ -89,7 +89,7 @@ Choose a category, then expand its list. Each of the 386 projects appears once i
 | [Development](#included-development) | Coding, review, interfaces and engineering | [96](#included-development) |
 | [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
 | [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [58](#included-productivity) |
-| [Automation](#included-automation) | Scheduling, devices and application control | [19](#included-automation) |
+| [Automation](#included-automation) | Scheduling, devices and application control | [20](#included-automation) |
 | [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [19](#included-operations) |
 | [Data processing](#included-data) | Data queries, research and analysis | [22](#included-data) |
 | [Terminal and shell](#included-terminal) | Terminals and command-line tools | [3](#included-terminal) |
@@ -97,7 +97,7 @@ Choose a category, then expand its list. Each of the 386 projects appears once i
 
 <a id="included"></a>
 
-## Included (386)
+## Included (387)
 
 Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
 
@@ -463,7 +463,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-automation"></a>
 
 <details>
-<summary><strong>Automation</strong> · 19 projects</summary>
+<summary><strong>Automation</strong> · 20 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -486,6 +486,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Voice Control Agent](docs/voice-control-agent.md#english) | A Mac voice entry point for a Codex desktop conversation, with local wake-word detection and spoken replies. | Automation | 5 |
 | [XGIMI Agent](docs/xgimi-agent.md#english) | A macOS menu-bar app and agent skill for LAN control of the user's XGIMI projector, with remote input, screenshots and experimental Bluetooth wake. | Automation | 7 |
 | [XiaoZhi ESP32](docs/xiaozhi-esp32.md#english) | Voice-interaction firmware that connects ESP32 hardware to voice models and MCP device control. | Automation | 33330 |
+| [LoopForge](docs/loopforge.md#english) | Self-hosted orchestration platform that runs coding agents through SOPs, Docker sandboxes and human approval gates to deliver requirements. | Automation | 3731 |
 
 </details>
 

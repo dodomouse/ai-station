@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-386-2563eb?style=flat-square" alt="386 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-387-2563eb?style=flat-square" alt="387 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **386 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
+现有 **387 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
 
 **2026-11-17 新增收录：** [100 个可帮助 AI 完成任务的仓库](reviews/2026-11-17-ai-repository-shortlist.md)已全部整理为正式双语词条。它们按主要用途并入下方目录。筛选记录保留 Star 快照和近三个月活动，可按 12 类任务浏览。
 
@@ -81,7 +81,7 @@
 
 ## 分类导航
 
-选择分类后展开列表。386 个项目按主要用途各列一次。
+选择分类后展开列表。387 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
@@ -89,7 +89,7 @@
 | [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [96](#included-development) |
 | [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
 | [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [58](#included-productivity) |
-| [自动化](#included-automation) | 任务调度、设备与应用控制 | [19](#included-automation) |
+| [自动化](#included-automation) | 任务调度、设备与应用控制 | [20](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [19](#included-operations) |
 | [数据处理](#included-data) | 数据查询、研究与分析流程 | [22](#included-data) |
 | [终端与 Shell](#included-terminal) | 终端环境与命令行工具 | [3](#included-terminal) |
@@ -97,7 +97,7 @@
 
 <a id="included"></a>
 
-## 已收录（386）
+## 已收录（387）
 
 点击名称查看双语介绍与带日期的证据。下表 Star 为复核时快照，不作实时排名。
 
@@ -463,7 +463,7 @@
 <a id="included-automation"></a>
 
 <details>
-<summary><strong>自动化</strong> · 19 项</summary>
+<summary><strong>自动化</strong> · 20 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -486,6 +486,7 @@
 | [Voice Control Agent](docs/voice-control-agent.md#中文) | 为 Mac 上的 Codex 桌面会话提供本机唤醒、语音输入和回复朗读入口。 | 自动化 | 5 |
 | [XGIMI Agent](docs/xgimi-agent.md#中文) | macOS 菜单栏与 Agent 技能，通过局域网控制用户自己的极米投影仪，提供遥控、截图与实验性蓝牙唤醒。 | 自动化 | 7 |
 | [XiaoZhi ESP32](docs/xiaozhi-esp32.md#中文) | 面向 ESP32 设备的语音交互固件，将语音模型和 MCP 设备控制接到硬件上。 | 自动化 | 33330 |
+| [LoopForge](docs/loopforge.md#中文) | 自托管的编码 Agent 交付编排平台，用 SOP、Docker 沙箱与人工审批组织 CodeBuddy、Codex、Claude Code 等执行器完成需求交付。 | 自动化 | 3731 |
 
 </details>
 
