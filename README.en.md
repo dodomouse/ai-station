@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-384-2563eb?style=flat-square" alt="384 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-385-2563eb?style=flat-square" alt="385 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **384 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
+The catalog contains **385 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
 
 **Added on 2026-11-17:** [100 repositories that help AI complete tasks](reviews/2026-11-17-ai-repository-shortlist.md) now have complete bilingual entries in the directory below. The discovery record retains Star snapshots and recent activity, grouped into 12 task areas.
 
@@ -81,14 +81,14 @@ This transition applies to the original assessment records. Future reassessments
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 384 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 385 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
 | [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [97](#included-ai) |
 | [Development](#included-development) | Coding, review, interfaces and engineering | [96](#included-development) |
 | [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
-| [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [56](#included-productivity) |
+| [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [57](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [19](#included-automation) |
 | [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [19](#included-operations) |
 | [Data processing](#included-data) | Data queries, research and analysis | [22](#included-data) |
@@ -97,7 +97,7 @@ Choose a category, then expand its list. Each of the 384 projects appears once i
 
 <a id="included"></a>
 
-## Included (384)
+## Included (385)
 
 Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
 
@@ -395,7 +395,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>Documents and productivity</strong> · 56 projects</summary>
+<summary><strong>Documents and productivity</strong> · 57 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -450,6 +450,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [投资入门指南](docs/investing-for-beginners.md#english) | Chinese introductory material on financial concepts, US markets, options and cryptocurrencies. | Documents and productivity | 4539 |
 | [数字员工配置包（开源样例）](docs/digital-employee-pack.md#english) | Three open-source Chinese office-work skill samples for AI agents: weekly reports, meeting minutes and slide-by-slide presentation outlines. | Documents and productivity | 0 |
 | [狗头军师](docs/goutoujunshi.md#english) | An agent skill that uses user-supplied stories or conversation material to draft replies and possible next steps. | Documents and productivity | 9693 |
+| [百智办公 MonkeyAI（MonkeyCode）](docs/monkeycode.md#english) | Server and administration console for team AI work, managing models, knowledge bases, skills and MCP connectors for compatible clients handling office, coding and design tasks. | Documents and productivity | 5244 |
 | [知了 Cicada](docs/cicada.md#english) | Live bilingual captions, interpreting and meeting notes for calls and streams, with transcript search and exports. | Documents and productivity | 2347 |
 | [程序员做饭指南](docs/howtocook.md#english) | A structured collection of recipes with ingredients, quantities and preparation steps. | Documents and productivity | 103951 |
 | [程序员延寿指南](docs/howtolivelonger.md#english) | A reading collection that summarizes research on food, activity, sleep and other habits. | Documents and productivity | 36107 |

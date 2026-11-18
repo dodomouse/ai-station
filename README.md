@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-384-2563eb?style=flat-square" alt="384 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-385-2563eb?style=flat-square" alt="385 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **384 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
+现有 **385 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
 
 **2026-11-17 新增收录：** [100 个可帮助 AI 完成任务的仓库](reviews/2026-11-17-ai-repository-shortlist.md)已全部整理为正式双语词条。它们按主要用途并入下方目录。筛选记录保留 Star 快照和近三个月活动，可按 12 类任务浏览。
 
@@ -81,14 +81,14 @@
 
 ## 分类导航
 
-选择分类后展开列表。384 个项目按主要用途各列一次。
+选择分类后展开列表。385 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
 | [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [97](#included-ai) |
 | [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [96](#included-development) |
 | [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
-| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [56](#included-productivity) |
+| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [57](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [19](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [19](#included-operations) |
 | [数据处理](#included-data) | 数据查询、研究与分析流程 | [22](#included-data) |
@@ -97,7 +97,7 @@
 
 <a id="included"></a>
 
-## 已收录（384）
+## 已收录（385）
 
 点击名称查看双语介绍与带日期的证据。下表 Star 为复核时快照，不作实时排名。
 
@@ -395,7 +395,7 @@
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>文档与效率</strong> · 56 项</summary>
+<summary><strong>文档与效率</strong> · 57 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -450,6 +450,7 @@
 | [投资入门指南](docs/investing-for-beginners.md#中文) | 官方定位是中文投资入门资料，主题包含美股、期权和加密资产。 | 文档与效率 | 4539 |
 | [数字员工配置包（开源样例）](docs/digital-employee-pack.md#中文) | 面向 AI Agent 的三个中文办公技能样例，帮助整理周报、会议纪要和 PPT 逐页内容大纲。 | 文档与效率 | 0 |
 | [狗头军师](docs/goutoujunshi.md#中文) | 可分析用户叙述、聊天截图和已导出文本，给出回复草案与行动选项。 | 文档与效率 | 9693 |
+| [百智办公 MonkeyAI（MonkeyCode）](docs/monkeycode.md#中文) | 面向团队 AI 办公的服务端与管理后台，统一配置模型、知识库、技能和 MCP 连接器，供兼容客户端执行办公、编程与设计任务。 | 文档与效率 | 5244 |
 | [知了 Cicada](docs/cicada.md#中文) | 为会议和直播提供双语字幕、同声传译与会议纪要。直接读取系统声音，支持转写搜索和记录导出。 | 文档与效率 | 2347 |
 | [程序员做饭指南](docs/howtocook.md#中文) | 按菜品组织食材、用量和制作步骤，适合按明确流程学做饭。 | 文档与效率 | 103951 |
 | [程序员延寿指南](docs/howtolivelonger.md#中文) | README 列出 64 篇研究摘要，覆盖食物、运动、睡眠和日常习惯。 | 文档与效率 | 36107 |
