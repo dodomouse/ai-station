@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-392-2563eb?style=flat-square" alt="392 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-393-2563eb?style=flat-square" alt="393 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **392 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
+The catalog contains **393 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
 
 **Added on 2026-11-17:** [100 repositories that help AI complete tasks](reviews/2026-11-17-ai-repository-shortlist.md) now have complete bilingual entries in the directory below. The discovery record retains Star snapshots and recent activity, grouped into 12 task areas.
 
@@ -81,12 +81,12 @@ This transition applies to the original assessment records. Future reassessments
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 392 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 393 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
 | [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [98](#included-ai) |
-| [Development](#included-development) | Coding, review, interfaces and engineering | [99](#included-development) |
+| [Development](#included-development) | Coding, review, interfaces and engineering | [100](#included-development) |
 | [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
 | [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [59](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [20](#included-automation) |
@@ -97,7 +97,7 @@ Choose a category, then expand its list. Each of the 392 projects appears once i
 
 <a id="included"></a>
 
-## Included (392)
+## Included (393)
 
 Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
 
@@ -212,7 +212,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-development"></a>
 
 <details>
-<summary><strong>Development</strong> · 99 projects</summary>
+<summary><strong>Development</strong> · 100 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -315,6 +315,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Claude-BugHunter](docs/claude-bughunter.md#english) | A Claude Code skill bundle for authorized bug hunting and external red-team work that helps AI run security tests and reporting. | Development | 10641 |
 | [SkillEvaluator](docs/skill-evaluator.md#english) | A multi-tier framework for evaluating AI agent skills and plugins on quality, security, overlap, compatibility, and real impact. | Development | 3513 |
 | [Cursor Plugins](docs/cursor-plugins.md#english) | Official Cursor plugin specification and plugin collection for AI coding agents, offering developer, integration, and productivity plugins for code review, branch management, and third-party service operations. | Development | 17282 |
+| [BLA (Blind LLM Agents)](docs/bla.md#english) | MCP server and CLI that lets AI coding agents harden software releases against AI reverse-engineering agents. | Development | 6188 |
 
 </details>
 
