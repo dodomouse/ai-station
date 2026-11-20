@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-394-2563eb?style=flat-square" alt="394 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-395-2563eb?style=flat-square" alt="395 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **394 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
+The catalog contains **395 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
 
 **Added on 2026-11-17:** [100 repositories that help AI complete tasks](reviews/2026-11-17-ai-repository-shortlist.md) now have complete bilingual entries in the directory below. The discovery record retains Star snapshots and recent activity, grouped into 12 task areas.
 
@@ -81,14 +81,14 @@ This transition applies to the original assessment records. Future reassessments
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 394 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 395 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
 | [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [98](#included-ai) |
 | [Development](#included-development) | Coding, review, interfaces and engineering | [101](#included-development) |
 | [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
-| [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [59](#included-productivity) |
+| [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [60](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [20](#included-automation) |
 | [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [19](#included-operations) |
 | [Data processing](#included-data) | Data queries, research and analysis | [22](#included-data) |
@@ -97,7 +97,7 @@ Choose a category, then expand its list. Each of the 394 projects appears once i
 
 <a id="included"></a>
 
-## Included (394)
+## Included (395)
 
 Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
 
@@ -401,7 +401,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>Documents and productivity</strong> · 59 projects</summary>
+<summary><strong>Documents and productivity</strong> · 60 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -441,6 +441,7 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 | [Read Frog](docs/read-frog.md#english) | A browser language-learning extension combining page translation, subtitle translation and vocabulary review. | Documents and productivity | 10456 |
 | [Tendedero](docs/tendedero.md#english) | A macOS shelf for screenshots, copied text and links, with drag-and-drop reuse. | Documents and productivity | 3263 |
 | [Tolaria](docs/tolaria.md#english) | Manage knowledge bases as Markdown files and Git repositories, with a desktop AI panel and MCP integration for models and coding agents to search, discuss or edit notes. | Documents and productivity | 20559 |
+| [TrendRadar](docs/trendradar.md#english) | Tracks Chinese news rankings and RSS feeds from China and abroad, with AI-assisted search, translation and briefing delivery. | Documents and productivity | 63753 |
 | [Unstructured](docs/unstructured.md#english) | A Python library that partitions unstructured documents into content elements. | Documents and productivity | 15755 |
 | [VNote](docs/vnote.md#english) | Manages local notes and edits Markdown, Typst, text and mind maps. | Documents and productivity | 13048 |
 | [Window Sweaters](docs/window-sweaters.md#english) | Adds knitted-style borders to macOS windows, with per-app colors, exclusions and active-window distinction. | Documents and productivity | 1495 |

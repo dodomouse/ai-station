@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-394-2563eb?style=flat-square" alt="394 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-395-2563eb?style=flat-square" alt="395 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **394 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
+现有 **395 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境、限制、入门方式和复核证据。
 
 **2026-11-17 新增收录：** [100 个可帮助 AI 完成任务的仓库](reviews/2026-11-17-ai-repository-shortlist.md)已全部整理为正式双语词条。它们按主要用途并入下方目录。筛选记录保留 Star 快照和近三个月活动，可按 12 类任务浏览。
 
@@ -81,14 +81,14 @@
 
 ## 分类导航
 
-选择分类后展开列表。394 个项目按主要用途各列一次。
+选择分类后展开列表。395 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
 | [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [98](#included-ai) |
 | [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [101](#included-development) |
 | [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
-| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [59](#included-productivity) |
+| [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [60](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [20](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [19](#included-operations) |
 | [数据处理](#included-data) | 数据查询、研究与分析流程 | [22](#included-data) |
@@ -97,7 +97,7 @@
 
 <a id="included"></a>
 
-## 已收录（394）
+## 已收录（395）
 
 点击名称查看双语介绍与带日期的证据。下表 Star 为复核时快照，不作实时排名。
 
@@ -401,7 +401,7 @@
 <a id="included-productivity"></a>
 
 <details>
-<summary><strong>文档与效率</strong> · 59 项</summary>
+<summary><strong>文档与效率</strong> · 60 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -441,6 +441,7 @@
 | [Read Frog](docs/read-frog.md#中文) | 结合网页翻译、字幕翻译和词汇复习的浏览器语言学习扩展。 | 文档与效率 | 10456 |
 | [Tendedero](docs/tendedero.md#中文) | 在 macOS 屏幕顶部暂存截图、复制文本和链接，便于拖放与再次使用。 | 文档与效率 | 3263 |
 | [Tolaria](docs/tolaria.md#中文) | 用 Markdown 文件和 Git 管理知识库，并通过桌面 AI 面板与 MCP 让模型和编程智能体检索、讨论或编辑笔记。 | 文档与效率 | 20559 |
+| [TrendRadar](docs/trendradar.md#中文) | 聚合国内新闻热榜与国内外 RSS 订阅，跟踪话题排名变化，支持 AI 检索、翻译和简报推送。 | 文档与效率 | 63753 |
 | [Unstructured](docs/unstructured.md#中文) | 把非结构化文档拆分为内容元素的 Python 库。 | 文档与效率 | 15755 |
 | [VNote](docs/vnote.md#中文) | 在本地管理笔记，并编辑Markdown、Typst、文本和思维导图。 | 文档与效率 | 13048 |
 | [Window Sweaters](docs/window-sweaters.md#中文) | 给 macOS 窗口添加针织风格边框，可为不同应用设置颜色或关闭装饰，并区分活动窗口。 | 文档与效率 | 1495 |
