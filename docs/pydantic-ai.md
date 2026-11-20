@@ -54,8 +54,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.770Z �
 - [工具指南 / tools guide](https://pydantic.dev/docs/ai/tools-toolsets/tools/)
 - [评测模块 / evaluation module](https://pydantic.dev/docs/ai/evals/evals/)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Provides typed agent loops, tool calls, durable execution, evaluations and model-provider interfaces.
@@ -97,8 +95,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [官方概览 / official overview](https://pydantic.dev/docs/ai/)
 - [工具指南 / tools guide](https://pydantic.dev/docs/ai/tools-toolsets/tools/)
 - [评测模块 / evaluation module](https://pydantic.dev/docs/ai/evals/evals/)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

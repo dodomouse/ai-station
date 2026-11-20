@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.739Z �
 - [README 安装说明 / README installation instructions](https://github.com/getzep/graphiti/blob/main/README.md#installation)
 - [快速入门示例 / quickstart example](https://github.com/getzep/graphiti/blob/main/examples/quickstart/README.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Builds context graphs that retain time and provenance, with semantic, keyword and graph-traversal retrieval.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/getzep/graphiti)
 - [README 安装说明 / README installation instructions](https://github.com/getzep/graphiti/blob/main/README.md#installation)
 - [快速入门示例 / quickstart example](https://github.com/getzep/graphiti/blob/main/examples/quickstart/README.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

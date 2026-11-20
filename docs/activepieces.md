@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:37.918Z �
 - [部署指南 / deployment guide](https://www.activepieces.com/docs/install/overview)
 - [官方文档 / official docs](https://www.activepieces.com/docs)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Builds AI automation with TypeScript integrations and a visual workflow editor.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/activepieces/activepieces)
 - [部署指南 / deployment guide](https://www.activepieces.com/docs/install/overview)
 - [官方文档 / official docs](https://www.activepieces.com/docs)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

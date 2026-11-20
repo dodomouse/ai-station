@@ -50,8 +50,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.311Z �
 - [Official README](https://github.com/ml-explore/mlx-lm/blob/main/README.md)
 - [Fine-tuning](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A Python package for text generation and language-model fine-tuning on Apple silicon with MLX.
@@ -89,8 +87,6 @@ This is a documentation review; the upstream software was not installed or run. 
 
 - [Official README](https://github.com/ml-explore/mlx-lm/blob/main/README.md)
 - [Fine-tuning](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

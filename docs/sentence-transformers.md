@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.424Z �
 - [Installation](https://www.sbert.net/docs/installation.html)
 - [Quickstart](https://www.sbert.net/docs/quickstart.html)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A Python library for computing and training embeddings and rerankers.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/huggingface/sentence-transformers/blob/main/README.md)
 - [Installation](https://www.sbert.net/docs/installation.html)
 - [Quickstart](https://www.sbert.net/docs/quickstart.html)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

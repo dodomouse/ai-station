@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.849Z �
 - [Local quickstart](https://docs.weaviate.io/weaviate/quickstart/local)
 - [Model providers](https://docs.weaviate.io/weaviate/model-providers)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A database combining vector retrieval, keyword search, and model integrations.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/weaviate/weaviate/blob/main/README.md)
 - [Local quickstart](https://docs.weaviate.io/weaviate/quickstart/local)
 - [Model providers](https://docs.weaviate.io/weaviate/model-providers)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

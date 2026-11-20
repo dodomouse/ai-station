@@ -51,8 +51,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.871Z �
 - [官方 README / Official README](https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/README.md)
 - [GitHub 仓库元数据 / Repository metadata](https://api.github.com/repos/Tencent-Hunyuan/Hunyuan3D-2)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Convert images into textured 3D assets through separate shape-generation and texture-synthesis stages.
@@ -91,8 +89,6 @@ This is a documentation review; the upstream software was not installed or run. 
 
 - [官方 README / Official README](https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/README.md)
 - [GitHub 仓库元数据 / Repository metadata](https://api.github.com/repos/Tencent-Hunyuan/Hunyuan3D-2)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

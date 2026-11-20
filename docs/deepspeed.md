@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.780Z �
 - [Documentation](https://www.deepspeed.ai/)
 - [Advanced installation](https://www.deepspeed.ai/tutorials/advanced-install/)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A distributed optimization library for model training and inference.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/deepspeedai/DeepSpeed/blob/master/README.md)
 - [Documentation](https://www.deepspeed.ai/)
 - [Advanced installation](https://www.deepspeed.ai/tutorials/advanced-install/)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

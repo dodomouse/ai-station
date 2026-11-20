@@ -51,8 +51,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:32.024Z �
 - [官方 README / Official README](https://github.com/firecrawl/firecrawl/blob/main/README.md)
 - [GitHub 元数据 / Repository metadata](https://api.github.com/repos/firecrawl/firecrawl)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Provides web search, scraping, interaction and document-parsing APIs for AI-ready web content.
@@ -91,8 +89,6 @@ This is a documentation review; the upstream software was not installed or run. 
 
 - [官方 README / Official README](https://github.com/firecrawl/firecrawl/blob/main/README.md)
 - [GitHub 元数据 / Repository metadata](https://api.github.com/repos/firecrawl/firecrawl)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

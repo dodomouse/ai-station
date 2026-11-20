@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.787Z �
 - [安装说明 / installation instructions](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/README.md#install)
 - [CLI 参考 / CLI reference](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/interface.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Runs language-model benchmarks through configurable tasks, metrics and model backends.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/EleutherAI/lm-evaluation-harness)
 - [安装说明 / installation instructions](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/README.md#install)
 - [CLI 参考 / CLI reference](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/interface.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

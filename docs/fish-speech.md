@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.043Z �
 - [GitHub 仓库元数据 / Repository metadata](https://api.github.com/repos/fishaudio/fish-speech)
 - [官方安装与设备说明 / Official installation and device requirements](https://speech.fish.audio/install/)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Models and inference tools for speech with multiple characters, voice cloning, and audio editing.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [官方 README / Official README](https://raw.githubusercontent.com/fishaudio/fish-speech/main/README.md)
 - [GitHub 仓库元数据 / Repository metadata](https://api.github.com/repos/fishaudio/fish-speech)
 - [官方安装与设备说明 / Official installation and device requirements](https://speech.fish.audio/install/)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

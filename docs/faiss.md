@@ -51,8 +51,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.402Z �
 - [Installation](https://github.com/facebookresearch/faiss/blob/main/INSTALL.md)
 - [Getting started](https://github.com/facebookresearch/faiss/wiki/Getting-started)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A library for similarity search and clustering of dense vectors.
@@ -91,8 +89,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/facebookresearch/faiss/blob/main/README.md)
 - [Installation](https://github.com/facebookresearch/faiss/blob/main/INSTALL.md)
 - [Getting started](https://github.com/facebookresearch/faiss/wiki/Getting-started)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

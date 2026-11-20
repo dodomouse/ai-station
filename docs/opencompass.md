@@ -54,8 +54,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.184Z �
 - [安装指南 / installation guide](https://opencompass.readthedocs.io/en/latest/get_started/installation.html)
 - [快速入门 / quickstart](https://opencompass.readthedocs.io/en/latest/get_started/quick_start.html)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Configures model inference, benchmark evaluation and result summaries in a common workflow.
@@ -97,8 +95,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/open-compass/opencompass)
 - [安装指南 / installation guide](https://opencompass.readthedocs.io/en/latest/get_started/installation.html)
 - [快速入门 / quickstart](https://opencompass.readthedocs.io/en/latest/get_started/quick_start.html)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

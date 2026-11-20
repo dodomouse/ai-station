@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.960Z �
 - [Data preparation](https://verl.readthedocs.io/en/latest/preparation/prepare_data.html)
 - [Quickstart](https://verl.readthedocs.io/en/latest/start/quickstart.html)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A library for composing reinforcement-learning workflows from model training, rollout generation, and reward computation.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Installation](https://verl.readthedocs.io/en/latest/start/install.html)
 - [Data preparation](https://verl.readthedocs.io/en/latest/preparation/prepare_data.html)
 - [Quickstart](https://verl.readthedocs.io/en/latest/start/quickstart.html)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

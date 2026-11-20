@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.579Z �
 - [Tiers](https://opendatalab.github.io/MinerU/usage/tiers/)
 - [SDK and API](https://opendatalab.github.io/MinerU/usage/sdk_api/)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A tool for parsing complex documents into structured content, with a document library and reading interfaces.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Installation](https://opendatalab.github.io/MinerU/quick_start/)
 - [Tiers](https://opendatalab.github.io/MinerU/usage/tiers/)
 - [SDK and API](https://opendatalab.github.io/MinerU/usage/sdk_api/)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

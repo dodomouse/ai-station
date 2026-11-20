@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.933Z �
 - [OCR guide](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/OCR.html)
 - [Document parsing](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/PP-StructureV3.html)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 An OCR toolkit for recognizing image text and parsing document structure.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/README.md)
 - [OCR guide](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/OCR.html)
 - [Document parsing](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/PP-StructureV3.html)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

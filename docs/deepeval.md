@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.842Z �
 - [入门指南 / getting-started guide](https://deepeval.com/docs/getting-started)
 - [指标说明 / metrics guide](https://deepeval.com/docs/metrics-introduction#using-a-custom-llm)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Evaluates LLM applications, agent trajectories and individual steps using automated metrics.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/confident-ai/deepeval)
 - [入门指南 / getting-started guide](https://deepeval.com/docs/getting-started)
 - [指标说明 / metrics guide](https://deepeval.com/docs/metrics-introduction#using-a-custom-llm)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

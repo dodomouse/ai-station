@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.485Z �
 - [Quickstart](https://qdrant.tech/documentation/quickstart/)
 - [Security](https://qdrant.tech/documentation/security/)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A database that stores vectors and associated payloads for similarity search.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/qdrant/qdrant/blob/master/README.md)
 - [Quickstart](https://qdrant.tech/documentation/quickstart/)
 - [Security](https://qdrant.tech/documentation/security/)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

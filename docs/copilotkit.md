@@ -51,8 +51,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.162Z �
 - [官方 README / Official README](https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md)
 - [GitHub 仓库元数据 / Repository metadata](https://api.github.com/repos/CopilotKit/CopilotKit)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A framework for connecting agents to applications through chat, generated interfaces, and human approval components.
@@ -91,8 +89,6 @@ This is a documentation review; the upstream software was not installed or run. 
 
 - [官方 README / Official README](https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md)
 - [GitHub 仓库元数据 / Repository metadata](https://api.github.com/repos/CopilotKit/CopilotKit)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

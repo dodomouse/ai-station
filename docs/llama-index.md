@@ -50,8 +50,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.898Z �
 - [Official README](https://github.com/run-llama/llama_index/blob/main/README.md)
 - [Framework documentation](https://developers.llamaindex.ai/python/framework/)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A framework for RAG and agent applications that connects data, indexes, and language models.
@@ -89,8 +87,6 @@ This is a documentation review; the upstream software was not installed or run. 
 
 - [Official README](https://github.com/run-llama/llama_index/blob/main/README.md)
 - [Framework documentation](https://developers.llamaindex.ai/python/framework/)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

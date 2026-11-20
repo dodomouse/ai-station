@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:28.027Z �
 - [Quickstart](https://lmdeploy.readthedocs.io/en/latest/get_started/get_started.html)
 - [Supported models](https://github.com/InternLM/lmdeploy/blob/main/docs/en/supported_models/supported_models.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A toolkit for compressing, running, and serving language and vision-language models.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/InternLM/lmdeploy/blob/main/README.md)
 - [Quickstart](https://lmdeploy.readthedocs.io/en/latest/get_started/get_started.html)
 - [Supported models](https://github.com/InternLM/lmdeploy/blob/main/docs/en/supported_models/supported_models.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.337Z �
 - [部署指南 / deployment guide](https://github.com/bytedance/deer-flow/blob/main/docs/guide/deployment.md)
 - [安全说明 / security notice](https://github.com/bytedance/deer-flow/blob/main/docs/guide/security.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Combines subagents, memory, skills and sandboxes to carry out extended tasks.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/bytedance/deer-flow)
 - [部署指南 / deployment guide](https://github.com/bytedance/deer-flow/blob/main/docs/guide/deployment.md)
 - [安全说明 / security notice](https://github.com/bytedance/deer-flow/blob/main/docs/guide/security.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

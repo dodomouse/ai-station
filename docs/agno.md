@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.876Z �
 - [平台指南 / platform guide](https://docs.agno.com/agent-platform/overview)
 - [API 教程 / API tutorial](https://docs.agno.com/tutorials/agents-as-api)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Deploys agents, teams and workflows as services with APIs, MCP, storage and scheduling.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/agno-agi/agno)
 - [平台指南 / platform guide](https://docs.agno.com/agent-platform/overview)
 - [API 教程 / API tutorial](https://docs.agno.com/tutorials/agents-as-api)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

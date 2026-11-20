@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.812Z �
 - [Documentation](https://huggingface.co/docs/bitsandbytes/main)
 - [Transformers integration](https://huggingface.co/docs/transformers/quantization/bitsandbytes)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A library providing low-bit quantization and optimizers for PyTorch.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/bitsandbytes-foundation/bitsandbytes/blob/main/README.md)
 - [Documentation](https://huggingface.co/docs/bitsandbytes/main)
 - [Transformers integration](https://huggingface.co/docs/transformers/quantization/bitsandbytes)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

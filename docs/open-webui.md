@@ -51,8 +51,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.634Z �
 - [官方 README / Official README](https://raw.githubusercontent.com/open-webui/open-webui/main/README.md)
 - [GitHub 仓库元数据 / Repository metadata](https://api.github.com/repos/open-webui/open-webui)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A self-hosted AI web interface for local models and services with compatible APIs.
@@ -91,8 +89,6 @@ This is a documentation review; the upstream software was not installed or run. 
 
 - [官方 README / Official README](https://raw.githubusercontent.com/open-webui/open-webui/main/README.md)
 - [GitHub 仓库元数据 / Repository metadata](https://api.github.com/repos/open-webui/open-webui)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

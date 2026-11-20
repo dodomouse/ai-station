@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.735Z �
 - [SFT trainer](https://huggingface.co/docs/trl/sft_trainer)
 - [Async GRPO](https://huggingface.co/docs/trl/async_grpo_trainer)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A post-training library with trainers for supervised fine-tuning, preference optimization, and reinforcement learning.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Documentation](https://huggingface.co/docs/trl/index)
 - [SFT trainer](https://huggingface.co/docs/trl/sft_trainer)
 - [Async GRPO](https://huggingface.co/docs/trl/async_grpo_trainer)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

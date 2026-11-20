@@ -54,8 +54,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.644Z �
 - [工具指南 / tools guide](https://openai.github.io/openai-agents-python/tools/)
 - [官方示例 / official example](https://github.com/openai/openai-agents-python/tree/main/examples)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Provides agents, tools, handoffs, tracing and voice components for multi-agent workflows.
@@ -97,8 +95,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [官方文档 / official docs](https://openai.github.io/openai-agents-python/)
 - [工具指南 / tools guide](https://openai.github.io/openai-agents-python/tools/)
 - [官方示例 / official example](https://github.com/openai/openai-agents-python/tree/main/examples)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

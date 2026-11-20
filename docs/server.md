@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.834Z �
 - [Quickstart](https://github.com/triton-inference-server/server/blob/main/docs/getting_started/quickstart.md)
 - [Model repository](https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_repository.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 An inference server for deploying and calling models from multiple machine-learning frameworks.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/triton-inference-server/server/blob/main/README.md)
 - [Quickstart](https://github.com/triton-inference-server/server/blob/main/docs/getting_started/quickstart.md)
 - [Model repository](https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_repository.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

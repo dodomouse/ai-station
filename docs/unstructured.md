@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.354Z �
 - [Installation](https://docs.unstructured.io/open-source/installation/full-installation)
 - [Quickstart](https://docs.unstructured.io/open-source/introduction/quick-start)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A Python library that partitions unstructured documents into content elements.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://raw.githubusercontent.com/Unstructured-IO/unstructured/main/README.md)
 - [Installation](https://docs.unstructured.io/open-source/installation/full-installation)
 - [Quickstart](https://docs.unstructured.io/open-source/introduction/quick-start)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

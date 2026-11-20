@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.047Z �
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/vibrantlabsai/ragas)
 - [快速入门 / quickstart](https://docs.ragas.io/en/latest/getstarted/quickstart)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Evaluates LLM applications and generates test data using model-based and traditional metrics.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [官方 README / Official README](https://github.com/vibrantlabsai/ragas/blob/main/README.md)
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/vibrantlabsai/ragas)
 - [快速入门 / quickstart](https://docs.ragas.io/en/latest/getstarted/quickstart)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

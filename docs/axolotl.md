@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.061Z �
 - [Support matrix](https://docs.axolotl.ai/docs/support-matrix.html)
 - [Getting started](https://docs.axolotl.ai/docs/getting-started.html)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A tool for organizing language-model fine-tuning and post-training through configuration files.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Installation](https://docs.axolotl.ai/docs/installation.html)
 - [Support matrix](https://docs.axolotl.ai/docs/support-matrix.html)
 - [Getting started](https://docs.axolotl.ai/docs/getting-started.html)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

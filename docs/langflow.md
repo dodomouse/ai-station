@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:37.942Z �
 - [安装指南 / installation guide](https://docs.langflow.org/get-started-installation#install-and-run-the-langflow-oss-python-package)
 - [Docker 指南 / Docker guide](https://docs.langflow.org/deployment-docker)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Builds agents and workflows visually and exposes them through API and MCP servers.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/langflow-ai/langflow)
 - [安装指南 / installation guide](https://docs.langflow.org/get-started-installation#install-and-run-the-langflow-oss-python-package)
 - [Docker 指南 / Docker guide](https://docs.langflow.org/deployment-docker)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

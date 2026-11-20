@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:28.325Z �
 - [Usage](https://github.com/microsoft/markitdown#usage)
 - [Security considerations](https://github.com/microsoft/markitdown#security-considerations)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A Python tool that converts multiple file formats to Markdown.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/microsoft/markitdown/blob/main/README.md)
 - [Usage](https://github.com/microsoft/markitdown#usage)
 - [Security considerations](https://github.com/microsoft/markitdown#security-considerations)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

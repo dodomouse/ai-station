@@ -51,8 +51,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.069Z �
 - [Official README](https://github.com/HKUDS/LightRAG/blob/main/README.md)
 - [Usage guide](https://github.com/HKUDS/LightRAG/blob/main/docs/ExploreLightRAG.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A RAG framework combining knowledge graphs and vector retrieval.
@@ -91,8 +89,6 @@ This is a documentation review; the upstream software was not installed or run. 
 
 - [Official README](https://github.com/HKUDS/LightRAG/blob/main/README.md)
 - [Usage guide](https://github.com/HKUDS/LightRAG/blob/main/docs/ExploreLightRAG.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

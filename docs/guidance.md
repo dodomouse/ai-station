@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.670Z �
 - [安装说明 / installation instructions](https://github.com/guidance-ai/guidance/blob/main/README.md#install)
 - [功能示例 / feature examples](https://github.com/guidance-ai/guidance/blob/main/README.md#features)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Combines model generation with Python control flow and output constraints expressed as regex or grammars.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/guidance-ai/guidance)
 - [安装说明 / installation instructions](https://github.com/guidance-ai/guidance/blob/main/README.md#install)
 - [功能示例 / feature examples](https://github.com/guidance-ai/guidance/blob/main/README.md#features)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

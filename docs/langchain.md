@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.446Z �
 - [Python 概览 / Python overview](https://docs.langchain.com/oss/python/langchain/overview)
 - [集成指南 / integration guide](https://docs.langchain.com/oss/python/integrations/providers/overview)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Builds agents and LLM applications from models, tools and third-party integrations.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/langchain-ai/langchain)
 - [Python 概览 / Python overview](https://docs.langchain.com/oss/python/langchain/overview)
 - [集成指南 / integration guide](https://docs.langchain.com/oss/python/integrations/providers/overview)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

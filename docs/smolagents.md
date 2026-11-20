@@ -51,8 +51,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.551Z �
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/huggingface/smolagents)
 - [官方文档 / official docs](https://huggingface.co/docs/smolagents/index)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Lets agents express actions as code, with multiple models, MCP tools and sandboxed execution options.
@@ -91,8 +89,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [README 示例 / README example](https://github.com/huggingface/smolagents/blob/main/README.md)
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/huggingface/smolagents)
 - [官方文档 / official docs](https://huggingface.co/docs/smolagents/index)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.292Z �
 - [Docker 安装指南 / Docker installation guide](https://docs.n8n.io/hosting/installation/docker/)
 - [工作流模板 / workflow templates](https://n8n.io/workflows)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Combines visual workflows, custom code, business integrations and AI agents.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/n8n-io/n8n)
 - [Docker 安装指南 / Docker installation guide](https://docs.n8n.io/hosting/installation/docker/)
 - [工作流模板 / workflow templates](https://n8n.io/workflows)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

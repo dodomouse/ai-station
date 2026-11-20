@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.608Z �
 - [DSPy 文档 / DSPy docs](https://dspy.ai/)
 - [模型接口迁移说明 / model API migration guide](https://github.com/stanfordnlp/dspy/blob/main/docs/docs/community/normalized-lm-api-migration.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Organizes model calls as modular programs and optimizes prompts or model parameters.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/stanfordnlp/dspy)
 - [DSPy 文档 / DSPy docs](https://dspy.ai/)
 - [模型接口迁移说明 / model API migration guide](https://github.com/stanfordnlp/dspy/blob/main/docs/docs/community/normalized-lm-api-migration.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

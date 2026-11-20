@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.033Z �
 - [Quickstart](https://haystack.deepset.ai/overview/quick-start)
 - [Telemetry](https://docs.haystack.deepset.ai/docs/telemetry)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A Python framework for composing language-model applications with components, pipelines, and agents.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Installation](https://docs.haystack.deepset.ai/docs/installation)
 - [Quickstart](https://haystack.deepset.ai/overview/quick-start)
 - [Telemetry](https://docs.haystack.deepset.ai/docs/telemetry)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:29.357Z �
 - [会话关闭问题报告 / Session shutdown issue](https://github.com/open-webui/mcpo/issues/318)
 - [包运行环境 / Package runtime requirements](https://github.com/open-webui/mcpo/blob/main/pyproject.toml)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Proxies MCP servers as OpenAPI HTTP endpoints for AI applications.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / Repository metadata](https://api.github.com/repos/open-webui/mcpo)
 - [会话关闭问题报告 / Session shutdown issue](https://github.com/open-webui/mcpo/issues/318)
 - [包运行环境 / Package runtime requirements](https://github.com/open-webui/mcpo/blob/main/pyproject.toml)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

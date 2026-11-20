@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.609Z �
 - [自托管指南 / self-hosting guide](https://arize.com/docs/phoenix/self-hosting)
 - [追踪快速入门 / tracing quickstart](https://arize.com/docs/phoenix/get-started/get-started-tracing)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Provides OpenTelemetry tracing, datasets, experiments, prompt management and MCP access.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/Arize-ai/phoenix)
 - [自托管指南 / self-hosting guide](https://arize.com/docs/phoenix/self-hosting)
 - [追踪快速入门 / tracing quickstart](https://arize.com/docs/phoenix/get-started/get-started-tracing)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

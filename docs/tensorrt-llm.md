@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:28.092Z �
 - [Installation](https://nvidia.github.io/TensorRT-LLM/installation/index.html)
 - [Quickstart](https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 An inference optimization library for language models and visual generation on NVIDIA GPUs.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Support matrix](https://nvidia.github.io/TensorRT-LLM/reference/support-matrix.html)
 - [Installation](https://nvidia.github.io/TensorRT-LLM/installation/index.html)
 - [Quickstart](https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

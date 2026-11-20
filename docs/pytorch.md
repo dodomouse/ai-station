@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:29.353Z �
 - [Installation](https://pytorch.org/get-started/locally/)
 - [Basics](https://pytorch.org/tutorials/beginner/basics/intro.html)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A deep-learning framework providing tensor computation, automatic differentiation, and neural-network components.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/pytorch/pytorch/blob/main/README.md)
 - [Installation](https://pytorch.org/get-started/locally/)
 - [Basics](https://pytorch.org/tutorials/beginner/basics/intro.html)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:26.689Z �
 - [Documentation](https://huggingface.co/docs/peft)
 - [Adapter concepts](https://huggingface.co/docs/peft/en/conceptual_guides/adapter)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A library for adapting pretrained models by training a subset of parameters.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/huggingface/peft/blob/main/README.md)
 - [Documentation](https://huggingface.co/docs/peft)
 - [Adapter concepts](https://huggingface.co/docs/peft/en/conceptual_guides/adapter)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

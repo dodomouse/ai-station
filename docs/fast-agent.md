@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:37.596Z �
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/evalstate/fast-agent)
 - [官方文档 / official docs](https://fast-agent.ai)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Provides terminal agents, skills, MCP connections, shell tools and workflows across model providers.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [README / README](https://github.com/evalstate/fast-agent/blob/main/README.md)
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/evalstate/fast-agent)
 - [官方文档 / official docs](https://fast-agent.ai)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

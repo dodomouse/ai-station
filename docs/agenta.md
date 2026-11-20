@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:37.919Z �
 - [官方入门说明 / getting-started instructions](https://github.com/Agenta-AI/agenta/blob/main/README.md#get-started)
 - [自托管指南 / self-hosting guide](https://agenta.ai/docs/self-host/quick-start)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Builds shared team agents through conversation, with connected apps and scheduled or event-triggered runs.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/Agenta-AI/agenta)
 - [官方入门说明 / getting-started instructions](https://github.com/Agenta-AI/agenta/blob/main/README.md#get-started)
 - [自托管指南 / self-hosting guide](https://agenta.ai/docs/self-host/quick-start)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.579Z �
 - [Quickstart](https://ml-explore.github.io/mlx/build/html/usage/quick_start.html)
 - [Examples](https://github.com/ml-explore/mlx-examples)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A machine-learning framework providing array computation, automatic differentiation, and neural-network components.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Installation](https://ml-explore.github.io/mlx/build/html/install.html)
 - [Quickstart](https://ml-explore.github.io/mlx/build/html/usage/quick_start.html)
 - [Examples](https://github.com/ml-explore/mlx-examples)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

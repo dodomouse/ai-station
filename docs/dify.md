@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.781Z �
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/langgenius/dify)
 - [Docker 部署指南 / Docker deployment guide](https://github.com/langgenius/dify/blob/main/docker/README.md)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Builds AI workflows, retrieval pipelines and agents in a visual workspace.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [README / README](https://github.com/langgenius/dify/blob/main/README.md)
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/langgenius/dify)
 - [Docker 部署指南 / Docker deployment guide](https://github.com/langgenius/dify/blob/main/docker/README.md)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

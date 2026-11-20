@@ -487,8 +487,6 @@ def check_catalog(root, now=None):
         if len(values) != 1 or int(values[0]) != len(entries):
             error(readme, "included heading count differs from entries")
 
-    for file in sorted((root / "reviews").glob("*.md")):
-        texts[file.relative_to(root).as_posix()] = file.read_text(encoding="utf-8")
     for path, text in texts.items():
         prose = re.sub(r"^```.*?^```\s*$", "", text, flags=re.M | re.S)
         for match in LINK.finditer(prose):

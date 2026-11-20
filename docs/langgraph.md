@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.049Z �
 - [快速入门 / quickstart](https://docs.langchain.com/oss/python/langgraph/quickstart)
 - [持久执行说明 / durable execution guide](https://docs.langchain.com/oss/python/langgraph/durable-execution)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Builds agent workflows with state, durable execution and human intervention.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/langchain-ai/langgraph)
 - [快速入门 / quickstart](https://docs.langchain.com/oss/python/langgraph/quickstart)
 - [持久执行说明 / durable execution guide](https://docs.langchain.com/oss/python/langgraph/durable-execution)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

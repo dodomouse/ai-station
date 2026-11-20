@@ -54,8 +54,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.739Z �
 - [可观测说明 / observability guide](https://langwatch.ai/docs/observability/overview)
 - [智能体测试指南 / agent-testing guide](https://langwatch.ai/docs/agent-testing/overview)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Combines agent traces, simulation tests, coding-assistant sessions and model-gateway usage.
@@ -97,8 +95,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [自托管指南 / self-hosting guide](https://langwatch.ai/docs/self-hosting/overview)
 - [可观测说明 / observability guide](https://langwatch.ai/docs/observability/overview)
 - [智能体测试指南 / agent-testing guide](https://langwatch.ai/docs/agent-testing/overview)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

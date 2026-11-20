@@ -54,8 +54,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.655Z �
 - [可观测指南 / observability guide](https://langfuse.com/docs/observability/overview)
 - [评测指南 / evaluation guide](https://langfuse.com/docs/evaluation/overview)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Collects model calls, agent traces, prompt versions and evaluation results in an AI engineering platform.
@@ -97,8 +95,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Docker Compose 指南 / Docker Compose guide](https://langfuse.com/self-hosting/deployment/docker-compose)
 - [可观测指南 / observability guide](https://langfuse.com/docs/observability/overview)
 - [评测指南 / evaluation guide](https://langfuse.com/docs/evaluation/overview)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

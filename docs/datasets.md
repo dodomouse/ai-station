@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.778Z �
 - [Quickstart](https://huggingface.co/docs/datasets/quickstart)
 - [Streaming](https://huggingface.co/docs/datasets/stream)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A Python library for loading, transforming, and streaming machine-learning datasets.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Installation](https://huggingface.co/docs/datasets/installation)
 - [Quickstart](https://huggingface.co/docs/datasets/quickstart)
 - [Streaming](https://huggingface.co/docs/datasets/stream)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

@@ -51,8 +51,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:31.895Z �
 - [官方 README / Official README](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md)
 - [GitHub 元数据 / Repository metadata](https://api.github.com/repos/ChromeDevTools/chrome-devtools-mcp)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Lets coding agents control Chrome and inspect debugging and performance information through MCP.
@@ -91,8 +89,6 @@ This is a documentation review; the upstream software was not installed or run. 
 
 - [官方 README / Official README](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md)
 - [GitHub 元数据 / Repository metadata](https://api.github.com/repos/ChromeDevTools/chrome-devtools-mcp)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

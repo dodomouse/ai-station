@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:31.722Z �
 - [GitHub 元数据 / Repository metadata](https://api.github.com/repos/unclecode/crawl4ai)
 - [Python 环境要求 / Python requirements](https://github.com/unclecode/crawl4ai/blob/main/pyproject.toml)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Crawls web pages into Markdown or structured data through self-hosted and hosted options.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [官方 README / Official README](https://github.com/unclecode/crawl4ai/blob/main/README.md)
 - [GitHub 元数据 / Repository metadata](https://api.github.com/repos/unclecode/crawl4ai)
 - [Python 环境要求 / Python requirements](https://github.com/unclecode/crawl4ai/blob/main/pyproject.toml)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

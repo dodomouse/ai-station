@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:39.202Z �
 - [README 快速入门 / README quickstart](https://github.com/dottxt-ai/outlines/blob/main/README.md#quickstart)
 - [输出类型指南 / output-type guide](https://dottxt-ai.github.io/outlines/latest/features/core/output_types/#basic-python-types)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Defines model output structures using Python types, Pydantic models and constrained generation.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/dottxt-ai/outlines)
 - [README 快速入门 / README quickstart](https://github.com/dottxt-ai/outlines/blob/main/README.md#quickstart)
 - [输出类型指南 / output-type guide](https://dottxt-ai.github.io/outlines/latest/features/core/output_types/#basic-python-types)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

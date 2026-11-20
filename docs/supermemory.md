@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.449Z �
 - [自托管快速入门 / self-hosting quickstart](https://supermemory.ai/docs/self-hosting/quickstart)
 - [配置指南 / configuration guide](https://supermemory.ai/docs/self-hosting/configuration)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Provides memory and context APIs, assistant plugins and MCP access for extracting facts and retrieving history.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/supermemoryai/supermemory)
 - [自托管快速入门 / self-hosting quickstart](https://supermemory.ai/docs/self-hosting/quickstart)
 - [配置指南 / configuration guide](https://supermemory.ai/docs/self-hosting/configuration)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

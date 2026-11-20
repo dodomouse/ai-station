@@ -52,8 +52,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:27.320Z �
 - [Quickstart](https://docs.lancedb.com/quickstart)
 - [Documentation](https://docs.lancedb.com)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 A database built on the Lance columnar format for vectors and multimodal data.
@@ -93,8 +91,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [Official README](https://github.com/lancedb/lancedb/blob/main/README.md)
 - [Quickstart](https://docs.lancedb.com/quickstart)
 - [Documentation](https://docs.lancedb.com)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

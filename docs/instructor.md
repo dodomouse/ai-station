@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.587Z �
 - [官方文档 / official docs](https://python.useinstructor.com)
 - [示例 / examples](https://python.useinstructor.com/examples/)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Parses model responses into typed data with Pydantic, validation and retries.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/567-labs/instructor)
 - [官方文档 / official docs](https://python.useinstructor.com)
 - [示例 / examples](https://python.useinstructor.com/examples/)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 

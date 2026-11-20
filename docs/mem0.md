@@ -53,8 +53,6 @@ AI 任务用途已依据官方文档核对。Star 为 2026-11-17T14:14:38.289Z �
 - [快速入门 / quickstart](https://docs.mem0.ai/quickstart)
 - [模型说明 / model guide](https://docs.mem0.ai/components/llms/overview)
 
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
-
 ## English
 
 Extracts, stores and retrieves user, session and task memories for agents and applications.
@@ -95,8 +93,6 @@ This is a documentation review; the upstream software was not installed or run. 
 - [GitHub 元数据 / GitHub metadata](https://api.github.com/repos/mem0ai/mem0)
 - [快速入门 / quickstart](https://docs.mem0.ai/quickstart)
 - [模型说明 / model guide](https://docs.mem0.ai/components/llms/overview)
-
-[筛选记录 / Discovery record](../reviews/2026-11-17-ai-repository-shortlist.md)
 
 ## Review evidence
 
