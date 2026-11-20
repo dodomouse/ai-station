@@ -16,19 +16,13 @@
 
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
 
-<p align="center"><a href="#featured">Featured</a> · <a href="#categories">Categories</a> · <a href="#criteria">Criteria</a> · <a href="reviews/2026-11-16-wechat.md">Review record</a></p>
+<p align="center"><a href="#featured">Featured</a> · <a href="#categories">Categories</a> · <a href="#criteria">Criteria</a> · <a href="#contributing">Contributing</a></p>
 
 <p align="center">
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **395 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and review evidence.
-
-**Added on 2026-11-17:** [100 repositories that help AI complete tasks](reviews/2026-11-17-ai-repository-shortlist.md) now have complete bilingual entries in the directory below. The discovery record retains Star snapshots and recent activity, grouped into 12 task areas.
-
-**Media additions:** Seven new [media entries](#included-media) cover video creation, image generation and segmentation, and searchable photo and video libraries.
-
-**Media search additions:** [SCM](docs/scm.md#english) searches local media on a Mac. [FiftyOne](docs/fiftyone.md#english) supports visual dataset search, curation and evaluation.
+The catalog contains **395 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
 
 Use it to find tools for a task, compare setup requirements or explore code worth learning from. Read the catalog in your browser, then follow the selected project's own setup guide.
 
@@ -38,10 +32,10 @@ Use it to find tools for a task, compare setup requirements or explore code wort
 
 1. **Start with a task.** Try the [featured entries](#featured) or choose one of the [nine categories](#categories).
 2. **Narrow the list.** Expand a category and use Ctrl/⌘+F for a name or purpose. GitHub repository search also covers the individual pages in `docs/`.
-3. **Check the fit.** Open the entry, read its environment and usage limits, check the review date, then continue to the upstream documentation.
+3. **Check the fit.** Open the entry, read its requirements and usage limits, then continue to the upstream documentation.
 
 <p align="center">
-  <img src="assets/readme/workflow.en.svg" alt="Choose a purpose, read the entry, check the evidence, then follow upstream documentation" width="960" />
+  <img src="assets/readme/workflow.en.svg" alt="Choose a purpose, read the entry, then follow upstream documentation" width="960" />
 </p>
 
 <a id="featured"></a>
@@ -63,19 +57,13 @@ Six entries for common tasks. Selection reflects documented use cases; it is not
 
 ## Inclusion criteria
 
-Future additions and reassessments use three criteria:
+New additions and reassessments are checked against three criteria:
 
 1. **Helps AI complete a task.** The project is AI-related and has an identifiable use, such as model execution, agent tools, coding, retrieval or content processing.
-2. **Activity within three calendar months.** Provide a traceable commit, PR, issue or release link and date. Documentation updates and bot commits count; feature changes or bug fixes are not required. `pushed_at` alone does not identify a specific event.
-3. **Meets the Star threshold.** Either **at least 1,000 total Stars** or **at least 500 net new Stars within one calendar month**. Record snapshot dates and, when using the growth condition, verifiable data for that window.
+2. **Activity within three calendar months.** A traceable commit, PR, issue or release link and date; documentation updates and bot commits count.
+3. **Meets the Star threshold.** Either **at least 1,000 total Stars** or **at least 500 net new Stars within one calendar month**.
 
-Each window ends on the review date and extends back by the relevant number of calendar months. Licensing is not an admission condition; license reviews and file hashes are not required.
-
-These criteria apply to future additions and reassessments from **2026-11-17**. At the user's direction, **all 275 projects present at the policy transition remain formally included**, including 29 former candidates promoted in this update. This does not mean each project has been rechecked against the new criteria. Existing entry facts, snapshot dates and historical assessments are retained. Inclusion does not establish performance, compatibility or security through runtime testing.
-
-This transition applies to the original assessment records. Future reassessments must provide new evidence against the current criteria.
-
-**Explicit exception:** On 2026-11-17, the user specifically requested formal inclusion of [SCM](docs/scm.md#review-evidence). Its snapshot has 529 Stars; net growth over the past calendar month remains unverified. Only its Star criterion is waived for this assessment. AI task relevance and activity within three months were checked. The exception is bound to this assessment in `catalog-policy.json` under `explicit_admissions`; it does not apply to other projects or future reassessments.
+Each window ends on the assessment date and extends back by the relevant number of calendar months. Licensing is not an admission condition. Stars in the catalog are point-in-time snapshots, not a live ranking; inclusion does not establish performance, compatibility or security through runtime testing. Check the requirements and limits in each entry before use.
 
 <a id="categories"></a>
 
@@ -99,7 +87,7 @@ Choose a category, then expand its list. Each of the 395 projects appears once i
 
 ## Included (395)
 
-Open a name for its bilingual entry and dated evidence. Stars below are review-time snapshots, not a live ranking.
+Open a name for its bilingual entry. Stars below are point-in-time snapshots, not a live ranking.
 
 <a id="included-ai"></a>
 
@@ -588,29 +576,11 @@ Open a name for its bilingual entry and dated evidence. Stars below are review-t
 
 [Back to categories](#categories)
 
-<a id="review"></a>
-
-## Historical reviews and coverage
-
-The records below describe reviews completed before this policy change. License checks, substantive maintenance, candidate status and batch Star filters reflect the criteria or decisions at that time. See the [inclusion criteria](#criteria) for the current rules.
-
-The 2026-11-17 submitted-link review added **26 bilingual entries**, classified by primary use and reviewed for licensing, substantive recent maintenance and usage limits. See the [submitted-repository review](reviews/2026-11-17-submitted-repositories.md) for decisions and exclusions.
-
-The 2026-11-17 Trending batch added **40 bilingual AI-related entries**: **38 included** and **2 candidates**. Each came from the previously selected monthly list with at least 1,000 added stars and is classified by its primary use. That historical batch filter is not a current rule. See the [Trending review record](reviews/2026-11-17-ai-trending.md).
-
-The 2026-11-16 review added **147 bilingual entries**, including **10 projects below 1,000 Stars**. The original **62 entries** retain their 2026-11-15 records and were not reassessed: 35 previously included plus 147 additions make 182 included entries, alongside 27 existing candidates.
-
-This round reviewed public leads for **2026-08-16 through 2026-11-16**, including author-attributed articles and third-party indexes associated with **逛逛GitHub** and **AI开源求索**. Account coverage is partial: a repost or index is not proof of reading the original WeChat body, and some account attribution remains unverified. Repository eligibility was checked separately against upstream license, implementation and activity evidence.
-
-The 2026-11-17 correction separates candidate decisions and license scopes, expands activity evidence and pins license sources. Original Star and repository-state snapshots retain their dates; evidence maintenance does not constitute a new hands-on review of every project.
-
-No upstream software was installed or run in this review. See the [article review record](reviews/2026-11-16-wechat.md) for coverage, decisions, exclusions and the dated source list; each new entry records its evidence level.
-
 <a id="contributing"></a>
 
 ## Add or update an entry
 
-Maintain one bilingual page in `docs/<project>.md`. Include the repository, AI task use, features, requirements, limitations, getting started and sources. Record Star snapshots, evidence for the threshold used, activity within three calendar months and review dates. Add qualifying projects directly to the formal directory without creating candidate entries; explain failures or missing evidence. Update both indexes with matching purposes, categories and Star snapshots. Describe documentation review as such and record actual tests separately.
+Maintain one bilingual page in `docs/<project>.md`. Include the repository, AI task use, features, requirements, limitations, getting started and sources, and record Star snapshots, recent maintenance activity and the assessment date. Update both indexes so purposes, categories and Star snapshots stay consistent.
 
 Before submitting, run the offline checks (Python 3.10+, standard library only):
 
@@ -619,13 +589,12 @@ python3 scripts/check_catalog.py
 python3 -m unittest discover -s tests
 ```
 
-These checks cover index consistency, local links, evidence structure and separation of historical decisions. They do not replace review of AI task use, activity sources, Star data or external link availability. GitHub Actions runs the same checks.
+These checks cover index consistency, local links and evidence structure. They do not replace review of AI task use, activity sources, Star data or external link availability. GitHub Actions runs the same checks.
 
 | Location | Contents |
 | --- | --- |
 | [README.md](README.md) / [README.en.md](README.en.md) | Chinese and English guides and indexes |
 | [docs/](docs/) | One bilingual entry per project |
-| [reviews/](reviews/) | Source coverage and review decisions |
 | [assets/readme/](assets/readme/) | Homepage illustrations |
 
 ## License
