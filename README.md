@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-396-2563eb?style=flat-square" alt="396 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-397-2563eb?style=flat-square" alt="397 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **396 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境要求、使用限制、入门方式和来源。
+现有 **397 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境要求、使用限制、入门方式和来源。
 
 可以按任务寻找工具、比较使用条件，也可以挑选适合学习的源码项目。在浏览器中阅读目录，选定项目后再按其官方说明配置环境。
 
@@ -69,7 +69,7 @@
 
 ## 分类导航
 
-选择分类后展开列表。396 个项目按主要用途各列一次。
+选择分类后展开列表。397 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
@@ -78,14 +78,14 @@
 | [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
 | [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [60](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [20](#included-automation) |
-| [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [19](#included-operations) |
+| [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [20](#included-operations) |
 | [数据处理](#included-data) | 数据查询、研究与分析流程 | [22](#included-data) |
 | [终端与 Shell](#included-terminal) | 终端环境与命令行工具 | [3](#included-terminal) |
 | [知识与学习](#included-knowledge) | 教材、图谱与交互学习材料 | [4](#included-knowledge) |
 
 <a id="included"></a>
 
-## 已收录（396）
+## 已收录（397）
 
 点击名称查看双语介绍。下表 Star 为某一时点的快照，不作实时排名。
 
@@ -490,7 +490,7 @@
 <a id="included-operations"></a>
 
 <details>
-<summary><strong>部署与运维</strong> · 19 项</summary>
+<summary><strong>部署与运维</strong> · 20 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -513,6 +513,7 @@
 | [TelemetryCleaner](docs/telemetrycleaner.md#中文) | 通过 Shizuku 检查 Android 预装运营商组件，查看各空间状态与权限，并管理卸载、恢复及失败后的停用。 | 部署与运维 | 807 |
 | [Triton Inference Server](docs/server.md#中文) | 统一部署和调用多种机器学习模型的推理服务器。 | 部署与运维 | 11146 |
 | [wifit3](docs/wifit3.md#中文) | 使用支持的USB无线网卡分析无线网络状态与安全配置。 | 部署与运维 | 3593 |
+| [OpenSRE](docs/opensre.md#中文) | 开源 AI SRE 智能体，自动调查 CI/CD 失败与生产告警，跨系统收集证据、区分根因并推送修复供审查，可自托管并使用自带模型。 | 部署与运维 | 13853 |
 
 </details>
 

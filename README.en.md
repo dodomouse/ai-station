@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-396-2563eb?style=flat-square" alt="396 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-397-2563eb?style=flat-square" alt="397 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **396 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
+The catalog contains **397 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
 
 Use it to find tools for a task, compare setup requirements or explore code worth learning from. Read the catalog in your browser, then follow the selected project's own setup guide.
 
@@ -69,7 +69,7 @@ Each window ends on the assessment date and extends back by the relevant number 
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 396 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 397 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
@@ -78,14 +78,14 @@ Choose a category, then expand its list. Each of the 396 projects appears once i
 | [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
 | [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [60](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [20](#included-automation) |
-| [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [19](#included-operations) |
+| [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [20](#included-operations) |
 | [Data processing](#included-data) | Data queries, research and analysis | [22](#included-data) |
 | [Terminal and shell](#included-terminal) | Terminals and command-line tools | [3](#included-terminal) |
 | [Knowledge and learning](#included-knowledge) | Textbooks, atlases and interactive learning | [4](#included-knowledge) |
 
 <a id="included"></a>
 
-## Included (396)
+## Included (397)
 
 Open a name for its bilingual entry. Stars below are point-in-time snapshots, not a live ranking.
 
@@ -490,7 +490,7 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 <a id="included-operations"></a>
 
 <details>
-<summary><strong>Deployment and operations</strong> · 19 projects</summary>
+<summary><strong>Deployment and operations</strong> · 20 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -513,6 +513,7 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 | [TelemetryCleaner](docs/telemetrycleaner.md#english) | Uses Shizuku to inspect Android carrier packages across user spaces and manage removal, restoration and disabling after failed uninstalls. | Deployment and operations | 807 |
 | [Triton Inference Server](docs/server.md#english) | An inference server for deploying and calling models from multiple machine-learning frameworks. | Deployment and operations | 11146 |
 | [wifit3](docs/wifit3.md#english) | Uses supported USB wireless adapters to analyze wireless-network state and security configuration. | Deployment and operations | 3593 |
+| [OpenSRE](docs/opensre.md#english) | Open-source AI SRE agent that investigates CI/CD failures and production alerts, gathers evidence across systems, distinguishes root causes, and pushes fixes for review; self-hosted with your own models. | Operations | 13853 |
 
 </details>
 
