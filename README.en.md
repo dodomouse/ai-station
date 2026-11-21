@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-395-2563eb?style=flat-square" alt="395 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-396-2563eb?style=flat-square" alt="396 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **395 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
+The catalog contains **396 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
 
 Use it to find tools for a task, compare setup requirements or explore code worth learning from. Read the catalog in your browser, then follow the selected project's own setup guide.
 
@@ -69,12 +69,12 @@ Each window ends on the assessment date and extends back by the relevant number 
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 395 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 396 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
 | [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [98](#included-ai) |
-| [Development](#included-development) | Coding, review, interfaces and engineering | [101](#included-development) |
+| [Development](#included-development) | Coding, review, interfaces and engineering | [102](#included-development) |
 | [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
 | [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [60](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [20](#included-automation) |
@@ -85,7 +85,7 @@ Choose a category, then expand its list. Each of the 395 projects appears once i
 
 <a id="included"></a>
 
-## Included (395)
+## Included (396)
 
 Open a name for its bilingual entry. Stars below are point-in-time snapshots, not a live ranking.
 
@@ -200,7 +200,7 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 <a id="included-development"></a>
 
 <details>
-<summary><strong>Development</strong> · 101 projects</summary>
+<summary><strong>Development</strong> · 102 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -305,6 +305,7 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 | [Cursor Plugins](docs/cursor-plugins.md#english) | Official Cursor plugin specification and plugin collection for AI coding agents, offering developer, integration, and productivity plugins for code review, branch management, and third-party service operations. | Development | 17282 |
 | [BLA (Blind LLM Agents)](docs/bla.md#english) | MCP server and CLI that lets AI coding agents harden software releases against AI reverse-engineering agents. | Development | 6188 |
 | [App Store Compliance Playbook](docs/app-store-compliance.md#english) | A reference and pre-submission guard for App Store and Google Play rejections, installable as a skill into AI coding tools so agents audit apps and block risky submits. | Development | 1965 |
+| [Modern Web Guidance (Source)](docs/modern-web-guidance-src.md#english) | Embeds modern web platform expertise and browser compatibility best practices as a skill/CLI into coding agents such as Codex and Claude Code, steering them away from legacy patterns. | Development | 9681 |
 
 </details>
 
