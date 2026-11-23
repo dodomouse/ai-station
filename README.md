@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-397-2563eb?style=flat-square" alt="397 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-398-2563eb?style=flat-square" alt="398 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **397 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境要求、使用限制、入门方式和来源。
+现有 **398 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境要求、使用限制、入门方式和来源。
 
 可以按任务寻找工具、比较使用条件，也可以挑选适合学习的源码项目。在浏览器中阅读目录，选定项目后再按其官方说明配置环境。
 
@@ -69,12 +69,12 @@
 
 ## 分类导航
 
-选择分类后展开列表。397 个项目按主要用途各列一次。
+选择分类后展开列表。398 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
 | [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [98](#included-ai) |
-| [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [102](#included-development) |
+| [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [103](#included-development) |
 | [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
 | [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [60](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [20](#included-automation) |
@@ -85,7 +85,7 @@
 
 <a id="included"></a>
 
-## 已收录（397）
+## 已收录（398）
 
 点击名称查看双语介绍。下表 Star 为某一时点的快照，不作实时排名。
 
@@ -200,7 +200,7 @@
 <a id="included-development"></a>
 
 <details>
-<summary><strong>开发辅助</strong> · 102 项</summary>
+<summary><strong>开发辅助</strong> · 103 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -306,6 +306,7 @@
 | [BLA (Blind LLM Agents)](docs/bla.md#中文) | 以 MCP 服务与 CLI 形式供 AI 编程智能体调用，加固软件发布产物以抵御 REA 等 AI 逆向工程 Agent。 | 开发辅助 | 6188 |
 | [App Store Compliance Playbook](docs/app-store-compliance.md#中文) | 将 iOS/Android 应用被 App Store 与 Google Play 拒绝的原因整理为参考手册与提交前 guard，可作为 skill 安装进 AI 编码工具，让代理在提交前审计应用并阻断高风险提交。 | 开发辅助 | 1965 |
 | [Modern Web Guidance (Source)](docs/modern-web-guidance-src.md#中文) | 把现代 Web 平台知识与浏览器兼容最佳实践以 Skill/CLI 形式注入 Codex、Claude Code 等编码智能体，引导其避免过时写法。 | 开发辅助 | 9681 |
+| [claude-tap](docs/claude-tap.md#中文) | 面向 AI 编程智能体的本地代理与 Trace 查看器，记录并展示真实 API 流量、上下文、Token 用量与请求 Diff，用于调试智能体行为。 | 开发辅助 | 3365 |
 
 </details>
 
