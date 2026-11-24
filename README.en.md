@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-398-2563eb?style=flat-square" alt="398 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-402-2563eb?style=flat-square" alt="402 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **398 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
+The catalog contains **402 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
 
 Use it to find tools for a task, compare setup requirements or explore code worth learning from. Read the catalog in your browser, then follow the selected project's own setup guide.
 
@@ -69,13 +69,13 @@ Each window ends on the assessment date and extends back by the relevant number 
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 398 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 402 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
-| [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [98](#included-ai) |
-| [Development](#included-development) | Coding, review, interfaces and engineering | [103](#included-development) |
-| [Images, audio and video](#included-media) | Images, animation, audio and video creation | [68](#included-media) |
+| [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [99](#included-ai) |
+| [Development](#included-development) | Coding, review, interfaces and engineering | [105](#included-development) |
+| [Images, audio and video](#included-media) | Images, animation, audio and video creation | [69](#included-media) |
 | [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [60](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [20](#included-automation) |
 | [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [20](#included-operations) |
@@ -85,14 +85,14 @@ Choose a category, then expand its list. Each of the 398 projects appears once i
 
 <a id="included"></a>
 
-## Included (398)
+## Included (402)
 
 Open a name for its bilingual entry. Stars below are point-in-time snapshots, not a live ranking.
 
 <a id="included-ai"></a>
 
 <details>
-<summary><strong>AI tools</strong> · 98 projects</summary>
+<summary><strong>AI tools</strong> · 99 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -194,13 +194,14 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 | [XERJ](docs/xerj.md#english) | An open-source search engine for AI agents, indexing code, documents and logs for full-text, vector and hybrid retrieval. | AI tools | 19162 |
 | [微舆（BettaFish）](docs/bettafish.md#english) | Multi-agent research software that combines web, social and database material into public-opinion reports. | AI tools | 42701 |
 | [Last30Days Skill](docs/last30days-skill.md#english) | An AI agent-led search engine that scores multiple platforms by real engagement and synthesizes a grounded brief for research tasks. | AI tools | 69671 |
+| [AG-UI](docs/ag-ui.md#english) | An event-based protocol that standardizes how AI agents connect to user-facing applications. | AI tools | 21514 |
 
 </details>
 
 <a id="included-development"></a>
 
 <details>
-<summary><strong>Development</strong> · 103 projects</summary>
+<summary><strong>Development</strong> · 105 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -307,13 +308,15 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 | [App Store Compliance Playbook](docs/app-store-compliance.md#english) | A reference and pre-submission guard for App Store and Google Play rejections, installable as a skill into AI coding tools so agents audit apps and block risky submits. | Development | 1965 |
 | [Modern Web Guidance (Source)](docs/modern-web-guidance-src.md#english) | Embeds modern web platform expertise and browser compatibility best practices as a skill/CLI into coding agents such as Codex and Claude Code, steering them away from legacy patterns. | Development | 9681 |
 | [claude-tap](docs/claude-tap.md#english) | A local proxy and trace viewer for AI coding agents that records real API traffic, context, token usage, and request diffs for debugging agent behavior. | Development | 3365 |
+| [Astryx](docs/astryx.md#english) | An open source design system for people and agents whose CLI writes guidance into AGENTS.md/CLAUDE.md for consistent agent-built UIs. | Development | 32787 |
+| [rust-anything](docs/rust-anything.md#english) | Lets coding agents port legacy apps to Rust piece by piece, proving behavior is unchanged with recorded replay and gates. | Development | 9104 |
 
 </details>
 
 <a id="included-media"></a>
 
 <details>
-<summary><strong>Images, audio and video</strong> · 68 projects</summary>
+<summary><strong>Images, audio and video</strong> · 69 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -385,6 +388,7 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 | [拾景纸刊：照片与撕纸拼贴](docs/gathered-scenes-zine-skill.md#english) | A photo-collage skill that arranges fragments, illustration, structural colors and torn-paper elements, with an additional Live Photo workflow. | Images, audio and video | 5660 |
 | [照片转海报：厚涂微缩景观与水彩旅行卡](docs/photo-to-poster-skills.md#english) | Photo-based prompts and workflows for painted miniature posters and watercolor travel-card imagery. | Images, audio and video | 36 |
 | [花叔艺术动画](docs/huashu-art-motion.md#english) | An agent-oriented toolkit of art-motion styles, explanatory patterns and reusable animation clips. | Images, audio and video | 6941 |
+| [ffmpeg-skill](docs/ffmpeg-skill.md#english) | A local video editing skill for coding agents that edits footage with FFmpeg and verifies its own output. | Images, audio and video | 10542 |
 
 </details>
 

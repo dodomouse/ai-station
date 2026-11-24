@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-398-2563eb?style=flat-square" alt="398 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-402-2563eb?style=flat-square" alt="402 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **398 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境要求、使用限制、入门方式和来源。
+现有 **402 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境要求、使用限制、入门方式和来源。
 
 可以按任务寻找工具、比较使用条件，也可以挑选适合学习的源码项目。在浏览器中阅读目录，选定项目后再按其官方说明配置环境。
 
@@ -69,13 +69,13 @@
 
 ## 分类导航
 
-选择分类后展开列表。398 个项目按主要用途各列一次。
+选择分类后展开列表。402 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
-| [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [98](#included-ai) |
-| [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [103](#included-development) |
-| [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [68](#included-media) |
+| [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [99](#included-ai) |
+| [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [105](#included-development) |
+| [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [69](#included-media) |
 | [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [60](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [20](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [20](#included-operations) |
@@ -85,14 +85,14 @@
 
 <a id="included"></a>
 
-## 已收录（398）
+## 已收录（402）
 
 点击名称查看双语介绍。下表 Star 为某一时点的快照，不作实时排名。
 
 <a id="included-ai"></a>
 
 <details>
-<summary><strong>AI 工具</strong> · 98 项</summary>
+<summary><strong>AI 工具</strong> · 99 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -194,13 +194,14 @@
 | [XERJ](docs/xerj.md#中文) | 面向 AI 智能体的开源搜索引擎，索引代码、文档和日志，提供全文、向量与混合检索。 | AI 工具 | 19162 |
 | [微舆（BettaFish）](docs/bettafish.md#中文) | 多智能体舆情分析系统，组合网页搜索、社媒分析和数据库查询。通过协作汇总资料，输出 HTML 等格式的分析报告。 | AI 工具 | 42701 |
 | [Last30Days Skill](docs/last30days-skill.md#中文) | AI 智能体主导的搜索引擎，跨多平台检索并按真实互动评分综合成简报，帮助 AI 完成调研任务。 | AI 工具 | 69671 |
+| [AG-UI](docs/ag-ui.md#中文) | 标准化 AI 智能体与用户界面的事件交互协议，帮助构建与驱动智能体应用。 | AI 工具 | 21514 |
 
 </details>
 
 <a id="included-development"></a>
 
 <details>
-<summary><strong>开发辅助</strong> · 103 项</summary>
+<summary><strong>开发辅助</strong> · 105 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -307,13 +308,15 @@
 | [App Store Compliance Playbook](docs/app-store-compliance.md#中文) | 将 iOS/Android 应用被 App Store 与 Google Play 拒绝的原因整理为参考手册与提交前 guard，可作为 skill 安装进 AI 编码工具，让代理在提交前审计应用并阻断高风险提交。 | 开发辅助 | 1965 |
 | [Modern Web Guidance (Source)](docs/modern-web-guidance-src.md#中文) | 把现代 Web 平台知识与浏览器兼容最佳实践以 Skill/CLI 形式注入 Codex、Claude Code 等编码智能体，引导其避免过时写法。 | 开发辅助 | 9681 |
 | [claude-tap](docs/claude-tap.md#中文) | 面向 AI 编程智能体的本地代理与 Trace 查看器，记录并展示真实 API 流量、上下文、Token 用量与请求 Diff，用于调试智能体行为。 | 开发辅助 | 3365 |
+| [Astryx](docs/astryx.md#中文) | 面向人与智能体的开源设计系统，CLI 写入 AGENTS.md/CLAUDE.md 指南帮助智能体按统一组件构建界面。 | 开发辅助 | 32787 |
+| [rust-anything](docs/rust-anything.md#中文) | 让编程智能体分块把老项目改写为 Rust，并用录制回放比对与门禁证明行为未变。 | 开发辅助 | 9104 |
 
 </details>
 
 <a id="included-media"></a>
 
 <details>
-<summary><strong>图像与音视频</strong> · 68 项</summary>
+<summary><strong>图像与音视频</strong> · 69 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -385,6 +388,7 @@
 | [拾景纸刊：照片与撕纸拼贴](docs/gathered-scenes-zine-skill.md#中文) | scenes-gathered-zine-v1-3 保留照片片段，延展插画、结构色和撕纸边界，默认 3:5。 | 图像与音视频 | 5660 |
 | [照片转海报：厚涂微缩景观与水彩旅行卡](docs/photo-to-poster-skills.md#中文) | 将参考照片整体重绘为厚涂微缩景观或水彩旅行卡。两个技能同属一个仓库，默认均为 3:4 竖图。 | 图像与音视频 | 36 |
 | [花叔艺术动画](docs/huashu-art-motion.md#中文) | 当前 README 列出 36 种艺术风格、9 种解说语法和 8 种参数化片段。 | 图像与音视频 | 6941 |
+| [ffmpeg-skill](docs/ffmpeg-skill.md#中文) | 给编程智能体使用的本地视频编辑技能，用 FFmpeg 剪辑并自动校验成片。 | 图像与音视频 | 10542 |
 
 </details>
 
