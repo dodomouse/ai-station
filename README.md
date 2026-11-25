@@ -9,7 +9,7 @@
 <p align="center">中英文 GitHub 工具目录。按用途查找，先看环境与限制。</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-403-2563eb?style=flat-square" alt="403 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-404-2563eb?style=flat-square" alt="404 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.zh-CN.svg" alt="按开发、AI、媒体、文档和运维等用途组织的工具目录" width="960" />
 </p>
 
-现有 **403 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境要求、使用限制、入门方式和来源。
+现有 **404 个已收录项目**，覆盖九类用途。每个项目用一份双语词条说明用途、功能、环境要求、使用限制、入门方式和来源。
 
 可以按任务寻找工具、比较使用条件，也可以挑选适合学习的源码项目。在浏览器中阅读目录，选定项目后再按其官方说明配置环境。
 
@@ -69,13 +69,13 @@
 
 ## 分类导航
 
-选择分类后展开列表。403 个项目按主要用途各列一次。
+选择分类后展开列表。404 个项目按主要用途各列一次。
 
 | 分类 | 可以找到 | 数量 |
 | --- | --- | ---: |
 | [AI 工具](#included-ai) | 模型、智能体、记忆与知识库 | [99](#included-ai) |
 | [开发辅助](#included-development) | 编码、审查、界面与工程工具 | [105](#included-development) |
-| [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [70](#included-media) |
+| [图像与音视频](#included-media) | 图像、动画、音频与视频制作 | [71](#included-media) |
 | [文档与效率](#included-productivity) | 写作、笔记、办公与日常工具 | [60](#included-productivity) |
 | [自动化](#included-automation) | 任务调度、设备与应用控制 | [20](#included-automation) |
 | [部署与运维](#included-operations) | 部署、监控、系统与服务管理 | [20](#included-operations) |
@@ -85,7 +85,7 @@
 
 <a id="included"></a>
 
-## 已收录（403）
+## 已收录（404）
 
 点击名称查看双语介绍。下表 Star 为某一时点的快照，不作实时排名。
 
@@ -316,7 +316,7 @@
 <a id="included-media"></a>
 
 <details>
-<summary><strong>图像与音视频</strong> · 70 项</summary>
+<summary><strong>图像与音视频</strong> · 71 项</summary>
 
 | 项目 | 用途 | 分类 | Star |
 | --- | --- | --- | ---: |
@@ -390,6 +390,7 @@
 | [花叔艺术动画](docs/huashu-art-motion.md#中文) | 当前 README 列出 36 种艺术风格、9 种解说语法和 8 种参数化片段。 | 图像与音视频 | 6941 |
 | [ffmpeg-skill](docs/ffmpeg-skill.md#中文) | 给编程智能体使用的本地视频编辑技能，用 FFmpeg 剪辑并自动校验成片。 | 图像与音视频 | 10542 |
 | [AutoClip](docs/autoclip.md#中文) | AutoClip 把播客、访谈、直播等长视频自动剪成带字幕、封面与标题的短视频，导出到抖音、小红书、TikTok、Reels 与 YouTube Shorts。 | 图像与音视频 | 15521 |
+| [OpenMotion](docs/openmotion.md#中文) | 开源智能体视频工作台，用 HTML 与 Motion.md 编写可编辑视频工程，经 MCP 接入本地 Agent 复刻参考视频并渲染 MP4。 | 图像与音视频 | 16254 |
 
 </details>
 

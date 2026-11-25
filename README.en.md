@@ -9,7 +9,7 @@
 <p align="center">A bilingual GitHub tool catalog. Find a purpose, check the fit.</p>
 
 <p align="center">
-  <a href="#included"><img src="https://img.shields.io/badge/included-403-2563eb?style=flat-square" alt="403 included projects" /></a>
+  <a href="#included"><img src="https://img.shields.io/badge/included-404-2563eb?style=flat-square" alt="404 included projects" /></a>
   <a href="#categories"><img src="https://img.shields.io/badge/categories-9-0f766e?style=flat-square" alt="9 categories" /></a>
   <img src="https://img.shields.io/badge/languages-中文%20%2F%20English-7c3aed?style=flat-square" alt="Chinese and English" />
 </p>
@@ -22,7 +22,7 @@
   <img src="assets/readme/hero.en.svg" alt="A catalog of tools for coding, AI, media, documents and operations" width="960" />
 </p>
 
-The catalog contains **403 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
+The catalog contains **404 included projects** across nine categories. Each project has one bilingual page covering its purpose, features, requirements, limitations, getting started and sources.
 
 Use it to find tools for a task, compare setup requirements or explore code worth learning from. Read the catalog in your browser, then follow the selected project's own setup guide.
 
@@ -69,13 +69,13 @@ Each window ends on the assessment date and extends back by the relevant number 
 
 ## Browse by category
 
-Choose a category, then expand its list. Each of the 403 projects appears once in the directory, under its primary use.
+Choose a category, then expand its list. Each of the 404 projects appears once in the directory, under its primary use.
 
 | Category | Find | Count |
 | --- | --- | ---: |
 | [AI tools](#included-ai) | Models, agents, memory and knowledge bases | [99](#included-ai) |
 | [Development](#included-development) | Coding, review, interfaces and engineering | [105](#included-development) |
-| [Images, audio and video](#included-media) | Images, animation, audio and video creation | [70](#included-media) |
+| [Images, audio and video](#included-media) | Images, animation, audio and video creation | [71](#included-media) |
 | [Documents and productivity](#included-productivity) | Writing, notes, office and everyday tools | [60](#included-productivity) |
 | [Automation](#included-automation) | Scheduling, devices and application control | [20](#included-automation) |
 | [Deployment and operations](#included-operations) | Deployment, monitoring, systems and services | [20](#included-operations) |
@@ -85,7 +85,7 @@ Choose a category, then expand its list. Each of the 403 projects appears once i
 
 <a id="included"></a>
 
-## Included (403)
+## Included (404)
 
 Open a name for its bilingual entry. Stars below are point-in-time snapshots, not a live ranking.
 
@@ -316,7 +316,7 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 <a id="included-media"></a>
 
 <details>
-<summary><strong>Images, audio and video</strong> · 70 projects</summary>
+<summary><strong>Images, audio and video</strong> · 71 projects</summary>
 
 | Project | Purpose | Category | Stars |
 | --- | --- | --- | ---: |
@@ -390,6 +390,7 @@ Open a name for its bilingual entry. Stars below are point-in-time snapshots, no
 | [花叔艺术动画](docs/huashu-art-motion.md#english) | An agent-oriented toolkit of art-motion styles, explanatory patterns and reusable animation clips. | Images, audio and video | 6941 |
 | [ffmpeg-skill](docs/ffmpeg-skill.md#english) | A local video editing skill for coding agents that edits footage with FFmpeg and verifies its own output. | Images, audio and video | 10542 |
 | [AutoClip](docs/autoclip.md#english) | AutoClip turns podcasts, interviews, and stream replays into ready-to-post short videos with captions, covers, and titles for Douyin, Xiaohongshu, TikTok, Reels, and YouTube Shorts. | Images, audio and video | 15521 |
+| [OpenMotion](docs/openmotion.md#english) | Open-source agentic video studio that codes editable video projects in HTML and Motion.md, connects to local agents via MCP, and renders MP4s. | Images, audio and video | 16254 |
 
 </details>
 
